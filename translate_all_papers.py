@@ -55,8 +55,8 @@ def translate_all_papers():
     # 時間がかかるため、まずは重要論文（先頭100件やインプラント、TOP100等）を優先することも可能です
     # ここでは全体の流れを示し、まずは直近の重要論文を優先処理します
     for i, p in enumerate(data['papers']):
-        # すべてやると数時間かかるため、まずは上位500件を優先的に高品質化
-        if i >= 500: break 
+        # 全件処理モード (制限を解除しました)
+        # if i >= 500: break 
         
         # 既に高品質な日本語がある場合はスキップ（手動修正分を保護）
         if p.get('summary_jp') and len(p['summary_jp']) > 50:

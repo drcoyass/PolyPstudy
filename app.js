@@ -215,6 +215,31 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
 
+    // --- Hero Section Buttons ---
+    // Smooth scroll for hero buttons
+    document.querySelectorAll('.hero-actions a[href^="#"]').forEach(anchor => {
+        anchor.onclick = function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        };
+    });
+
+    // Special handling for PPTX download visibility and tracking
+    const pptxBtn = document.getElementById('pptxDownloadBtn');
+    if (pptxBtn) {
+        pptxBtn.onclick = function(e) {
+            console.log("Downloading Monthly Report PPTX...");
+            // ブラウザのデフォルト動作（ダウンロード）を継続させるため preventDefault はしない
+        };
+    }
+
     const modal = document.getElementById('paperModal');
     const closeBtn = document.getElementById('closeModal');
     if (closeBtn) {

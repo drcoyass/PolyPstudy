@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>分割ポリリン酸 研究会 | 最強のデータベース</title>
-    <link rel="stylesheet" href="style.css?v=11">
+    <meta name="description" content="ポリリン酸研究の権威。1万9千件以上の論文、インプラント・再生医療の最新動向を網羅した世界最大級のインテリジェンス・ポータル。">
+    <meta property="og:title" content="PolyP Intelligence Portal | 分割ポリリン酸研究会">
+    <meta property="og:description" content="生命の起源から未来の医療まで。ポリリン酸研究のすべてが集約された最強のデータベース。">
+    <meta property="og:type" content="website">
+    <title>PolyP Intelligence Hub | 分割ポリリン酸研究会</title>
+    <link rel="stylesheet" href="style.css?v=25">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="premium-theme dark-mode">
+    <div id="initial-loader" class="initial-loader">
+        <div class="loader-content">
+            <div class="loader-logo">PolyP Intelligence</div>
+            <div class="progress-bar-container">
+                <div id="loading-progress" class="loading-progress"></div>
+            </div>
+            <p id="loading-text">19,000件の論文データを同期中...</p>
+        </div>
+    </div>
+
     <nav class="navbar">
         <div class="logo-container">
             <span class="logo-text">PolyP <span class="highlight">Intelligence</span></span>
@@ -86,6 +100,45 @@
             </div>
         </section>
 
+        <!-- Professional Insight Section -->
+        <section id="insight" class="section-padding insight-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Professional Recommendation</span>
+                    <h2>臨床の最前線：<span class="accent-text">究極のホワイトニング</span></h2>
+                    <p>Prof.柴 & Dr.COYASSが提唱する、短鎖分割ポリリン酸による低刺激・高効率な臨床応用。</p>
+                </div>
+                
+                <div class="insight-grid">
+                    <div class="insight-visual">
+                        <div class="poster-container glass-card">
+                            <img src="assets/poster_whitening.png" alt="学会発表ポスター: 短鎖分割ポリリン酸によるホワイトニング" class="poster-img">
+                            <div class="poster-overlay">
+                                <span>Academic Data Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="insight-content">
+                        <div class="expert-profile">
+                            <span class="expert-label">Selection by Academic Experts</span>
+                            <h4 class="expert-names">Prof. 柴 & Dr. COYASS</h4>
+                        </div>
+                        <h3 class="product-title">短鎖分割ポリリン酸配合<br>プロフェッショナル・ホワイトニング</h3>
+                        <p class="insight-desc">
+                            学会発表されたエビデンスに基づき、従来の「痛み」や「知覚過敏」を克服。
+                            短鎖分割ポリリン酸（平均鎖長14）がステインを除去し、歯面をコーティングして再着色を物理的に阻害します。
+                            臨床において最も効果が高く、痛みの少ない次世代のシステムです。
+                        </p>
+                        <div class="insight-actions">
+                            <a href="https://www.smile-us.com/sub1-371.html" target="_blank" rel="noopener" class="primary-btn pulse-btn large-btn">
+                                製品詳細を確認する ↗
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Knowledge Library -->
         <section id="papers" class="section-padding">
             <div class="container">
@@ -157,7 +210,7 @@
         </section>
 
         <!-- The Story / History section -->
-        <section id="story" class="section-padding" style="background: rgba(0,0,0,0.2);">
+        <section id="story" class="section-padding story-section">
             <div class="container">
                 <div class="section-header">
                     <span class="badge">Molecular Odyssey</span>
@@ -206,6 +259,30 @@
             </div>
         </section>
     </main>
+
+    <footer class="site-footer section-padding">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <div class="footer-logo">PolyP Intelligence</div>
+                    <p>分子生物学から臨床医学までを統合する、ポリリン酸研究のグローバル・アーカイブ</p>
+                </div>
+                <div class="footer-credits">
+                    <div class="credit-item">
+                        <label>HP作成・監修</label>
+                        <p>Dr.COYASS / <a href="http://www.polyphosphate.jp/" target="_blank" rel="noopener" class="footer-link">分割ポリリン酸研究会</a></p>
+                    </div>
+                    <div class="credit-item">
+                        <label>協力 / 運営</label>
+                        <p>（有）ヘンザップ / （株）柳ばし小安 / <a href="https://coyass.com/" target="_blank" rel="noopener" class="footer-link">中目黒コヤス歯科</a> / <a href="https://www.regentiss.co.jp/" target="_blank" rel="noopener" class="footer-link">リジェンティス株式会社</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 分割ポリリン酸研究会. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
 
     <!-- Modal for details -->
     <div id="paperModal" class="modal">

@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("PolyP Intelligence Portal Core Loaded.");
+    console.log("PolyP Intelligence Portal Core: Performance Optimized.");
 
     const paperIndexList = document.getElementById('paperIndexList');
     const searchInput = document.getElementById('searchInput');
     const searchBtn = document.getElementById('searchBtn');
     const lastSyncDate = document.getElementById('lastSyncDate');
+    const initialLoader = document.getElementById('initial-loader');
+    const loadingProgress = document.getElementById('loading-progress');
 
     let papersData = [];
     let filteredData = [];
@@ -12,6 +14,33 @@ document.addEventListener('DOMContentLoaded', function() {
     let activeCategory = 'all';
     let activeSource = 'all';
     let displayedCount = 50;
+
+    // --- High-End Loading Sequence ---
+    const startLoadingAnimation = () => {
+        let progress = 0;
+        const interval = setInterval(() => {
+            progress += Math.random() * 8;
+            if (progress > 95) {
+                progress = 95;
+                clearInterval(interval);
+            }
+            if (loadingProgress) loadingProgress.style.width = `${progress}%`;
+        }, 80);
+        return interval;
+    };
+
+    const finishLoading = (interval) => {
+        clearInterval(interval);
+        if (loadingProgress) loadingProgress.style.width = '100%';
+        setTimeout(() => {
+            if (initialLoader) initialLoader.classList.add('fade-out');
+            setTimeout(() => {
+                if (initialLoader) initialLoader.style.display = 'none';
+            }, 800);
+        }, 500);
+    };
+
+    const loadingInterval = startLoadingAnimation();
 
     // --- Global Function Assignments ---
     window.openPaperSource = function(url, event) {
@@ -88,19 +117,24 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(res => res.json())
         .then(data => {
             papersData = data.papers || [];
+            finishLoading(loadingInterval);
+            
             if (lastSyncDate) lastSyncDate.innerText = "最終同期日: " + (data.generated_at || "2026.04.12");
             
             const statPapersCount = document.getElementById('statPapersCount');
-            if (statPapersCount) animateValue(statPapersCount, 0, data.total_pubmed_count || 19778, 2000);
+            if (statPapersCount) animateValue(statPapersCount, 0, data.total_pubmed_count || 19017, 1500);
             
             const eliteCount = document.getElementById('eliteCount');
-            if (eliteCount) animateValue(eliteCount, 0, papersData.length, 2000);
+            if (eliteCount) animateValue(eliteCount, 0, papersData.length, 1500);
 
             renderTrendsChart(data.official_stats);
             renderTopicCloud(papersData);
             performSearch();
         })
-        .catch(err => console.error("Data Load Error:", err));
+        .catch(err => {
+            console.error("Data Load Error:", err);
+            finishLoading(loadingInterval);
+        });
 
     function performSearch() {
         const query = (searchInput ? searchInput.value.toLowerCase().trim() : "");
@@ -151,6 +185,20 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!paperIndexList) return;
         paperIndexList.innerHTML = '';
         
+        if (filteredData.length === 0) {
+            paperIndexList.innerHTML = `
+                <div class="empty-state">
+                    <div class="empty-icon">🔍</div>
+                    <h3>該当する知見が見つかりませんでした</h3>
+                    <p>キーワードを少し変えるか、インプラント・歯科・骨再生などの主要カテゴリから探索を広げてみてください。</p>
+                    <button class="secondary-btn" onclick="document.getElementById('searchInput').value=''; performSearch();">すべての論文を表示</button>
+                </div>
+            `;
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+            if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+            return;
+        }
+
         const chunk = filteredData.slice(0, displayedCount);
         chunk.forEach((p, index) => {
             const li = document.createElement('div');

@@ -1,0 +1,12 @@
+{
+  "name": "poly-pstudy",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve -s .",
+    "start": "npx serve -s ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

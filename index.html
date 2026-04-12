@@ -19,43 +19,42 @@
         </ul>
         <div class="user-profile">
             <button class="lang-toggle-btn secondary-btn" id="langToggle">EN</button>
-            <button class="primary-btn">Member Access</button>
         </div>
     </nav>
 
         <!-- Hero Section -->
-        <section class="hero" style="background: linear-gradient(rgba(10,14,24,0.8), rgba(10,14,24,0.9)), url('https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=2000'); background-size: cover; background-position: center;">
+        <section class="hero hero-section">
             <div class="container">
                 <div class="hero-content">
                     <div class="badge">Molecular Intelligence Hub</div>
-                    <h1 data-i18n="heroTitle">Deciphering the <br><span class="highlight">Poly-P</span> Origin.</h1>
+                    <h1 data-i18n="heroTitle">ポリリン酸の起源を解き明かす<br><span class="highlight">Poly-P</span></h1>
                     <p class="hero-desc">生命の起源から未来の再生医療まで。ライナス・ポーリングの分子整合医学からアーサー・コーンバーグの発見を経て、いま、ポリリン酸が知性の統合点となる。</p>
                     
-                    <div class="hero-stats" style="margin-top: 2rem; display: flex; gap: 3.5rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+                    <div class="hero-stats hero-stats-row">
                         <div class="stat-item">
-                            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 0.5rem;">
-                                <div class="pulse-dot" style="width: 8px; height: 8px; background: #ffd700; border-radius: 50%; box-shadow: 0 0 10px #ffd700;"></div>
-                                <span style="font-size: 0.75rem; letter-spacing: 0.1em; color: #ffd700; font-weight: 700;">PUBMED LIVE</span>
+                            <div class="stat-live-badge">
+                                <div class="pulse-dot-live"></div>
+                                <span class="stat-prefix-label label-live">PUBMED ライブ同期</span>
                             </div>
-                            <span class="stat-num" id="statPapersCount" style="font-size: 3rem; font-weight: 800; font-family: 'Outfit'; line-height: 1;">19,778</span>
-                            <span class="stat-label" style="display: block; opacity: 0.6; font-size: 0.85rem; margin-top: 0.5rem;">Total Global Papers</span>
+                            <span class="stat-num stat-num-hero" id="statPapersCount">19,778</span>
+                            <span class="stat-label stat-label-hero">累計論文数</span>
                         </div>
                         <div class="stat-item">
-                            <span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent-cyan); font-weight: 700; display: block; margin-bottom: 0.5rem;">SYNCED ARCHIVE</span>
-                            <span class="stat-num" style="font-size: 3rem; font-weight: 800; font-family: 'Outfit'; line-height: 1;" id="eliteCount">4,204</span>
-                            <span class="stat-label" style="display: block; opacity: 0.6; font-size: 0.85rem; margin-top: 0.5rem;">Global Research Synced</span>
+                            <span class="stat-prefix-label label-cyan">研究アーカイブ</span>
+                            <span class="stat-num stat-num-hero" id="eliteCount">4,204</span>
+                            <span class="stat-label stat-label-hero">同期済み精選データ</span>
                         </div>
                         <div class="stat-item">
-                            <span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--text-secondary); font-weight: 700; display: block; margin-bottom: 0.5rem;">DEPTH</span>
-                            <span class="stat-num" style="font-size: 3rem; font-weight: 800; font-family: 'Outfit'; line-height: 1;">4B</span>
-                            <span class="stat-label" style="display: block; opacity: 0.6; font-size: 0.85rem; margin-top: 0.5rem;">Years Evolution</span>
+                            <span class="stat-prefix-label label-secondary">歴史的深度</span>
+                            <span class="stat-num stat-num-hero">4B</span>
+                            <span class="stat-label stat-label-hero">生命進化の歴史</span>
                         </div>
                     </div>
 
-                    <div class="hero-actions" style="margin-top: 3rem;">
-                        <a href="#papers" class="primary-btn">Explore Knowledge</a>
-                        <a href="#story" class="secondary-btn">Read History</a>
-                        <a href="output/PolyP_Monthly_Report_202604.pptx" class="secondary-btn" id="pptxDownloadBtn">Download Monthly Report (.pptx)</a>
+                    <div class="hero-actions">
+                        <a href="#papers" class="primary-btn">知識を探訪する</a>
+                        <a href="#story" class="secondary-btn">歴史を紐解く</a>
+                        <a href="output/Monthly_Report.pptx" class="secondary-btn" id="pptxDownloadBtn">月次レポート (.pptx)</a>
                     </div>
                 </div>
             </div>
@@ -101,25 +100,25 @@
                     <div class="filter-item">
                         <label>TOPICS</label>
                         <div class="filter-options" id="categoryFilters">
-                            <button class="filter-btn active" onclick="filterByCategory('all')">ALL</button>
-                            <button class="filter-btn" onclick="filterByCategory('歯科')">DENTAL</button>
-                            <button class="filter-btn" onclick="filterByCategory('医科')">MEDICAL</button>
-                            <button class="filter-btn" onclick="filterByCategory('TOP100')">TOP 100</button>
-                            <button class="filter-btn" onclick="filterByCategory('DENTAL100')">DENTAL 100</button>
+                            <button class="filter-btn active" data-category="all">ALL</button>
+                            <button class="filter-btn" data-category="歯科">DENTAL</button>
+                            <button class="filter-btn" data-category="医科">MEDICAL</button>
+                            <button class="filter-btn" data-category="TOP100">TOP 100</button>
+                            <button class="filter-btn" data-category="DENTAL100">DENTAL 100</button>
                         </div>
                     </div>
                     <div class="filter-item">
                         <label>SOURCE</label>
                         <div class="filter-options" id="sourceFilters">
-                            <button class="filter-btn active" onclick="filterBySource('all')">ALL</button>
-                            <button class="filter-btn" onclick="filterBySource('PubMed')">PubMed</button>
-                            <button class="filter-btn" onclick="filterBySource('J-Stage')">J-Stage</button>
-                            <button class="filter-btn" onclick="filterBySource('CiNii')">CiNii</button>
+                            <button class="filter-btn active" data-source="all">ALL</button>
+                            <button class="filter-btn" data-source="PubMed">PubMed</button>
+                            <button class="filter-btn" data-source="J-Stage">J-Stage</button>
+                            <button class="filter-btn" data-source="CiNii">CiNii</button>
                         </div>
                     </div>
                 </div>
 
-                <div class="search-bar" style="max-width: 100%; margin-bottom: 3rem;">
+                <div class="search-bar search-bar-container">
                     <input type="text" id="searchInput" placeholder="Search by paper title, authors, or molecular keywords...">
                     <button id="searchBtn">SEARCH</button>
                 </div>
@@ -128,8 +127,81 @@
                     <!-- Data injected by app.js -->
                 </div>
                 
-                <div style="text-align: center; margin-top: 3rem;">
-                    <button id="loadMoreBtn" class="secondary-btn" style="padding: 1rem 3rem; display: none;">LOAD MORE RESEARCH ▽</button>
+                <div class="load-more-container">
+                    <button id="loadMoreBtn" class="secondary-btn load-more-btn">研究データをさらに読み込む ▽</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Network Intelligence Section -->
+        <section id="network" class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Research Ecosystem</span>
+                    <h2>Collaboration <span class="highlight">Network</span></h2>
+                    <p>Global institutional connections in polyphosphate research.</p>
+                </div>
+                <div class="glass-card" style="height: 400px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                    <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: radial-gradient(circle at center, rgba(6, 182, 212, 0.1) 0%, transparent 70%);"></div>
+                    <div style="text-align: center; z-index: 1;">
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Visualizing Institutional Synergy...</p>
+                        <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center;">
+                            <div class="topic-item">Bonn University <span>143</span></div>
+                            <div class="topic-item">NIH <span>89</span></div>
+                            <div class="topic-item">Stanford <span>76</span></div>
+                            <div class="topic-item">Tokyo Tech <span>54</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Story / History section -->
+        <section id="story" class="section-padding" style="background: rgba(0,0,0,0.2);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="badge">Molecular Odyssey</span>
+                    <h2>History of <span class="accent-text">Intelligence</span></h2>
+                    <p>Tracing the evolution of polyphosphate from discovery to the future.</p>
+                </div>
+                
+                <div class="history-timeline">
+                    <!-- Event 1 -->
+                    <div class="timeline-event">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">1890</span>
+                            <h4>Discovery of Polyanions</h4>
+                            <p>L. Liebermann first characterized metaphosphates in yeast, opening the door to the study of high-energy inorganic polymers.</p>
+                        </div>
+                    </div>
+                    <!-- Event 2 -->
+                    <div class="timeline-event">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">1956</span>
+                            <h4>The Kornberg Milestone</h4>
+                            <p>Nobel laureate Arthur Kornberg identified Polyphosphate Kinase (PPK), proving that polyphosphate is biologically active and enzymatically regulated.</p>
+                        </div>
+                    </div>
+                    <!-- Event 3 -->
+                    <div class="timeline-event">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">2004</span>
+                            <h4>Mammalian Integration</h4>
+                            <p>Discovery of significant polyphosphate stores in human platelets and mitochondria, redefining its role in blood coagulation and energy metabolism.</p>
+                        </div>
+                    </div>
+                    <!-- Event 4 -->
+                    <div class="timeline-event">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <span class="timeline-date">FUTURE</span>
+                            <h4>Regenerative Frontiers</h4>
+                            <p>Modern applications in mucosal barrier strengthening (COVID-19 protection) and bone regeneration mark the beginning of a new era in molecular medicine.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

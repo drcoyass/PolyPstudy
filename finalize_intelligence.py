@@ -22,12 +22,17 @@ def finalize_intelligence_analysis():
     topic_counts = {cat: 0 for cat in categories}
     
     for p in papers:
-        title = (p.get('title') or "").lower()
-        abstract = (p.get('abstract') or "").lower()
+        # 辞書形式などが混ざっていても確実に文字列として処理
+        title_raw = p.get('title') or ""
+        abstract_raw = p.get('abstract') or ""
+        
+        title = str(title_raw).lower()
+        abstract = str(abstract_raw).lower()
         content = title + " " + abstract
         
         p_tags = p.get('tags', [])
-        if "PubMed" in p_tags: p_tags.remove("PubMed") # 重複整理
+        if not isinstance(p_tags, list): p_tags = []
+        if "PubMed" in p_tags: p_tags.remove("PubMed")
         
         found_any = False
         for cat, keywords in categories.items():

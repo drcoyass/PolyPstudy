@@ -18,7 +18,7 @@
             <div class="progress-bar-container">
                 <div id="loading-progress" class="loading-progress"></div>
             </div>
-            <p id="loading-text">19,000件の論文データを同期中...</p>
+            <p id="loading-text" data-i18n="loadingText">19,000件の論文データを同期中...</p>
         </div>
     </div>
 
@@ -27,9 +27,9 @@
             <span class="logo-text">PolyP <span class="highlight">Intelligence</span></span>
         </div>
         <ul class="nav-links">
-            <li><a href="#papers">Research</a></li>
-            <li><a href="#network">Network</a></li>
-            <li><a href="#story">Story</a></li>
+            <li><a href="#papers" data-i18n="navResearch">Research</a></li>
+            <li><a href="#network" data-i18n="navNetwork">Network</a></li>
+            <li><a href="#story" data-i18n="navStory">Story</a></li>
         </ul>
         <div class="user-profile">
             <button class="lang-toggle-btn secondary-btn" id="langToggle">EN</button>
@@ -40,64 +40,63 @@
         <section class="hero hero-section">
             <div class="container">
                 <div class="hero-content">
-                    <div class="badge">Molecular Intelligence Hub</div>
+                    <div class="badge" data-i18n="heroBadge">Molecular Intelligence Hub</div>
                     <h1 data-i18n="heroTitle">ポリリン酸の起源を解き明かす<br><span class="highlight">Poly-P</span></h1>
-                    <p class="hero-desc">生命の起源から未来の再生医療まで。ライナス・ポーリングの分子整合医学からアーサー・コーンバーグの発見を経て、いま、ポリリン酸が知性の統合点となる。</p>
+                    <p class="hero-desc" data-i18n="heroDesc">生命の起源から未来の再生医療まで。ライナス・ポーリングの分子整合医学からアーサー・コーンバーグの発見を経て、いま、ポリリン酸が知性の統合点となる。</p>
                     
                     <div class="hero-stats hero-stats-row">
                         <div class="stat-item">
                             <div class="stat-live-badge">
                                 <div class="pulse-dot-live"></div>
-                                <span class="stat-prefix-label label-live">PUBMED ライブ同期</span>
+                                <span class="stat-prefix-label label-live" data-i18n="statLive">PUBMED ライブ同期</span>
                             </div>
                             <span class="stat-num stat-num-hero" id="statPapersCount">19,778</span>
-                            <span class="stat-label stat-label-hero">累計論文数</span>
+                            <span class="stat-label stat-label-hero" data-i18n="statTotalLabel">累計論文数</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-prefix-label label-cyan">研究アーカイブ</span>
+                            <span class="stat-prefix-label label-cyan" data-i18n="statArchive">研究アーカイブ</span>
                             <span class="stat-num stat-num-hero" id="eliteCount">4,204</span>
-                            <span class="stat-label stat-label-hero">同期済み精選データ</span>
+                            <span class="stat-label stat-label-hero" data-i18n="statEliteLabel">同期済み精選データ</span>
                         </div>
                         <div class="stat-item">
-                            <span class="stat-prefix-label label-secondary">歴史的深度</span>
+                            <span class="stat-prefix-label label-secondary" data-i18n="statHistory">歴史的深度</span>
                             <span class="stat-num stat-num-hero">4B</span>
-                            <span class="stat-label stat-label-hero">生命進化の歴史</span>
+                            <span class="stat-label stat-label-hero" data-i18n="statYearsLabel">生命進化の歴史</span>
                         </div>
                     </div>
 
                     <div class="hero-actions">
-                        <a href="#papers" class="primary-btn">知識を探訪する</a>
-                        <a href="#story" class="secondary-btn">歴史を紐解く</a>
-                        <a href="output/Monthly_Report.pptx" class="secondary-btn" id="pptxDownloadBtn">月次レポート (.pptx)</a>
+                        <a href="#papers" class="primary-btn" data-i18n="btnKnowledge">知識を探訪する</a>
+                        <a href="#story" class="secondary-btn" data-i18n="btnHistory">歴史を紐解く</a>
+                        <a href="output/Monthly_Report.pptx" class="secondary-btn" id="pptxDownloadBtn" data-i18n="btnReport">月次レポート (.pptx)</a>
                     </div>
                 </div>
             </div>
         </section>
 
     <main>
-        <!-- Intelligence Section -->
         <!-- Intelligence Dashboard Section -->
         <section id="dashboard" class="intelligence-hub section-padding">
             <div class="container">
                 <div class="dashboard-panel glass-card">
                     <div class="dashboard-header">
-                        <span class="badge">Intelligence Dashboard</span>
-                        <h2>Global <span class="accent-text">Intelligence</span> Status</h2>
+                        <span class="badge" data-i18n="dashboardBadge">Intelligence Dashboard</span>
+                        <h2 data-i18n="dashboardTitle">Global <span class="accent-text">Intelligence</span> Status</h2>
                     </div>
                     
                     <div class="dashboard-grid">
                         <!-- Left: Compact Research Trends -->
                         <div class="dashboard-chart-area">
-                            <div class="area-label">Research Trends (Global Archive)</div>
+                            <div class="area-label" data-i18n="labelTrends">Research Trends (Global Archive)</div>
                             <div class="trend-chart-container">
                                 <div id="trendChart" class="compact-chart"></div>
                             </div>
-                            <p class="chart-caption">PubMed全論文（約2万件）の時代別推移</p>
+                            <p class="chart-caption" data-i18n="captionTrends">PubMed全論文（約2万件）の時代別推移</p>
                         </div>
                         
                         <!-- Right: Dense Topic Evolution -->
                         <div class="dashboard-topics-area">
-                            <div class="area-label">Topic Evolution (Master Tags)</div>
+                            <div class="area-label" data-i18n="labelTopics">Topic Evolution (Master Tags)</div>
                             <div id="topicCloud" class="dense-topic-cloud"></div>
                         </div>
                     </div>
@@ -109,48 +108,47 @@
         <section id="insight" class="section-padding insight-section">
             <div class="container">
                 <div class="section-header">
-                    <span class="badge">Professional Recommendation</span>
-                    <h2>臨床の最前線：<span class="accent-text">究極のホワイトニング</span></h2>
-                    <p>Prof.柴 & Dr.COYASSが提唱する、短鎖分割ポリリン酸による低刺激・高効率な臨床応用。</p>
+                    <span class="badge" data-i18n="insightBadge">Professional Recommendation</span>
+                    <h2 data-i18n="insightTitle">臨床の最前線：<span class="accent-text">究極のホワイトニング</span></h2>
+                    <p data-i18n="insightSubtitle">Prof.柴 & Dr.COYASSが提唱する、短鎖分割ポリリン酸による低刺激・高効率な臨床応用。</p>
                 </div>
                 
                 <div class="insight-grid">
                     <div class="insight-visual">
-                        <!-- Digitalized Academic Insight Card (Always visible on HP) -->
+                        <!-- Digitalized Academic Insight Card -->
                         <div class="poster-container glass-card insight-trigger" onclick="window.openPosterModal()">
                             <div class="poster-fallback-content" style="display: block;">
-                                <div class="conference-badge">Academic Insight</div>
-                                <h4 class="white-text">短鎖分割ポリリン酸による<br>効果の高い痛みの少ないホワイトニング</h4>
+                                <div class="conference-badge" data-i18n="posterBadge">Academic Insight</div>
+                                <h4 class="white-text" data-i18n="posterTitle">短鎖分割ポリリン酸による<br>効果の高い痛みの少ないホワイトニング</h4>
                                 <div class="fallback-stats">
-                                    <div class="f-stat"><label>Chain Length</label><span>14</span></div>
-                                    <div class="f-stat"><label>漂白効果</label><span>高</span></div>
-                                    <div class="f-stat"><label>安全性</label><span>有用</span></div>
+                                    <div class="f-stat"><label data-i18n="labelChain">Chain Length</label><span>14</span></div>
+                                    <div class="f-stat"><label data-i18n="labelBleach">漂白効果</label><span data-i18n="valHigh">高</span></div>
+                                    <div class="f-stat"><label data-i18n="labelSafety">安全性</label><span data-i18n="valUseful">有用</span></div>
                                 </div>
-                                <p class="fallback-desc">
+                                <p class="fallback-desc" data-i18n="posterConclusion">
                                     <strong>【結論】</strong><br>
                                     短鎖分割ポリリン酸（平均鎖長14）と白金ナノコロイドを配合することで、低濃度でも高い漂白効果と再着色防止機能を実現。
                                 </p>
                             </div>
-                            <!-- Hidden image reference for JS -->
                             <img src="images/poster_whitening.png" id="actualPosterImg" style="display: none;">
                             <div class="poster-overlay">
-                                <span>View Evidence Poster ↗</span>
+                                <span data-i18n="btnViewEvidence">View Evidence Poster ↗</span>
                             </div>
                         </div>
                     </div>
                     <div class="insight-content">
                         <div class="expert-profile">
-                            <span class="expert-label">Selection by Academic Experts</span>
+                            <span class="expert-label" data-i18n="expertLabel">Selection by Academic Experts</span>
                             <h4 class="expert-names">Prof. 柴 & Dr. COYASS</h4>
                         </div>
-                        <h3 class="product-title">短鎖分割ポリリン酸配合<br>プロフェッショナル・ホワイトニング</h3>
-                        <p class="insight-desc">
+                        <h3 class="product-title" data-i18n="productTitle">短鎖分割ポリリン酸配合<br>プロフェッショナル・ホワイトニング</h3>
+                        <p class="insight-desc" data-i18n="productDesc">
                             学会発表されたエビデンスに基づき、従来の「痛み」や「知覚過敏」を克服。
                             短鎖分割ポリリン酸（平均鎖長14）がステインを除去し、歯面をコーティングして再着色を物理的に阻害します。
                             臨床において最も効果が高く、痛みの少ない次世代のシステムです。
                         </p>
                         <div class="insight-actions">
-                            <a href="https://www.smile-us.com/sub1-371.html" target="_blank" rel="noopener" class="primary-btn pulse-btn large-btn">
+                            <a href="https://www.smile-us.com/sub1-371.html" target="_blank" rel="noopener" class="primary-btn pulse-btn large-btn" data-i18n="btnProductDetails">
                                 製品詳細を確認する ↗
                             </a>
                         </div>
@@ -163,27 +161,26 @@
         <section id="papers" class="section-padding">
             <div class="container">
                 <div class="section-header">
-                    <h2>Knowledge <span class="highlight">Library</span></h2>
-                    <p>精微な検索とフィルタリングによる、統合された分子知見へのアクセス</p>
-                    <span class="sync-date" id="lastSyncDate">Synced: 2026.04.12</span>
+                    <h2 data-i18n="libTitle">Knowledge <span class="highlight">Library</span></h2>
+                    <p data-i18n="libSubtitle">精微な検索とフィルタリングによる、統合された分子知見へのアクセス</p>
+                    <span class="sync-date" id="lastSyncDate">Synced: 2026.04.14</span>
                 </div>
 
-                <!-- Category Filter Infrastructure -->
                 <div class="filters-grid">
                     <div class="filter-item">
-                        <label>TOPICS</label>
+                        <label data-i18n="labelTopicsFilter">TOPICS</label>
                         <div class="filter-options" id="categoryFilters">
-                            <button class="filter-btn active" data-category="all">ALL</button>
-                            <button class="filter-btn" data-category="歯科">DENTAL</button>
-                            <button class="filter-btn" data-category="医科">MEDICAL</button>
-                            <button class="filter-btn" data-category="TOP100">TOP 100</button>
-                            <button class="filter-btn" data-category="DENTAL100">DENTAL 100</button>
+                            <button class="filter-btn active" data-category="all" data-i18n="filterAll">ALL</button>
+                            <button class="filter-btn" data-category="歯科" data-i18n="filterDental">DENTAL</button>
+                            <button class="filter-btn" data-category="医科" data-i18n="filterMedical">MEDICAL</button>
+                            <button class="filter-btn" data-category="TOP100" data-i18n="filterTop100">TOP 100</button>
+                            <button class="filter-btn" data-category="DENTAL100" data-i18n="filterDental100">DENTAL 100</button>
                         </div>
                     </div>
                     <div class="filter-item">
-                        <label>SOURCE</label>
+                        <label data-i18n="labelSourceFilter">SOURCE</label>
                         <div class="filter-options" id="sourceFilters">
-                            <button class="filter-btn active" data-source="all">ALL</button>
+                            <button class="filter-btn active" data-source="all" data-i18n="filterAll">ALL</button>
                             <button class="filter-btn" data-source="PubMed">PubMed</button>
                             <button class="filter-btn" data-source="J-Stage">J-Stage</button>
                             <button class="filter-btn" data-source="CiNii">CiNii</button>
@@ -192,16 +189,14 @@
                 </div>
 
                 <div class="search-bar search-bar-container">
-                    <input type="text" id="searchInput" placeholder="Search by paper title, authors, or molecular keywords...">
-                    <button id="searchBtn">SEARCH</button>
+                    <input type="text" id="searchInput" placeholder="Search by paper title, authors, or molecular keywords..." data-i18n-placeholder="searchPlaceholder">
+                    <button id="searchBtn" data-i18n="btnSearch">SEARCH</button>
                 </div>
 
-                <div id="paperIndexList">
-                    <!-- Data injected by app.js -->
-                </div>
+                <div id="paperIndexList"></div>
                 
                 <div class="load-more-container">
-                    <button id="loadMoreBtn" class="secondary-btn load-more-btn">研究データをさらに読み込む ▽</button>
+                    <button id="loadMoreBtn" class="secondary-btn load-more-btn" data-i18n="btnLoadMore">研究データをさらに読み込む ▽</button>
                 </div>
             </div>
         </section>
@@ -210,14 +205,14 @@
         <section id="story" class="section-padding">
             <div class="container">
                 <div class="section-header">
-                    <span class="badge">Research Ecosystem</span>
-                    <h2>Collaboration <span class="highlight">Network</span></h2>
-                    <p>Global institutional connections in polyphosphate research.</p>
+                    <span class="badge" data-i18n="networkBadge">Research Ecosystem</span>
+                    <h2 data-i18n="networkTitle">Collaboration <span class="highlight">Network</span></h2>
+                    <p data-i18n="networkDesc">Global institutional connections in polyphosphate research.</p>
                 </div>
                 <div class="glass-card" style="height: 400px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
                     <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: radial-gradient(circle at center, rgba(6, 182, 212, 0.1) 0%, transparent 70%);"></div>
                     <div style="text-align: center; z-index: 1;">
-                        <p style="color: var(--text-secondary); margin-bottom: 2rem;">Visualizing Institutional Synergy...</p>
+                        <p style="color: var(--text-secondary); margin-bottom: 2rem;" data-i18n="visualizingSynergy">Visualizing Institutional Synergy...</p>
                         <div style="display: flex; gap: 2rem; flex-wrap: wrap; justify-content: center;">
                             <div class="topic-item">Bonn University <span>143</span></div>
                             <div class="topic-item">NIH <span>89</span></div>
@@ -233,9 +228,9 @@
         <section id="story" class="section-padding story-section">
             <div class="container">
                 <div class="section-header">
-                    <span class="badge">Molecular Odyssey</span>
-                    <h2>ポリリン酸：<span class="accent-text">知性の軌跡</span></h2>
-                    <p>発見から最新の再生医療まで、ポリリン酸が歩んだ分子進化の歴史。</p>
+                    <span class="badge" data-i18n="storyBadge">Molecular Odyssey</span>
+                    <h2 data-i18n="storyTitle">ポリリン酸：<span class="accent-text">知性の軌跡</span></h2>
+                    <p data-i18n="storySubtitle">発見から最新の再生医療まで、ポリリン酸が歩んだ分子進化の歴史。</p>
                 </div>
                 
                 <div class="history-timeline">
@@ -244,8 +239,8 @@
                         <div class="timeline-dot"></div>
                         <div class="timeline-card">
                             <span class="timeline-date">1890</span>
-                            <h4>ポリリン酸の発見と初期研究</h4>
-                            <p>L. Liebermannが酵母から初めてメタリン酸を同定。エネルギーに満ちた無機高分子研究の扉が開かれました。</p>
+                            <h4 data-i18n="event1Title">ポリリン酸の発見と初期研究</h4>
+                            <p data-i18n="event1Desc">L. Liebermannが酵母から初めてメタリン酸を同定。エネルギーに満ちた無機高分子研究の扉が開かれました。</p>
                         </div>
                     </div>
                     <!-- Event 2 -->
@@ -253,8 +248,8 @@
                         <div class="timeline-dot"></div>
                         <div class="timeline-card">
                             <span class="timeline-date">1956</span>
-                            <h4>コーンバーグによる金字塔</h4>
-                            <p>ノーベル賞受賞者アーサー・コーンバーグがポリリン酸合成酵素（PPK）を発見。ポリリン酸が生体内で能動的に制御されていることを証明しました。</p>
+                            <h4 data-i18n="event2Title">コーンバーグによる金字塔</h4>
+                            <p data-i18n="event2Desc">ノーベル賞受賞者アーサー・コーンバーグがポリリン酸合成酵素（PPK）を発見。ポリリン酸が生体内で能動的に制御されていることを証明しました。</p>
                         </div>
                     </div>
                     <!-- Event 3 -->
@@ -262,8 +257,8 @@
                         <div class="timeline-dot"></div>
                         <div class="timeline-card">
                             <span class="timeline-date">2004</span>
-                            <h4>哺乳類における役割の再定義</h4>
-                            <p>ヒトの血小板やミトコンドリアに大量のポリリン酸が貯蔵されていることを発見。血液凝固やエネルギー代謝における重要性が明らかになりました。</p>
+                            <h4 data-i18n="event3Title">哺乳類における役割の再定義</h4>
+                            <p data-i18n="event3Desc">ヒトの血小板やミトコンドリアに大量のポリリン酸が貯蔵されていることを発見。血液凝固やエネルギー代謝における重要性が明らかになりました。</p>
                         </div>
                     </div>
                     <!-- Event 4 -->
@@ -271,8 +266,8 @@
                         <div class="timeline-dot"></div>
                         <div class="timeline-card">
                             <span class="timeline-date">FUTURE</span>
-                            <h4>再生医療の最前線へ</h4>
-                            <p>粘膜バリアの強化や骨再生など、分子医学の新たなパラダイムとして、次世代の医療応用が始まっています。</p>
+                            <h4 data-i18n="event4Title">再生医療の最前線へ</h4>
+                            <p data-i18n="event4Desc">粘膜バリアの強化や骨再生など、分子医学の新たなパラダイムとして、次世代の医療応用が始まっています。</p>
                         </div>
                     </div>
                 </div>
@@ -285,21 +280,21 @@
             <div class="footer-grid">
                 <div class="footer-info">
                     <div class="footer-logo">PolyP Intelligence</div>
-                    <p>分子生物学から臨床医学までを統合する、ポリリン酸研究のグローバル・アーカイブ</p>
+                    <p data-i18n="footerDesc">分子生物学から臨床医学までを統合する、ポリリン酸研究のグローバル・アーカイブ</p>
                 </div>
                 <div class="footer-credits">
                     <div class="credit-item">
-                        <label>HP作成・監修</label>
-                        <p>Dr.COYASS / <a href="http://www.polyphosphate.jp/" target="_blank" rel="noopener" class="footer-link">分割ポリリン酸研究会</a></p>
+                        <label data-i18n="footerCreditHP">HP作成・監修</label>
+                        <p>Dr.COYASS / <a href="http://www.polyphosphate.jp/" target="_blank" rel="noopener" class="footer-link" data-i18n="footerAssoc">分割ポリリン酸研究会</a></p>
                     </div>
                     <div class="credit-item">
-                        <label>協力 / 運営</label>
+                        <label data-i18n="footerCreditOps">協力 / 運営</label>
                         <p>（有）ヘンザップ / （株）柳ばし小安 / <a href="https://coyass.com/" target="_blank" rel="noopener" class="footer-link">中目黒コヤス歯科</a> / <a href="https://www.regentiss.co.jp/" target="_blank" rel="noopener" class="footer-link">リジェンティス株式会社</a></p>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 分割ポリリン酸研究会. All Rights Reserved.</p>
+                <p>&copy; 2026 <span data-i18n="footerCopyright">分割ポリリン酸研究会. All Rights Reserved.</span></p>
             </div>
         </div>
     </footer>

@@ -11,6 +11,174 @@ document.addEventListener('DOMContentLoaded', function() {
     let papersData = [];
     let filteredData = [];
     let currentLang = 'ja';
+    
+    const translations = {
+        ja: {
+            loadingText: "19,000件の論文データを同期中...",
+            navResearch: "論文検索",
+            navNetwork: "ネットワーク",
+            navStory: "歴史",
+            heroBadge: "分子インテリジェンス・ハブ",
+            heroTitle: "ポリリン酸の起源を解き明かす<br><span class=\"highlight\">Poly-P</span>",
+            heroDesc: "生命の起源から未来の再生医療まで。ライナス・ポーリングの分子整合医学からアーサー・コーンバーグの発見を経て、いま、ポリリン酸が知性の統合点となる。",
+            statLive: "PUBMED ライブ同期",
+            statTotalLabel: "累計論文数",
+            statArchive: "研究アーカイブ",
+            statEliteLabel: "同期済み精選データ",
+            statHistory: "歴史的深度",
+            statYearsLabel: "生命進化の歴史",
+            btnKnowledge: "知識を探訪する",
+            btnHistory: "歴史を紐解く",
+            btnReport: "月次レポート (.pptx)",
+            dashboardBadge: "インテリジェンス・ダッシュボード",
+            dashboardTitle: "グローバル・インテリジェンス・ステータス",
+            labelTrends: "研究トレンド（グローバル・アーカイブ）",
+            captionTrends: "PubMed全論文（約2万件）の時代別推移",
+            labelTopics: "トピック変遷（マスタータグ）",
+            insightBadge: "専門医による推奨",
+            insightTitle: "臨床の最前線：<span class=\"accent-text\">究極のホワイトニング</span>",
+            insightSubtitle: "Prof.柴 & Dr.COYASSが提唱する、短鎖分割ポリリン酸による低刺激・高効率な臨床応用。",
+            posterBadge: "学会発表知見",
+            posterTitle: "短鎖分割ポリリン酸による<br>効果の高い痛みの少ないホワイトニング",
+            labelChain: "鎖長",
+            labelBleach: "漂白効果",
+            valHigh: "高",
+            labelSafety: "安全性",
+            valUseful: "有用",
+            posterConclusion: "<strong>【結論】</strong><br>短鎖分割ポリリン酸（平均鎖長14）と白金ナノコロイドを配合することで、低濃度でも高い漂白効果と再着色防止機能を実現。",
+            btnViewEvidence: "エビデンスを詳しく見る ↗",
+            expertLabel: "専門家による選定",
+            productTitle: "短鎖分割ポリリン酸配合<br>プロフェッショナル・ホワイトニング",
+            productDesc: "学会発表されたエビデンスに基づき、従来の「痛み」や「知覚過敏」を克服。臨床において最も効果が高く、痛みの少ない次世代のシステムです。",
+            btnProductDetails: "製品詳細を確認する ↗",
+            libTitle: "ナレッジ・<span class=\"highlight\">ライブラリ</span>",
+            libSubtitle: "精微な検索とフィルタリングによる、統合された分子知見へのアクセス",
+            labelTopicsFilter: "トピック",
+            labelSourceFilter: "情報源",
+            filterAll: "すべて",
+            filterDental: "歯科",
+            filterMedical: "医科",
+            filterTop100: "TOP 100",
+            filterDental100: "歯科 100",
+            searchPlaceholder: "論文タイトル、著者、または分子キーワードで検索...",
+            btnSearch: "検索",
+            btnLoadMore: "研究データをさらに読み込む ▽",
+            networkBadge: "研究エコシステム",
+            networkTitle: "コラボレーション・<span class=\"highlight\">ネットワーク</span>",
+            networkDesc: "ポリリン酸研究における世界的な研究機関の繋がり。",
+            visualizingSynergy: "機関同士のシナジーを可視化中...",
+            storyBadge: "分子のオデッセイ",
+            storyTitle: "ポリリン酸：<span class=\"accent-text\">知性の軌跡</span>",
+            storySubtitle: "発見から最新の再生医療まで、ポリリン酸が歩んだ分子進化の歴史。",
+            event1Title: "ポリリン酸の発見と初期研究",
+            event1Desc: "1890年代、L. Liebermannが酵母から初めてメタリン酸を同定。",
+            event2Title: "コーンバーグによる金字塔",
+            event2Desc: "ノーベル賞受賞者アーサー・コーンバーグがポリリン酸合成酵素（PPK）を発見。",
+            event3Title: "哺乳類における役割の再定義",
+            event3Desc: "2000年代、ヒトの血小板やミトコンドリアに大量のポリリン酸が貯蔵されていることを発見。",
+            event4Title: "再生医療の最前線へ",
+            event4Desc: "粘膜バリアの強化や骨再生など、次世代の医療応用が始まっています。",
+            footerDesc: "分子生物学から臨床医学までを統合する、ポリリン酸研究のグローバル・アーカイブ",
+            footerCreditHP: "HP作成・監修",
+            footerAssoc: "分割ポリリン酸研究会",
+            footerCreditOps: "協力 / 運営",
+            footerCopyright: "分割ポリリン酸研究会. All Rights Reserved."
+        },
+        en: {
+            loadingText: "Syncing 19,000 research records...",
+            navResearch: "Research",
+            navNetwork: "Network",
+            navStory: "Story",
+            heroBadge: "Molecular Intelligence Hub",
+            heroTitle: "Unlocking the Origins of <br><span class=\"highlight\">Poly-P</span>",
+            heroDesc: "From the origins of life to future regenerative medicine. Following the footsteps of Linus Pauling and Arthur Kornberg, polyphosphate now becomes the nexus of intelligence.",
+            statLive: "PUBMED LIVE SYNC",
+            statTotalLabel: "Total Papers",
+            statArchive: "Research Archive",
+            statEliteLabel: "Curated Data",
+            statHistory: "Historical Depth",
+            statYearsLabel: "Evolutionary Timeline",
+            btnKnowledge: "Explore Wisdom",
+            btnHistory: "Unlock History",
+            btnReport: "Monthly Report (.pptx)",
+            dashboardBadge: "Intelligence Dashboard",
+            dashboardTitle: "Global Intelligence Status",
+            labelTrends: "Research Trends (Global Archive)",
+            captionTrends: "PubMed historical distribution (Approx. 20,000 papers)",
+            labelTopics: "Topic Evolution (Master Tags)",
+            insightBadge: "Professional Recommendation",
+            insightTitle: "Frontiers of Clinical Practice: <span class=\"accent-text\">Ultimate Whitening</span>",
+            insightSubtitle: "High-efficiency clinical application of short-chain polyphosphate proposed by Prof. Shiba & Dr. COYASS.",
+            posterBadge: "Academic Evidence",
+            posterTitle: "High-Efficiency, Low-Sensitivity Whitening <br>via Short-Chain Polyphosphate",
+            labelChain: "Chain Length",
+            labelBleach: "Bleaching",
+            valHigh: "High",
+            labelSafety: "Safety",
+            valUseful: "Useful",
+            posterConclusion: "<strong>[Conclusion]</strong><br>Formulation of short-chain polyphosphate (avg length 14) and platinum nanocolloid achieves high whitening effect and prevents re-staining even at low concentrations.",
+            btnViewEvidence: "View Evidence Poster ↗",
+            expertLabel: "Selection by Academic Experts",
+            productTitle: "Professional Whitening with <br>Short-Chain Polyphosphate",
+            productDesc: "Overcoming traditional pain and sensitivity based on evidence. The most effective and painless next-generation system in clinical practice.",
+            btnProductDetails: "View Product Details ↗",
+            libTitle: "Knowledge <span class=\"highlight\">Library</span>",
+            libSubtitle: "Access to integrated molecular insights through precise search and filtering",
+            labelTopicsFilter: "TOPICS",
+            labelSourceFilter: "SOURCE",
+            filterAll: "ALL",
+            filterDental: "DENTAL",
+            filterMedical: "MEDICAL",
+            filterTop100: "TOP 100",
+            filterDental100: "DENTAL 100",
+            searchPlaceholder: "Search by paper title, authors, or molecular keywords...",
+            btnSearch: "SEARCH",
+            btnLoadMore: "LOAD MORE RESEARCH DATA ▽",
+            networkBadge: "Research Ecosystem",
+            networkTitle: "Collaboration <span class=\"highlight\">Network</span>",
+            networkDesc: "Visualizing global institutional synergy in polyphosphate research.",
+            visualizingSynergy: "Visualizing Institutional Synergy...",
+            storyBadge: "Molecular Odyssey",
+            storyTitle: "Poly-P: <span class=\"accent-text\">Trace of Intelligence</span>",
+            storySubtitle: "The history of molecular evolution from discovery to modern regenerative medicine.",
+            event1Title: "Discovery & Early Studies",
+            event1Desc: "1890s: L. Liebermann first identified metaphosphate from yeast.",
+            event2Title: "Kornberg's Milestone",
+            event2Desc: "Nobel Laureate Arthur Kornberg discovered Polyphosphate Kinase (PPK).",
+            event3Title: "Redefining Mammalian Roles",
+            event3Desc: "2000s: Massive stores of polyphosphate discovered in human platelets and mitochondria.",
+            event4Title: "Toward Regenerative Medicine",
+            event4Desc: "Next-generation applications like mucosal barrier enhancement and bone regeneration are commencing.",
+            footerDesc: "A global archive for polyphosphate research integrating biology and medicine.",
+            footerCreditHP: "HP Creation / Supervision",
+            footerAssoc: "The Society for Polyphosphate Study",
+            footerCreditOps: "Collaboration / Operations",
+            footerCopyright: "The Society for Polyphosphate Study. All Rights Reserved."
+        }
+    };
+
+    function updateLanguage() {
+        const t = translations[currentLang];
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (t[key]) {
+                el.innerHTML = t[key];
+            }
+        });
+        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+            const key = el.getAttribute('data-i18n-placeholder');
+            if (t[key]) {
+                el.setAttribute('placeholder', t[key]);
+            }
+        });
+        
+        // 言語ボタンの表示更新
+        langToggle.textContent = currentLang === 'ja' ? 'EN' : '日本語';
+        
+        // ライブラリの再描画
+        displayedCount = 50;
+        renderLibrary();
+    }
     let activeCategory = 'all';
     let activeSource = 'all';
     let displayedCount = 50;
@@ -42,6 +210,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const loadingInterval = startLoadingAnimation();
 
+    // --- Event Listeners & Initialization ---
+    langToggle.addEventListener('click', () => {
+        currentLang = currentLang === 'ja' ? 'en' : 'ja';
+        updateLanguage();
+    });
+
+    // 初期起動時の言語同期
+    updateLanguage();
+
     // --- Global Function Assignments ---
     window.openPaperSource = function(url, event) {
         if (event && event.stopPropagation) event.stopPropagation();
@@ -59,9 +236,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalBody = document.getElementById('modalBody');
         if (!modal || !modalBody) return;
 
-        // 医学的・科学的に正しい日本語があれば優先
-        const displayTitle = (p.jp_title || p.title);
-        const displayAuthors = (p.jp_authors || p.authors);
+        // 言語に応じた表示設定
+        const displayTitle = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
+        const displayAuthors = (p.authors || "Academic Record");
+        const abstractLabel = currentLang === 'ja' ? '研究抄録' : 'RESEARCH ABSTRACT';
+        const sourceLabel = currentLang === 'ja' ? 'ソースを表示 ↗' : 'VIEW SOURCE ↗';
+        const pdfLabel = currentLang === 'ja' ? 'PDFを検索 📋' : 'SEARCH PDF 📋';
         
         // 日本語抄録（jp_abstract or summary_jp）を最優先。なければ summary_html か abstract
         let bodyText = "";
@@ -283,11 +463,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const displayAuthors = (p.authors || "Academic Record");
             const sourceUrl = getPaperSourceUrl(p).replace(/'/g, "\\'");
             
+            const btnAbstractLabel = currentLang === 'ja' ? '概要表示' : 'ABSTRACT';
+            const btnSourceLabel = currentLang === 'ja' ? 'ソース ↗' : 'SOURCE ↗';
+
             li.innerHTML = `
                 <div class="card-side-info">
                     <div class="card-year">${p.year || '---'}</div>
                     <div class="card-tags-v">
-                        ${(p.tags || []).slice(0,2).map(t => `<span class="tag-chip">${t}</span>`).join('')}
+                        ${(p.tags || []).slice(0,2).map(t => `<span class="tag-chip">${t === '歯科' && currentLang === 'en' ? 'DENTAL' : t}</span>`).join('')}
                     </div>
                 </div>
                 <div class="card-main-content">
@@ -297,12 +480,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="card-title">${displayTitle}</div>
                     <div class="card-authors">${displayAuthors}</div>
                     <div class="card-abstract-preview">
-                        ${(p.summary_jp || p.abstract || "").substring(0, 180)}...
+                        ${(currentLang === 'ja' && p.summary_jp ? p.summary_jp : (p.abstract || "")).substring(0, 180)}...
                     </div>
                 </div>
                 <div class="card-actions">
-                    <button class="primary-btn abstract-btn" onclick="window.openPaperModalFromIndex(${actualIndex}, event)">概要表示</button>
-                    <button class="primary-btn source-jump-btn" onclick="window.openPaperSource('${sourceUrl}', event)">ソース ↗</button>
+                    <button class="primary-btn abstract-btn" onclick="window.openPaperModalFromIndex(${actualIndex}, event)">${btnAbstractLabel}</button>
+                    <button class="primary-btn source-jump-btn" onclick="window.openPaperSource('${sourceUrl}', event)">${btnSourceLabel}</button>
                 </div>
             `;
             fragment.appendChild(li);

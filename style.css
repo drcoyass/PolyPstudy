@@ -1129,3 +1129,67 @@ button, .primary-btn, .secondary-btn {
         gap: 3rem;
     }
 }
+
+/* Poster Fallback System */
+.poster-fallback-content {
+    display: none;
+    padding: 3rem;
+    text-align: left;
+}
+
+.poster-fallback .poster-img {
+    display: none;
+}
+
+.poster-fallback .poster-fallback-content {
+    display: block;
+}
+
+.conference-badge {
+    background: var(--accent-cyan);
+    color: #000;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 800;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.white-text {
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.4;
+}
+
+.fallback-stats {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.f-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-stat label {
+    font-size: 0.65rem;
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+}
+
+.f-stat span {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Outfit';
+}
+
+.fallback-desc {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}

@@ -111,8 +111,8 @@
                 
                 <div class="insight-grid">
                     <div class="insight-visual">
-                        <div class="poster-container glass-card">
-                            <img src="images/poster_whitening.png" alt="学会発表ポスター: 短鎖分割ポリリン酸によるホワイトニング" class="poster-img" onerror="this.parentElement.classList.add('poster-fallback')">
+                        <div class="poster-container glass-card" onclick="window.openPosterModal()">
+                            <img src="images/poster_whitening.png" id="actualPosterImg" alt="学会発表ポスター: 短鎖分割ポリリン酸によるホワイトニング" class="poster-img" onerror="this.parentElement.classList.add('poster-fallback')">
                             <!-- Digitalized Academic Insight Card -->
                             <div class="poster-fallback-content">
                                 <div class="conference-badge">Academic Insight</div>
@@ -305,6 +305,14 @@
             <div id="modalBody">
                 <!-- Data injected by app.js -->
             </div>
+        </div>
+    </div>
+
+    <!-- Poster View Modal -->
+    <div id="posterModal" class="modal">
+        <div class="modal-content poster-modal-content glass-card">
+            <span class="close-btn" onclick="document.getElementById('posterModal').style.display='none'">&times;</span>
+            <div id="posterModalBody"></div>
         </div>
     </div>
 

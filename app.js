@@ -112,6 +112,50 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
+    window.openPosterModal = function() {
+        const modal = document.getElementById('posterModal');
+        const modalBody = document.getElementById('posterModalBody');
+        const actualImg = document.getElementById('actualPosterImg');
+        const isFallback = document.querySelector('.poster-container').classList.contains('poster-fallback');
+        
+        if (!modal || !modalBody) return;
+
+        if (isFallback) {
+            // 画像がない場合の詳細デジタルパネル
+            modalBody.innerHTML = `
+                <div style="padding: 2rem; color: #fff;">
+                    <h2 style="color: var(--accent-cyan); margin-bottom: 2rem;">学会発表データ詳細エビデンス</h2>
+                    <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem; background: rgba(34, 211, 238, 0.05); border: 1px solid var(--accent-cyan);">
+                        <h3 style="color: #fff; margin-bottom: 1rem;">短鎖分割ポリリン酸による効果の高い痛みの少ないホワイトニング</h3>
+                        <p style="color: var(--text-secondary); line-height: 1.8;">
+                            <strong>【目的および背景】</strong><br>
+                            本研究では、過酸化水素および過酸化尿素に短鎖分割ポリリン酸（平均鎖長14）を添加することで、低濃度での漂白効率および再着色防止効果を検証した。
+                        </p>
+                        <p style="color: var(--text-secondary); line-height: 1.8; margin-top: 1rem;">
+                            <strong>【結果】</strong><br>
+                            短鎖分割ポリリン酸と白金ナノコロイドの相乗効果により、低濃度の漂白剤でも高濃度と同等の漂白効果を実現。また、歯面コーティング作用により、施術後の再着色が物理的に阻害されることが確認された。
+                        </p>
+                    </div>
+                    <div style="text-align: center;">
+                        <a href="https://www.smile-us.com/sub1-371.html" target="_blank" class="primary-btn">製品の詳細ページへ ↗</a>
+                    </div>
+                </div>
+            `;
+        } else {
+            // 画像がある場合の高精細表示
+            modalBody.innerHTML = `
+                <div style="text-align: center;">
+                    <img src="${actualImg.src}" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+                    <p style="margin-top: 1.5rem; color: var(--text-secondary);">Academic Conference Poster: Scientific Evidence Analysis</p>
+                </div>
+            `;
+        }
+
+        modal.style.display = "block";
+        modal.style.zIndex = "100000";
+        document.body.style.overflow = "hidden";
+    };
+
     // Load Data
     fetch('data/latest_papers.json?t=' + Date.now())
         .then(res => res.json())
@@ -128,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (eliteCount) animateValue(eliteCount, 0, papersData.length, 1500);
 
             renderTrendsChart(data.official_stats);
-            renderTopicCloud(papersData);
+            renderTopicCloud(data);
             performSearch();
         })
         .catch(err => {
@@ -329,13 +373,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    function renderTopicCloud(data) {
+    function renderTopicCloud(dataObj) {
         const topicCloud = document.getElementById('topicCloud');
         if (!topicCloud) return;
-        const counts = {};
-        data.forEach(p => { (p.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1); });
+        
+        // global_topic_stats(1.9万件)があれば優先、なければ詳細データのみ
+        let counts = dataObj.global_topic_stats;
+        
+        if (!counts) {
+            counts = {};
+            const papers = dataObj.papers || [];
+            papers.forEach(p => { (p.tags || []).forEach(t => counts[t] = (counts[t] || 0) + 1); });
+        }
+        
         const sorted = Object.keys(counts).sort((a,b) => counts[b] - counts[a]).slice(0, 15);
-        topicCloud.innerHTML = sorted.map(t => `<div class="topic-item" onclick="window.filterByTag('${t}')" style="cursor: pointer;"># ${t} <span>${counts[t]}</span></div>`).join('');
+        topicCloud.innerHTML = sorted.map(t => `<div class="topic-item" onclick="window.filterByTag('${t}')" style="cursor: pointer;"># ${t} <span>${counts[t].toLocaleString()}</span></div>`).join('');
     }
 
     function getRelevanceScore(p, q) {

@@ -1193,3 +1193,20 @@ button, .primary-btn, .secondary-btn {
     line-height: 1.7;
     color: var(--text-secondary);
 }
+
+/* Poster Modal Specifics */
+.poster-modal-content {
+    max-width: 90vw;
+    width: 1000px;
+    margin-top: 3vh;
+    padding: 0;
+    overflow-y: auto;
+    max-height: 94vh;
+}
+
+@media (max-width: 768px) {
+    .poster-modal-content {
+        max-width: 95vw;
+        padding: 0;
+    }
+}

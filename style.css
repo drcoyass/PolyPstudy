@@ -1220,3 +1220,153 @@ button, .primary-btn, .secondary-btn {
         padding: 0;
     }
 }
+
+/* Intelligence Dashboard - Compact Layout */
+.dashboard-panel {
+    padding: 3rem;
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 30px;
+}
+
+.dashboard-header {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.area-label {
+    font-size: 0.85rem;
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.area-label::before {
+    content: '';
+    width: 20px;
+    height: 1px;
+    background: var(--accent-cyan);
+}
+
+.trend-chart-container {
+    height: 200px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 8px;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: relative;
+}
+
+.compact-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+.trend-bar {
+    flex: 1;
+    background: linear-gradient(180deg, var(--accent-cyan) 0%, rgba(34, 211, 238, 0.2) 100%);
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    transition: 0.3s;
+}
+
+.trend-bar:hover {
+    background: var(--accent-gold);
+    transform: scaleX(1.1);
+}
+
+.trend-bar-value {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.trend-bar:hover .trend-bar-value {
+    opacity: 1;
+}
+
+.trend-bar-inner {
+    position: absolute;
+    bottom: -22px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+    font-size: 0.6rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+/* Dense Topic Cloud */
+.dense-topic-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.topic-item {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.topic-item span {
+    color: var(--accent-cyan);
+    font-weight: 800;
+    font-size: 0.75rem;
+    background: rgba(34, 211, 238, 0.1);
+    padding: 0.1rem 0.5rem;
+    border-radius: 4px;
+}
+
+.topic-item:hover {
+    background: rgba(34, 211, 238, 0.1);
+    border-color: var(--accent-cyan);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.chart-caption {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 968px) {
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .dashboard-panel {
+        padding: 2rem;
+    }
+}

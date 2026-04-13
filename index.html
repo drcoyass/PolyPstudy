@@ -76,25 +76,30 @@
 
     <main>
         <!-- Intelligence Section -->
-        <section class="intelligence-hub section-padding">
+        <!-- Intelligence Dashboard Section -->
+        <section id="dashboard" class="intelligence-hub section-padding">
             <div class="container">
-                <div class="section-header">
-                    <h2>Intelligence <span class="highlight">Dashboard</span></h2>
-                    <p>論文データの多角的解析による、ポリリン酸研究の現在地</p>
-                </div>
-                
-                <div class="intel-grid">
-                    <div class="glass-card intel-card">
-                        <h3>Research Trends (Global)</h3>
-                        <div class="chart-container">
-                            <div id="trendChart" class="trend-bars"></div>
-                        </div>
-                        <p class="chart-caption">PubMed全論文（約2万件）の公式同期データによる年次推移</p>
+                <div class="dashboard-panel glass-card">
+                    <div class="dashboard-header">
+                        <span class="badge">Intelligence Dashboard</span>
+                        <h2>Global <span class="accent-text">Intelligence</span> Status</h2>
                     </div>
                     
-                    <div class="glass-card intel-card">
-                        <h3>Topic Evolution</h3>
-                        <div id="topicCloud" class="topic-cloud"></div>
+                    <div class="dashboard-grid">
+                        <!-- Left: Compact Research Trends -->
+                        <div class="dashboard-chart-area">
+                            <div class="area-label">Research Trends (Global Archive)</div>
+                            <div class="trend-chart-container">
+                                <div id="trendChart" class="compact-chart"></div>
+                            </div>
+                            <p class="chart-caption">PubMed全論文（約2万件）の時代別推移</p>
+                        </div>
+                        
+                        <!-- Right: Dense Topic Evolution -->
+                        <div class="dashboard-topics-area">
+                            <div class="area-label">Topic Evolution (Master Tags)</div>
+                            <div id="topicCloud" class="dense-topic-cloud"></div>
+                        </div>
                     </div>
                 </div>
             </div>

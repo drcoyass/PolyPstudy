@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const bar = document.createElement('div');
             bar.className = 'trend-bar';
             bar.style.height = (stats[y] / max * 100) + '%';
-            bar.innerHTML = `<span class="trend-bar-value">${stats[y]}</span><span class="trend-bar-inner">${y}</span>`;
+            bar.innerHTML = `<span class="trend-bar-value">${stats[y].toLocaleString()}</span><span class="trend-bar-inner">${y}</span>`;
             trendChart.appendChild(bar);
         });
     }
@@ -387,7 +387,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         const sorted = Object.keys(counts).sort((a,b) => counts[b] - counts[a]).slice(0, 15);
-        topicCloud.innerHTML = sorted.map(t => `<div class="topic-item" onclick="window.filterByTag('${t}')" style="cursor: pointer;"># ${t} <span>${counts[t].toLocaleString()}</span></div>`).join('');
+        topicCloud.innerHTML = sorted.map(t => `<div class="topic-item" onclick="window.filterByTag('${t}')" style="cursor: pointer;">${t} <span>${counts[t].toLocaleString()}</span></div>`).join('');
     }
 
     function getRelevanceScore(p, q) {

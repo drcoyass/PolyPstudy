@@ -102,6 +102,17 @@ document.addEventListener('DOMContentLoaded', function() {
         document.body.style.overflow = "hidden";
     };
 
+    window.filterByYear = function(year) {
+        if (!year) return;
+        if (searchInput) {
+            // "2022" のように検索窓に入れ、即座に検索を実行
+            searchInput.value = year;
+            performSearch();
+            const papersSection = document.getElementById('papers');
+            if (papersSection) papersSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     window.filterByTag = function(tag) {
         if (!tag) return;
         if (searchInput) {
@@ -186,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
         filteredData = papersData.filter(p => {
             const searchable = [
                 p.title, p.jp_title, p.authors, p.jp_authors, p.abstract, p.summary_html,
+                p.year, // 検索対象に年度を追加
                 ...(p.tags || []), ...(p.hashtags || [])
             ].filter(Boolean).join(' ').toLowerCase();
             
@@ -368,7 +380,13 @@ document.addEventListener('DOMContentLoaded', function() {
             const bar = document.createElement('div');
             bar.className = 'trend-bar';
             bar.style.height = (stats[y] / max * 100) + '%';
-            bar.innerHTML = `<span class="trend-bar-value">${stats[y].toLocaleString()}</span><span class="trend-bar-inner">${y}</span>`;
+            bar.style.cursor = 'pointer';
+            bar.onclick = () => window.filterByYear(y);
+            
+            bar.innerHTML = `
+                <span class="trend-bar-value">${stats[y].toLocaleString()}</span>
+                <span class="trend-bar-inner">${y}</span>
+            `;
             trendChart.appendChild(bar);
         });
     }

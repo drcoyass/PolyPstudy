@@ -248,15 +248,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function renderLibrary() {
         if (!paperIndexList) return;
-        paperIndexList.innerHTML = '';
         
+        const renderStep = 50;
+        const currentSlice = filteredData.slice(0, displayedCount);
+        
+        if (displayedCount === renderStep) {
+            paperIndexList.innerHTML = '';
+        }
+
         if (filteredData.length === 0) {
             paperIndexList.innerHTML = `
                 <div class="empty-state">
                     <div class="empty-icon">🔍</div>
                     <h3>該当する知見が見つかりませんでした</h3>
                     <p>キーワードを少し変えるか、インプラント・歯科・骨再生などの主要カテゴリから探索を広げてみてください。</p>
-                    <button class="secondary-btn" onclick="document.getElementById('searchInput').value=''; performSearch();">すべての論文を表示</button>
                 </div>
             `;
             const loadMoreBtn = document.getElementById('loadMoreBtn');
@@ -264,44 +269,51 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        const chunk = filteredData.slice(0, displayedCount);
-        chunk.forEach((p, index) => {
+        const fragment = document.createDocumentFragment();
+        const startIdx = displayedCount - renderStep;
+        const itemsToRender = currentSlice.slice(Math.max(0, startIdx));
+
+        itemsToRender.forEach((p, i) => {
+            const actualIndex = Math.max(0, startIdx) + i;
             const li = document.createElement('div');
             li.className = 'knowledge-card';
-            li.onclick = (e) => window.openPaperModalFromIndex(index, e);
+            li.onclick = (e) => window.openPaperModalFromIndex(actualIndex, e);
 
             const displayTitle = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
-            const displayAuthors = (currentLang === 'ja' && p.jp_authors) ? p.jp_authors : p.authors;
+            const displayAuthors = (p.authors || "Academic Record");
             const sourceUrl = getPaperSourceUrl(p).replace(/'/g, "\\'");
-            const sourceClass = `source-${p.source ? p.source.toLowerCase().replace(/[^a-z]/g, '-') : 'pubmed'}`;
             
             li.innerHTML = `
                 <div class="card-side-info">
-                    <div class="card-year">${p.date ? p.date.substring(0,4) : '---'}</div>
+                    <div class="card-year">${p.year || '---'}</div>
                     <div class="card-tags-v">
                         ${(p.tags || []).slice(0,2).map(t => `<span class="tag-chip">${t}</span>`).join('')}
                     </div>
                 </div>
                 <div class="card-main-content">
                     <div class="card-header-row">
-                        <span class="source-badge ${sourceClass}">${p.source || 'PubMed'}</span>
+                        <span class="source-badge source-pubmed">${p.source || 'PubMed'}</span>
                     </div>
                     <div class="card-title">${displayTitle}</div>
                     <div class="card-authors">${displayAuthors}</div>
                     <div class="card-abstract-preview">
-                        ${p.summary_html ? stripHtml(p.summary_html).substring(0, 180) + '...' : (p.abstract || "").substring(0, 180) + '...'}
+                        ${(p.summary_jp || p.abstract || "").substring(0, 180)}...
                     </div>
                 </div>
                 <div class="card-actions">
-                    <button class="primary-btn abstract-btn" onclick="window.openPaperModalFromIndex(${index}, event)">概要表示</button>
+                    <button class="primary-btn abstract-btn" onclick="window.openPaperModalFromIndex(${actualIndex}, event)">概要表示</button>
                     <button class="primary-btn source-jump-btn" onclick="window.openPaperSource('${sourceUrl}', event)">ソース ↗</button>
                 </div>
             `;
-            paperIndexList.appendChild(li);
+            fragment.appendChild(li);
         });
+        
+        paperIndexList.appendChild(fragment);
 
         const loadMoreBtn = document.getElementById('loadMoreBtn');
-        if (loadMoreBtn) loadMoreBtn.style.display = (displayedCount < filteredData.length) ? 'block' : 'none';
+        if (loadMoreBtn) {
+            loadMoreBtn.style.display = (displayedCount < filteredData.length) ? 'block' : 'none';
+        }
     }
 
     // Filter Listeners

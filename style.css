@@ -1261,60 +1261,60 @@ button, .primary-btn, .secondary-btn {
 }
 
 .trend-chart-container {
-    height: 200px;
-    margin-bottom: 1rem;
+    height: 380px; /* 縦長に変更 */
+    margin-bottom: 2rem;
     display: flex;
     align-items: flex-end;
-    gap: 8px;
+    gap: 2px; /* PubMed風に極細の間隔へ */
     padding-bottom: 2rem;
     border-bottom: 1px solid rgba(255,255,255,0.05);
     position: relative;
+    background: rgba(0,0,0,0.2);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .compact-chart {
     display: flex;
     align-items: flex-end;
-    gap: 6px;
+    gap: 1px; /* バーの隙間を極限まで詰める */
     height: 100%;
     width: 100%;
 }
 
 .trend-bar {
     flex: 1;
-    background: linear-gradient(180deg, var(--accent-cyan) 0%, rgba(34, 211, 238, 0.2) 100%);
-    border-radius: 4px 4px 0 0;
+    min-width: 2px; /* 1本ずつを細く */
+    background: var(--accent-cyan);
+    border-radius: 1px 1px 0 0;
     position: relative;
-    transition: 0.3s;
+    transition: 0.2s;
+}
+
+.trend-bar:nth-child(even) {
+    background: rgba(34, 211, 238, 0.6); /* 互い違いに色を変えて密度感を演出 */
 }
 
 .trend-bar:hover {
     background: var(--accent-gold);
-    transform: scaleX(1.1);
-}
-
-.trend-bar-value {
-    position: absolute;
-    top: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 0.65rem;
-    color: var(--text-secondary);
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.trend-bar:hover .trend-bar-value {
-    opacity: 1;
+    transform: scaleY(1.05);
+    z-index: 10;
 }
 
 .trend-bar-inner {
     position: absolute;
     bottom: -22px;
     left: 50%;
-    transform: translateX(-50%) rotate(-45deg);
-    font-size: 0.6rem;
+    transform: translateX(-50%) rotate(-90deg); /* 縦書き風に回転 */
+    font-size: 0.5rem;
     color: var(--text-secondary);
     white-space: nowrap;
+    opacity: 0; /* 数が多いので一部だけ表示（後でJSで調整可） */
+}
+
+/* 10年ごとのラベルだけ表示させる */
+.trend-bar:nth-child(10n) .trend-bar-inner {
+    opacity: 1;
 }
 
 /* Dense Topic Cloud */

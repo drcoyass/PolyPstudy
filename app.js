@@ -372,43 +372,56 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     function performSearch() {
-        let query = (searchInput ? searchInput.value.toLowerCase().trim() : "");
-        
-        // 4桁の数字（西暦）のみが入力された場合は年度指定モードとする
-        const isYearQuery = /^\d{4}$/.test(query);
+        if (!searchInput) return;
+        let query = searchInput.value.toLowerCase().trim();
+        displayedCount = 50;
 
-        filteredData = papersData.filter(p => {
-            if (isYearQuery) {
-                // 年度検索の場合は、p.year または p.date の先頭4桁と完全一致するかをチェック
-                const pYear = p.year || (p.date ? p.date.substring(0,4) : "");
-                return pYear === query;
+        if (!query) {
+            filteredData = [...papersData];
+            renderLibrary();
+            return;
+        }
+
+        const isYearQuery = /^\d{4}$/.test(query);
+        const isWhiteningTheme = query.includes('ホワイトニング') || query.includes('bleaching') || query.includes('whitening');
+        
+        // 歯科専門分野のブーストキーワードとノイズワード
+        const dentalBoost = ['tooth', 'teeth', 'dental', 'enamel', 'dentin', 'stain', 'dentistry', '歯科', '歯', 'エナメル'];
+        const industryNoise = ['coral', 'marine', 'algae', 'ship', 'pulp', 'textile', 'paper', 'waste', 'blood cell'];
+
+        filteredData = papersData.map(p => {
+            let score = 0;
+            const fullText = [
+                p.title, p.jp_title, p.abstract, p.summary_jp, 
+                p.authors, ...(p.tags || [])
+            ].filter(Boolean).join(' ').toLowerCase();
+
+            const titleText = ((p.title || "") + " " + (p.jp_title || "")).toLowerCase();
+
+            if (fullText.includes(query)) {
+                score += 100;
+                if (titleText.includes(query)) score += 150;
+
+                if (isWhiteningTheme) {
+                    const hasDentalContext = dentalBoost.some(kw => fullText.includes(kw));
+                    const hasNoiseContext = industryNoise.some(kw => fullText.includes(kw));
+                    if (hasDentalContext) score += 400; 
+                    if (hasNoiseContext) score -= 500; 
+                }
+                const year = parseInt(p.year || (p.date ? p.date.substring(0,4) : "0"));
+                if (year >= 2020) score += 20;
             }
 
-            const searchable = [
-                p.title, p.jp_title, p.authors, p.jp_authors, p.abstract, p.summary_html,
-                ...(p.tags || []), ...(p.hashtags || [])
-            ].filter(Boolean).join(' ').toLowerCase();
-            
-            const matchesQuery = !query || searchable.includes(query);
-            
-            let matchesCategory = activeCategory === 'all';
-            if (activeCategory === 'TOP100') matchesCategory = p.is_top_100 === true;
-            else if (activeCategory === 'DENTAL100') matchesCategory = p.is_dental_top_100 === true;
-            else if (activeCategory === '歯科') matchesCategory = (p.tags && p.tags.includes('歯科'));
-            else if (activeCategory === '医科') matchesCategory = (p.tags && p.tags.includes('医科'));
+            if (isYearQuery) {
+                const pYear = p.year || (p.date ? p.date.substring(0,4) : "");
+                if (pYear === query) score += 10000;
+            }
 
-            let matchesSource = activeSource === 'all' || (p.source && p.source.toLowerCase() === activeSource.toLowerCase());
-            return matchesQuery && matchesCategory && matchesSource;
-        });
+            p._searchScore = score;
+            return p;
+        }).filter(p => p._searchScore > 0)
+          .sort((a, b) => b._searchScore - a._searchScore);
 
-        filteredData.sort((a, b) => {
-            if (query) return getRelevanceScore(b, query) - getRelevanceScore(a, query);
-            if (a.is_top_100 && !b.is_top_100) return -1;
-            if (!a.is_top_100 && b.is_top_100) return 1;
-            return (b.date || "").localeCompare(a.date || "");
-        });
-
-        displayedCount = 50;
         renderLibrary();
     }
 
@@ -459,6 +472,12 @@ document.addEventListener('DOMContentLoaded', function() {
             li.className = 'knowledge-card';
             li.onclick = (e) => window.openPaperModalFromIndex(actualIndex, e);
 
+            // 年度取得の堅牢化 (year, date, または PMID からの推測)
+            let displayYear = p.year || (p.date ? p.date.substring(0,4) : '---');
+            if (displayYear === '---' && p.id && p.id.length > 5) {
+                // PMID等から年代を推測するロジックがあればここで補完
+            }
+
             const displayTitle = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
             const displayAuthors = (p.authors || "Academic Record");
             const sourceUrl = getPaperSourceUrl(p).replace(/'/g, "\\'");
@@ -468,24 +487,37 @@ document.addEventListener('DOMContentLoaded', function() {
 
             li.innerHTML = `
                 <div class="card-side-info">
-                    <div class="card-year">${p.year || '---'}</div>
+                    <div class="year-badge">${displayYear}</div>
                     <div class="card-tags-v">
-                        ${(p.tags || []).slice(0,2).map(t => `<span class="tag-chip">${t === '歯科' && currentLang === 'en' ? 'DENTAL' : t}</span>`).join('')}
+                        ${(p.tags || []).slice(0,2).map(t => {
+                            let tagText = t;
+                            if (currentLang === 'en') {
+                                if (t === '歯科') tagText = 'DENTAL';
+                                if (t === 'インプラント') tagText = 'IMPLANT';
+                                if (t === '再生医療') tagText = 'REGEN';
+                            }
+                            return `<span class="tag-chip">${tagText}</span>`;
+                        }).join('')}
                     </div>
                 </div>
                 <div class="card-main-content">
                     <div class="card-header-row">
-                        <span class="source-badge source-pubmed">${p.source || 'PubMed'}</span>
+                        <span class="source-badge source-pubmed">PUBMED</span>
+                        <span class="pmid-small">PMID: ${p.id}</span>
                     </div>
                     <div class="card-title">${displayTitle}</div>
-                    <div class="card-authors">${displayAuthors}</div>
+                    <div class="card-authors-row">${displayAuthors}</div>
                     <div class="card-abstract-preview">
-                        ${(currentLang === 'ja' && p.summary_jp ? p.summary_jp : (p.abstract || "")).substring(0, 180)}...
+                        ${(currentLang === 'ja' && p.summary_jp ? p.summary_jp : (p.abstract || "")).substring(0, 200)}...
                     </div>
                 </div>
-                <div class="card-actions">
-                    <button class="primary-btn abstract-btn" onclick="window.openPaperModalFromIndex(${actualIndex}, event)">${btnAbstractLabel}</button>
-                    <button class="primary-btn source-jump-btn" onclick="window.openPaperSource('${sourceUrl}', event)">${btnSourceLabel}</button>
+                <div class="card-actions-v">
+                    <button class="primary-btn abstract-btn" onclick="window.openPaperModalFromIndex(${actualIndex}, event)">
+                        <span class="btn-icon">📄</span> ${btnAbstractLabel}
+                    </button>
+                    <button class="secondary-btn source-jump-btn" onclick="window.openPaperSource('${sourceUrl}', event)">
+                        ${btnSourceLabel}
+                    </button>
                 </div>
             `;
             fragment.appendChild(li);

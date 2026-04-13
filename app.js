@@ -631,9 +631,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const topicCloud = document.getElementById('topicCloud');
         if (!topicCloud) return;
         
-        // global_topic_stats(1.9万件)があれば優先、なければ詳細データのみ
         let counts = dataObj.global_topic_stats;
-        
         if (!counts) {
             counts = {};
             const papers = dataObj.papers || [];
@@ -641,8 +639,30 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         const sorted = Object.keys(counts).sort((a,b) => counts[b] - counts[a]).slice(0, 15);
-        topicCloud.innerHTML = sorted.map(t => `<div class="topic-item" onclick="window.filterByTag('${t}')" style="cursor: pointer;">${t} <span>${counts[t].toLocaleString()}</span></div>`).join('');
+        topicCloud.innerHTML = sorted.map(t => `
+            <div class="topic-item" onclick="window.filterByTag('${t}')">
+                <span class="topic-name">${t}</span>
+                <span class="topic-count">${counts[t].toLocaleString()}</span>
+            </div>
+        `).join('');
     }
+
+    // --- Global Nav Actions ---
+    window.filterByTag = function(tag) {
+        if (!searchInput) return;
+        searchInput.value = tag;
+        performSearch();
+        const target = document.getElementById('papers');
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    window.filterByYear = function(year) {
+        if (!searchInput) return;
+        searchInput.value = year;
+        performSearch();
+        const target = document.getElementById('papers');
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+    };
 
     function getRelevanceScore(p, q) {
         let s = 0; q = q.toLowerCase();

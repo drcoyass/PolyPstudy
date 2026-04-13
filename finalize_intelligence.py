@@ -1,52 +1,55 @@
 import json
+import os
 
 def finalize_intelligence_analysis():
     json_path = '/Users/coyass/kaihatsu/Poly-Pstudy/data/latest_papers.json'
     
+    if not os.path.exists(json_path):
+        print("❌ データベースが見つかりません。")
+        return
+
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     papers = data.get('papers', [])
-    print(f"🧠 19,018件の全論文をインテリジェンス分析中...")
+    print(f"🧠 {len(papers)}件の全論文を詳細インテリジェンス分析中...")
 
-    # 分類キーワード定義
+    # 「1クリックで知りたい情報にたどり着く」ための極細カテゴリー定義
     categories = {
-        "歯科": ["dental", "dentist", "periodontal", "periodontitis", "orthodontic", "caries", "enamel", "dentin", "pulp", "gingiva", "oral"],
-        "インプラント": ["implant", "osseointegration", "abutment"],
-        "再生医療": ["regeneration", "regenerative", "scaffold", "stem cell", "tissue engineering", "bone morphogenetic"],
-        "ミトコンドリア": ["mitochondria", "atp", "metabolism", "energy production"],
-        "医科（一般）": ["cancer", "tumor", "blood", "coagulation", "platelet", "bone", "osteoblast", "infection", "immune"],
-        "ホワイトニング": ["whitening", "bleaching", "stain", "color"]
+        "ホワイトニング": ["whitening", "bleaching", "discoloration", "stain", "color", "白", "漂白"],
+        "ミトコンドリア": ["mitochondria", "mtpyp", "atp", "metabolism", "energy production", "energy metabolism"],
+        "インプラント": ["implant", "osseointegration", "abutment", "implantology"],
+        "歯周組織再生": ["periodontal", "periodontitis", "pdl", "gingiva", "alveolar bone", "歯周", "歯肉"],
+        "骨代謝・再生": ["regeneration", "bone morphogenetic", "osteoblast", "osteoclast", "mineralization", "scaffold", "骨"],
+        "創傷治癒": ["wound healing", "angiogenesis", "epithelial", "cell migration", "repair", "傷"],
+        "抗労働・長寿": ["longevity", "anti-aging", "senescence", "life span", "stress resistance", "長寿", "老化"],
+        "細胞増殖": ["proliferation", "differentiation", "stem cell", "growth factor", "分化"],
+        "感染・炎症性": ["inflammation", "infection", "cytokine", "immune response", "bacterial", "炎症"],
+        "歯科一般": ["dental", "dentist", "caries", "orthodontic", "endodontic", "pulp", "歯科", "歯筋"],
+        "基礎医学": ["cancer", "tumor", "drug delivery", "protein", "enzyme", "mapping", "signaling"]
     }
 
     topic_counts = {cat: 0 for cat in categories}
     
     for p in papers:
-        # 辞書形式などが混ざっていても確実に文字列として処理
-        title_raw = p.get('title') or ""
-        abstract_raw = p.get('abstract') or ""
+        # タイトル、抄録、既存タグ、日本語要約をすべてスキャン
+        text = f"{p.get('title','')} {p.get('jp_title','')} {p.get('abstract','')} {p.get('summary_jp','')}".lower()
         
-        title = str(title_raw).lower()
-        abstract = str(abstract_raw).lower()
-        content = title + " " + abstract
-        
-        p_tags = p.get('tags', [])
-        if not isinstance(p_tags, list): p_tags = []
-        if "PubMed" in p_tags: p_tags.remove("PubMed")
-        
+        p_tags = []
         found_any = False
+        
         for cat, keywords in categories.items():
-            if any(kw in content for kw in keywords):
-                if cat not in p_tags: p_tags.append(cat)
+            if any(kw in text for kw in keywords):
+                p_tags.append(cat)
                 topic_counts[cat] += 1
                 found_any = True
         
         if not found_any:
-            if "基礎研究" not in p_tags: p_tags.append("基礎研究")
+            p_tags.append("その他")
         
-        p['tags'] = p_tags
+        p['tags'] = list(set(p_tags)) # 重複排除
 
-    # トピック統計を更新
+    # グローバル統計を更新
     data['global_topic_stats'] = topic_counts
     
     with open(json_path, 'w', encoding='utf-8') as f:

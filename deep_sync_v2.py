@@ -15,15 +15,32 @@ EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
 def search_pubmed_all_pmids(query):
     """
-    全件のPMIDを取得する
+    年度別に分割して全件のPMIDを取得する（1万件制限の回避）
     """
-    print(f"🔍 PubMedから '{query}' に関連する全論文を検索中...")
-    encoded_query = urllib.parse.quote(query)
-    # retmax=20000 で全件のIDを一括取得
-    url = f"{EUTILS_BASE}/esearch.fcgi?db=pubmed&term={encoded_query}&retmode=json&retmax=20000"
-    with urllib.request.urlopen(url) as response:
-        data = json.loads(response.read().decode('utf-8'))
-        return data['esearchresult'].get('idlist', [])
+    print(f"🔍 PubMedから '{query}' に関連する全論文をスキャン中（年度分割モード）...")
+    all_ids = []
+    
+    # 歴史を10年〜5年単位で区切って取得
+    ranges = [
+        (1950, 1980), (1981, 1995), (1996, 2005), 
+        (2006, 2010), (2011, 2015), (2016, 2020), 
+        (2021, 2026)
+    ]
+    
+    for start, end in ranges:
+        term = f"{query} AND ({start}[PDAT] : {end}[PDAT])"
+        encoded_query = urllib.parse.quote(term)
+        url = f"{EUTILS_BASE}/esearch.fcgi?db=pubmed&term={encoded_query}&retmode=json&retmax=10000"
+        try:
+            with urllib.request.urlopen(url) as response:
+                res_data = json.loads(response.read().decode('utf-8'))
+                ids = res_data['esearchresult'].get('idlist', [])
+                print(f"  📅 {start}-{end}年: {len(ids)} 件発見")
+                all_ids.extend(ids)
+        except:
+            continue
+            
+    return list(set(all_ids))
 
 def fetch_details_fast(pmids):
     """

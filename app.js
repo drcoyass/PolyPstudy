@@ -192,16 +192,25 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 
     function performSearch() {
-        const query = (searchInput ? searchInput.value.toLowerCase().trim() : "");
+        let query = (searchInput ? searchInput.value.toLowerCase().trim() : "");
         
+        // 4桁の数字（西暦）のみが入力された場合は年度指定モードとする
+        const isYearQuery = /^\d{4}$/.test(query);
+
         filteredData = papersData.filter(p => {
+            if (isYearQuery) {
+                // 年度検索の場合は、p.year または p.date の先頭4桁と完全一致するかをチェック
+                const pYear = p.year || (p.date ? p.date.substring(0,4) : "");
+                return pYear === query;
+            }
+
             const searchable = [
                 p.title, p.jp_title, p.authors, p.jp_authors, p.abstract, p.summary_html,
-                p.year, // 検索対象に年度を追加
                 ...(p.tags || []), ...(p.hashtags || [])
             ].filter(Boolean).join(' ').toLowerCase();
             
             const matchesQuery = !query || searchable.includes(query);
+            
             let matchesCategory = activeCategory === 'all';
             if (activeCategory === 'TOP100') matchesCategory = p.is_top_100 === true;
             else if (activeCategory === 'DENTAL100') matchesCategory = p.is_dental_top_100 === true;

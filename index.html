@@ -116,10 +116,9 @@
                 
                 <div class="insight-grid">
                     <div class="insight-visual">
-                        <div class="poster-container glass-card" onclick="window.openPosterModal()">
-                            <img src="images/poster_whitening.png" id="actualPosterImg" alt="学会発表ポスター: 短鎖分割ポリリン酸によるホワイトニング" class="poster-img" onerror="this.parentElement.classList.add('poster-fallback')">
-                            <!-- Digitalized Academic Insight Card -->
-                            <div class="poster-fallback-content">
+                        <!-- Digitalized Academic Insight Card (Always visible on HP) -->
+                        <div class="poster-container glass-card insight-trigger" onclick="window.openPosterModal()">
+                            <div class="poster-fallback-content" style="display: block;">
                                 <div class="conference-badge">Academic Insight</div>
                                 <h4 class="white-text">短鎖分割ポリリン酸による<br>効果の高い痛みの少ないホワイトニング</h4>
                                 <div class="fallback-stats">
@@ -129,11 +128,13 @@
                                 </div>
                                 <p class="fallback-desc">
                                     <strong>【結論】</strong><br>
-                                    短鎖分割ポリリン酸（平均鎖長14）と白金ナノコロイドを配合することで、低濃度でも高い漂白効果と再着色防止機能を実現。安全性・持続性を兼ね備えた次世代ホワイトニングシステムとして臨床的に極めて有用です。
+                                    短鎖分割ポリリン酸（平均鎖長14）と白金ナノコロイドを配合することで、低濃度でも高い漂白効果と再着色防止機能を実現。
                                 </p>
                             </div>
+                            <!-- Hidden image reference for JS -->
+                            <img src="images/poster_whitening.png" id="actualPosterImg" style="display: none;">
                             <div class="poster-overlay">
-                                <span>Academic Data Analysis</span>
+                                <span>View Evidence Poster ↗</span>
                             </div>
                         </div>
                     </div>

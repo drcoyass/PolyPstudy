@@ -465,11 +465,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const fragment = document.createDocumentFragment();
         const startIdx = displayedCount - renderStep;
         const itemsToRender = currentSlice.slice(Math.max(0, startIdx));
-
         itemsToRender.forEach((p, i) => {
+            // 不完全なデータの徹底排除 (IDまたはタイトルがないものは表示しない)
+            if (!p.id || !p.title || p.title.length < 5) return;
+
             const actualIndex = Math.max(0, startIdx) + i;
             const li = document.createElement('div');
             li.className = 'knowledge-card';
+            li.style.animationDelay = `${i * 0.05}s`;
             li.onclick = (e) => window.openPaperModalFromIndex(actualIndex, e);
 
             // 年度取得の堅牢化 (year, date, または PMID からの推測)
@@ -488,6 +491,7 @@ document.addEventListener('DOMContentLoaded', function() {
             li.innerHTML = `
                 <div class="card-side-info">
                     <div class="year-badge">${displayYear}</div>
+                    ${p._searchScore > 500 ? '<div class="elite-badge">ELITE</div>' : ''}
                     <div class="card-tags-v">
                         ${(p.tags || []).slice(0,2).map(t => {
                             let tagText = t;

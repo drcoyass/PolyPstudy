@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ポリリン酸研究の権威。1万9千件以上の論文、インプラント・再生医療の最新動向を網羅した世界最大級のインテリジェンス・ポータル。">
-    <meta property="og:title" content="PolyP Intelligence Portal | 分割ポリリン酸研究会">
-    <meta property="og:description" content="生命の起源から未来の医療まで。ポリリン酸研究のすべてが集約された最強のデータベース。">
+    <title>PolyP Study | Polyphosphate Intelligence Research Portal</title>
+    <meta name="description" content="Access 19,000+ research papers on Polyphosphate. AI-summarized clinical records, dental whitening evidence, and real-time medical intelligence for professional researchers.">
+    <meta property="og:title" content="PolyP Study | Polyphosphate Intelligence Research Portal">
+    <meta property="og:description" content="Explore 19,018 scientific evidences on Polyphosphate. Japan's leading academic intelligence platform.">
     <meta property="og:type" content="website">
-    <title>PolyP Intelligence Hub | 分割ポリリン酸研究会</title>
-    <link rel="stylesheet" href="style.css?v=25">
+    <meta property="og:image" content="images/poster_whitening.png">
+    <link rel="stylesheet" href="style.css?v=27">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="premium-theme dark-mode">
@@ -117,7 +118,7 @@
                     <div class="insight-visual">
                         <!-- Digitalized Academic Insight Card -->
                         <div class="poster-container glass-card insight-trigger" onclick="window.openPosterModal()">
-                            <div class="poster-fallback-content" style="display: block;">
+                            <div class="poster-fallback-content is-visible" id="posterFallback">
                                 <div class="conference-badge" data-i18n="posterBadge">Academic Insight</div>
                                 <h4 class="white-text" data-i18n="posterTitle">短鎖分割ポリリン酸による<br>効果の高い痛みの少ないホワイトニング</h4>
                                 <div class="fallback-stats">
@@ -130,7 +131,7 @@
                                     短鎖分割ポリリン酸（平均鎖長14）と白金ナノコロイドを配合することで、低濃度でも高い漂白効果と再着色防止機能を実現。
                                 </p>
                             </div>
-                            <img src="images/poster_whitening.png" id="actualPosterImg" style="display: none;">
+                            <img src="images/poster_whitening.png" id="actualPosterImg" class="is-hidden">
                             <div class="poster-overlay">
                                 <span data-i18n="btnViewEvidence">View Evidence Poster ↗</span>
                             </div>

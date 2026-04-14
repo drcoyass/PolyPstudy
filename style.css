@@ -1372,14 +1372,19 @@ button, .primary-btn, .secondary-btn {
         flex-direction: row;
         align-items: flex-start;
     }
-    .dashboard-chart-area {
-        flex: 1.4; /* グラフを広めに確保 */
-        min-width: 0;
-    }
-    .dashboard-topics-area {
-        flex: 1;
-        min-width: 300px;
-    }
+.dashboard-chart-area {
+    flex: 1.4;
+    min-width: 0;
+    overflow: hidden; /* 内部のグラフが飛び出しても外に影響させない */
+}
+.dashboard-topics-area {
+    flex: 1;
+    min-width: 320px;
+    background: rgba(15, 23, 42, 0.4);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
 }
     
 .dashboard-panel {
@@ -1699,8 +1704,15 @@ button, .primary-btn, .secondary-btn {
 
 /* Fix for horizontal chart bars */
 .trend-bar {
-    min-width: 25px;
-    margin: 0 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to top, var(--accent-cyan), var(--accent-primary));
+    border-radius: 4px 4px 0 0;
+    transition: all 0.3s ease;
+    /* min-width は JS 側で動的に制御するため、CSSでは固定しない */
 }
 
 /* --- Elite & Premium Elements (Restored) --- */

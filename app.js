@@ -120,12 +120,16 @@ document.addEventListener('DOMContentLoaded', function() {
         const years = Object.keys(stats).sort();
         const max = Math.max(...Object.values(stats), 1);
         
+        // 画面幅に応じて棒の太さを動的に調整（デスクトップでの突き抜けを防止）
+        const isMobile = window.innerWidth < 768;
+        
         years.forEach(y => {
             const bar = document.createElement('div');
             bar.className = 'trend-bar';
             bar.style.flex = "1";
             bar.style.height = (stats[y] / max * 100) + '%';
-            bar.style.minWidth = "25px";
+            // モバイルなら指で触りやすい太さを維持、デスクトップなら枠に収める
+            bar.style.minWidth = isMobile ? "25px" : "1px"; 
             bar.style.cursor = 'pointer';
             bar.onclick = () => {
                 if (searchInput) {
@@ -134,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     document.getElementById('papers').scrollIntoView({ behavior: 'smooth' });
                 }
             };
-            bar.innerHTML = `<span class=\"trend-bar-value\">${stats[y]}</span><span class=\"trend-bar-inner\">${y}</span>`;
+            bar.innerHTML = `<span class="trend-bar-value">${stats[y]}</span><span class="trend-bar-inner">${y}</span>`;
             trendChart.appendChild(bar);
         });
     }

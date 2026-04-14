@@ -1575,49 +1575,115 @@ button, .primary-btn, .secondary-btn {
     }
 }
 
-/* --- Elite & Premium Elements --- */
-.elite-badge {
-    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
-    color: #000;
-    font-size: 0.65rem;
-    font-weight: 800;
-    padding: 2px 8px;
-    border-radius: 4px;
-    margin-top: 0.5rem;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-    letter-spacing: 0.05em;
-    display: inline-block;
+/* --- World-Class Mobile UX Overhaul --- */
+
+:root {
+    --mobile-padding: 1.25rem;
 }
 
-.section-marker {
-    opacity: 0.6;
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
+@media (max-width: 768px) {
+    /* Fluid Typography & Layout */
+    body {
+        font-size: 15px; /* スマホで読みやすい基本サイズ */
+    }
+
+    .container {
+        padding-left: var(--mobile-padding);
+        padding-right: var(--mobile-padding);
+    }
+
+    /* Header Optimization - Prevent Overlap */
+    .navbar {
+        height: auto;
+        padding: 1rem var(--mobile-padding);
+        flex-direction: column;
+        gap: 0.8rem;
+        align-items: center;
+    }
+
+    .logo-container {
+        font-size: 1.2rem;
+    }
+
+    #langToggle {
+        width: 100%;
+        max-width: 120px;
+    }
+
+    /* Hero Section - Text Shifting Fix */
+    .hero-section h1 {
+        font-size: clamp(1.8rem, 8vw, 2.5rem);
+        line-height: 1.2;
+        word-break: break-word;
+    }
+
+    .hero-desc {
+        font-size: 0.95rem;
+        text-align: justify;
+    }
+
+    /* Dashboard - Chart Overlap Fix */
+    .dashboard-chart-area {
+        overflow-x: auto; /* グラフを横スクロール可能にして重なりを回避 */
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 1rem;
+    }
+
+    .trend-chart-container {
+        min-width: 600px; /* グラフの解像度を確保 */
+        height: 250px;
+    }
+
+    /* Topic Cloud - Better wrapping */
+    .dense-topic-cloud {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .topic-item {
+        flex: 1 1 calc(50% - 0.5rem); /* 2カラム並びで安定させる */
+        min-width: 140px;
+        font-size: 0.8rem;
+    }
+
+    /* Knowledge Card - Flowing Structure */
+    .knowledge-card {
+        padding: 1.25rem;
+        border-radius: 12px;
+    }
+
+    .card-side-info {
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 0.8rem;
+    }
+
+    .year-badge, .elite-badge {
+        font-size: 0.7rem;
+        padding: 2px 6px;
+    }
+
+    .academic-title {
+        font-size: 1.05rem;
+        line-height: 1.4;
+    }
+
+    /* Modal - Prevent Overflow */
+    .modal-content {
+        width: 92% !important;
+        margin: 10% auto !important;
+        padding: 1.5rem !important;
+        max-height: 85vh;
+        overflow-y: auto;
+    }
 }
 
-.hero-subtitle {
-    font-size: 1.1rem;
-    color: var(--secondary-color);
-    margin-bottom: 2rem;
-    opacity: 0.9;
-}
-
-/* Visibility Helpers (Moved from Inline) */
-.is-visible {
-    display: block !important;
-}
-
-.is-hidden {
-    display: none !important;
-}
-
-.is-transparent {
-    opacity: 0.6 !important;
-}
-
-/* Metadata & Accessibility */
-img {
-    max-width: 100%;
-    height: auto;
+/* Fix for horizontal chart bars */
+.trend-bar {
+    min-width: 25px;
+    margin: 0 2px;
 }

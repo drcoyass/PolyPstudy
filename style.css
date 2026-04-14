@@ -1448,12 +1448,70 @@ button, .primary-btn, .secondary-btn {
     justify-content: center;
 }
 
+/* Academic Control Panel - PhD Level Refinement */
+.academic-control-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+    background: rgba(15, 23, 42, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.control-section {
+    flex: 1;
+    min-width: 280px;
+}
+
+.control-section label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: var(--accent-primary);
+    margin-bottom: 1.2rem;
+    opacity: 0.8;
+}
+
+.filter-pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.filter-pill {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    padding: 0.6rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-pill:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--accent-primary);
+}
+
+.filter-pill.active {
+    background: var(--accent-primary);
+    color: white;
+    border-color: var(--accent-primary);
+    box-shadow: 0 4px 15px rgba(6, 182, 212, 0.3);
+}
+
 @media (max-width: 768px) {
-    .dashboard-panel {
+    .academic-control-panel {
         padding: 1.5rem;
-        border-radius: 20px;
-        margin-left: -10px;
-        margin-right: -10px; /* スマホでは窮屈さを排し広く見せる */
+        gap: 1.5rem;
+    }
+    .filter-pill {
+        padding: 0.5rem 1rem;
+        font-size: 0.75rem;
     }
 }
 

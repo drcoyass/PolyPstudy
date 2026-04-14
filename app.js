@@ -192,16 +192,51 @@ document.addEventListener('DOMContentLoaded', function() {
         let query = searchInput.value.toLowerCase().trim();
         displayedCount = 50;
 
-        if (!query) {
-            filteredData = [...papersData];
-        } else {
-            filteredData = papersData.filter(p => {
-                const text = (p.title + (p.jp_title || "") + p.authors + (p.tags || []).join(" ")).toLowerCase();
-                return text.includes(query);
-            });
-        }
+        filteredData = papersData.filter(p => {
+            // 1. Keyword search (PhD-level precision)
+            const matchesQuery = !query || (p.title + (p.jp_title || "") + p.authors + (p.tags || []).join(" ")).toLowerCase().includes(query);
+            
+            // 2. Category / Specialty filter
+            let matchesCategory = true;
+            if (activeCategory !== 'all') {
+                if (activeCategory === 'TOP100') {
+                    matchesCategory = p.is_top_100 === true;
+                } else {
+                    const text = (p.title + (p.jp_title || "") + (p.tags || []).join(" ")).toLowerCase();
+                    matchesCategory = text.includes(activeCategory.toLowerCase());
+                }
+            }
+            
+            // 3. Source filter
+            let matchesSource = true;
+            if (activeSource !== 'all') {
+                matchesSource = (p.source || "PubMed").toLowerCase() === activeSource.toLowerCase();
+            }
+            
+            return matchesQuery && matchesCategory && matchesSource;
+        });
+
         renderLibrary();
     }
+    
+    // アカデミック・フィルタ・リスナーの登録
+    document.querySelectorAll('#categoryFilters .filter-pill').forEach(btn => {
+        btn.onclick = () => {
+            document.querySelectorAll('#categoryFilters .filter-pill').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeCategory = btn.dataset.category;
+            performSearch();
+        };
+    });
+    
+    document.querySelectorAll('#sourceFilters .filter-pill').forEach(btn => {
+        btn.onclick = () => {
+            document.querySelectorAll('#sourceFilters .filter-pill').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeSource = btn.dataset.source;
+            performSearch();
+        };
+    });
 
     function renderLibrary() {
         if (!paperIndexList) return;
@@ -242,8 +277,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="card-authors-row" style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--accent-primary); opacity: 0.8;">${displayAuthors}</div>
                 </div>
                 <div class="card-actions-v">
-                    <button class="primary-btn" onclick="window.openPaperModal(${i})" style="width: 100%; border-radius: 8px; padding: 0.8rem;">
+                    <button class="primary-btn" onclick="window.openPaperModal(${i})" style="width: 100%; border-radius: 8px; padding: 0.8rem; margin-bottom: 0.5rem;">
                         ${btnLabel}
+                    </button>
+                    <button class="cite-btn" onclick="window.copyCitation(${i})" style="width: 100%; background: transparent; border: 1px solid rgba(255,255,255,0.1); color: var(--text-secondary); font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer;">
+                        CITE
                     </button>
                 </div>
             `;
@@ -283,6 +321,17 @@ document.addEventListener('DOMContentLoaded', function() {
     
     document.querySelectorAll('.close-modal').forEach(btn => btn.onclick = closeModal);
     window.onclick = (e) => { if (e.target.classList.contains('modal')) closeModal(); };
+
+    window.copyCitation = function(index) {
+        const p = filteredData[index];
+        if (!p) return;
+        const year = p.year || (p.date || "").match(/\d{4}/)?.[0] || "n.d.";
+        const citation = `${p.authors}. ${p.title} PolyP Study database. ${year}; PMID: ${p.id}.`;
+        
+        navigator.clipboard.writeText(citation).then(() => {
+            alert("Citation copied to clipboard (Vancouver Style)");
+        });
+    };
 
     if (searchBtn) searchBtn.onclick = performSearch;
     if (searchInput) searchInput.oninput = performSearch;

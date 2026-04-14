@@ -117,7 +117,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const trendChart = document.getElementById('trendChart');
         if (!trendChart || !stats) return;
         trendChart.innerHTML = '';
-        const years = Object.keys(stats).sort();
+        // 最新年度から過去へ遡るようにソート (2026, 2025, 2024...)
+        const years = Object.keys(stats).sort((a, b) => b - a);
         const max = Math.max(...Object.values(stats), 1);
         const isMobile = window.innerWidth < 768;
         
@@ -126,7 +127,7 @@ document.addEventListener('DOMContentLoaded', function() {
             bar.className = 'trend-bar';
             bar.style.flex = "1";
             
-            // 視覚的密度を向上: 平方根スケールを採用し、少数の年次でも存在感を確保
+            // 平方根スケールで視覚的密度を確保
             const scaledHeight = (Math.sqrt(stats[y]) / Math.sqrt(max) * 100).toFixed(2);
             bar.style.height = scaledHeight + '%';
             
@@ -146,13 +147,11 @@ document.addEventListener('DOMContentLoaded', function() {
             trendChart.appendChild(bar);
         });
 
-        // 2024年以降の最新データへダイレクト・フォーカス (Mobile/PC)
-        setTimeout(() => {
-            const lastBar = trendChart.lastElementChild;
-            if (lastBar) {
-                lastBar.scrollIntoView({ behavior: 'smooth', inline: 'end', block: 'nearest' });
-            }
-        }, 1000);
+        // 最新が左端に来るため、スクロール初期位置は左（0）に固定
+        const chartArea = document.querySelector('.dashboard-chart-area');
+        if (chartArea) {
+            chartArea.scrollLeft = 0;
+        }
     }
 
     function renderTopicCloudFromSummary(counts) {

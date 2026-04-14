@@ -362,9 +362,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const eliteCount = document.getElementById('eliteCount');
             if (eliteCount) animateValue(eliteCount, 0, papersData.length, 1500);
 
-            renderTrendsChart(data.official_stats);
+            renderTrendsChart(data.official_stats || data.global_historical_stats);
             renderTopicCloud(data);
-            performSearch();
+            setTimeout(() => {
+                papersData = data.papers || [];
+                filteredData = [...papersData];
+                finishLoading(loadingInterval);
+                performSearch();
+            }, 50);
         })
         .catch(err => {
             console.error("Data Load Error:", err);
@@ -616,10 +621,14 @@ document.addEventListener('DOMContentLoaded', function() {
         trendChart.innerHTML = '';
         const years = Object.keys(stats).sort();
         const max = Math.max(...Object.values(stats), 1);
+        
+        // グラフがコンテナを突き破らないように幅を配分
         years.forEach(y => {
             const bar = document.createElement('div');
             bar.className = 'trend-bar';
+            bar.style.flex = "1"; // 全体の幅に均等に収める
             bar.style.height = (stats[y] / max * 100) + '%';
+            bar.style.minWidth = "25px"; // スマホパノラマ用
             bar.style.cursor = 'pointer';
             bar.onclick = () => window.filterByYear(y);
             

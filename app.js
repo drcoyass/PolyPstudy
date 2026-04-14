@@ -346,6 +346,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     };
 
+    window.openMembership = function() {
+        window.open('https://note.com/drcoyass/membership', '_blank');
+    };
+
     if (searchBtn) searchBtn.onclick = performSearch;
     if (searchInput) searchInput.oninput = performSearch;
     const loadMoreBtn = document.getElementById('loadMoreBtn');

@@ -1484,6 +1484,23 @@ button, .primary-btn, .secondary-btn {
     margin-right: 8px;
 }
 
+/* Scientific Manifesto Typography */
+.manifesto-text {
+    max-width: 800px;
+    margin: 2.5rem auto;
+    font-size: 1.15rem;
+    line-height: 1.9;
+    opacity: 0.95;
+    color: var(--text-secondary);
+    text-align: center;
+    font-weight: 300;
+}
+
+.manifesto-text strong {
+    color: var(--accent-primary);
+    font-weight: 700;
+}
+
 /* Academic Control Panel - PhD Level Refinement */
 .academic-control-panel {
     display: flex;

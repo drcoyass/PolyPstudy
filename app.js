@@ -138,17 +138,25 @@ document.addEventListener('DOMContentLoaded', function() {
                     document.getElementById('papers').scrollIntoView({ behavior: 'smooth' });
                 }
             };
-            bar.innerHTML = `<span class="trend-bar-value">${stats[y]}</span><span class="trend-bar-inner">${y}</span>`;
+            bar.innerHTML = `
+                <span class="trend-bar-value">${stats[y]}</span>
+                <span class="trend-bar-inner">${y}</span>
+            `;
             trendChart.appendChild(bar);
         });
 
-        // Auto-scroll to latest research (end of chart) after rendering
-        setTimeout(() => {
-            const chartArea = document.querySelector('.dashboard-chart-area');
-            if (chartArea) {
-                chartArea.scrollLeft = chartArea.scrollWidth;
-            }
-        }, 600);
+        // Use more robust scrolling logic for mobile
+        requestAnimationFrame(() => {
+            setTimeout(() => {
+                const chartArea = document.querySelector('.dashboard-chart-area');
+                if (chartArea) {
+                    chartArea.scrollTo({
+                        left: chartArea.scrollWidth,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 800);
+        });
     }
 
     function renderTopicCloudFromSummary(counts) {

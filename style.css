@@ -1716,7 +1716,14 @@ button, .primary-btn, .secondary-btn {
     }
 
     .dashboard-panel h2 {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+    }
+
+    .area-label {
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
     }
 
     .section-tag {
@@ -1842,7 +1849,12 @@ button, .primary-btn, .secondary-btn {
     background: linear-gradient(to top, var(--accent-cyan), var(--accent-primary));
     border-radius: 4px 4px 0 0;
     transition: all 0.3s ease;
-    /* min-width は JS 側で動的に制御するため、CSSでは固定しない */
+    min-height: 12px; /* 小さなデータでも存在感を持たせる */
+}
+
+.trend-bar:hover {
+    background: var(--highlight-color);
+    box-shadow: 0 0 15px var(--accent-primary);
 }
 
 /* --- Elite & Premium Elements (Restored) --- */

@@ -1410,6 +1410,44 @@ button, .primary-btn, .secondary-btn {
     overflow: hidden;
 }
 
+/* Institutional Synergy - Premium Aesthetics */
+.synergy-canvas {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.synergy-glow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle at center, rgba(6, 182, 212, 0.1) 0%, transparent 70%);
+}
+
+.synergy-content {
+    text-align: center;
+    z-index: 1;
+}
+
+.synergy-label {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+}
+
+.synergy-badges {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
     .dashboard-panel {
         padding: 1.5rem;
@@ -1506,8 +1544,9 @@ button, .primary-btn, .secondary-btn {
     line-height: 1.7;
     color: rgba(203, 213, 225, 0.85);
     display: -webkit-box;
-    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2; /* Future proofing */
     overflow: hidden;
 }
 
@@ -1722,7 +1761,8 @@ button, .primary-btn, .secondary-btn {
     /* Dashboard - Chart Panorama Logic */
     .dashboard-chart-area {
         overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
+        overflow-y: hidden;
+        scrollbar-width: thin; /* Firefox */
         padding-bottom: 1.5rem;
         margin-bottom: 2rem;
     }

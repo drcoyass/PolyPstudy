@@ -1476,8 +1476,20 @@ button, .primary-btn, .secondary-btn {
 }
 
 @media (max-width: 768px) {
+    header .container {
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
     header nav {
-        display: none; /* シンプルにするために一旦非表示、またはハンバーガー化 */
+        display: none; 
+    }
+    
+    /* 言語切り替えボタンだけはスマホでも表示する */
+    #langToggle {
+        display: block !important;
+        padding: 0.4rem 0.8rem;
+        font-size: 0.75rem;
     }
     
     .hero h1 {

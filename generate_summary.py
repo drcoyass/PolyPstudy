@@ -10,11 +10,12 @@ def generate_summary_accurate():
         print(f"Error: {data_path} not found.")
         return
 
-    print("📊 Analyzing 1.9k papers for maximum accuracy...")
+    # 読み込み
     with open(data_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     papers = data.get("papers", [])
+    print(f"📊 Analyzing {len(papers):,} papers for maximum accuracy...")
     
     # 全論文から直接年数を集計（公式データの不備を補完）
     years_list = []

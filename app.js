@@ -207,11 +207,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const displayAuthors = (p.authors || "Academic Record");
             const btnLabel = currentLang === 'ja' ? '詳細解析' : 'DETAIL';
             
+            // 確実に年数を抽出するエリート・ロジック
+            let yearDisplay = p.year;
+            if (!yearDisplay || yearDisplay === '---' || yearDisplay === 'Unknown') {
+                const dateMatch = (p.date || "").match(/\d{4}/);
+                yearDisplay = dateMatch ? dateMatch[0] : '---';
+            }
+            
             // 論文の権威性を示すバッジ類
             card.innerHTML = `
                 <div class="card-side-info">
-                    <div class="year-badge">${p.year || '---'}</div>
-                    <div class="source-badge">PUBMED</div>
+                    <div class="year-badge">${yearDisplay}</div>
+                    <div class="source-badge">${(p.source || 'PubMed').toUpperCase()}</div>
                 </div>
                 <div class="card-main-content">
                     <div class="card-header-row" style="margin-bottom: 0.5rem; opacity: 0.6; font-size: 0.75rem;">

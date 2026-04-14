@@ -119,17 +119,18 @@ document.addEventListener('DOMContentLoaded', function() {
         trendChart.innerHTML = '';
         const years = Object.keys(stats).sort();
         const max = Math.max(...Object.values(stats), 1);
-        
-        // 画面幅に応じて棒の太さを動的に調整（デスクトップでの突き抜けを防止）
         const isMobile = window.innerWidth < 768;
         
         years.forEach(y => {
             const bar = document.createElement('div');
             bar.className = 'trend-bar';
             bar.style.flex = "1";
-            bar.style.height = (stats[y] / max * 100) + '%';
-            // モバイルなら指で触りやすい太さを維持、デスクトップなら枠に収める
-            bar.style.minWidth = isMobile ? "25px" : "1px"; 
+            
+            // 視覚的密度を向上: 平方根スケールを採用し、少数の年次でも存在感を確保
+            const scaledHeight = (Math.sqrt(stats[y]) / Math.sqrt(max) * 100).toFixed(2);
+            bar.style.height = scaledHeight + '%';
+            
+            bar.style.minWidth = isMobile ? "30px" : "12px"; 
             bar.style.cursor = 'pointer';
             bar.onclick = () => {
                 if (searchInput) {
@@ -145,18 +146,13 @@ document.addEventListener('DOMContentLoaded', function() {
             trendChart.appendChild(bar);
         });
 
-        // Use more robust scrolling logic for mobile
-        requestAnimationFrame(() => {
-            setTimeout(() => {
-                const chartArea = document.querySelector('.dashboard-chart-area');
-                if (chartArea) {
-                    chartArea.scrollTo({
-                        left: chartArea.scrollWidth,
-                        behavior: 'smooth'
-                    });
-                }
-            }, 800);
-        });
+        // 2024年以降の最新データへダイレクト・フォーカス (Mobile/PC)
+        setTimeout(() => {
+            const lastBar = trendChart.lastElementChild;
+            if (lastBar) {
+                lastBar.scrollIntoView({ behavior: 'smooth', inline: 'end', block: 'nearest' });
+            }
+        }, 1000);
     }
 
     function renderTopicCloudFromSummary(counts) {

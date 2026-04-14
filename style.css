@@ -1716,9 +1716,10 @@ button, .primary-btn, .secondary-btn {
     }
 
     .dashboard-panel h2 {
-        font-size: 1.4rem !important;
-        line-height: 1.2;
-        margin-bottom: 1.5rem;
+        font-size: 1.25rem !important; /* 表示崩れを完全に防ぐサイズ */
+        line-height: 1.1;
+        margin-bottom: 1rem;
+        letter-spacing: -0.02em;
     }
 
     .area-label {

@@ -141,6 +141,14 @@ document.addEventListener('DOMContentLoaded', function() {
             bar.innerHTML = `<span class="trend-bar-value">${stats[y]}</span><span class="trend-bar-inner">${y}</span>`;
             trendChart.appendChild(bar);
         });
+
+        // Auto-scroll to latest research (end of chart) after rendering
+        setTimeout(() => {
+            const chartArea = document.querySelector('.dashboard-chart-area');
+            if (chartArea) {
+                chartArea.scrollLeft = chartArea.scrollWidth;
+            }
+        }, 600);
     }
 
     function renderTopicCloudFromSummary(counts) {

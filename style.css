@@ -1668,7 +1668,20 @@ button, .primary-btn, .secondary-btn {
 @media (max-width: 768px) {
     /* Fluid Typography & Layout */
     body {
-        font-size: 15px; /* スマホで読みやすい基本サイズ */
+        font-size: 15px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem !important; /* スマホで見出しを少し小さく */
+        letter-spacing: -1px;
+    }
+
+    .dashboard-panel h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .section-tag {
+        font-size: 0.7rem;
     }
 
     .container {
@@ -1706,16 +1719,29 @@ button, .primary-btn, .secondary-btn {
         text-align: justify;
     }
 
-    /* Dashboard - Chart Overlap Fix */
+    /* Dashboard - Chart Panorama Logic */
     .dashboard-chart-area {
-        overflow-x: auto; /* グラフを横スクロール可能にして重なりを回避 */
+        overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    /* スクロールバーの美装 (iPhone/Android対応) */
+    .dashboard-chart-area::-webkit-scrollbar {
+        height: 4px;
+    }
+    .dashboard-chart-area::-webkit-scrollbar-thumb {
+        background: rgba(var(--accent-primary-rgb), 0.3);
+        border-radius: 10px;
     }
 
     .trend-chart-container {
-        min-width: 600px; /* グラフの解像度を確保 */
-        height: 250px;
+        min-width: 800px; /* 1950年から2025年までを美しく表示するために確保 */
+        height: 280px;
+        display: flex;
+        align-items: flex-end;
+        gap: 2px;
     }
 
     /* Topic Cloud - Better wrapping */

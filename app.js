@@ -92,6 +92,20 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(res => res.json())
         .then(data => {
             papersData = data.papers || [];
+            
+            // 統合ソート・エンジン: 最新順 (2026, 2025, 2024...) に全データを再整列
+            papersData.sort((a, b) => {
+                const getYear = (p) => {
+                    let y = p.year;
+                    if (!y || y === 'Unknown' || y === '---') {
+                        const match = (p.date || "").match(/\d{4}/);
+                        y = match ? match[0] : '0';
+                    }
+                    return parseInt(y);
+                };
+                return getYear(b) - getYear(a);
+            });
+
             filteredData = [...papersData];
             finishLoading();
             performSearch();

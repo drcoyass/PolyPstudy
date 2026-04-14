@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             papersData = data.papers || [];
             
-            // 統合ソート・エンジン: 最新順 (2026, 2025, 2024...) に全データを再整列
+            // 統合マスター・ソート・エンジン (Triple-Tier Validation)
             papersData.sort((a, b) => {
                 const getYear = (p) => {
                     let y = p.year;
@@ -103,7 +103,20 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     return parseInt(y);
                 };
-                return getYear(b) - getYear(a);
+
+                const yearA = getYear(a);
+                const yearB = getYear(b);
+
+                // Tier 1: 年次による降順ソート (2026 > 2025 > 2024...)
+                if (yearB !== yearA) return yearB - yearA;
+
+                // Tier 2: 同じ年次内では PMID (数値) でソート。大きいほど最新。
+                const idA = parseInt(a.id) || 0;
+                const idB = parseInt(b.id) || 0;
+                if (idB !== idA) return idB - idA;
+
+                // Tier 3: 万が一IDも同じ、または比較不能な場合はタイトルのアルファベット順
+                return (a.title || "").localeCompare(b.title || "");
             });
 
             filteredData = [...papersData];

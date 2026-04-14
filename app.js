@@ -191,17 +191,28 @@ document.addEventListener('DOMContentLoaded', function() {
         items.forEach((p, i) => {
             const card = document.createElement('div');
             card.className = 'knowledge-card';
+            
             const displayTitle = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
+            const displayAuthors = (p.authors || "Academic Record");
+            const btnLabel = currentLang === 'ja' ? '詳細解析' : 'DETAIL';
+            
+            // 論文の権威性を示すバッジ類
             card.innerHTML = `
                 <div class="card-side-info">
                     <div class="year-badge">${p.year || '---'}</div>
+                    <div class="source-badge">PUBMED</div>
                 </div>
                 <div class="card-main-content">
+                    <div class="card-header-row" style="margin-bottom: 0.5rem; opacity: 0.6; font-size: 0.75rem;">
+                        <span>PMID: ${p.id}</span>
+                    </div>
                     <div class="card-title">${displayTitle}</div>
-                    <div class="card-authors-row">${p.authors || "Academic Record"}</div>
+                    <div class="card-authors-row" style="margin-top: 0.5rem; font-size: 0.85rem; color: var(--accent-primary); opacity: 0.8;">${displayAuthors}</div>
                 </div>
                 <div class="card-actions-v">
-                    <button class="primary-btn" onclick="window.openPaperModal(${i})">DETAIL</button>
+                    <button class="primary-btn" onclick="window.openPaperModal(${i})" style="width: 100%; border-radius: 8px; padding: 0.8rem;">
+                        ${btnLabel}
+                    </button>
                 </div>
             `;
             paperIndexList.appendChild(card);

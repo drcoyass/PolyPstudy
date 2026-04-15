@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/set-up-python@v4
         with:
           python-version: '3.9'
 
@@ -22,15 +22,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install deep-translator
 
-      - name: Run sync script and Guard
-        run: |
-          python sync_all_research.py
-          python portal_guardian.py
+      - name: Run sync script
+        run: python sync_all_research.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/latest_papers.json guardian_log.txt
-          git commit -m "Auto-update: Sync and Guardian Audit ($(date +'%Y-%m-%d'))" || echo "No changes to commit"
+          git add data/latest_papers.json
+          git commit -m "Auto-update: Sync latest PubMed research ($(date +'%Y-%m-%d'))" || echo "No changes to commit"
           git push

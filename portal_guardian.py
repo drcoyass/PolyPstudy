@@ -54,14 +54,20 @@ class SuperIntelligentGuardian:
                 continue
             seen_ids.add(pid)
 
-            # 2. HTML特殊文字のデコード (&amp; -> & など)
-            if 'title' in p and isinstance(p['title'], str):
-                original = p['title']
-                p['title'] = unescape(original)
-                if original != p['title']:
-                    self.stats['cleansed_chars'] += 1
+            # 2. タイトルの形式確定（文字列化）を最優先で実行
+            original_title = p.get('title', "Untitled")
+            if isinstance(original_title, dict):
+                # 辞書形式の場合は最初の値、または 'text' フィールドを取得
+                p['title'] = str(next(iter(original_title.values())) if original_title else "No Title")
+                self.stats['fixed_titles'] += 1
+            elif not isinstance(original_title, str):
+                p['title'] = str(original_title)
+            
+            # 3. HTML特殊文字のデコード (&amp; -> & など)
+            p['title'] = unescape(p['title']).strip()
+            self.stats['cleansed_chars'] += 1
 
-            # 3. 年次正規化 (PhD Level)
+            # 4. 年次正規化 (PhD Level)
             if 'date' in p and str(p.get('date')):
                 match = re.search(r'\d{4}', str(p['date']))
                 if match:
@@ -70,31 +76,25 @@ class SuperIntelligentGuardian:
                         p['year'] = y
                         self.stats['fixed_years'] += 1
 
-            # 4. リンクの自動生成 (PMIDベース)
+            # 5. リンクの自動生成 (PMIDベース)
             if not p.get('link') or p['link'] == '---':
                 if str(pid).isdigit():
                     p['link'] = f"https://pubmed.ncbi.nlm.nih.gov/{pid}/"
                     self.stats['fixed_links'] += 1
 
-            # 5. セマンティック・カテゴリ補完 (Semantic Categorization)
-            if p.get('title'):
-                title_lower = p['title'].lower()
-                source_lower = str(p.get('source', '')).lower()
-                
-                # 日本語化されたカテゴリラベルが空なら自動推測
-                if not p.get('category'):
-                    detected = []
-                    for cat, keywords in category_map.items():
-                        if any(k in title_lower for k in keywords) or any(k in source_lower for k in keywords):
-                            detected.append(cat)
-                    if detected:
-                        p['category'] = ", ".join(detected)
-                        self.stats['categorized'] += 1
-
-            # 6. タイトルの異常修正
-            if isinstance(p['title'], dict):
-                p['title'] = str(next(iter(p['title'].values())) if p['title'] else "Untitled").strip()
-                self.stats['fixed_titles'] += 1
+            # 6. セマンティック・カテゴリ補完 (Semantic Categorization)
+            title_lower = p['title'].lower()
+            source_lower = str(p.get('source', '')).lower()
+            
+            # 日本語化されたカテゴリラベルが空なら自動推測
+            if not p.get('category'):
+                detected = []
+                for cat, keywords in category_map.items():
+                    if any(k in title_lower for k in keywords) or any(k in source_lower for k in keywords):
+                        detected.append(cat)
+                if detected:
+                    p['category'] = ", ".join(detected)
+                    self.stats['categorized'] += 1
 
             cleansed_papers.append(p)
 

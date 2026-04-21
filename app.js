@@ -323,8 +323,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function appendMessage(sender, text) {
         const msg = document.createElement('div');
-        msg.className = `agent-msg \${sender}`;
-        msg.innerHTML = `<p>\${text}</p>`;
+        msg.className = `agent-msg ${sender}`;
+        msg.innerHTML = `<p>${text}</p>`;
         aiAgent.body.appendChild(msg);
         aiAgent.body.scrollTop = aiAgent.body.scrollHeight;
     }
@@ -536,7 +536,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.toggleAudioSummary = function(index) {
         const p = filteredData[index];
-        const btn = document.getElementById(`audio-btn-\${p.id}`);
+        const btn = document.getElementById(`audio-btn-${p.id}`);
         
         if (speechSynth.speaking) {
             speechSynth.cancel();

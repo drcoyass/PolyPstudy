@@ -563,3 +563,57 @@ document.addEventListener('DOMContentLoaded', function() {
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     if (loadMoreBtn) loadMoreBtn.onclick = () => { displayedCount += 50; renderLibrary(); };
 });
+
+    function initInteractiveMap() {
+        const mapContainer = document.getElementById('interactive-map');
+        if (!mapContainer) return;
+
+        // Initialize Leaflet Map (Dark Mode)
+        const map = L.map('interactive-map', {
+            zoomControl: false // custom position
+        }).setView([35.6895, 139.6917], 2); // default center Japan/Global
+        
+        L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Fetch extracted affiliations
+        fetch('data/institutions.json?t=' + Date.now())
+            .then(res => res.json())
+            .then(data => {
+                if (data.locations && data.locations.length > 0) {
+                    const markers = L.featureGroup();
+                    data.locations.forEach(loc => {
+                        const marker = L.circleMarker([loc.lat, loc.lng], {
+                            radius: 6,
+                            fillColor: "#06b6d4", // cyan
+                            color: "#fff",
+                            weight: 1,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        });
+                        
+                        const popupContent = `
+                            <div style="font-family: 'Outfit', sans-serif; color: #333; max-width: 200px;">
+                                <strong style="color: #4f46e5; margin-bottom: 5px; display: block; font-size: 1.1em;">${loc.affiliation}</strong>
+                                <span style="font-size: 0.85em; color: #666; line-height: 1.3; display: block; margin-top: 5px;">${loc.title}</span>
+                                <a href="https://pubmed.ncbi.nlm.nih.gov/${loc.pmid}/" target="_blank" style="display: inline-block; margin-top: 8px; font-size: 0.8em; color: #06b6d4; text-decoration: none; font-weight: bold;">View on PubMed ↗</a>
+                            </div>
+                        `;
+                        marker.bindPopup(popupContent);
+                        markers.addLayer(marker);
+                    });
+                    map.addLayer(markers);
+                    map.fitBounds(markers.getBounds().pad(0.1));
+                }
+            })
+            .catch(err => console.log('No realistic map data yet, load default hubs.', err));
+    }
+    
+    // Call the map init
+    setTimeout(initInteractiveMap, 500);
+

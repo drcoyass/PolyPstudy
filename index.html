@@ -48,6 +48,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <!-- 3D & Advanced Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
 <body class="premium-theme dark-mode">
     <!-- Premium 100% Quality Add-ons -->
@@ -133,18 +135,10 @@
                     <div class="analytics-header">
                         <span class="badge">Global Research Impact</span>
                         <h2>Polyp <span class="highlight">World Map</span></h2>
-                        <p>Visualizing the global dominance and institutional density of polyphosphate studies.</p>
+                        <p>Interactive verification: Zoom into specific research hubs and explore exact institutional affiliations underlying the polyphosphate intelligence data.</p>
                     </div>
-                    <div class="world-map-placeholder">
-                        <div class="map-point us" data-count="8,402"></div>
-                        <div class="map-point eu" data-count="5,120"></div>
-                        <div class="map-point jp" data-count="2,904"></div>
-                        <div class="map-point cn" data-count="1,200"></div>
-                        <div class="map-stats-overlay">
-                            <div class="m-stat"><span>🇺🇸 USA</span><strong>8,402</strong></div>
-                            <div class="m-stat"><span>🇪🇺 EU</span><strong>5,120</strong></div>
-                            <div class="m-stat"><span>🇯🇵 JAPAN</span><strong>2,904</strong></div>
-                        </div>
+                    <div class="world-map-wrapper" style="position: relative; height: 500px; width: 100%; margin-top: 1.5rem; border-radius: 16px; overflow: hidden; border: 1px solid var(--border-glass);">
+                        <div id="interactive-map" style="width: 100%; height: 100%; background: #060913;"></div>
                     </div>
                 </div>
             </div>

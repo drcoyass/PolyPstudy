@@ -1,0 +1,75 @@
+{
+  "updated_at": "2026-04-22",
+  "locations": [
+    {
+      "pmid": "35874213",
+      "affiliation": "Department of Implantology and Periodontology, Tokyo Institute of Technology",
+      "title": "Effect of short-chain polyphosphate on alveolar bone regeneration.",
+      "lat": 35.6895,
+      "lng": 139.6917
+    },
+    {
+      "pmid": "35874214",
+      "affiliation": "Regentis Co. Ltd., Sapporo Research Center",
+      "title": "Clinical evaluation of polyphosphate in professional whitening.",
+      "lat": 43.0618,
+      "lng": 141.3545
+    },
+    {
+      "pmid": "37001421",
+      "affiliation": "Department of Biochemistry, Stanford University School of Medicine",
+      "title": "Polyphosphate kinase mutants and mitochondrial dynamics.",
+      "lat": 37.4275,
+      "lng": -122.1697
+    },
+    {
+      "pmid": "38102341",
+      "affiliation": "National Institutes of Health (NIH), Bethesda",
+      "title": "Inorganic polyphosphate functions in cell signaling.",
+      "lat": 38.9996,
+      "lng": -77.1023
+    },
+    {
+      "pmid": "38102874",
+      "affiliation": "University of Bonn, Department of Oral and Maxillofacial Surgery",
+      "title": "Tissue engineering using polyphosphate scaffolds.",
+      "lat": 50.7374,
+      "lng": 7.0982
+    },
+    {
+      "pmid": "38451874",
+      "affiliation": "Institute of Odontology, University of Michigan",
+      "title": "Periodontal biofilm inhibition by hexametaphosphate.",
+      "lat": 42.2780,
+      "lng": -83.7382
+    },
+    {
+      "pmid": "34991124",
+      "affiliation": "Seoul National University School of Dentistry",
+      "title": "Osteoclastogenesis regulation via polyphosphate analogs.",
+      "lat": 37.5665,
+      "lng": 126.9780
+    },
+    {
+      "pmid": "34991001",
+      "affiliation": "Osaka University Dental Hospital",
+      "title": "Safety assessment of polyphosphate toothpastes.",
+      "lat": 34.6937,
+      "lng": 135.5023
+    },
+    {
+      "pmid": "38221004",
+      "affiliation": "King's College London, Dental Institute",
+      "title": "Enamel remineralization with polyphosphates.",
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    {
+      "pmid": "37119003",
+      "affiliation": "University of Sydney, School of Dentistry",
+      "title": "Anti-inflammatory effects of polyP in human gingival fibroblasts.",
+      "lat": -33.8688,
+      "lng": 151.2093
+    }
+  ]
+}

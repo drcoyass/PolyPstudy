@@ -346,7 +346,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }, { threshold: 0.1 });
 
-        document.querySelectorAll('section, .glass-card, .timeline-event').forEach(el => {
+        document.querySelectorAll('.glass-card, .timeline-event, .insight-visual, .insight-content, .section-header').forEach(el => {
             el.classList.add('reveal');
             observer.observe(el);
         });

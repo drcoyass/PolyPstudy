@@ -165,13 +165,10 @@ document.addEventListener('DOMContentLoaded', function() {
         years.forEach(y => {
             const bar = document.createElement('div');
             bar.className = 'trend-bar';
-            bar.style.flex = "1";
-            
             // 平方根スケールで視覚的密度を確保
             const scaledHeight = (Math.sqrt(stats[y]) / Math.sqrt(max) * 100).toFixed(2);
             bar.style.height = scaledHeight + '%';
             
-            bar.style.minWidth = isMobile ? "30px" : "12px"; 
             bar.style.cursor = 'pointer';
             bar.onclick = () => {
                 if (searchInput) {

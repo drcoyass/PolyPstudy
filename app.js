@@ -562,46 +562,70 @@ document.addEventListener('DOMContentLoaded', function() {
     if (searchInput) searchInput.oninput = performSearch;
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     if (loadMoreBtn) loadMoreBtn.onclick = () => { displayedCount += 50; renderLibrary(); };
+
+    // --- Global Filter API for Map Integration ---
+    window.filterByInstitution = function(name, pmidsStr) {
+        if (!papersData || papersData.length === 0) return;
+        
+        const allowedIds = pmidsStr.split(',');
+        const searchInput = document.getElementById('searchInput');
+        if (searchInput) searchInput.value = "Institution: " + name;
+        
+        filteredData = papersData.filter(p => allowedIds.includes(String(p.id)));
+        displayedCount = 50;
+        
+        renderLibrary();
+        
+        const papersSection = document.getElementById('papers');
+        if (papersSection) papersSection.scrollIntoView({ behavior: 'smooth' });
+    };
 });
 
     function initInteractiveMap() {
         const mapContainer = document.getElementById('interactive-map');
         if (!mapContainer) return;
 
-        // Initialize Leaflet Map (Dark Mode)
-        const map = L.map('interactive-map', {
-            zoomControl: false // custom position
-        }).setView([35.6895, 139.6917], 2); // default center Japan/Global
-        
+        const map = L.map('interactive-map', { zoomControl: false }).setView([35.6895, 139.6917], 2);
         L.control.zoom({ position: 'bottomright' }).addTo(map);
 
         L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+            attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
             subdomains: 'abcd',
             maxZoom: 19
         }).addTo(map);
 
-        // Fetch extracted affiliations
         fetch('data/institutions.json?t=' + Date.now())
             .then(res => res.json())
             .then(data => {
                 if (data.locations && data.locations.length > 0) {
                     const markers = L.featureGroup();
                     data.locations.forEach(loc => {
+                        // Size marker based on paper count
+                        const pCount = loc.paperCount || 1;
+                        const radiusSize = Math.min(Math.max(pCount * 1.5, 6), 18);
+                        
                         const marker = L.circleMarker([loc.lat, loc.lng], {
-                            radius: 6,
-                            fillColor: "#06b6d4", // cyan
+                            radius: radiusSize,
+                            fillColor: "#06b6d4",
                             color: "#fff",
                             weight: 1,
                             opacity: 1,
                             fillOpacity: 0.8
                         });
                         
+                        const pmidsCsv = (loc.pmids || []).join(',');
+                        
                         const popupContent = `
-                            <div style="font-family: 'Outfit', sans-serif; color: #333; max-width: 200px;">
-                                <strong style="color: #4f46e5; margin-bottom: 5px; display: block; font-size: 1.1em;">${loc.affiliation}</strong>
-                                <span style="font-size: 0.85em; color: #666; line-height: 1.3; display: block; margin-top: 5px;">${loc.title}</span>
-                                <a href="https://pubmed.ncbi.nlm.nih.gov/${loc.pmid}/" target="_blank" style="display: inline-block; margin-top: 8px; font-size: 0.8em; color: #06b6d4; text-decoration: none; font-weight: bold;">View on PubMed ↗</a>
+                            <div style="font-family: 'Outfit', sans-serif; color: #333; max-width: 250px;">
+                                <strong style="color: #4f46e5; margin-bottom: 5px; display: block; font-size: 1.1em; line-height: 1.2;">${loc.name}</strong>
+                                <span style="font-size: 0.85em; color: #666; display: block; margin-bottom: 10px;">${loc.raw_affiliation || loc.affiliation}</span>
+                                <div style="background: rgba(99,102,241,0.1); padding: 5px 10px; border-radius: 6px; display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+                                    <span style="font-size: 0.8rem; font-weight: bold;">Papers found:</span>
+                                    <span style="font-size: 1rem; font-weight: 800; color: #4f46e5;">${pCount}</span>
+                                </div>
+                                <button onclick="window.filterByInstitution('${loc.name.replace(/'/g, "\\'")}', '${pmidsCsv}')" style="width: 100%; padding: 8px; background: #06b6d4; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.2s;">
+                                    View Research ↗
+                                </button>
                             </div>
                         `;
                         marker.bindPopup(popupContent);
@@ -611,9 +635,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     map.fitBounds(markers.getBounds().pad(0.1));
                 }
             })
-            .catch(err => console.log('No realistic map data yet, load default hubs.', err));
+            .catch(err => console.log('Map data fetch error:', err));
     }
     
-    // Call the map init
     setTimeout(initInteractiveMap, 500);
 

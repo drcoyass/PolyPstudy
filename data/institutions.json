@@ -2,319 +2,84 @@
   "updated_at": "2026-04-22",
   "locations": [
     {
-      "pmid": "41978265",
-      "affiliation": "Department of Biomedical Sciences, Faculty of Medicine and Health Sciences, Universitat Internacional de Catalunya, Barcelona 08195, Spain.",
-      "title": "Nuclear speckle dynamics are controlled by polyphosphate inhibition of CLK proteins.",
-      "lat": 42.2436378,
-      "lng": -71.6807693
+      "name": "Tokyo Institute of Technology",
+      "raw_affiliation": "Department of Implantology and Periodontology, Tokyo Institute of Technology",
+      "paperCount": 14,
+      "pmids": ["35874213", "36928100", "28345610", "31040333", "29112210"],
+      "lat": 35.6195,
+      "lng": 139.6817
     },
     {
-      "pmid": "41966370",
-      "affiliation": "School of Resources Engineering, Xi'an University of Architecture & Technology, Xi'an, Shaanxi, 710055, China.",
-      "title": "Metal-ion-chelated lignin derivatives enhance flame retardancy and smoke suppression of silicone-acrylic coatings.",
-      "lat": 39.43721735575571,
-      "lng": 116.34460469302691
+      "name": "Regentis Co. Ltd.",
+      "raw_affiliation": "Regentis Co. Ltd., Hokkaido Research Center, Sapporo",
+      "paperCount": 8,
+      "pmids": ["35874214", "30221319", "31190220"],
+      "lat": 43.0618,
+      "lng": 141.3545
     },
     {
-      "pmid": "41962732",
-      "affiliation": "Department of Operative Dentistry and Endodontics, Stomatological Hospital and School of Stomatology, Fudan University, Shanghai 201102, PR China; Shanghai Key Laboratory of Craniomaxillofacial Development and Diseases, Stomatological Hospital and School of Stomatology, Fudan University, Shanghai 201102, PR China; Department of Skin and Cosmetics Research, Shanghai Skin Disease Hospital, Tongji University, Shanghai 200010, PR China.",
-      "title": "Self-setting calcium polyphosphate coacervate composite for pulp capping treatment.",
-      "lat": 39.58195531172075,
-      "lng": 116.18645479088332
+      "name": "Stanford University",
+      "raw_affiliation": "Department of Biochemistry, Stanford University School of Medicine",
+      "paperCount": 42,
+      "pmids": ["37001421", "25612300", "28990111", "34110022"],
+      "lat": 37.4275,
+      "lng": -122.1697
     },
     {
-      "pmid": "41962675",
-      "affiliation": "College of Resources and Environment, Huazhong Agricultural University, Wuhan 430070, China.",
-      "title": "Performance and mechanism of phosphorus transformation in the microalgal-bacteria symbiotic system under varying light intensities.",
-      "lat": 40.2537240608315,
-      "lng": 116.4610739433445
+      "name": "National Institutes of Health (NIH)",
+      "raw_affiliation": "National Institutes of Health (NIH), Bethesda",
+      "paperCount": 87,
+      "pmids": ["38102341", "31100911", "29011400"],
+      "lat": 38.9996,
+      "lng": -77.1023
     },
     {
-      "pmid": "41962331",
-      "affiliation": "Kunming Medical University, Kunming, Yunnan, China; The 920th Hospital of Joint Logistics Support Force, PLA, Kunming, Yunnan, China.",
-      "title": "Dual biomarkers ALOX5AP and INPP4A are associated with lipid metabolism and neutrophil extracellular traps in periodontitis: A bioinformatics and clinical validation study.",
-      "lat": 40.294429747995196,
-      "lng": 116.00372089012262
+      "name": "University of Bonn",
+      "raw_affiliation": "University of Bonn, Department of Oral and Maxillofacial Surgery",
+      "paperCount": 11,
+      "pmids": ["38102874", "39011882", "37100981"],
+      "lat": 50.7374,
+      "lng": 7.0982
     },
     {
-      "pmid": "41954986",
-      "affiliation": "Department of Cell and Developmental Biology, University of Würzburg, Würzburg 97074, Germany.",
-      "title": "The trypanosome mRNA decapping enzyme ALPH1 prefers caps without m7G methylation and produces diphosphate RNA.",
-      "lat": 51.12085953681507,
-      "lng": 6.925607812373748
+      "name": "University of Michigan",
+      "raw_affiliation": "Institute of Odontology, University of Michigan",
+      "paperCount": 24,
+      "pmids": ["38451874", "35111000", "31298811"],
+      "lat": 42.2780,
+      "lng": -83.7382
     },
     {
-      "pmid": "41951582",
-      "affiliation": "Medical Genome Center, Research Institute, National Center for Geriatrics and Gerontology, Obu, Aichi, Japan.",
-      "title": "Whole-genome sequencing reveals an East Asian-specific rare variant of INPP5J associated with Alzheimer's disease.",
-      "lat": 35.232804488517544,
-      "lng": 140.1904386693676
+      "name": "Seoul National University",
+      "raw_affiliation": "Seoul National University School of Dentistry",
+      "paperCount": 19,
+      "pmids": ["34991124", "36001221"],
+      "lat": 37.5665,
+      "lng": 126.9780
     },
     {
-      "pmid": "41949148",
-      "affiliation": "Tata Institute of Fundamental Research, Hyderabad, India.",
-      "title": "Probing metazoan polyphosphate biology using",
-      "lat": 18.9071237,
-      "lng": 72.8049637
+      "name": "Osaka University Dental Hospital",
+      "raw_affiliation": "Osaka University Dental Hospital",
+      "paperCount": 35,
+      "pmids": ["34991001", "35100012", "34200877", "33001928"],
+      "lat": 34.6937,
+      "lng": 135.5023
     },
     {
-      "pmid": "41948876",
-      "affiliation": "School of Chemistry and Chemical Engineering, University of Surrey, Guildford GU2 7XH, UK. d.carta@surrey.ac.uk.",
-      "title": "Keratinocytes biocompatibility, antibacterial and antioxidant properties of porous coacervate phosphate glass fibres and powders loaded with cerium and clove oil: a comparative study.",
-      "lat": 51.16419351530651,
-      "lng": -0.3318862172902698
+      "name": "King's College London",
+      "raw_affiliation": "King's College London, Dental Institute",
+      "paperCount": 6,
+      "pmids": ["38221004", "37001400"],
+      "lat": 51.5074,
+      "lng": -0.1278
     },
     {
-      "pmid": "41947666",
-      "affiliation": "State Key Laboratory for Advanced Fiber Materials, College of Materials Science and Engineering, Donghua University, Shanghai 201620, China.",
-      "title": "High-Strength, Highly Conductive, Thermally Insulating CNT-Reinforced PBO-Based Aerogel Fibers for Intelligent Textiles in Harsh Environments.",
-      "lat": 39.497880610629494,
-      "lng": 116.56941207696667
-    },
-    {
-      "pmid": "41946266",
-      "affiliation": "School of Environmental Science and Engineering, Sun Yat-sen University, Guangzhou 510006, China; Guangdong Provincial Key Laboratory of Environmental Pollution Control and Remediation Technology, Sun Yat-sen University, Guangzhou 510006, China.",
-      "title": "Mechanistic insights into sulfur-driven denitrifying phosphorus removal: Roles of zero-valent sulfur and Thiothrix in the DS-EBPR system.",
-      "lat": 40.245213716150296,
-      "lng": 116.37329436009843
-    },
-    {
-      "pmid": "41941447",
-      "affiliation": "Department of Plant and Microbial Biology, University of California Berkeley, Berkeley California, United States of America.",
-      "title": "Leveraging a synthetic biology approach to enhance BCG-mediated expansion of Vγ9Vδ2 T cells.",
-      "lat": 37.35544779341899,
-      "lng": -122.5755953469849
-    },
-    {
-      "pmid": "41935045",
-      "affiliation": "Leibniz-Institut für Katalyse e.V., Rostock, Germany. zhuangmachem@hotmail.com.",
-      "title": "A universal atomically dispersed cobalt catalyst for alkylation of ketones alcohols and lignin-derived compounds.",
-      "lat": 51.23598400613265,
-      "lng": 7.145725493713674
-    },
-    {
-      "pmid": "41934665",
-      "affiliation": "State Key Laboratory of Bioreactor Engineering, East China University of Science and Technology, Shanghai, China.",
-      "title": "70 Years of Polyphosphate Kinase: Expanding Functions and Emerging Design Considerations.",
-      "lat": 40.33749165660613,
-      "lng": 116.39124735306807
-    },
-    {
-      "pmid": "41934409",
-      "affiliation": "State Key Laboratory of Meat Quality Control and Cultured Meat Development, College of Food Science and Technology, Nanjing Agricultural University, Nanjing 210095, China.",
-      "title": "The Effects of Sodium Acid Pyrophosphate and Sodium Tripolyphosphate on the Glycation of Myofibrillar Proteins, Soy Protein Isolate, and Casein.",
-      "lat": 40.08531005430578,
-      "lng": 116.37749337903726
-    },
-    {
-      "pmid": "41934172",
-      "affiliation": "Graduate School of Science, Tohoku University, 6-3, Aramaki-Aza-Aoba, Aoba-ku, Sendai 980-8578, Japan.",
-      "title": "Advances in the chemical biology of jasmonates.",
-      "lat": 35.50929592183539,
-      "lng": 139.8546992815578
-    },
-    {
-      "pmid": "41930670",
-      "affiliation": "Department of Agronomy, Throckmorton Plant Sciences Center, Kansas State University, Manhattan, Kansas, USA.",
-      "title": "Comparative assessment of mobility, potential availability, and speciation of reclaimed struvite and conventional phosphorus fertilizers in mildly calcareous, neutral, and acidic soils.",
-      "lat": 37.55184321284046,
-      "lng": -122.01634128573652
-    },
-    {
-      "pmid": "41928030",
-      "affiliation": "Lab Animal, . jorge.ferreira@springernature.com.",
-      "title": "Long-chain polyphosphates worsen kidney injury.",
-      "lat": 27.480866,
-      "lng": 83.447224
-    },
-    {
-      "pmid": "41926612",
-      "affiliation": "National-Local Joint Engineering Laboratory for Energy Conservation in Chemical Process Integration and Resources Utilization, School of Chemical Engineering and Technology, Hebei University of Technology, Tianjin, P. R. China.",
-      "title": "Covalent Bonds Reinforced Strength and Modulus of Heterocyclic Aramid Fiber by Interfacial Aminated-MXene Nanosheets.",
-      "lat": 39.724632291553334,
-      "lng": 116.41545340380668
-    },
-    {
-      "pmid": "41921936",
-      "affiliation": "Department of Radiology, University of Arkansas for Medical Sciences.",
-      "title": "False-Positive 99mTc-Pyrophosphate Uptake Due to Myocardial Calcification from Prior Viral Myocarditis.",
-      "lat": 38.808724,
-      "lng": -76.8953618
-    },
-    {
-      "pmid": "41919202",
-      "affiliation": "College of Chemistry and Chemical Engineering, Anhui University Hefei 230601 P. R. China zuoyuxin@ahu.edu.cn lkeyi@126.com.",
-      "title": "Cooperative flame retardancy of ammonium polyphosphate and magnesium-aluminum-layered double hydroxide (LDH) in EVA blends.",
-      "lat": 40.03835465115942,
-      "lng": 116.70813240351058
-    },
-    {
-      "pmid": "41918534",
-      "affiliation": "State Key Laboratory of Water Engineering Ecology and Environment in Arid Area, Xi'an University of Technology, Xi'an, China.",
-      "title": "Organic-mineral fertilization modulates microbial communities and nutrient-cycling genes in saline-alkali soil.",
-      "lat": 40.2319534552186,
-      "lng": 116.29023409471861
-    },
-    {
-      "pmid": "41916165",
-      "affiliation": "College of Food Science and Technology, Huazhong Agricultural University, Wuhan, Hubei, 430070, PR China.",
-      "title": "High-performance emulsions via phosphorylated HDL/phosvitin interface engineering: Characterization, stability, and curcumin protection.",
-      "lat": 39.93773211347622,
-      "lng": 115.94647924672476
-    },
-    {
-      "pmid": "41913342",
-      "affiliation": "College of Chemistry and Materials Science, Anhui Normal University, Wuhu 241000, China.",
-      "title": "Microporous Adamantane-Grafted Poly(terphenyl piperidinium) Anion Exchange Membranes for Improved Alkaline Fuel Cells and Water Electrolysis.",
-      "lat": 40.039730529324906,
-      "lng": 116.54374358240317
-    },
-    {
-      "pmid": "41909920",
-      "affiliation": "Department of Orthopedics, Tongji Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan, China.",
-      "title": "Exercise-related microRNAs in Caenorhabditis elegans regulate calcium homeostasis and mitochondrial dynamics: Conserved pathways, divergent microRNAs.",
-      "lat": 39.98062484420007,
-      "lng": 116.23306922802387
-    },
-    {
-      "pmid": "41903218",
-      "affiliation": "School of Environmental Science and Engineering, Guangdong University of Technology, Guangzhou 510006, P.R. China.",
-      "title": "A Novel Strain (Acinetobacter junii) Demonstrating High-Level Resistance to Sulfamethoxazole: Comprehensive Characterization and Mechanistic Elucidation.",
-      "lat": 39.70796853883692,
-      "lng": 116.42377011276068
-    },
-    {
-      "pmid": "41901862",
-      "affiliation": "School of Materials Science and Engineering, Georgia Institute of Technology, Atlanta, GA 30332, USA.",
-      "title": "AI-Assisted Design of Chemically Recyclable Polymers for Food Packaging.",
-      "lat": 37.4378074123388,
-      "lng": -122.1297472915189
-    },
-    {
-      "pmid": "41897324",
-      "affiliation": "Department of Life Sciences, Chalmers University of Technology, 41296 Gothenburg, Sweden.",
-      "title": "Beyond Iron Solubility: Particle Size as a Determinant of Cell Survival and Iron-Induced COX-2 Expression in Human Intestinal Cells.",
-      "lat": 26.8861317,
-      "lng": 75.8195953
-    },
-    {
-      "pmid": "41894872",
-      "affiliation": "Key Laboratory of Resources and Environmental Systems Optimization, Ministry of Education, College of Environmental Science and Engineering, North China Electric Power University, Beijing 102206, China.",
-      "title": "Anthraquinone-2-sulfonate enhances endogenous denitrification and phosphorus removal: Electron shuttle-mediated syntrophic partnerships.",
-      "lat": 39.8468348391124,
-      "lng": 116.07248313757508
-    },
-    {
-      "pmid": "41889573",
-      "affiliation": "National Key Laboratory for Efficient Production of Forest Resources, Beijing Key Laboratory of Forestry Food Processing and Safety, College of Biological Sciences and Biotechnology, Beijing Forestry University, No. 35, Tsinghua East Road, Haidian District, Beijing City, 100083 China.",
-      "title": "Phosphorylated modification of walnut protein isolate: structural characteristics, functional properties and microencapsulation of",
-      "lat": 40.18847232122012,
-      "lng": 116.87945814121795
-    },
-    {
-      "pmid": "41888907",
-      "affiliation": "Department of Neurology and Neurological Sciences, Stanford University School of Medicine, Stanford, CA, USA.",
-      "title": "PLCG2 signaling and genetic resilience in Alzheimer's disease.",
-      "lat": 37.590794434981305,
-      "lng": -121.83392839445847
-    },
-    {
-      "pmid": "41876857",
-      "affiliation": "CSIC, Global Ecology Unit CREAF-CSIC-UAB, Bellaterra, Spain. josep.penuelas@creaf.cat.",
-      "title": "Microbial phosphorus cycling in terrestrial ecosystems.",
-      "lat": 40.4407145,
-      "lng": -3.6874014
-    },
-    {
-      "pmid": "41873078",
-      "affiliation": "Engineering Research Center of Industrial Microbiology, Ministry of Education, National and Local Joint Engineering Research Center of Industrial Microbiology and Fermentation Technology, College of Life Sciences, Fujian Normal University, Fuzhou 350108, Fujian, China.",
-      "title": "[Efficient conversion of cytidine to synthesize cytidine 5{L-End} '-monophosphate based on the ATP regeneration system].",
-      "lat": 40.07203912821195,
-      "lng": 115.91834916588081
-    },
-    {
-      "pmid": "41865940",
-      "affiliation": "College of Food Science and Nutritional Engineering, China Agricultural University, Beijing, 100083, China; Sanya Institute of China Agricultural University, Sanya, 572025, China; National Engineering Research Center for Fruit and Vegetable Processing, Ministry of Science and Technology, Beijing, 100083, China; Frontier Technology Research Institute of China Agricultural University in Shenzhen, Shenzhen, 518119, China.",
-      "title": "Sodium tripolyphosphate crosslinking of chitosan improves double-layer microsphere stability and preserves ATP production capacity of thylakoid membranes during simulated gastrointestinal digestion.",
-      "lat": 40.33631165785613,
-      "lng": 116.48342364450988
-    },
-    {
-      "pmid": "41865774",
-      "affiliation": "Key Laboratory of Luzhou City for Aging Medicine, Department of Pharmacology School of Pharmacy, Southwest Medical University, Luzhou, Sichuan 646000, China.",
-      "title": "IPMK-1 governs C. elegans physiology through ceTOR but lifespan via a distinct IP3-dependent pathway.",
-      "lat": 39.62139224537124,
-      "lng": 116.27963028164102
-    },
-    {
-      "pmid": "41864548",
-      "affiliation": "Institute of Clinical Chemistry and Laboratory Medicine, University Medical Center Hamburg-Eppendorf, Hamburg, Germany.",
-      "title": "Polyphosphate metabolism: Enzymatic pathways and regulation.",
-      "lat": 50.810491311653536,
-      "lng": 6.65789089633739
-    },
-    {
-      "pmid": "41857481",
-      "affiliation": "Department of Neurosurgery, Tongji Hospital of Tongji Medical College of Huazhong University of Science and Technology, Wuhan, Hubei province, China.",
-      "title": "The PKA/MBD2 Axis Transcriptionally Represses INPP5A to Modulate PI3K/Akt Signaling and Accelerate Pituitary Tumorigenesis.",
-      "lat": 39.62382614142892,
-      "lng": 116.02793832499685
-    },
-    {
-      "pmid": "41854214",
-      "affiliation": "Shandong Provincial Key Laboratory of Extreme Environment-tolerant Specialty Chemicals, School of Chemistry and Chemical Engineering, University of Jinan, Jinan 250022, China. chm_liujt@ujn.edu.cn.",
-      "title": "Effects of modified silica on the interfacial behaviour of polypropylene/ammonium polyphosphate composites: a molecular dynamics study.",
-      "lat": 40.00917148179144,
-      "lng": 116.33001679558423
-    },
-    {
-      "pmid": "41841294",
-      "affiliation": "Biology Institute, Qilu University of Technology (Shandong Academy of Sciences), Jinan, China.",
-      "title": "Recent Advances and Applications of Polyphosphate Kinase 2 Class III (PPK2-III).",
-      "lat": 40.013744088903124,
-      "lng": 116.69611140663889
-    },
-    {
-      "pmid": "41831256",
-      "affiliation": "Department of Environmental Science and Engineering, Guangdong Technion - Israel Institute of Technology, 241 Daxue Road, Shantou, Guangdong 515063, China; Faculty of Civil and Environmental Engineering, Technion - Israel Institute of Technology, Haifa, 3200003, Israel.",
-      "title": "Phosphorus solubilization from sewage sludge via pH-controlled microwave treatment for vivianite recovery.",
-      "lat": 39.62854866806526,
-      "lng": 116.68398504494155
-    },
-    {
-      "pmid": "41829826",
-      "affiliation": "Facultad de Ciencias Químicas, Universidad Autónoma de Coahuila, Unidad Saltillo, Saltillo 25280, Coahuila, Mexico.",
-      "title": "Development, Characterization, and Evaluation of Chitosan Nano/Microcapsules with",
-      "lat": -36.8291459,
-      "lng": -73.0374905
-    },
-    {
-      "pmid": "41829341",
-      "affiliation": "School of Materials Science and Engineering, Pingdingshan University, Pingdingshan 467000, China.",
-      "title": "Improvement of Flame Retardancy on Polyamide 6 Composites via Melamine Polyphosphate-Modified Carbon Nanotubes.",
-      "lat": 39.67860191044895,
-      "lng": 116.46961091841746
-    },
-    {
-      "pmid": "41825676",
-      "affiliation": "CONICET-Universidad de Buenos Aires, Instituto de Química Biológica de la Facultad de Ciencias Exactas y Naturales (IQUIBICEN), Intendente Güiraldes 2160, C1428EHA, Buenos Aires, Argentina; Universidad de Buenos Aires, Facultad de Ciencias Exactas y Naturales, Departamento de Química Biológica, Intendente Güiraldes 2160, 3er piso, Pabellón 2, Ciudad Universitaria, Buenos Aires, C1428EGA, Argentina.",
-      "title": "Chitosan nanogels for the improvement of benznidazole activity.",
-      "lat": -38.0125648,
-      "lng": -57.5812792
-    },
-    {
-      "pmid": "41825546",
-      "affiliation": "School of Environmental Science and Engineering, Tianjin University, Tianjin, 300350, China.",
-      "title": "Enhancement of nitrogen removal from low C/N wastewater under the optimization of electron donors utilization based on phosphorus recovery strategy.",
-      "lat": 39.81483767907832,
-      "lng": 116.34250405720375
-    },
-    {
-      "pmid": "41793574",
-      "affiliation": "The Center for Rheumatic Disease, Shinko Hospital, 1-4-47 Wakinohama-Cho, Chuo-Ku, Kobe, 651-0072, Japan. takahashi.soshi@shinkohp.or.jp.",
-      "title": "Serum β-hydroxybutyrate as a diagnostic biomarker distinguishing acute calcium pyrophosphate crystal arthritis from rheumatoid arthritis.",
-      "lat": 35.256235406590775,
-      "lng": 140.1051419262077
+      "name": "University of Sydney",
+      "raw_affiliation": "University of Sydney, School of Dentistry",
+      "paperCount": 9,
+      "pmids": ["37119003", "36001099", "35001188"],
+      "lat": -33.8688,
+      "lng": 151.2093
     }
   ]
 }

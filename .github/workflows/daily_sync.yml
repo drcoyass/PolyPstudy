@@ -25,6 +25,7 @@ jobs:
       - name: Run sync script and Guard
         run: |
           python sync_all_research.py
+          python translate_missing_intel.py
           python portal_guardian.py
 
       - name: Commit and push changes

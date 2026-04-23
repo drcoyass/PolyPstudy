@@ -2401,3 +2401,53 @@ img {
 .m-stat { font-size: 0.8rem; display: flex; justify-content: space-between; gap: 2rem; }
 .m-stat strong { color: var(--accent-cyan); }
 
+
+/* SEO Directory & Authority Enhancements */
+.seo-directory {
+    background: linear-gradient(to bottom, transparent, rgba(6, 182, 212, 0.05));
+    border-top: 1px solid var(--border-glass);
+}
+.directory-container {
+    padding: 3.5rem !important;
+}
+.directory-title {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+.directory-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+.dir-col h3 {
+    color: var(--accent-cyan);
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+.dir-col ul {
+    list-style: none;
+    padding: 0;
+}
+.dir-col li {
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(255,255,255,0.03);
+    padding-bottom: 0.5rem;
+}
+.dir-col a {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: var(--transition-smooth);
+}
+.dir-col a:hover {
+    color: var(--text-primary);
+    padding-left: 5px;
+}
+@media (max-width: 768px) {
+    .directory-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

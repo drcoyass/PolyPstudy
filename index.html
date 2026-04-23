@@ -25,15 +25,38 @@
     <meta name="twitter:image" content="https://poly-pstudy.vercel.app/images/poster_whitening.png">
     <meta name="twitter:creator" content="@coyass">
 
-    <!-- Structured Data (JSON-LD) -->
+    <!-- Advanced Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "name": "PolyP Study: Polyphosphate Intelligence Portal",
+      "description": "19,000件以上の論文データを網羅したポリリン酸（Polyphosphate）に関する世界最大級の学術インテリジェンス・ポータル。",
+      "url": "https://poly-pstudy.vercel.app/",
+      "keywords": [
+        "ポリリン酸", "Polyphosphate", "分割ポリリン酸", "短鎖分割ポリリン酸", "骨再生", "ホワイトニング", "ATP産生", "ミトコンドリア活性", "美容歯科"
+      ],
+      "creator": {
+        "@type": "Person",
+        "name": "Dr. COYASS",
+        "url": "https://coyass.com"
+      },
+      "distribution": {
+        "@type": "DataDownload",
+        "encodingFormat": "application/json",
+        "contentUrl": "https://poly-pstudy.vercel.app/data/latest_papers.json"
+      },
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "PubMed Academic Archive"
+      }
+    }
+    </script>
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "PolyP Study",
-      "alternateName": "ポリリン酸研究会データベース",
       "url": "https://poly-pstudy.vercel.app/",
-      "description": "ポリリン酸に関する19,000件以上の論文データベースと最新の臨床エビデンスを提供。",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://poly-pstudy.vercel.app/?q={search_term_string}",
@@ -375,6 +398,44 @@
             </div>
         </section>
     </main>
+
+    <!-- SEO & Insights Directory (Crawlable Static Content for Academic Authority) -->
+    <section class="seo-directory section-padding">
+        <div class="container">
+            <div class="glass-card directory-container">
+                <h2 class="directory-title">PolyP <span class="highlight">Intelligence Directory</span></h2>
+                <div class="directory-grid">
+                    <div class="dir-col">
+                        <h3>Medical & Clinical</h3>
+                        <ul>
+                            <li><a href="#papers">Bone Regeneration (骨再生の学術論文)</a></li>
+                            <li><a href="#papers">Mitochondrial Dynamics (ミトコンドリア活性化)</a></li>
+                            <li><a href="#papers">ATP Production (生体内エネルギー代謝)</a></li>
+                            <li><a href="#papers">Tissue Engineering (組織再生工学エビデンス)</a></li>
+                        </ul>
+                    </div>
+                    <div class="dir-col">
+                        <h3>Cosmetic & Dental</h3>
+                        <ul>
+                            <li><a href="#papers">Divided Polyphosphate (分割ポリリン酸の臨床)</a></li>
+                            <li><a href="#papers">Professional Whitening (ポリリン酸ホワイトニング)</a></li>
+                            <li><a href="#papers">Periodontal Health (歯周病・歯肉炎の抑制)</a></li>
+                            <li><a href="#papers">Enamel Maintenance (エナメル質の再石灰化)</a></li>
+                        </ul>
+                    </div>
+                    <div class="dir-col">
+                        <h3>Global Database</h3>
+                        <ul>
+                            <li><a href="#papers">PubMed Polyphosphate Archive</a></li>
+                            <li><a href="#papers">Dr. COYASS Research Support</a></li>
+                            <li><a href="#papers">Evidence-Based Dentistry (EBD)</a></li>
+                            <li><a href="#papers">Poly-P Intelligence Summary</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="site-footer section-padding">
         <div class="container">

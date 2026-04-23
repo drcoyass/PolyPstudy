@@ -6,7 +6,7 @@ from deep_translator import GoogleTranslator
 
 # Path configuration
 JSON_PATH = 'data/latest_papers.json'
-LIMIT = 500  # Number of papers to translate in this run
+LIMIT = 5000  # Number of papers to translate in this run
 
 # Medical glossary for consistent translation
 GLOSSARY = {

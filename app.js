@@ -134,7 +134,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
             filteredData = [...papersData];
             finishLoading();
+            
+            // --- Deep Linking & URL Sharing ---
+            const urlParams = new URLSearchParams(window.location.search);
+            const query = urlParams.get('q');
+            if (query && searchInput) {
+                searchInput.value = query;
+            }
+            
             performSearch();
+            
+            if (query) {
+                setTimeout(() => {
+                    const papersSection = document.getElementById('papers');
+                    if (papersSection) papersSection.scrollIntoView({ behavior: 'smooth' });
+                }, 600);
+            }
         })
         .catch(err => {
             console.error("Load Error:", err);
@@ -328,7 +343,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function getAgentResponse(query) {
         const q = query.toLowerCase();
-        if (q.includes('bone') || q.includes('骨')) return "Searching our 19,000+ archive... Found 1,452 papers on Bone Regeneration. I've highlighted the most cited ones in your library.";
+        
+        if (currentLang === 'ja') {
+            if (q.includes('骨') || q.includes('bone') || q.includes('再生')) return "19,000件のアーカイブから検索中...「骨再生」に関する論文を特定しました。検索結果を最適化します。";
+            if (q.includes('ホワイトニング') || q.includes('whitening') || q.includes('美容')) return "最新のエビデンスを同期しました。短鎖分割ポリリン酸（鎖長14）が臨床的に最適な結果を示しています。該当論文を表示します。";
+            if (q.includes('誰') || q.includes('who') || q.includes('coyass')) return "このインテリジェンス・ハブは Dr. COYASS によって開発され、分割ポリリン酸研究会との連携により世界中の学術データを毎日同期しています。";
+            return `「${query}」に関するインサイトを解析し、ライブラリの表示を最適化しました。`;
+        }
+        
+        if (q.includes('bone') || q.includes('骨')) return "Searching our 19,000+ archive... Found relevant papers on Bone Regeneration. I've highlighted the most cited ones in your library.";
         if (q.includes('whitening') || q.includes('ホワイト')) return "Whitening intelligence synchronized. Short-chain Poly-P (Chain 14) shows optimal results. Re-sorting results for 'Whitening' now.";
         if (q.includes('who') || q.includes('誰')) return "This intelligence hub was developed by Dr. COYASS and professional polyphosphate researchers. We index global data daily.";
         return "Insight recorded. I've optimized your current research view based on these keywords.";
@@ -435,9 +458,14 @@ document.addEventListener('DOMContentLoaded', function() {
                             🔊
                         </button>
                     </div>
-                    <button class="cite-btn" onclick="window.copyCitation(${i})" style="width: 100%; background: transparent; border: 1px solid rgba(255,255,255,0.1); color: var(--text-secondary); font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer;">
-                        CITE
-                    </button>
+                    <div style="display:flex; gap:0.5rem;">
+                        <button class="cite-btn" onclick="window.copyCitation(${i})" style="flex:1; background: transparent; border: 1px solid rgba(255,255,255,0.1); color: var(--text-secondary); font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer;">
+                            CITE
+                        </button>
+                        <button class="share-btn" onclick="window.shareOnX(${i})" style="flex:1; background: #0f1419; border: 1px solid rgba(255,255,255,0.2); color: white; font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 4px; transition: 0.2s;">
+                            <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> SHARE
+                        </button>
+                    </div>
                 </div>
             `;
             paperIndexList.appendChild(card);
@@ -486,6 +514,16 @@ document.addEventListener('DOMContentLoaded', function() {
         navigator.clipboard.writeText(citation).then(() => {
             alert("Citation copied to clipboard (Vancouver Style)");
         });
+    };
+
+    window.shareOnX = function(index) {
+        const p = filteredData[index];
+        if (!p) return;
+        const title = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
+        // Deep link URL
+        const url = `https://poly-pstudy.vercel.app/?q=${p.id}`;
+        const text = `【最新論文】${title}\n\nPolyP Studyで世界の最新エビデンスをチェック👇\n${url}\n#ポリリン酸 #PolyP #エビデンス`;
+        window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank');
     };
 
     window.openMembership = function() {

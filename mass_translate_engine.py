@@ -3,6 +3,7 @@ import os
 import time
 from deep_translator import GoogleTranslator
 from concurrent.futures import ThreadPoolExecutor
+from accuracy_booster import clean_japanese_grammar
 
 # 設定
 JSON_PATH = 'data/latest_papers.json'
@@ -35,7 +36,8 @@ def translate_item(item):
     if not item.get('jp_title'):
         try:
             translated = translator.translate(item.get('title', ''))
-            item['jp_title'] = apply_glossary(translated)
+            # プロフェッショナル補正を適用
+            item['jp_title'] = clean_japanese_grammar(apply_glossary(translated), is_title=True)
             changed = True
         except:
             pass
@@ -49,7 +51,8 @@ def translate_item(item):
                 # 最初の200文字程度を要約の対象にする
                 target_text = abstract[:500]
                 translated = translator.translate(target_text)
-                item['summary_jp'] = apply_glossary(translated)
+                # プロフェッショナル補正を適用
+                item['summary_jp'] = clean_japanese_grammar(apply_glossary(translated), is_title=False)
                 changed = True
         except:
             pass

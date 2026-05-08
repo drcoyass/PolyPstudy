@@ -285,6 +285,26 @@
                     <button id="searchBtn" data-i18n="btnSearch">SEARCH</button>
                 </div>
 
+                <!-- Advanced Researcher Tools -->
+                <div class="researcher-tools" style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
+                    <div class="sort-control" style="display: flex; align-items: center; gap: 0.8rem;">
+                        <span style="font-size: 0.8rem; color: var(--accent-cyan); font-weight: 800; letter-spacing: 1px;">SORT BY:</span>
+                        <select id="sortOrder" style="background: rgba(17, 24, 39, 0.6); color: #fff; border: 1px solid var(--border-glass); padding: 0.5rem 1rem; border-radius: 8px; font-family: 'Outfit'; cursor: pointer; outline: none;">
+                            <option value="relevance">Most Relevant (AI Match)</option>
+                            <option value="newest">Newest Publication</option>
+                            <option value="oldest">Oldest Publication</option>
+                        </select>
+                    </div>
+                    <div class="export-controls" style="display: flex; gap: 0.8rem;">
+                        <button onclick="window.exportToCSV()" class="secondary-btn" style="padding: 0.5rem 1.2rem; font-size: 0.8rem; display: flex; align-items: center; gap: 5px;">
+                            📊 EXPORT CSV
+                        </button>
+                        <button onclick="window.exportToBibTeX()" class="secondary-btn" style="padding: 0.5rem 1.2rem; font-size: 0.8rem; display: flex; align-items: center; gap: 5px;">
+                            📚 EXPORT BibTeX
+                        </button>
+                    </div>
+                </div>
+
                 <div id="paperIndexList"></div>
                 
                 <div class="load-more-container">

@@ -284,13 +284,30 @@ document.addEventListener('DOMContentLoaded', function() {
             return { ...p, _score: score };
         }).filter(p => p._score > 0 || !rawQuery);
 
-        // スコア順、かつ最新順でソート
+        const sortOrder = document.getElementById('sortOrder') ? document.getElementById('sortOrder').value : 'relevance';
+
+        // スコア順、または年代指定順でソート
         filteredData.sort((a, b) => {
-            if (b._score !== a._score) return b._score - a._score;
-            return (parseInt(b.year) || 0) - (parseInt(a.year) || 0);
+            const yearA = parseInt(a.year) || 0;
+            const yearB = parseInt(b.year) || 0;
+            
+            if (sortOrder === 'newest') {
+                return yearB - yearA || b._score - a._score;
+            } else if (sortOrder === 'oldest') {
+                return yearA - yearB || b._score - a._score;
+            } else {
+                // relevance (default)
+                if (b._score !== a._score) return b._score - a._score;
+                return yearB - yearA;
+            }
         });
 
         renderLibrary();
+    }
+    
+    const sortDropdown = document.getElementById('sortOrder');
+    if (sortDropdown) {
+        sortDropdown.addEventListener('change', performSearch);
     }
     
     // --- 100% Quality Upgrade: Agentic Functions ---
@@ -524,6 +541,65 @@ document.addEventListener('DOMContentLoaded', function() {
         const url = `https://poly-pstudy.vercel.app/?q=${p.id}`;
         const text = `【最新論文】${title}\n\nPolyP Studyで世界の最新エビデンスをチェック👇\n${url}\n#ポリリン酸 #PolyP #エビデンス`;
         window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`, '_blank');
+    };
+
+    window.exportToCSV = function() {
+        if (filteredData.length === 0) return alert("No data to export.");
+        const headers = ["PMID", "Year", "Source", "Title", "Authors", "Abstract", "Tags"];
+        const rows = filteredData.map(p => {
+            return [
+                p.id,
+                p.year || "N/A",
+                p.source || "PubMed",
+                `"${(p.title || "").replace(/"/g, '""')}"`,
+                `"${(p.authors || "").replace(/"/g, '""')}"`,
+                `"${(p.abstract || "").replace(/"/g, '""')}"`,
+                `"${(p.tags || []).join(", ")}"`
+            ].join(",");
+        });
+        
+        const csvContent = "data:text/csv;charset=utf-8,\uFEFF" + headers.join(",") + "\n" + rows.join("\n");
+        const encodedUri = encodeURI(csvContent);
+        const link = document.createElement("a");
+        link.setAttribute("href", encodedUri);
+        link.setAttribute("download", `PolyP_Research_Export_${new Date().toISOString().split('T')[0]}.csv`);
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+
+    window.exportToBibTeX = function() {
+        if (filteredData.length === 0) return alert("No data to export.");
+        let bibtexStr = "";
+        
+        // Output up to 100 to prevent massive browser freezing, but usually researchers filter first
+        const exportLimit = Math.min(filteredData.length, 500);
+        for (let i=0; i<exportLimit; i++) {
+            const p = filteredData[i];
+            const year = p.year || "n.d.";
+            let authorKey = "Unknown";
+            if (p.authors) {
+                authorKey = p.authors.split(' ')[0].replace(/[^a-zA-Z0-9]/g, '');
+            }
+            const citationKey = `${authorKey}${year}${p.id.substring(0,4)}`;
+            
+            bibtexStr += `@article{${citationKey},\n`;
+            bibtexStr += `  title={${(p.title || "").replace(/[{}]/g, '')}},\n`;
+            bibtexStr += `  author={${(p.authors || "").replace(/[{}]/g, '')}},\n`;
+            bibtexStr += `  journal={${p.source || "PubMed"}},\n`;
+            bibtexStr += `  year={${year}},\n`;
+            bibtexStr += `  note={PMID: ${p.id}}\n`;
+            bibtexStr += `}\n\n`;
+        }
+        
+        const blob = new Blob([bibtexStr], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = `PolyP_Citations_${new Date().toISOString().split('T')[0]}.bib`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     };
 
     window.openMembership = function() {

@@ -17,7 +17,11 @@ except ImportError:
 
 # API Keys
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
+if not OPENAI_API_KEY:
+    print("❌ OPENAI_API_KEY が設定されていません。")
+    print("実行前に export OPENAI_API_KEY='sk-...' を実行するか、.env ファイルに設定してください。")
+    exit(1)
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 JSTAGE_API_BASE = "https://api.jstage.jst.go.jp/searchapi/do"
@@ -81,11 +85,48 @@ def fetch_paper_details(pmids):
 
 def summarize_for_slide(paper):
     if not client: return {"summary_html": "API Key missing", "categories": ["その他"], "is_noise": False}
-    prompt = f"要約対象:\nTitle: {paper['title']}\nAbstract: {paper['abstract']}\nAuthors: {paper['authors']}\n\n歯科医師向けに日本語で要約し、カテゴリから選択してください。JSON出力:\n{{\"summary_html\": \"...\", \"categories\": [\"歯科\"], \"jp_authors\": \"...\", \"hashtags\": [], \"is_noise\": false}}"
+    prompt = f"要約対象:\nTitle: {paper['title']}\nAbstract: {paper['abstract']}\nAuthors: {paper['authors']}\n\n歯科医師向けに日本語で要約し、タイトルの日本語訳も生成してください。カテゴリから選択してください。JSON出力:\n{{\"jp_title\": \"日本語タイトル\", \"summary_html\": \"...\", \"categories\": [\"歯科\"], \"jp_authors\": \"...\", \"hashtags\": [], \"is_noise\": false}}"
     try:
         res = client.chat.completions.create(model="gpt-4o", messages=[{"role": "user", "content": prompt}], response_format={"type": "json_object"})
         return json.loads(res.choices[0].message.content)
     except: return {"summary_html": "AI Error", "categories": ["その他"], "is_noise": False}
+
+def bulk_translate_titles(papers):
+    """ GPT-4o-miniを使ってタイトルのみを高速一括翻訳する """
+    if not client or not papers: return
+    print(f"🌍 一般論文のタイトルを一括翻訳中 ({len(papers)}件)...")
+    chunk_size = 50
+    for i in range(0, len(papers), chunk_size):
+        chunk = papers[i:i+chunk_size]
+        prompt = "以下の医学・生化学論文のタイトルを専門的な日本語に翻訳してください。出力はJSON形式で、キーをPMID文字列、値を日本語タイトルにしてください。\n"
+        for p in chunk:
+            prompt += f"PMID {p['id']}: {p['title']}\n"
+        
+        try:
+            res = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": prompt}],
+                response_format={"type": "json_object"}
+            )
+            data = json.loads(res.choices[0].message.content)
+            # data は {"41951582": "日本語タイトル", ...} の形式を期待
+            
+            # もしネストされていた場合（例: {"results": {...}}）への対応
+            actual_data = data
+            for v in data.values():
+                if isinstance(v, dict):
+                    actual_data = v
+                    break
+                    
+            for p in chunk:
+                key1 = str(p['id'])
+                key2 = f"PMID {p['id']}"
+                if key1 in actual_data:
+                    p['jp_title'] = actual_data[key1]
+                elif key2 in actual_data:
+                    p['jp_title'] = actual_data[key2]
+        except Exception as e:
+            print(f"⚠️ 一括翻訳エラー: {e}")
 
 def update_database_json(all_papers, pptx_path, total_count=0, stats=None, top_ids=[], dental_ids=[]):
     json_path = "data/latest_papers.json"
@@ -105,11 +146,17 @@ def update_database_json(all_papers, pptx_path, total_count=0, stats=None, top_i
         # 精鋭でない場合は、要約なしのメタデータのみで軽量化
         summary_data = p.get('summary')
         if not summary_data and pid in existing:
-            summary_data = existing[pid].get('summary_data') or {"summary_html": existing[pid].get('summary_html')}
+            summary_data = existing[pid].get('summary_data') or {"summary_html": existing[pid].get('summary_html'), "jp_title": existing[pid].get('jp_title'), "jp_authors": existing[pid].get('jp_authors')}
+
+        jp_title = summary_data.get('jp_title') if summary_data else None
+        if not jp_title: jp_title = p.get('jp_title', p['title'])
+        
+        jp_authors = summary_data.get('jp_authors') if summary_data else None
+        if not jp_authors: jp_authors = p.get('jp_authors', p['authors'])
 
         entry = {
-            "id": pid, "title": p['title'], "jp_title": p.get('jp_title', p['title']),
-            "authors": p['authors'], "jp_authors": p.get('jp_authors', p['authors']),
+            "id": pid, "title": p['title'], "jp_title": jp_title,
+            "authors": p['authors'], "jp_authors": jp_authors,
             "date": p['date'], "url": p['url'], "source": p.get('source', "PubMed"),
             "tags": summary_data.get('categories', []) if summary_data else [],
             "hashtags": p.get('hashtags', []),
@@ -163,16 +210,48 @@ def main():
     
     # 精緻解析
     cache = load_cache()
+    non_elite_papers_to_translate = []
+    
     for i, p in enumerate(papers):
         pid = str(p['id'])
         if pid in elite_ids:
-            if pid in cache: p.update(cache[pid])
+            # キャッシュが存在し、かつ日本語タイトルが含まれている場合のみ再利用
+            if pid in cache and cache[pid].get('summary', {}).get('jp_title'):
+                p.update(cache[pid])
             else:
-                print(f"🧠 重要論文の解析中 ({i+1}/{len(elite_ids)})...")
+                print(f"🧠 重要論文の解析・翻訳中 ({i+1}/{len(elite_ids)})...")
                 p['summary'] = summarize_for_slide(p)
+                p['jp_title'] = p['summary'].get('jp_title', p['title'])
                 cache[pid] = p
                 save_cache(cache)
+        else:
+            # 非エリートで、かつタイトルが未翻訳（英語のまま）のものをピックアップ
+            if 'jp_title' not in p or p['jp_title'] == p['title']:
+                non_elite_papers_to_translate.append(p)
+                
+    # 一般論文のタイトル一括翻訳（負荷軽減のため今回は最大200件まで）
+    if non_elite_papers_to_translate:
+        bulk_translate_titles(non_elite_papers_to_translate[:200])
     
+    # さらに、既存データベース内で未翻訳の最新論文も翻訳して補完する
+    json_path = "data/latest_papers.json"
+    if os.path.exists(json_path):
+        with open(json_path, "r", encoding="utf-8") as f:
+            d = json.load(f)
+            existing_papers = d.get("papers", [])
+            
+        untranslated_existing = [ep for ep in existing_papers if (ep.get('jp_title') is None or ep.get('title') == ep.get('jp_title')) and ep.get('source', 'PubMed') == 'PubMed']
+        if untranslated_existing:
+            # 日付/PMIDが新しい順にソートして、上位200件を翻訳
+            untranslated_existing.sort(key=lambda x: int(''.join(filter(str.isdigit, str(x['id']))) or 0), reverse=True)
+            bulk_translate_titles(untranslated_existing[:200])
+            
+            # 翻訳されたものを papers にマージ（update_database_jsonで上書き保存させる）
+            existing_dict = {str(p['id']): p for p in papers}
+            for ep in untranslated_existing[:200]:
+                if str(ep['id']) not in existing_dict:
+                    papers.append(ep)
+
     update_database_json(papers, "output/Monthly_Report.pptx", total_count=total, stats=stats, top_ids=top_ids, dental_ids=dental_ids)
 
 if __name__ == "__main__":

@@ -510,6 +510,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.openPosterModal = function() {
         const modal = document.getElementById('posterModal');
+        const modalBody = document.getElementById('posterModalBody');
+        const actualImg = document.getElementById('actualPosterImg');
+        if (modalBody && actualImg) {
+            modalBody.innerHTML = `
+                <div style="text-align: center;">
+                    <img src="${actualImg.src}" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+                    <p style="margin-top: 1.5rem; color: var(--text-secondary);">Academic Conference Poster: Scientific Evidence Analysis</p>
+                </div>
+            `;
+        }
         modal.style.display = "block";
         document.body.style.overflow = "hidden";
     };

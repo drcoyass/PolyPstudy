@@ -13,6 +13,8 @@ MAX_BATCH = 200
 DATA_DIR = "data"
 JSON_PATH = os.path.join(DATA_DIR, "latest_papers.json")
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+EUROPE_PMC_API = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+CROSSREF_API = "https://api.crossref.org/works"
 
 # 医学用語補正
 GLOSSARY = {
@@ -22,6 +24,12 @@ GLOSSARY = {
     "atp": "ATP",
     "implant": "インプラント",
 }
+
+import re
+
+def normalize_title(title):
+    if not title: return ""
+    return re.sub(r"[^a-z0-9]", "", title.lower())
 
 def search_pubmed_by_year(query, start_year, end_year):
     """
@@ -57,7 +65,10 @@ def fetch_batch_details(pmids):
             for article in root.findall('.//PubmedArticle'):
                 pmid = article.findtext('.//PMID')
                 title = article.findtext('.//ArticleTitle') or ""
-                abstract = article.findtext('.//AbstractText') or ""
+                
+                # Fetch all AbstractText nodes to support structured abstracts
+                abstract_nodes = article.findall('.//AbstractText')
+                abstract = " ".join([node.text for node in abstract_nodes if node.text])
                 
                 tags = []
                 content = (title + " " + abstract).lower()
@@ -79,18 +90,101 @@ def fetch_batch_details(pmids):
     except:
         return []
 
+def fetch_europe_pmc(query):
+    print("🌍 Europe PMCからプレプリントや特許などの論文を検索中...")
+    papers = []
+    # ページネーション（今回は最大1000件程度を取得）
+    try:
+        url = f"{EUROPE_PMC_API}?query={urllib.parse.quote(query)}&format=json&resultType=core&pageSize=1000"
+        req = urllib.request.Request(url, headers={'User-Agent': 'PolyPstudy/1.0'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            results = data.get('resultList', {}).get('result', [])
+            for res in results:
+                title = res.get('title', '')
+                if not title: continue
+                # Skip if already identified as MED (PubMed), because we get that from PubMed directly
+                if res.get('source') == 'MED': continue
+                
+                abstract = res.get('abstractText', '')
+                year = str(res.get('pubYear', 'Unknown'))
+                ext_id = res.get('pmid') or res.get('doi') or res.get('id', '')
+                url_link = f"https://europepmc.org/article/{res.get('source', 'MED')}/{res.get('id', '')}"
+                if res.get('doi'):
+                    url_link = f"https://doi.org/{res.get('doi')}"
+                
+                tags = []
+                content = (title + " " + abstract).lower()
+                if "implant" in content: tags.append("インプラント")
+                if "dental" in content: tags.append("歯科")
+                
+                papers.append({
+                    "id": ext_id,
+                    "title": title,
+                    "abstract": abstract,
+                    "tags": tags,
+                    "date": year,
+                    "source": res.get('source', 'Europe PMC'),
+                    "url": url_link
+                })
+    except Exception as e:
+        print(f"Europe PMC API Error: {e}")
+    print(f"✅ Europe PMCから {len(papers)} 件の追加論文候補を取得しました。")
+    return papers
+
+def fetch_crossref(query):
+    print("🌍 Crossrefから医学以外の学術誌（材料・化学など）の論文を検索中...")
+    papers = []
+    try:
+        url = f"{CROSSREF_API}?query={urllib.parse.quote(query)}&select=DOI,title,abstract,author,published-print,URL&rows=1000"
+        req = urllib.request.Request(url, headers={'User-Agent': 'mailto:info@poly-pstudy.vercel.app'})
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            items = data.get('message', {}).get('items', [])
+            for item in items:
+                title_list = item.get('title', [])
+                title = title_list[0] if title_list else ''
+                if not title: continue
+                
+                doi = item.get('DOI', '')
+                abstract = item.get('abstract', '')
+                # Remove JATS XML tags often found in Crossref abstracts
+                abstract = re.sub(r'<[^>]+>', '', abstract)
+                
+                pub_print = item.get('published-print', {}).get('date-parts', [[]])
+                year = str(pub_print[0][0]) if pub_print and pub_print[0] else 'Unknown'
+                url_link = item.get('URL', '') or f"https://doi.org/{doi}"
+                
+                tags = []
+                content = (title + " " + abstract).lower()
+                if "implant" in content: tags.append("インプラント")
+                if "dental" in content: tags.append("歯科")
+                
+                papers.append({
+                    "id": doi,
+                    "title": title,
+                    "abstract": abstract,
+                    "tags": tags,
+                    "date": year,
+                    "source": "Crossref",
+                    "url": url_link
+                })
+    except Exception as e:
+        print(f"Crossref API Error: {e}")
+    print(f"✅ Crossrefから {len(papers)} 件の追加論文候補を取得しました。")
+    return papers
+
 def run_ultimate_sync():
     os.makedirs(DATA_DIR, exist_ok=True)
     
-    # 1. 全件PMIDの収集（年ごとに分割）
+    # 1. 全件PMIDの収集（PubMed）
     all_pmids = []
-    # 1950年から現在までの5年ごとにスキャン
     for year in range(1950, 2030, 5):
         all_pmids.extend(search_pubmed_by_year(QUERY, year, year+4))
-        time.sleep(1)  # PubMedのAPI制限（429 Too Many Requests）を回避
+        time.sleep(1)  
     
     all_pmids = list(set(all_pmids))
-    print(f"✅ 合計 {len(all_pmids)} 件のPMIDを特定しました。")
+    print(f"✅ 合計 {len(all_pmids)} 件のPubMed PMIDを特定しました。")
 
     # 2. 既存データ読み込み
     if os.path.exists(JSON_PATH):
@@ -100,35 +194,56 @@ def run_ultimate_sync():
         data = {"papers": []}
 
     existing_ids = {str(p['id']) for p in data['papers']}
-    new_pmids = [pid for pid in all_pmids if str(pid) not in existing_ids]
     
-    print(f"🆕 新着/未取得: {len(new_pmids)} 件")
+    # 【重複排除用】既存論文の正規化タイトルセットを作成
+    existing_titles = {normalize_title(p.get('title', '')) for p in data['papers']}
+    existing_titles.discard("") # 空文字列は除外
 
-    # 3. 取得と翻訳（新着分のみ）
-    # 最新のものを優先するため、new_pmidsを逆順（PMIDが大きい順）にする
+    new_pmids = [pid for pid in all_pmids if str(pid) not in existing_ids]
+    print(f"🆕 新着/未取得 (PubMed): {len(new_pmids)} 件")
+
+    # 3. PubMed新着分の取得
     new_pmids.sort(key=lambda x: int(x) if str(x).isdigit() else 0, reverse=True)
     
+    new_papers = []
     for i in range(0, len(new_pmids), MAX_BATCH):
         batch = new_pmids[i:i+MAX_BATCH]
-        print(f"📥 取得中 ({i+1}/{len(new_pmids)})...")
-        papers = fetch_batch_details(batch)
-        
-        # 新着分の翻訳（直近100件程度を優先して日本語化。多すぎると時間がかかるため）
-        for j, p in enumerate(papers):
-            # new_pmidsを逆順にしたので、最初の100件が最新の論文になる
-            if i + j < 100: 
-                print(f"   🇯🇵 翻訳中: {p['id']}")
-                p['summary_jp'] = auto_translate(p['abstract'])
-                p['jp_title'] = auto_translate(p['title'])
-        
-        data['papers'].extend(papers)
-        
-        # 保存
-        with open(JSON_PATH, 'w', encoding='utf-8') as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"📥 PubMed取得中 ({i+1}/{len(new_pmids)})...")
+        fetched = fetch_batch_details(batch)
+        new_papers.extend(fetched)
         time.sleep(1)
+        
+    # 4. 外部サイトからの追加取得 (Europe PMC & Crossref)
+    external_papers = []
+    external_papers.extend(fetch_europe_pmc(QUERY))
+    external_papers.extend(fetch_crossref(QUERY))
+    
+    # 5. 重複排除ロジックの適用
+    added_count = 0
+    for p in new_papers + external_papers:
+        pid = str(p['id'])
+        norm_title = normalize_title(p.get('title', ''))
+        
+        # IDが重複している、または正規化タイトルが既存データと一致する場合はスキップ
+        if pid in existing_ids or norm_title in existing_titles:
+            continue
+            
+        # 新着リストに追加し、セットも更新（同じ実行内で重複するのを防ぐ）
+        existing_ids.add(pid)
+        existing_titles.add(norm_title)
+        
+        # 直近100件程度は自動翻訳する（新着として目立たせるため）
+        if added_count < 100:
+            print(f"   🇯🇵 翻訳中: {pid}")
+            p['summary_jp'] = auto_translate(p['abstract'])
+            p['jp_title'] = auto_translate(p['title'])
+            
+        data['papers'].append(p)
+        added_count += 1
 
-    data['total_pubmed_count'] = len(data['papers'])
+    print(f"✨ 最終的に {added_count} 件の新規・外部論文がデータベースに追加されました。")
+    
+    data['total_pubmed_count'] = len([p for p in data['papers'] if p.get('source') == 'PubMed'])
     data['generated_at'] = datetime.now().strftime("%Y-%m-%d")
     with open(JSON_PATH, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)

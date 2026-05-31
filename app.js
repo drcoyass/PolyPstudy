@@ -528,7 +528,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const translatedText = data[0].map(x => x[0]).join('');
             const container = document.getElementById('abstractContainer');
             if (container) {
-                container.innerHTML = colorCode(translatedText);
+                container.innerHTML = `<div style="margin-bottom: 2rem;">
+                    <h3 style="color: #00F2FF; font-size: 1.1rem; margin-bottom: 0.8rem; border-bottom: 1px solid #333; padding-bottom: 0.3rem;">🇯🇵 自動翻訳結果</h3>
+                    ${colorCode(translatedText)}
+                </div>
+                <div>
+                    <h3 style="color: #888; font-size: 1rem; margin-bottom: 0.8rem; border-bottom: 1px solid #333; padding-bottom: 0.3rem;">🇺🇸 Original Abstract</h3>
+                    <div style="color: #ccc; font-size: 0.95rem;">${colorCode(text)}</div>
+                </div>`;
             }
             btn.style.display = 'none';
         } catch (e) {

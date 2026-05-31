@@ -526,19 +526,28 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!p) return;
         
         const title = p.jp_title || p.title || '';
+        const originalTitle = p.title || '';
         const authors = p.jp_authors || p.authors || '';
         const date = p.date || '';
         const source = p.source || '';
-        let abstract = p.summary_jp || p.summary_html || p.abstract || '';
-        // Remove HTML tags for clean pasting
-        abstract = abstract.replace(/<[^>]+>/g, '');
+        let abstractJp = p.summary_jp || p.summary_html || '';
+        abstractJp = abstractJp.replace(/<[^>]+>/g, '');
+        const abstractEn = p.abstract || '';
         
-        const textToCopy = `■ タイトル: ${title}
+        // Use provided URL, fallback to pubmed if missing
+        const link = p.url || `https://pubmed.ncbi.nlm.nih.gov/${p.id}/`;
+        
+        const textToCopy = `■ 日本語タイトル: ${title}
+■ Original Title: ${originalTitle}
 ■ 著者: ${authors}
 ■ 発行年: ${date} (Source: ${source})
-■ URL: https://pubmed.ncbi.nlm.nih.gov/${p.id}/
-■ 要約:
-${abstract}
+■ 原著論文リンク(PDF/記事): ${link}
+
+■ 日本語要約:
+${abstractJp || '(日本語要約なし)'}
+
+■ Original English Abstract:
+${abstractEn || '(No abstract available)'}
 `;
         navigator.clipboard.writeText(textToCopy).then(() => {
             const originalText = btn.innerText;

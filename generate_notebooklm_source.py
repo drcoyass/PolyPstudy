@@ -35,24 +35,30 @@ def generate_notebooklm_source():
                 continue
                 
             title = p.get('jp_title') or p.get('title', '')
-            abstract = p.get('summary_html') or p.get('summary_jp') or p.get('abstract', 'No abstract available.')
-            # Remove HTML tags if present (since NotebookLM prefers clean text)
+            original_title = p.get('title', '')
+            abstract_jp = p.get('summary_html') or p.get('summary_jp') or ''
             import re
-            abstract = re.sub(r'<[^>]+>', '', abstract)
+            abstract_jp = re.sub(r'<[^>]+>', '', abstract_jp)
+            abstract_en = p.get('abstract', '')
             
             authors = p.get('jp_authors') or p.get('authors', '')
             date = p.get('date', '')
             source = p.get('source', '')
             url = p.get('url', '')
+            if not url and p.get('id'):
+                url = f"https://pubmed.ncbi.nlm.nih.gov/{p.get('id')}/"
+            
             tags = ", ".join(p.get('tags', []))
             
-            out.write(f"■ タイトル: {title}\n")
+            out.write(f"■ 日本語タイトル: {title}\n")
+            out.write(f"■ Original Title: {original_title}\n")
             if tags:
                 out.write(f"■ 関連タグ: {tags}\n")
             out.write(f"■ 著者: {authors}\n")
             out.write(f"■ 発行年: {date} (Source: {source})\n")
-            out.write(f"■ URL: {url}\n")
-            out.write(f"■ 要約/アブストラクト:\n{abstract}\n\n")
+            out.write(f"■ 原著論文リンク(PDF/記事): {url}\n\n")
+            out.write(f"■ 日本語要約:\n{abstract_jp or '(日本語要約なし)'}\n\n")
+            out.write(f"■ Original English Abstract:\n{abstract_en or '(No abstract available)'}\n\n")
             out.write("-" * 50 + "\n\n")
             
     print(f"✅ Generated {OUTPUT_PATH} with {len(papers)} papers for NotebookLM.")

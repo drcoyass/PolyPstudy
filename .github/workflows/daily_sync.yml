@@ -26,12 +26,14 @@ jobs:
         run: |
           python sync_all_research.py
           python translate_missing_intel.py
+          python accuracy_booster.py
           python portal_guardian.py
+          python generate_notebooklm_source.py
 
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/latest_papers.json guardian_log.txt
+          git add data/latest_papers.json guardian_log.txt notebooklm_source.txt
           git commit -m "Auto-update: Sync and Guardian Audit ($(date +'%Y-%m-%d'))" || echo "No changes to commit"
           git push

@@ -87,6 +87,7 @@ def run_ultimate_sync():
     # 1950年から現在までの5年ごとにスキャン
     for year in range(1950, 2030, 5):
         all_pmids.extend(search_pubmed_by_year(QUERY, year, year+4))
+        time.sleep(1)  # PubMedのAPI制限（429 Too Many Requests）を回避
     
     all_pmids = list(set(all_pmids))
     print(f"✅ 合計 {len(all_pmids)} 件のPMIDを特定しました。")
@@ -104,6 +105,9 @@ def run_ultimate_sync():
     print(f"🆕 新着/未取得: {len(new_pmids)} 件")
 
     # 3. 取得と翻訳（新着分のみ）
+    # 最新のものを優先するため、new_pmidsを逆順（PMIDが大きい順）にする
+    new_pmids.sort(key=lambda x: int(x) if str(x).isdigit() else 0, reverse=True)
+    
     for i in range(0, len(new_pmids), MAX_BATCH):
         batch = new_pmids[i:i+MAX_BATCH]
         print(f"📥 取得中 ({i+1}/{len(new_pmids)})...")
@@ -111,7 +115,8 @@ def run_ultimate_sync():
         
         # 新着分の翻訳（直近100件程度を優先して日本語化。多すぎると時間がかかるため）
         for j, p in enumerate(papers):
-            if i + j < 100: # 最新100件を優先
+            # new_pmidsを逆順にしたので、最初の100件が最新の論文になる
+            if i + j < 100: 
                 print(f"   🇯🇵 翻訳中: {p['id']}")
                 p['summary_jp'] = auto_translate(p['abstract'])
                 p['jp_title'] = auto_translate(p['title'])

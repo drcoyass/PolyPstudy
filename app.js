@@ -492,16 +492,63 @@ document.addEventListener('DOMContentLoaded', function() {
         if (loadMoreBtn) loadMoreBtn.style.display = (displayedCount < filteredData.length) ? 'block' : 'none';
     }
 
+    window.colorCode = function(text) {
+        if (!text) return "";
+        let res = text;
+        res = res.replace(/(polyphosphate|ポリリン酸)/gi, '<span style="color: #00F2FF; font-weight: bold; font-size: 1.1em;">$1</span>');
+        res = res.replace(/(metaphosphate|メタリン酸)/gi, '<span style="color: #FF5555; font-weight: bold; font-size: 1.1em;">$1</span>');
+        res = res.replace(/(ultraphosphate|ウルトラリン酸)/gi, '<span style="color: #FFaa00; font-weight: bold; font-size: 1.1em;">$1</span>');
+        return res;
+    };
+
+    window.translateAbstract = async function(btn, text) {
+        btn.innerText = "翻訳中...";
+        btn.disabled = true;
+        try {
+            const url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ja&dt=t&q=" + encodeURIComponent(text);
+            const response = await fetch(url);
+            const data = await response.json();
+            const translatedText = data[0].map(x => x[0]).join('');
+            const container = document.getElementById('abstractContainer');
+            if (container) {
+                container.innerHTML = colorCode(translatedText);
+            }
+            btn.style.display = 'none';
+        } catch (e) {
+            btn.innerText = "翻訳失敗 (再試行してください)";
+            btn.disabled = false;
+        }
+    };
+
     window.openPaperModal = function(index) {
         const p = filteredData[index];
         if (!p) return;
         const modal = document.getElementById('paperModal');
         const modalBody = document.getElementById('modalBody');
+        
+        // 既存のAI要約があればそれを使い、なければ英語のAbstractを使う
+        const hasSummary = !!(p.summary_html || p.summary_jp);
+        const abstractContent = p.summary_html || p.summary_jp || p.abstract || "No abstract available.";
+        
+        let contentHtml = colorCode(abstractContent);
+        
+        let translateBtnHtml = "";
+        if (!hasSummary && p.abstract && currentLang === 'ja') {
+            translateBtnHtml = `
+                <div style="margin-top: 1rem; text-align: right;">
+                    <button onclick="translateAbstract(this, \`${p.abstract.replace(/"/g, '&quot;').replace(/'/g, '&apos;')}\`)" class="secondary-btn" style="padding: 0.5rem 1rem; font-size: 0.9rem;">
+                        🌐 日本語に翻訳 (無料)
+                    </button>
+                </div>
+            `;
+        }
+
         modalBody.innerHTML = `
             <h2>${(currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title}</h2>
-            <p style="margin-top:2rem; line-height:1.8;">${p.summary_jp || p.abstract || "No abstract available."}</p>
+            <div id="abstractContainer" style="margin-top:2rem; line-height:1.8;">${contentHtml}</div>
+            ${translateBtnHtml}
             <div style="margin-top:2rem;">
-                <a href=\"https://pubmed.ncbi.nlm.nih.gov/${p.id}/\" target=\"_blank\" class=\"primary-btn\">VIEW SOURCE ↗</a>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/${p.id}/" target="_blank" class="primary-btn">VIEW SOURCE ↗</a>
             </div>
         `;
         modal.style.display = "block";

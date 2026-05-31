@@ -570,11 +570,29 @@ ${abstractEn || '(No abstract available)'}
         const modal = document.getElementById('paperModal');
         const modalBody = document.getElementById('modalBody');
         
-        // 既存のAI要約があればそれを使い、なければ英語のAbstractを使う
         const hasSummary = !!(p.summary_html || p.summary_jp);
-        const abstractContent = p.summary_html || p.summary_jp || p.abstract || "No abstract available.";
         
-        let contentHtml = colorCode(abstractContent);
+        let contentHtml = "";
+        
+        if (hasSummary) {
+            // 日本語要約がある場合は、要約と原文の両方を表示
+            const jpContent = p.summary_html || p.summary_jp;
+            contentHtml += `<div style="margin-bottom: 2rem;">
+                <h3 style="color: #00F2FF; font-size: 1.1rem; margin-bottom: 0.8rem; border-bottom: 1px solid #333; padding-bottom: 0.3rem;">🇯🇵 日本語要約</h3>
+                ${colorCode(jpContent)}
+            </div>`;
+            
+            if (p.abstract) {
+                contentHtml += `<div>
+                    <h3 style="color: #888; font-size: 1rem; margin-bottom: 0.8rem; border-bottom: 1px solid #333; padding-bottom: 0.3rem;">🇺🇸 Original Abstract</h3>
+                    <div style="color: #ccc; font-size: 0.95rem;">${colorCode(p.abstract)}</div>
+                </div>`;
+            }
+        } else {
+            // 要約がない場合は、英語原文のみ表示
+            const abstractContent = p.abstract || "No abstract available.";
+            contentHtml = colorCode(abstractContent);
+        }
         
         let translateBtnHtml = "";
         if (!hasSummary && p.abstract && currentLang === 'ja') {
@@ -587,12 +605,14 @@ ${abstractEn || '(No abstract available)'}
             `;
         }
 
+        const link = p.url || `https://pubmed.ncbi.nlm.nih.gov/${p.id}/`;
+
         modalBody.innerHTML = `
             <h2>${(currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title}</h2>
             <div id="abstractContainer" style="margin-top:2rem; line-height:1.8;">${contentHtml}</div>
             ${translateBtnHtml}
-            <div style="margin-top:2rem;">
-                <a href="https://pubmed.ncbi.nlm.nih.gov/${p.id}/" target="_blank" class="primary-btn">VIEW SOURCE ↗</a>
+            <div style="margin-top:2rem; display: flex; align-items: center;">
+                <a href="${link}" target="_blank" class="primary-btn">VIEW SOURCE ↗</a>
                 <button onclick="copyForNotebookLM(${index}, this)" class="secondary-btn" style="margin-left: 10px;">📋 NotebookLMへコピー</button>
             </div>
         `;

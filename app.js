@@ -438,6 +438,17 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
+        
+        const countLabel = document.getElementById('searchCountLabel');
+        if (countLabel) {
+            const searchInput = document.getElementById('searchInput');
+            if (searchInput && searchInput.value.trim() !== '') {
+                countLabel.innerText = `🔍 ${filteredData.length} 件の論文が見つかりました`;
+            } else {
+                countLabel.innerText = ``;
+            }
+        }
+        
         items.forEach((p, i) => {
             const card = document.createElement('div');
             card.className = 'knowledge-card';
@@ -445,6 +456,12 @@ document.addEventListener('DOMContentLoaded', function() {
             const displayTitle = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
             const displayAuthors = (p.authors || "Academic Record");
             const btnLabel = currentLang === 'ja' ? '詳細解析' : 'DETAIL';
+            
+            // Abstract Snippet Preview
+            let snippet = p.summary_jp || p.summary_html || p.abstract || "";
+            snippet = snippet.replace(/<[^>]+>/g, ''); // Remove HTML tags
+            let previewHtml = snippet ? `<div class="abstract-preview">${snippet}</div>` : '';
+
             
             // 確実に年数を抽出するエリート・ロジック
             let yearDisplay = p.year;
@@ -795,6 +812,43 @@ ${abstractEn || '(No abstract available)'}
     // --- End 100% Power Ups ---
 
     if (searchBtn) searchBtn.onclick = performSearch;
+    
+    // --- UX Improvements ---
+    const searchClearBtn = document.getElementById('searchClearBtn');
+    if (searchClearBtn && searchInput) {
+        searchInput.addEventListener('input', () => {
+            searchClearBtn.style.display = searchInput.value.length > 0 ? 'block' : 'none';
+        });
+        searchClearBtn.addEventListener('click', () => {
+            searchInput.value = '';
+            searchClearBtn.style.display = 'none';
+            performSearch();
+        });
+    }
+
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    const navbar = document.querySelector('.navbar');
+    
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            if (navbar) navbar.classList.add('scrolled');
+        } else {
+            if (navbar) navbar.classList.remove('scrolled');
+        }
+        
+        if (window.scrollY > 500) {
+            if (backToTopBtn) backToTopBtn.classList.add('visible');
+        } else {
+            if (backToTopBtn) backToTopBtn.classList.remove('visible');
+        }
+    });
+
+    if (backToTopBtn) {
+        backToTopBtn.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
     if (searchInput) searchInput.oninput = performSearch;
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     if (loadMoreBtn) loadMoreBtn.onclick = () => { displayedCount += 50; renderLibrary(); };

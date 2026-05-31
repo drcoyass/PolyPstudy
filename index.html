@@ -111,6 +111,7 @@
             <li><a href="#papers" data-i18n="navResearch">Research</a></li>
             <li><a href="#network" data-i18n="navNetwork">Network</a></li>
             <li><a href="#story" data-i18n="navStory">Story</a></li>
+            <li><a href="#" onclick="document.getElementById(\'notebookLmModal\').style.display=\'block\'; return false;" style="color: #00F2FF;">🧠 NotebookLM</a></li>
         </ul>
         <div class="user-profile">
             <button class="lang-toggle-btn secondary-btn" id="langToggle">EN</button>
@@ -303,8 +304,10 @@
                     <input type="text" id="searchInput"
                         placeholder="Search by paper title, authors, or molecular keywords..."
                         data-i18n-placeholder="searchPlaceholder">
+                    <button id="searchClearBtn" class="search-clear-btn" title="クリア">✖</button>
                     <button id="searchBtn" data-i18n="btnSearch">SEARCH</button>
                 </div>
+                <span id="searchCountLabel" class="search-count-label"></span>
 
                 <!-- Advanced Researcher Tools -->
                 <div class="researcher-tools"
@@ -604,6 +607,10 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Back to Top Button -->
+    <button id="backToTopBtn" class="back-to-top-btn" title="トップへ戻る">⬆</button>
 
 </body>
 

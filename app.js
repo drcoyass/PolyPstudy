@@ -520,6 +520,41 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     };
 
+    
+    window.copyForNotebookLM = function(index, btn) {
+        const p = filteredData[index];
+        if (!p) return;
+        
+        const title = p.jp_title || p.title || '';
+        const authors = p.jp_authors || p.authors || '';
+        const date = p.date || '';
+        const source = p.source || '';
+        let abstract = p.summary_jp || p.summary_html || p.abstract || '';
+        // Remove HTML tags for clean pasting
+        abstract = abstract.replace(/<[^>]+>/g, '');
+        
+        const textToCopy = `■ タイトル: ${title}
+■ 著者: ${authors}
+■ 発行年: ${date} (Source: ${source})
+■ URL: https://pubmed.ncbi.nlm.nih.gov/${p.id}/
+■ 要約:
+${abstract}
+`;
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            const originalText = btn.innerText;
+            btn.innerText = "✅ コピー完了";
+            btn.style.backgroundColor = "#28a745";
+            btn.style.color = "#fff";
+            btn.style.borderColor = "#28a745";
+            setTimeout(() => {
+                btn.innerText = originalText;
+                btn.style.backgroundColor = "";
+                btn.style.color = "";
+                btn.style.borderColor = "";
+            }, 2000);
+        });
+    };
+
     window.openPaperModal = function(index) {
         const p = filteredData[index];
         if (!p) return;
@@ -549,6 +584,7 @@ document.addEventListener('DOMContentLoaded', function() {
             ${translateBtnHtml}
             <div style="margin-top:2rem;">
                 <a href="https://pubmed.ncbi.nlm.nih.gov/${p.id}/" target="_blank" class="primary-btn">VIEW SOURCE ↗</a>
+                <button onclick="copyForNotebookLM(${index}, this)" class="secondary-btn" style="margin-left: 10px;">📋 NotebookLMへコピー</button>
             </div>
         `;
         modal.style.display = "block";

@@ -150,6 +150,7 @@
                 </div>
 
                 <div class="hero-actions">
+                    <button class="secondary-btn promo-btn" onclick="document.getElementById(\'notebookLmModal\').style.display=\'block\'" style="border-color: #00F2FF; color: #00F2FF;"><span class="btn-icon">🧠</span>NotebookLM 連携</button>
                     <a href="#papers" class="primary-btn" data-i18n="btnKnowledge">知識を探訪する</a>
                     <a href="https://youtu.be/U9oherDgfJo" target="_blank" rel="noopener"
                         class="secondary-btn promo-btn"><span class="btn-icon">🎬</span>WATCH MOVIE</a>
@@ -577,6 +578,33 @@
     </div>
 
     <script src="app.js?v=100"></script>
+
+    <!-- NotebookLM Modal -->
+    <div id="notebookLmModal" class="modal">
+        <div class="modal-content" style="max-width: 600px; text-align: left;">
+            <span class="close-btn" onclick="document.getElementById('notebookLmModal').style.display='none'">&times;</span>
+            <div id="notebookLmModalBody">
+                <h2 style="color: #00F2FF;">🧠 NotebookLM 連携設定</h2>
+                <p style="margin-top: 1rem; line-height: 1.6;">
+                    このサイトの全論文データベース（約2万件）を、ご自身の <strong>Google NotebookLM</strong> に同期させることができます。<br>
+                    NotebookLMに読み込ませることで、すべての論文を横断的に検索したり、AIに要約させたりすることが可能になります。
+                </p>
+                <div style="background: rgba(0,242,255,0.1); border-left: 4px solid #00F2FF; padding: 1rem; margin: 1.5rem 0;">
+                    <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem;">連携ステップ</h3>
+                    <ol style="margin-left: 1.5rem; line-height: 1.6;">
+                        <li>ご自身の <a href="https://notebooklm.google.com/" target="_blank" style="color: #00F2FF; text-decoration: underline;">NotebookLM</a> を開く</li>
+                        <li>ソースの追加から「リンク（ウェブサイト）」を選択</li>
+                        <li>以下の専用URLをコピーして貼り付ける</li>
+                    </ol>
+                </div>
+                <div style="display: flex; gap: 10px; align-items: center; background: #1a1a2e; padding: 10px; border-radius: 8px;">
+                    <input type="text" id="notebookLmUrl" value="https://poly-pstudy.vercel.app/notebooklm_source.txt" readonly style="flex: 1; padding: 8px; background: transparent; border: 1px solid #333; color: #fff; border-radius: 4px;">
+                    <button onclick="navigator.clipboard.writeText(document.getElementById('notebookLmUrl').value); this.innerText='コピー完了！'; setTimeout(()=>this.innerText='コピー', 2000);" class="primary-btn" style="padding: 8px 16px;">コピー</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

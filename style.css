@@ -2600,3 +2600,76 @@ img {
         right: 90px;
     }
 }
+
+/* UX Improvements Part 2 */
+.quick-tags {
+    margin-top: 0.8rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.quick-tag {
+    font-size: 0.85rem;
+    color: var(--accent-cyan);
+    background: rgba(0, 242, 255, 0.1);
+    border: 1px solid rgba(0, 242, 255, 0.3);
+    padding: 0.3rem 0.8rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.quick-tag:hover {
+    background: rgba(0, 242, 255, 0.3);
+    transform: translateY(-2px);
+}
+mark.highlight {
+    background-color: rgba(0, 242, 255, 0.3);
+    color: #fff;
+    font-weight: bold;
+    padding: 0 0.2rem;
+    border-radius: 3px;
+}
+.infinite-loader {
+    text-align: center;
+    padding: 2rem;
+    color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.spinner {
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top: 3px solid var(--accent-cyan);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.empty-state-modern {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: rgba(255,255,255,0.02);
+    border: 1px dashed rgba(255,255,255,0.1);
+    border-radius: 12px;
+    margin: 2rem 0;
+}
+.empty-state-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+.empty-state-text {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+}
+.empty-state-hint {
+    font-size: 0.9rem;
+    color: #777;
+}

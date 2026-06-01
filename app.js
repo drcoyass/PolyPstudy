@@ -441,15 +441,32 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     });
 
-    function renderLibrary() {
+    function renderLibrary(append = false) {
         if (!paperIndexList) return;
-        paperIndexList.innerHTML = '';
-        const items = filteredData.slice(0, displayedCount);
         
-        if (items.length === 0) {
-            paperIndexList.innerHTML = '<div class="empty-state">No matching research found.</div>';
+        let startIdx = 0;
+        if (append) {
+            startIdx = displayedCount - 50;
+        } else {
+            paperIndexList.innerHTML = '';
+        }
+        const items = filteredData.slice(startIdx, displayedCount);
+
+        
+        
+        if (items.length === 0 && !append) {
+            paperIndexList.innerHTML = `
+                <div class="empty-state-modern">
+                    <div class="empty-state-icon">🔍</div>
+                    <div class="empty-state-text">No matching research found.</div>
+                    <div class="empty-state-hint">別のキーワードを試すか、カテゴリの絞り込みを解除してみてください。</div>
+                </div>
+            `;
+            const loader = document.getElementById('infiniteScrollLoader');
+            if (loader) loader.style.display = 'none';
             return;
         }
+
 
         
         const countLabel = document.getElementById('searchCountLabel');
@@ -466,14 +483,19 @@ document.addEventListener('DOMContentLoaded', function() {
             const card = document.createElement('div');
             card.className = 'knowledge-card';
             
-            const displayTitle = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
+
+            const rawQuery = searchInput ? searchInput.value.toLowerCase().trim() : '';
+            const displayTitleBase = (currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title;
+            const displayTitle = highlightText(displayTitleBase, rawQuery);
             const displayAuthors = (p.authors || "Academic Record");
             const btnLabel = currentLang === 'ja' ? '詳細解析' : 'DETAIL';
             
             // Abstract Snippet Preview
             let snippet = p.summary_jp || p.summary_html || p.abstract || "";
             snippet = snippet.replace(/<[^>]+>/g, ''); // Remove HTML tags
-            let previewHtml = snippet ? `<div class="abstract-preview">${snippet}</div>` : '';
+            const highlightedSnippet = highlightText(snippet, rawQuery);
+            let previewHtml = highlightedSnippet ? `<div class="abstract-preview">${highlightedSnippet}</div>` : '';
+
 
             
             // 確実に年数を抽出するエリート・ロジック
@@ -518,8 +540,8 @@ document.addEventListener('DOMContentLoaded', function() {
             paperIndexList.appendChild(card);
         });
         
-        const loadMoreBtn = document.getElementById('loadMoreBtn');
-        if (loadMoreBtn) loadMoreBtn.style.display = (displayedCount < filteredData.length) ? 'block' : 'none';
+        const loader = document.getElementById('infiniteScrollLoader');
+        if (loader) loader.style.display = (displayedCount < filteredData.length) ? 'flex' : 'none';
     }
 
     window.colorCode = function(text) {
@@ -870,7 +892,27 @@ ${abstractEn || '(No abstract available)'}
         });
     }
 
-    if (searchInput) searchInput.oninput = performSearch;
+    
+    let searchTimeout = null;
+    if (searchInput) {
+        searchInput.oninput = () => {
+            if (searchTimeout) clearTimeout(searchTimeout);
+            searchTimeout = setTimeout(performSearch, 300);
+        };
+    }
+    
+    function highlightText(text, query) {
+        if (!query || !text) return text;
+        const terms = query.split(/\s+/).filter(t => t.length > 0);
+        let highlighted = text;
+        terms.forEach(term => {
+            const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`(${escapedTerm})`, 'gi');
+            highlighted = highlighted.replace(regex, '<mark class="highlight">$1</mark>');
+        });
+        return highlighted;
+    }
+
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     if (loadMoreBtn) loadMoreBtn.onclick = () => { displayedCount += 50; renderLibrary(); };
 
@@ -949,5 +991,18 @@ ${abstractEn || '(No abstract available)'}
             .catch(err => console.log('Map data fetch error:', err));
     }
     
+    
+    // Quick Search Tags
+    document.querySelectorAll('.quick-tag').forEach(tag => {
+        tag.addEventListener('click', () => {
+            if (searchInput) {
+                searchInput.value = tag.getAttribute('data-tag');
+                if (searchTimeout) clearTimeout(searchTimeout);
+                performSearch();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+        });
+    });
+
     setTimeout(initInteractiveMap, 500);
 

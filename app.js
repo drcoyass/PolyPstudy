@@ -700,7 +700,7 @@ ${abstractEn || '(No abstract available)'}
         document.body.style.overflow = 'auto';
     };
     
-    document.querySelectorAll('.close-modal').forEach(btn => btn.onclick = closeModal);
+    document.querySelectorAll('.close-btn').forEach(btn => btn.onclick = closeModal);
     window.onclick = (e) => { if (e.target.classList.contains('modal')) closeModal(); };
 
     window.copyCitation = function(index) {

@@ -241,8 +241,21 @@ document.addEventListener('DOMContentLoaded', function() {
         const rawQuery = searchInput.value.toLowerCase().trim();
         displayedCount = 50;
 
+        let baseData = papersData;
+        if (activeCategory !== 'all') {
+            baseData = baseData.filter(p => {
+                if (activeCategory === '歯科' && (p.is_dental || (p.title || '').toLowerCase().includes('dental'))) return true;
+                if (activeCategory === 'TOP100' && (p.is_top_100 || p.is_dental_top_100)) return true;
+                return false;
+            });
+        }
+        
+        if (activeSource !== 'all') {
+            baseData = baseData.filter(p => p.source === activeSource);
+        }
+
         if (!rawQuery) {
-            filteredData = [...papersData];
+            filteredData = [...baseData];
             renderLibrary();
             return;
         }
@@ -255,7 +268,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
 
-        filteredData = papersData.map(p => {
+        filteredData = baseData.map(p => {
             let score = 0;
             const titleEN = (p.title || "").toLowerCase();
             const titleJP = (typeof p.jp_title === 'string' ? p.jp_title : JSON.stringify(p.jp_title || "")).toLowerCase();
@@ -830,6 +843,7 @@ ${abstractEn || '(No abstract available)'}
             searchInput.value = '';
             searchClearBtn.style.display = 'none';
             performSearch();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     }
 

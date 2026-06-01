@@ -148,7 +148,10 @@ def update_database_json(all_papers, pptx_path, total_count=0, stats=None, top_i
         if not summary_data and pid in existing:
             summary_data = existing[pid].get('summary_data') or {"summary_html": existing[pid].get('summary_html'), "jp_title": existing[pid].get('jp_title'), "jp_authors": existing[pid].get('jp_authors')}
 
-        jp_title = summary_data.get('jp_title') if summary_data else None
+        # 翻訳済みの新しいタイトル(p['jp_title'])があればそれを最優先し、なければキャッシュ(summary_data)を参照する
+        jp_title = p.get('jp_title')
+        if not jp_title or jp_title == p['title']:
+            jp_title = summary_data.get('jp_title') if summary_data else None
         if not jp_title: jp_title = p.get('jp_title', p['title'])
         
         jp_authors = summary_data.get('jp_authors') if summary_data else None
@@ -161,7 +164,7 @@ def update_database_json(all_papers, pptx_path, total_count=0, stats=None, top_i
             "tags": summary_data.get('categories', []) if summary_data else [],
             "hashtags": p.get('hashtags', []),
             "summary_html": summary_data.get('summary_html', "") if summary_data else "",
-            "abstract": p.get('abstract', "")[:500] + ("..." if len(p.get('abstract', "")) > 500 else ""),
+            "abstract": p.get('abstract', ""),
             "is_top_100": (pid in top_ids),
             "is_dental_top_100": (pid in dental_ids),
             "is_hidden": summary_data.get('is_noise', False) if summary_data else False

@@ -584,7 +584,7 @@ button, .primary-btn, .secondary-btn {
     -webkit-backdrop-filter: blur(15px);
     backdrop-filter: blur(15px);
     z-index: 99999; /* 確実に最前面へ */
-    overflow-y: auto;
+    overflow-y: auto; /* 長いコンテンツをスクロール可能にする */
 }
 
 .modal-content {

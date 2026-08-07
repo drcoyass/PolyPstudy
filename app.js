@@ -142,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 searchInput.value = query;
             }
             
+            setupFuse();
             performSearch();
             
             if (query) {
@@ -188,7 +189,8 @@ document.addEventListener('DOMContentLoaded', function() {
             bar.onclick = () => {
                 if (searchInput) {
                     searchInput.value = y;
-                    performSearch();
+                    setupFuse();
+            performSearch();
                     document.getElementById('papers').scrollIntoView({ behavior: 'smooth' });
                 }
             };
@@ -221,7 +223,8 @@ document.addEventListener('DOMContentLoaded', function() {
     window.filterByTag = function(tag) {
         if (!searchInput) return;
         searchInput.value = tag;
-        performSearch();
+        setupFuse();
+            performSearch();
         document.getElementById('papers').scrollIntoView({ behavior: 'smooth' });
     };
 
@@ -353,7 +356,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 // If it looks like a search query, act on it
                 if (val.length < 30) {
                     searchInput.value = val;
-                    performSearch();
+                    setupFuse();
+            performSearch();
                     document.getElementById('papers').scrollIntoView({ behavior: 'smooth' });
                 }
             }, 800);
@@ -428,6 +432,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelectorAll('#categoryFilters .filter-pill').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeCategory = btn.dataset.category;
+            setupFuse();
             performSearch();
         };
     });
@@ -437,6 +442,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelectorAll('#sourceFilters .filter-pill').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeSource = btn.dataset.source;
+            setupFuse();
             performSearch();
         };
     });
@@ -505,11 +511,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 yearDisplay = dateMatch ? dateMatch[0] : '---';
             }
             
+            const pdfBadge = p.local_pdf ? `<div class="source-badge" style="background: rgba(255, 85, 85, 0.2); color: #FF8888; border: 1px solid rgba(255, 85, 85, 0.4); margin-top: 0.3rem;">PDF</div>` : '';
+
             // 論文の権威性を示すバッジ類
             card.innerHTML = `
                 <div class="card-side-info">
                     <div class="year-badge">${yearDisplay}</div>
                     <div class="source-badge">${(p.source || 'PubMed').toUpperCase()}</div>
+                    ${pdfBadge}
                 </div>
                 <div class="card-main-content">
                     <div class="card-header-row" style="margin-bottom: 0.5rem; opacity: 0.6; font-size: 0.75rem;">
@@ -666,13 +675,23 @@ ${abstractEn || '(No abstract available)'}
 
         const link = p.url || `https://pubmed.ncbi.nlm.nih.gov/${p.id}/`;
 
+        let pdfBtnHtml = "";
+        if (p.local_pdf) {
+            pdfBtnHtml = `
+                <a href="${p.local_pdf}" target="_blank" class="primary-btn" style="background: linear-gradient(135deg, #FF5555, #FF2222); display: inline-flex; align-items: center; gap: 6px;">
+                    📄 VIEW PDF
+                </a>
+            `;
+        }
+
         modalBody.innerHTML = `
             <h2>${(currentLang === 'ja' && p.jp_title) ? p.jp_title : p.title}</h2>
             <div id="abstractContainer" style="margin-top:2rem; line-height:1.8;">${contentHtml}</div>
             ${translateBtnHtml}
-            <div style="margin-top:2rem; display: flex; align-items: center;">
+            <div style="margin-top:2rem; display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
+                ${pdfBtnHtml}
                 <a href="${link}" target="_blank" class="primary-btn">VIEW SOURCE ↗</a>
-                <button onclick="copyForNotebookLM(${index}, this)" class="secondary-btn" style="margin-left: 10px;">📋 NotebookLMへコピー</button>
+                <button onclick="copyForNotebookLM(${index}, this)" class="secondary-btn">📋 NotebookLMへコピー</button>
             </div>
         `;
         modal.style.display = "block";
@@ -864,6 +883,7 @@ ${abstractEn || '(No abstract available)'}
         searchClearBtn.addEventListener('click', () => {
             searchInput.value = '';
             searchClearBtn.style.display = 'none';
+            setupFuse();
             performSearch();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
@@ -998,7 +1018,8 @@ ${abstractEn || '(No abstract available)'}
             if (searchInput) {
                 searchInput.value = tag.getAttribute('data-tag');
                 if (searchTimeout) clearTimeout(searchTimeout);
-                performSearch();
+                setupFuse();
+            performSearch();
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
         });
@@ -1006,3 +1027,86 @@ ${abstractEn || '(No abstract available)'}
 
     setTimeout(initInteractiveMap, 500);
 
+
+    // --- Phase 3: Suggestions & Range Slider ---
+    function setupSuggestions() {
+        const suggestBox = document.getElementById('searchSuggestions');
+        if(!suggestBox) return;
+        
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+            if(query.length < 2) {
+                suggestBox.classList.add('is-hidden');
+                return;
+            }
+            
+            const words = query.split(/\s+/);
+            const lastWord = words[words.length-1];
+            
+            let suggestions = [];
+            let matches = 0;
+            for(let i=0; i<papersData.length && matches < 8; i++) {
+                const p = papersData[i];
+                if(p.keywords && p.keywords.toLowerCase().includes(lastWord)) {
+                    suggestions.push({text: p.keywords, type: 'Keyword', icon: '🔑'});
+                    matches++;
+                } else if(p.authors && p.authors.toLowerCase().includes(lastWord)) {
+                    const authorList = p.authors.split(',');
+                    const matchedAuthor = authorList.find(a => a.toLowerCase().includes(lastWord));
+                    if(matchedAuthor) {
+                        suggestions.push({text: matchedAuthor.trim(), type: 'Author', icon: '👤'});
+                        matches++;
+                    }
+                }
+            }
+            
+            const unique = [];
+            const seen = new Set();
+            for(const s of suggestions) {
+                if(!seen.has(s.text)) {
+                    seen.add(s.text);
+                    unique.push(s);
+                }
+            }
+            
+            if(unique.length > 0) {
+                suggestBox.innerHTML = unique.map(s => `
+                    <div class="suggest-item" onclick="applySuggestion('${s.text.replace(/'/g, "\\'")}')">
+                        <span class="suggest-icon">${s.icon}</span>
+                        <span class="suggest-text">${s.text}</span>
+                        <span class="suggest-type">${s.type}</span>
+                    </div>
+                `).join('');
+                suggestBox.classList.remove('is-hidden');
+            } else {
+                suggestBox.classList.add('is-hidden');
+            }
+        });
+        
+        document.addEventListener('click', (e) => {
+            if(!e.target.closest('.search-bar-container')) {
+                suggestBox.classList.add('is-hidden');
+            }
+        });
+    }
+    
+    window.applySuggestion = function(text) {
+        searchInput.value = text;
+        document.getElementById('searchSuggestions').classList.add('is-hidden');
+        performSearch();
+    };
+
+    const yMin = document.getElementById('yearMin');
+    const yMax = document.getElementById('yearMax');
+    if(yMin && yMax) {
+        const updateYearFilter = () => {
+            if(parseInt(yMin.value) > parseInt(yMax.value)) {
+                let tmp = yMin.value;
+                yMin.value = yMax.value;
+                yMax.value = tmp;
+            }
+            performSearch();
+        };
+        yMin.addEventListener('input', updateYearFilter);
+        yMax.addEventListener('input', updateYearFilter);
+    }

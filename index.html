@@ -74,6 +74,7 @@
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&family=Noto+Sans+JP:wght@400;700&display=swap"
         rel="stylesheet">
     <!-- 3D & Advanced Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -301,13 +302,28 @@
                 </div>
 
                 <div class="search-bar search-bar-container">
-                    <input type="text" id="searchInput"
+                    <input type="text" id="searchInput" autocomplete="off"
                         placeholder="Search by paper title, authors, or molecular keywords..."
                         data-i18n-placeholder="searchPlaceholder">
                     <button id="searchClearBtn" class="search-clear-btn" title="クリア">✖</button>
                     <button id="searchBtn" data-i18n="btnSearch">SEARCH</button>
+                
+                    <div id="searchSuggestions" class="search-suggestions is-hidden"></div>
                 </div>
-
+                
+                <!-- Year Filter UI -->
+                <div class="year-filter-container glass-card" style="margin-top: 1.5rem; padding: 1rem 1.5rem; border-radius: 12px; display: flex; flex-direction: column; gap: 10px;">
+                    <label style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 800; color: var(--accent-cyan); letter-spacing: 1px;">
+                        <span data-i18n="labelYearFilter">PUBLICATION YEAR RANGE</span>
+                        <span id="yearDisplay">2010 - 2026</span>
+                    </label>
+                    <div style="display: flex; gap: 15px; align-items: center;">
+                        <span style="font-size: 0.8rem; color: var(--text-gray);">Old</span>
+                        <input type="range" id="yearMin" class="styled-slider" min="1950" max="2026" value="2010" style="flex: 1;">
+                        <input type="range" id="yearMax" class="styled-slider" min="1950" max="2026" value="2026" style="flex: 1;">
+                        <span style="font-size: 0.8rem; color: var(--text-gray);">New</span>
+                    </div>
+                
                 <div class="quick-tags" id="quickTags">
                     <span class="quick-tag" data-tag="インプラント">#インプラント</span>
                     <span class="quick-tag" data-tag="骨再生">#骨再生</span>

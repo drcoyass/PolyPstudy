@@ -6,6 +6,10 @@ on:
     - cron: '0 18 * * *'
   workflow_dispatch: # 手動実行用ボタンも有効化
 
+# GITHUB_TOKEN に push 権限を付与（無いと 403 で失敗する）
+permissions:
+  contents: write
+
 jobs:
   sync_papers:
     runs-on: ubuntu-latest

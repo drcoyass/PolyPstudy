@@ -5,6 +5,10 @@ on:
     - cron: '0 0 * * *' # 日本時間の午前9時に毎日実行
   workflow_dispatch: # 手動でも動かせるようにする
 
+# GITHUB_TOKEN に push 権限を付与（無いと 403 で失敗する）
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest

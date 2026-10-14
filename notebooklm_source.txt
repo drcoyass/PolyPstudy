@@ -4,6 +4,21 @@
 
 ==================================================
 
+■ 日本語タイトル: Calcium Pyrophosphate Deposition Disease of the Temporomandibular Joint Extending into the External Auditory Canal and the Middle Ear, Coexisting with Otosclerosis: A Case Report.
+■ Original Title: Calcium Pyrophosphate Deposition Disease of the Temporomandibular Joint Extending into the External Auditory Canal and the Middle Ear, Coexisting with Otosclerosis: A Case Report.
+■ 関連タグ: インプラント
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42867357/
+
+■ 日本語要約:
+Calcium pyrophosphate deposition disease (CPPD) is caused by CPP crystals and rarely forms tumors in joints. The authors describe a case of tumoral CPPD in the temporomandibular joint (TMJ), extending into the external auditory canal (EAC) and the middle ear. A 71-year-old man was referred to the department with a tentative diagnosis of CPPD in the right TMJ. Computed tomography showed the mass extending into the EAC, tympanic cavity, and bony Eustachian tube, with opacification of the mastoid cells. The audiogram revealed bilateral mixed hearing loss, suggesting the coexistence of bilateral otosclerosis. Partial resection of the mass and simultaneous implantation of a Baha® on the same side were performed. Histopathological findings revealed indistinct crystals in the surgical specimens. Calcium pyrophosphate crystals were identified using thin-film X-ray diffraction (XRD) analysis. The comorbidity of CPPD and otosclerosis in the same ear is a rare condition. Considering the unpredictable nature of CPPD, the authors opted for partial resection of the lesion involving the EAC and the middle ear to avoid any complications. Due to coexisting otosclerosis, Baha® played an important role in the auditory management of bilateral mixed hearing loss in this patient.
+
+■ Original English Abstract:
+Calcium pyrophosphate deposition disease (CPPD) is caused by CPP crystals and rarely forms tumors in joints. The authors describe a case of tumoral CPPD in the temporomandibular joint (TMJ), extending into the external auditory canal (EAC) and the middle ear. A 71-year-old man was referred to the department with a tentative diagnosis of CPPD in the right TMJ. Computed tomography showed the mass extending into the EAC, tympanic cavity, and bony Eustachian tube, with opacification of the mastoid cells. The audiogram revealed bilateral mixed hearing loss, suggesting the coexistence of bilateral otosclerosis. Partial resection of the mass and simultaneous implantation of a Baha® on the same side were performed. Histopathological findings revealed indistinct crystals in the surgical specimens. Calcium pyrophosphate crystals were identified using thin-film X-ray diffraction (XRD) analysis. The comorbidity of CPPD and otosclerosis in the same ear is a rare condition. Considering the unpredictable nature of CPPD, the authors opted for partial resection of the lesion involving the EAC and the middle ear to avoid any complications. Due to coexisting otosclerosis, Baha® played an important role in the auditory management of bilateral mixed hearing loss in this patient.
+
+--------------------------------------------------
+
 ■ 日本語タイトル: Improvement of the biological performance of filling materials for primary teeth after pulpectomy by incorporating Ca-polyP microparticles.
 ■ Original Title: Improvement of the biological performance of filling materials for primary teeth after pulpectomy by incorporating Ca-polyP microparticles.
 ■ 関連タグ: インプラント, 再生医療, 歯周病・口腔, 骨再生・硬組織
@@ -4546,6 +4561,20 @@ Nitrogen (N) and Phosphorus (P) are vital nutrients for plant growth and photosy
 
 --------------------------------------------------
 
+■ 日本語タイトル: The composite acidifier of superphosphate and sulfuric acid for swine slurry storage treatment: Assessment of gases emission reduction and stabilization.
+■ Original Title: The composite acidifier of superphosphate and sulfuric acid for swine slurry storage treatment: Assessment of gases emission reduction and stabilization.
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42828895/
+
+■ 日本語要約:
+To realize ammonia emission reduction, greenhouse gas emission reduction and stabilized treatment during manure slurry storage, a novel composite acidifier was proposed in this study. The composite acidifier was composed of superphosphate and sulfuric acid (SP-SA) at different proportions, and the performance of gas emission reduction and stabilization was also conducted. The composite SP-SA acidification could reduce 46.79% - 72.71% of ammonia emission and 38.95% - 69.21% of greenhouse gas emission. Due to the slow release of H
+
+■ Original English Abstract:
+To realize ammonia emission reduction, greenhouse gas emission reduction and stabilized treatment during manure slurry storage, a novel composite acidifier was proposed in this study. The composite acidifier was composed of superphosphate and sulfuric acid (SP-SA) at different proportions, and the performance of gas emission reduction and stabilization was also conducted. The composite SP-SA acidification could reduce 46.79% - 72.71% of ammonia emission and 38.95% - 69.21% of greenhouse gas emission. Due to the slow release of H
+
+--------------------------------------------------
+
 ■ 日本語タイトル: Coadministration of fluoride, trimetaphosphate, and quercetin reduces dentin erosive wear in vitro.
 ■ Original Title: Coadministration of fluoride, trimetaphosphate, and quercetin reduces dentin erosive wear in vitro.
 ■ 著者: 
@@ -5485,7 +5514,7 @@ Achieving solid-state electrolytes (SSEs) that combine fast Na+ conduction, high
 
 --------------------------------------------------
 
-■ 日本語タイトル: マルチレベルの最適化と統合されたライフサイクル評価により、シュウ酸デカルボキシラーゼのバイオ製造が強化されます
+■ 日本語タイトル: マルチレベルの最適化と統合されたライフサイクル評価により、シュウ酸デカルボキシラーゼのバイオ製造が強化される
 ■ Original Title: Enhanced oxalate decarboxylase biomanufacturing via multi-level optimization and integrated life cycle assessment.
 ■ 関連タグ: ホワイトニング, ミトコンドリア・代謝
 ■ 著者: 
@@ -5545,7 +5574,7 @@ To evaluate the efficacy of diquafosol 3% in preventing and treating dry eye ass
 
 --------------------------------------------------
 
-■ 日本語タイトル: ポリリン酸は酸化ストレスを軽減し、温泉ラン藻の温度適応力をサポートします
+■ 日本語タイトル: ポリリン酸は酸化ストレスを軽減し、温泉ラン藻の温度適応力をサポートする
 ■ Original Title: Polyphosphate Attenuates Oxidative Stress to Support Temperature Adaptability in Hot Spring Cyanobacteria.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: 
@@ -5832,7 +5861,7 @@ Algae from the Viridiplantae lineage grow on glaciers and semi-permanent snow pa
 
 --------------------------------------------------
 
-■ 日本語タイトル: SHIP は、触媒活性とは独立して、マクロファージにおける (MDP + LPS) 誘発相乗作用をブロックします
+■ 日本語タイトル: SHIP は、触媒活性とは独立して、マクロファージにおける (MDP + LPS) 誘発相乗作用をブロックする
 ■ Original Title: SHIP blocks (MDP + LPS)-induced synergy in macrophages independent of catalytic activity.
 ■ 関連タグ: 再生医療
 ■ 著者: 
@@ -5950,7 +5979,7 @@ RelA/SpoT homologue family enzymes participate in controlling the cellular level
 
 --------------------------------------------------
 
-■ 日本語タイトル: 3 つのホスファターゼ ファミリーがコミュニティを形成している。ホスホヒドロラーゼはイノシトール ピロリン酸に作用します
+■ 日本語タイトル: 3 つのホスファターゼ ファミリーがコミュニティを形成している。ホスホヒドロラーゼはイノシトール ピロリン酸に作用する
 ■ Original Title: Three phosphatase families form a community: The phosphohydrolases that act upon inositol pyrophosphates.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -5964,7 +5993,7 @@ Inositol pyrophosphates (PP-InsP) are high energy signaling molecules that play 
 
 --------------------------------------------------
 
-■ 日本語タイトル: ポリリン酸ベースの止血ガーゼは、出血性ショックを伴うブタ四肢外傷モデルにおいて、QuikClot Combat Gauze と比較して遠位灌流を維持します
+■ 日本語タイトル: ポリリン酸ベースの止血ガーゼは、出血性ショックを伴うブタ四肢外傷モデルにおいて、QuikClot Combat Gauze と比較して遠位灌流を維持する
 ■ Original Title: Polyphosphate-based hemostatic gauze preserves distal perfusion compared with QuikClot Combat Gauze in a porcine extremity trauma model with hemorrhagic shock.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -6007,7 +6036,7 @@ Self-organizing waves are observed in numerous biological systems and may encode
 
 --------------------------------------------------
 
-■ 日本語タイトル: 細菌のエネルギー学を再プログラミングすると、相乗的ながん免疫療法のために乳酸媒介免疫抑制が逆転します
+■ 日本語タイトル: 細菌のエネルギー学を再プログラミングすると、相乗的ながん免疫療法のために乳酸媒介免疫抑制が逆転する
 ■ Original Title: Reprogramming bacterial energetics reverses lactate-mediated immunosuppression for synergistic cancer immunotherapy.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: 
@@ -6036,7 +6065,7 @@ The immunosuppressive tumor microenvironment (TME), driven by lactate accumulati
 
 --------------------------------------------------
 
-■ 日本語タイトル: 相乗的なポリリン酸-没食子酸システムは、免疫微小環境を再構築し、生体エネルギーを回復することにより、感染した皮膚欠陥を治癒します
+■ 日本語タイトル: 相乗的なポリリン酸-没食子酸システムは、免疫微小環境を再構築し、生体エネルギーを回復することにより、感染した皮膚欠陥を治癒する
 ■ Original Title: Synergistic polyphosphate-gallic acid system heals infected skin defects by remodeling the immune microenvironment and restoring bioenergetics.
 ■ 関連タグ: ミトコンドリア・代謝, 再生医療, 創傷治癒
 ■ 著者: 
@@ -6051,7 +6080,7 @@ Infected skin defects persist in a pathological state characterized by dysregula
 
 --------------------------------------------------
 
-■ 日本語タイトル: 増幅副産物を利用して、ナノザイム阻害による比色 ctDNA 検出を可能にします
+■ 日本語タイトル: 増幅副産物を利用して、ナノザイム阻害による比色 ctDNA 検出を可能にする
 ■ Original Title: Exploiting amplification byproducts to enable colorimetric ctDNA detection via nanozyme inhibition.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -6354,7 +6383,7 @@ Polyphosphates are evolutionarily conserved linear chains of phosphate residues 
 
 --------------------------------------------------
 
-■ 日本語タイトル: ピロリン酸マンガン鉱化 DNA ナノワクチンは、強力な体液性免疫と細胞性免疫を誘発します
+■ 日本語タイトル: ピロリン酸マンガン鉱化 DNA ナノワクチンは、強力な体液性免疫と細胞性免疫を誘発する
 ■ Original Title: Manganese Pyrophosphate Mineralized DNA Nanovaccine Elicits Potent Humoral and Cellular Immunity.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -7290,7 +7319,7 @@ Marine by-products are a valuable source of bioactive peptides with significant 
 
 --------------------------------------------------
 
-■ 日本語タイトル: シリマリンとケルセチンを配合した pH 感受性キトサントリポリリン酸 / Eudragit® S100 ナノ粒子は、Th1 細胞、炎症性サイトカイン、酸化ストレスを調節することにより、ラットの酢酸誘発性結腸炎症を改善します
+■ 日本語タイトル: シリマリンとケルセチンを配合した pH 感受性キトサントリポリリン酸 / Eudragit® S100 ナノ粒子は、Th1 細胞、炎症性サイトカイン、酸化ストレスを調節することにより、ラットの酢酸誘発性結腸炎症を改善する
 ■ Original Title: The silymarin and quercetin-loaded pH-sensitive chitosan-tripolyphosphate/Eudragit® S100 nanoparticles improve acetic acid-induced colonic inflammation in rats by modulating Th1 cells, inflammatory cytokines, and oxidative stress.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: 
@@ -8496,7 +8525,7 @@ Inorganic polyphosphate (polyP), a linear polymer of orthophosphoric acid residu
 
 --------------------------------------------------
 
-■ 日本語タイトル: 宇宙電離放射線は、かんらん石表面でのペプチドと有機リン酸塩の形成を引き起こします
+■ 日本語タイトル: 宇宙電離放射線は、かんらん石表面でのペプチドと有機リン酸塩の形成を引き起こする
 ■ Original Title: Space ionizing radiation triggers the formation of peptides and organophosphates on olivine surfaces.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -8638,7 +8667,7 @@ Pyrophosphates are central to biology, and synthetic pyrophosphate isosteres are
 
 --------------------------------------------------
 
-■ 日本語タイトル: デュアルアクションビスホスホネートヒドロゲルは、皮質骨の完全性を維持し、骨粗鬆症性骨折関連感染症の治癒カスケードを回復します
+■ 日本語タイトル: デュアルアクションビスホスホネートヒドロゲルは、皮質骨の完全性を維持し、骨粗鬆症性骨折関連感染症の治癒カスケードを回復する
 ■ Original Title: Dual-action bisphosphonate hydrogel preserves cortical bone integrity and restores healing cascade in osteoporotic fracture-related infection.
 ■ 関連タグ: 骨再生・硬組織
 ■ 著者: 
@@ -8738,7 +8767,7 @@ Transarterial radioembolization (TARE) is a highly effective treatment for unres
                     
                       ハロフェラックス火山
                     
-                   、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
+                  、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
                     
                       H. ボルカニイ
                     
@@ -9351,7 +9380,7 @@ Inorganic polyphosphate (polyP) is a ubiquitous phosphate biopolymer involved in
 
 --------------------------------------------------
 
-■ 日本語タイトル: 地中海作物の輪作では、有機リン肥料が鉱物肥料を上回ります
+■ 日本語タイトル: 地中海作物の輪作では、有機リン肥料が鉱物肥料を上回る
 ■ Original Title: Organic phosphorus fertilizers outperform mineral fertilization in a Mediterranean crop rotation
 ■ 著者: 
 ■ 発行年: 2026 (Source: AGR)
@@ -9442,6 +9471,48 @@ ABSTRACT  Eukaryotic cells store inorganic phosphate in the form of long chains 
 ■ 著者: 
 ■ 発行年: 2026 (Source: Crossref)
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.1039/d6tb00614k/v2/review1
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: Reviewer #1 (Public review): NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ Original Title: Reviewer #1 (Public review): NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ 著者: 
+■ 発行年: 2026 (Source: Crossref)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.7554/elife.112828.1.sa2
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: Reviewer #2 (Public review): NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ Original Title: Reviewer #2 (Public review): NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ 著者: 
+■ 発行年: 2026 (Source: Crossref)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.7554/elife.112828.1.sa1
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: Reviewer #3 (Public review): NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ Original Title: Reviewer #3 (Public review): NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ 著者: 
+■ 発行年: 2026 (Source: Crossref)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.7554/elife.112828.1.sa0
 
 ■ 日本語要約:
 (日本語要約なし)
@@ -9641,6 +9712,20 @@ Inorganic polyphosphate (polyP) is a universally conserved biopolymer central to
 ■ 著者: 
 ■ 発行年: 2026 (Source: Crossref)
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.2210/pdb9urj/pdb
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: eLife Assessment: NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ Original Title: eLife Assessment: NUDT2 loss defines quantitative limits for dinucleoside polyphosphate action on the cGAS–STING–TBK1 axis
+■ 著者: 
+■ 発行年: 2026 (Source: Crossref)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.7554/elife.112828.1.sa3
 
 ■ 日本語要約:
 (日本語要約なし)
@@ -10240,7 +10325,7 @@ Over the past few decades, aquaculture has been steering the giant wheel of the 
 
 --------------------------------------------------
 
-■ 日本語タイトル: リンの割合と種類を組み合わせると、沿岸の塩分土壌と作物システムにおける塩イオンの恒常性が調節され、トウモロコシの収量が向上します
+■ 日本語タイトル: リンの割合と種類を組み合わせると、沿岸の塩分土壌と作物システムにおける塩イオンの恒常性が調節され、トウモロコシの収量が向上する
 ■ Original Title: Coupling phosphorus rate and type enhances maize yield by regulating salt ion homeostasis in coastal saline soil-crop systems
 ■ 関連タグ: ホワイトニング
 ■ 著者: 
@@ -81756,7 +81841,7 @@ The ability to acquire iron from various sources has been demonstrated to be a m
 
 --------------------------------------------------
 
-■ 日本語タイトル: 定量的プロテオミクスがミトコンドリアPARKIN転送とユビキチン鎖合成のフィードフォワードメカニズムを明らかにする
+■ 日本語タイトル: 定量的プロテオミクスがミトコンドリアPARKIN転送とユビキチン鎖合成のフィードフォワードメカニズムの解明
 ■ Original Title: Quantitative proteomics reveal a feedforward mechanism for mitochondrial PARKIN translocation and ubiquitin chain synthesis.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: Alban Ordureau, Shireen A Sarraf, David M Duda et al.

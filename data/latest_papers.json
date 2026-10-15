@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14",
+  "generated_at": "2026-10-15",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19080,
+  "total_pubmed_count": 19082,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -393940,6 +393940,39 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
+    },
+    {
+      "id": "42872406",
+      "title": "Maize Inositol Polyphosphate 5-phosphatase Gene Family Analysis Reveals Zm5PTase25 as a Negative Regulator of Low Phosphate-Induced Leaf Senescence.",
+      "abstract": "Phosphate (Pi) deficiency promotes premature leaf senescence in plants through complex molecular networks; however, the underlying mechanisms remain poorly understood. Inositol polyphosphate 5-phosphatases (5PTases) are key regulators of inositol phosphate metabolism, but the maize (Zea mays L.) 5PTase gene family and its roles in low Pi (LP)-induced leaf senescence have not been systematically investigated. Here, we identified 31 members of the Zm5PTase family in the maize genome. Phylogenetic and structural analyses revealed marked divergence among clades. Among these genes, Zm5PTase25 was preferentially expressed in senescing leaves and significantly downregulated under LP stress. Functional analyses indicated that Zm5PTase25 negatively regulates LP-induced leaf senescence. Silencing Zm5PTase25 accelerated leaf senescence, promoted anthocyanin accumulation, altered Pi distribution between old and young leaves in a manner consistent with enhanced Pi remobilisation, and upregulated senescence- and ribonuclease-associated genes and repressed photosynthesis-related genes. Conversely, overexpression of Zm5PTase25 delayed leaf senescence. In vitro assays showed that Zm5PTase25 bound and hydrolysed soluble InsP",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42872406/",
+      "summary_jp": "Phosphate (Pi) deficiency promotes premature leaf senescence in plants through complex molecular networks; however, the underlying mechanisms remain poorly understood. Inositol polyphosphate 5-phosphatases (5PTases) are key regulators of inositol phosphate metabolism, but the maize (Zea mays L.) 5PTase gene family and its roles in low Pi (LP)-induced leaf senescence have not been systematically investigated. Here, we identified 31 members of the Zm5PTase family in the maize genome. Phylogenetic and structural analyses revealed marked divergence among clades. Among these genes, Zm5PTase25 was preferentially expressed in senescing leaves and significantly downregulated under LP stress. Functional analyses indicated that Zm5PTase25 negatively regulates LP-induced leaf senescence. Silencing Zm5PTase25 accelerated leaf senescence, promoted anthocyanin accumulation, altered Pi distribution between old and young leaves in a manner consistent with enhanced Pi remobilisation, and upregulated senescence- and ribonuclease-associated genes and repressed photosynthesis-related genes. Conversely, overexpression of Zm5PTase25 delayed leaf senescence. In vitro assays showed that Zm5PTase25 bound and hydrolysed soluble InsP",
+      "jp_title": "Maize Inositol Polyphosphate 5-phosphatase Gene Family Analysis Reveals Zm5PTase25 as a Negative Regulator of Low Phosphate-Induced Leaf Senescence."
+    },
+    {
+      "id": "42691664",
+      "title": "Divergent effects of phosphate salts on advanced glycation end-product formation in minced pork during commercial sterilization.",
+      "abstract": "This research investigated the impacts of phosphate salts (sodium tripolyphosphate and tetrasodium pyrophosphate) and pre-heating storage (0 °C, 1-7 d) on N",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42691664/",
+      "summary_jp": "This research investigated the impacts of phosphate salts (sodium tripolyphosphate and tetrasodium pyrophosphate) and pre-heating storage (0 °C, 1-7 d) on N",
+      "jp_title": "Divergent effects of phosphate salts on advanced glycation end-product formation in minced pork during commercial sterilization."
+    },
+    {
+      "id": "10.21203/rs.3.rs-10745759/v1",
+      "title": "Integrated Assessment of Potentially Toxic Elements Fluxes in Paddy Agroecosystems of Dry Zone: From Fertilizer Inputs to Soil Transformation and Grain-Level Bioaccumulation",
+      "abstract": "<title>Abstract</title>  <p>This study presents an integrated, multi-matrix assessment of potentially toxic element (PTE) fluxes across Chronic Kidney Disease of unknown etiology-endemic paddy agroecosystems in Sri Lanka, systematically quantifying cadmium, lead, arsenic, chromium, copper, zinc, and manganese from inorganic fertilizer inputs through soil biogeochemical transformation to grain-level bioaccumulation. Triple Superphosphate was identified as the primary PTE vector, containing Cd (6.74 mg/kg), Pb (124.34 mg/kg), and Cr (186.36 mg/kg), all exceeding safe agronomic thresholds. Girandurukotte was the most contaminated site, recording peak soil Cd (0.177), Pb (10.526), As (3.887), and Cu (38.904) in mg/kg, with hierarchical clustering confirming its geochemical distinctiveness. Cadmium demonstrated the highest bioavailability, with soil-to-root BCF values reaching 0.740 and soil-to-grain transfer factors of 0.116–0.153 across endemic sites. A statistically significant positive association was confirmed between soil and grain Cd concentrations. Root-to-grain translocation factors for Cd (0.207–0.336) substantially exceeded those of Pb (~ 0.05), arsenic, and chromium. Ecological risk assessment yielded PERI values of 13.01–30.70 across sites — all within the low-risk classification — yet cadmium dominated cumulative risk profiles at every location (Er up to 17.68), reflecting its disproportionate toxicological weighting. Inverse Distance Weighting spatial interpolation delineated discrete Cd and Pb hotspots geographically coinciding with documented peak CKDu prevalence zones, providing spatially explicit empirical support for a fertilizer-derived and geochemical cadmium exposure pathway underlying chronic renal injury in Sri Lanka's endemic dry zone paddy farming communities with a foundation for evidence-based fertilizer quality regulation, agricultural monitoring frameworks, and targeted public health intervention across Sri Lanka's endemic dry zone.</p>",
+      "tags": [],
+      "date": "2026",
+      "source": "PPR",
+      "url": "https://doi.org/10.21203/rs.3.rs-10745759/v1",
+      "summary_jp": "<title>Abstract</title>  <p>This study presents an integrated, multi-matrix assessment of potentially toxic element (PTE) fluxes across Chronic Kidney Disease of unknown etiology-endemic paddy agroecosystems in Sri Lanka, systematically quantifying cadmium, lead, arsenic, chromium, copper, zinc, and manganese from inorganic fertilizer inputs through soil biogeochemical transformation to grain-level bioaccumulation. Triple Superphosphate was identified as the primary PTE vector, containing Cd (6.74 mg/kg), Pb (124.34 mg/kg), and Cr (186.36 mg/kg), all exceeding safe agronomic thresholds. Girandurukotte was the most contaminated site, recording peak soil Cd (0.177), Pb (10.526), As (3.887), and Cu (38.904) in mg/kg, with hierarchical clustering confirming its geochemical distinctiveness. Cadmium demonstrated the highest bioavailability, with soil-to-root BCF values reaching 0.740 and soil-to-grain transfer factors of 0.116–0.153 across endemic sites. A statistically significant positive association was confirmed between soil and grain Cd concentrations. Root-to-grain translocation factors for Cd (0.207–0.336) substantially exceeded those of Pb (~ 0.05), arsenic, and chromium. Ecological risk assessment yielded PERI values of 13.01–30.70 across sites — all within the low-risk classification — yet cadmium dominated cumulative risk profiles at every location (Er up to 17.68), reflecting its disproportionate toxicological weighting. Inverse Distance Weighting spatial interpolation delineated discrete Cd and Pb hotspots geographically coinciding with documented peak CKDu prevalence zones, providing spatially explicit empirical support for a fertilizer-derived and geochemical cadmium exposure pathway underlying chronic renal injury in Sri Lanka's endemic dry zone paddy farming communities with a foundation for evidence-based fertilizer quality regulation, agricultural monitoring frameworks, and targeted public health intervention across Sri Lanka's endemic dry zone.</p>",
+      "jp_title": "Integrated Assessment of Potentially Toxic Elements Fluxes in Paddy Agroecosystems of Dry Zone: From Fertilizer Inputs to Soil Transformation and Grain-Level Bioaccumulation"
     }
   ],
   "last_accuracy_boost": "2026-10-14 05:22:19",

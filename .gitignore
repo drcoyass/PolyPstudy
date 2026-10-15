@@ -1,4 +1,6 @@
 venv/
+.venv_pdf/
+node_modules/
 __pycache__/
 .DS_Store
 .env
@@ -7,3 +9,4 @@ data/papers_cache.json
 *.pyc
 .gemini/
 .agents/
+.playwright_session/

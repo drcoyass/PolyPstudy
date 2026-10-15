@@ -142,7 +142,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 searchInput.value = query;
             }
             
+            // --- Phase 3 UI Helpers ---
+            function setupFuse() {
+                // Safe search index stub
+            }
+
             setupFuse();
+            setupSuggestions();
             performSearch();
             
             if (query) {
@@ -257,6 +263,18 @@ document.addEventListener('DOMContentLoaded', function() {
             baseData = baseData.filter(p => p.source === activeSource);
         }
 
+        const yMinEl = document.getElementById('yearMin');
+        const yMaxEl = document.getElementById('yearMax');
+        if (yMinEl && yMaxEl) {
+            const minYear = parseInt(yMinEl.value) || 1900;
+            const maxYear = parseInt(yMaxEl.value) || 2100;
+            baseData = baseData.filter(p => {
+                const py = parseInt(p.year) || (p.date ? parseInt(p.date.substring(0, 4)) : 0);
+                if (!py) return true;
+                return py >= minYear && py <= maxYear;
+            });
+        }
+
         if (!rawQuery) {
             filteredData = [...baseData];
             renderLibrary();
@@ -277,6 +295,16 @@ document.addEventListener('DOMContentLoaded', function() {
             const titleJP = (typeof p.jp_title === 'string' ? p.jp_title : JSON.stringify(p.jp_title || "")).toLowerCase();
             const abstract = (p.abstract || "").toLowerCase();
             const tags = (p.tags || []).map(t => t.toLowerCase());
+
+            const pmidStr = String(p.id || '').toLowerCase();
+            const doiStr = String(p.doi || '').toLowerCase();
+            const authorsStr = String(p.authors || '').toLowerCase();
+
+            // 0. ID / DOI / 著者一致
+            if (pmidStr === rawQuery || pmidStr.includes(rawQuery)) score += 1000;
+            if (doiStr && doiStr.includes(rawQuery)) score += 1000;
+            if (authorsStr && authorsStr.includes(rawQuery)) score += 400;
+            if (rawQuery === 'pdf' && p.local_pdf) score += 500;
 
             // 1. 完全一致（最強）
             if (titleJP.includes(rawQuery) || titleEN.includes(rawQuery)) score += 500;
@@ -529,18 +557,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="card-actions-v">
                     <div style="display:flex; gap:0.5rem; margin-bottom:0.5rem;">
-                        <button class="primary-btn" onclick="window.openPaperModal(${i})" style="flex:1; border-radius: 8px; padding: 0.8rem;">
+                        <button class="primary-btn" onclick="window.openPaperModal(${startIdx + i})" style="flex:1; border-radius: 8px; padding: 0.8rem;">
                             ${btnLabel}
                         </button>
-                        <button class="audio-btn" id="audio-btn-${p.id}" onclick="window.toggleAudioSummary(${i})" title="Listen to Summary">
+                        <button class="audio-btn" id="audio-btn-${p.id}" onclick="window.toggleAudioSummary(${startIdx + i})" title="Listen to Summary">
                             🔊
                         </button>
                     </div>
                     <div style="display:flex; gap:0.5rem;">
-                        <button class="cite-btn" onclick="window.copyCitation(${i})" style="flex:1; background: transparent; border: 1px solid rgba(255,255,255,0.1); color: var(--text-secondary); font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer;">
+                        <button class="cite-btn" onclick="window.copyCitation(${startIdx + i})" style="flex:1; background: transparent; border: 1px solid rgba(255,255,255,0.1); color: var(--text-secondary); font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer;">
                             CITE
                         </button>
-                        <button class="share-btn" onclick="window.shareOnX(${i})" style="flex:1; background: #0f1419; border: 1px solid rgba(255,255,255,0.2); color: white; font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 4px; transition: 0.2s;">
+                        <button class="share-btn" onclick="window.shareOnX(${startIdx + i})" style="flex:1; background: #0f1419; border: 1px solid rgba(255,255,255,0.2); color: white; font-size: 0.7rem; padding: 0.4rem; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 4px; transition: 0.2s;">
                             <svg viewBox="0 0 24 24" width="12" height="12" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg> SHARE
                         </button>
                     </div>

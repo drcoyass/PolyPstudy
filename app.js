@@ -968,13 +968,26 @@ ${abstractEn || '(No abstract available)'}
     window.filterByInstitution = function(name, pmidsStr) {
         if (!papersData || papersData.length === 0) return;
         
-        const allowedIds = pmidsStr.split(',');
+        const allowedIds = pmidsStr ? pmidsStr.split(',').map(s => s.trim()).filter(Boolean) : [];
         const searchInput = document.getElementById('searchInput');
-        if (searchInput) searchInput.value = "Institution: " + name;
+        if (searchInput) searchInput.value = name;
         
-        filteredData = papersData.filter(p => allowedIds.includes(String(p.id)));
+        filteredData = papersData.filter(p => {
+            if (allowedIds.includes(String(p.id))) return true;
+            const fullText = `${p.title || ''} ${p.abstract || ''} ${p.authors || ''} ${p.journal || ''}`.toLowerCase();
+            return fullText.includes(name.toLowerCase());
+        });
+
+        // 該当が少なければ単語単位で検索
+        if (filteredData.length === 0) {
+            const keywords = name.toLowerCase().split(/[\s,/]+/).filter(w => w.length > 3);
+            filteredData = papersData.filter(p => {
+                const fullText = `${p.title || ''} ${p.abstract || ''} ${p.authors || ''}`.toLowerCase();
+                return keywords.some(k => fullText.includes(k));
+            });
+        }
+        
         displayedCount = 50;
-        
         renderLibrary();
         
         const papersSection = document.getElementById('papers');
@@ -986,13 +999,13 @@ ${abstractEn || '(No abstract available)'}
         const mapContainer = document.getElementById('interactive-map');
         if (!mapContainer) return;
 
-        const map = L.map('interactive-map', { zoomControl: false }).setView([35.6895, 139.6917], 2);
+        const map = L.map('interactive-map', { zoomControl: false }).setView([30.0, 10.0], 2);
         L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-            subdomains: 'abcd',
-            maxZoom: 19
+        // APIキー不要で美麗なダークテーマタイル（Esri World Dark Gray Canvas）
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+            maxZoom: 16
         }).addTo(map);
 
         fetch('data/institutions.json?t=' + Date.now())

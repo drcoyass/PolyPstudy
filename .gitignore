@@ -10,3 +10,5 @@ data/papers_cache.json
 .gemini/
 .agents/
 .playwright_session/
+.playwright_univ_session/
+data/pdfs/

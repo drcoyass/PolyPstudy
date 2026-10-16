@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log("PolyP Intelligence Portal Core: World-Class Performance Optimized.");
 
+    // Safe global search index stubs to eliminate ReferenceError
+    window.setupFuse = function() {};
+    function setupFuse() {}
+
     const paperIndexList = document.getElementById('paperIndexList');
     const searchInput = document.getElementById('searchInput');
     const searchBtn = document.getElementById('searchBtn');

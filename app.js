@@ -257,9 +257,16 @@ document.addEventListener('DOMContentLoaded', function() {
         let baseData = papersData;
         if (activeCategory !== 'all') {
             baseData = baseData.filter(p => {
-                if (activeCategory === '歯科' && (p.is_dental || (p.title || '').toLowerCase().includes('dental'))) return true;
-                if (activeCategory === 'TOP100' && (p.is_top_100 || p.is_dental_top_100)) return true;
-                return false;
+                if (activeCategory === '歯科') {
+                    return p.is_dental || (p.title || '').toLowerCase().includes('dental') || (p.keywords || '').toLowerCase().includes('dental') || (p.journal || '').toLowerCase().includes('dental');
+                }
+                if (activeCategory === '医科') {
+                    return !p.is_dental || p.category === '医科' || (p.title || '').toLowerCase().includes('medical') || (p.title || '').toLowerCase().includes('clinical') || (p.journal || '').toLowerCase().includes('med');
+                }
+                if (activeCategory === 'TOP100') {
+                    return p.is_top_100 || p.is_dental_top_100;
+                }
+                return true;
             });
         }
         
@@ -270,8 +277,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const yMinEl = document.getElementById('yearMin');
         const yMaxEl = document.getElementById('yearMax');
         if (yMinEl && yMaxEl) {
-            const minYear = parseInt(yMinEl.value) || 1900;
-            const maxYear = parseInt(yMaxEl.value) || 2100;
+            const minYear = parseInt(yMinEl.value) || 1950;
+            const maxYear = parseInt(yMaxEl.value) || 2026;
             baseData = baseData.filter(p => {
                 const py = parseInt(p.year) || (p.date ? parseInt(p.date.substring(0, 4)) : 0);
                 if (!py) return true;
@@ -951,6 +958,13 @@ ${abstractEn || '(No abstract available)'}
             if (searchTimeout) clearTimeout(searchTimeout);
             searchTimeout = setTimeout(performSearch, 300);
         };
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                if (searchTimeout) clearTimeout(searchTimeout);
+                performSearch();
+            }
+        });
     }
     
     function highlightText(text, query) {
@@ -997,7 +1011,6 @@ ${abstractEn || '(No abstract available)'}
         const papersSection = document.getElementById('papers');
         if (papersSection) papersSection.scrollIntoView({ behavior: 'smooth' });
     };
-});
 
     function initInteractiveMap() {
         const mapContainer = document.getElementById('interactive-map');
@@ -1155,3 +1168,6 @@ ${abstractEn || '(No abstract available)'}
         yMin.addEventListener('input', updateYearFilter);
         yMax.addEventListener('input', updateYearFilter);
     }
+
+    window.performSearch = performSearch;
+});

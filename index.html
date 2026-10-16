@@ -69,7 +69,7 @@
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css?v=100">
+    <link rel="stylesheet" href="style.css?v=101">
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;800&family=Noto+Sans+JP:wght@400;700&display=swap"
         rel="stylesheet">
@@ -112,7 +112,7 @@
             <li><a href="#papers" data-i18n="navResearch">Research</a></li>
             <li><a href="#network" data-i18n="navNetwork">Network</a></li>
             <li><a href="#story" data-i18n="navStory">Story</a></li>
-            <li><a href="#" onclick="document.getElementById(\'notebookLmModal\').style.display=\'block\'; return false;" style="color: #00F2FF;">🧠 NotebookLM</a></li>
+            <li><a href="#" onclick="document.getElementById('notebookLmModal').style.display='block'; return false;" style="color: #00F2FF;">🧠 NotebookLM</a></li>
         </ul>
         <div class="user-profile">
             <button class="lang-toggle-btn secondary-btn" id="langToggle">EN</button>
@@ -315,14 +315,15 @@
                 <div class="year-filter-container glass-card" style="margin-top: 1.5rem; padding: 1rem 1.5rem; border-radius: 12px; display: flex; flex-direction: column; gap: 10px;">
                     <label style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 800; color: var(--accent-cyan); letter-spacing: 1px;">
                         <span data-i18n="labelYearFilter">PUBLICATION YEAR RANGE</span>
-                        <span id="yearDisplay">2010 - 2026</span>
+                        <span id="yearDisplay">1950 - 2026</span>
                     </label>
                     <div style="display: flex; gap: 15px; align-items: center;">
                         <span style="font-size: 0.8rem; color: var(--text-gray);">Old</span>
-                        <input type="range" id="yearMin" class="styled-slider" min="1950" max="2026" value="2010" style="flex: 1;">
+                        <input type="range" id="yearMin" class="styled-slider" min="1950" max="2026" value="1950" style="flex: 1;">
                         <input type="range" id="yearMax" class="styled-slider" min="1950" max="2026" value="2026" style="flex: 1;">
                         <span style="font-size: 0.8rem; color: var(--text-gray);">New</span>
                     </div>
+                </div>
                 
                 <div class="quick-tags" id="quickTags">
                     <span class="quick-tag" data-tag="インプラント">#インプラント</span>
@@ -604,7 +605,7 @@
         </div>
     </div>
 
-    <script src="app.js?v=20261016_3"></script>
+    <script src="app.js?v=20261016_4"></script>
 
     <!-- NotebookLM Modal -->
     <div id="notebookLmModal" class="modal">

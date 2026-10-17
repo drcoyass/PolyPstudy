@@ -4387,6 +4387,58 @@ To evaluate in vitro the effects of nano-sized sodium trimetaphosphate (TMPnano)
 
 --------------------------------------------------
 
+■ 日本語タイトル: ポリリン酸人工骨インプラントpdf
+■ Original Title: dmj_33-2_04_2013-275.indd
+■ 関連タグ: インプラント, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4012/dmj.2013-275
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+INTRODUCTION
+Dental implant therapy has been used to replace  
+missing teeth. Modern prosthetic implants usually 
+achieve optimal esthetic and functional recovery, as 
+successfully evaluated by contemporary criteria. In 
+certain clinical situations, however, it is difficult to 
+perform implant therapy because of insufficient bone 
+at the implant site. After tooth extraction, new bone 
+grows in the bone socket but does not completely restore 
+the original bone shape 1). Several reports have also 
+documented reduction in buccal bone volume following 
+tooth extraction, resulting in recession of t
+
+--------------------------------------------------
+
+■ 日本語タイトル: dmj_33-2_04_2013-275.indd
+■ Original Title: dmj_33-2_04_2013-275.indd
+■ 関連タグ: インプラント, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4012/dmj.2013-275
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+INTRODUCTION
+Dental implant therapy has been used to replace  
+missing teeth. Modern prosthetic implants usually 
+achieve optimal esthetic and functional recovery, as 
+successfully evaluated by contemporary criteria. In 
+certain clinical situations, however, it is difficult to 
+perform implant therapy because of insufficient bone 
+at the implant site. After tooth extraction, new bone 
+grows in the bone socket but does not completely restore 
+the original bone shape 1). Several reports have also 
+documented reduction in buccal bone volume following 
+tooth extraction, resulting in recession of t
+
+--------------------------------------------------
+
 ■ 日本語タイトル: ラットの炎症を起こした歯肉の組織リモデリングに対する無機ポリリン酸の局所適用の効果
 ■ Original Title: Effects of topical application of inorganic polyphosphate on tissue remodeling in rat inflamed gingiva.
 ■ 関連タグ: 歯周病・口腔
@@ -4457,6 +4509,35 @@ The study successfully synthesized a novel dual-mode probe, Zn(NBD-BPHA)I
 
 ■ Original English Abstract:
 The study successfully synthesized a novel dual-mode probe, Zn(NBD-BPHA)I
+
+--------------------------------------------------
+
+■ 日本語タイトル: A Formaldehyde-Free, Soy Protein-Based Adhesive with P-N-Si Synergistic Flame Retardancy for Plywood Application.
+■ Original Title: A Formaldehyde-Free, Soy Protein-Based Adhesive with P-N-Si Synergistic Flame Retardancy for Plywood Application.
+■ 関連タグ: 環境・排水処理（ノイズ候補）
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42884943/
+
+■ 日本語要約:
+To overcome the flammability and formaldehyde-emission problems associated with plywood, a novel soy protein-based intumescent flame-retardant adhesive with phosphorus-nitrogen-silicon (P-N-Si) synergism (C@Si@APP) was developed in this study. C@Si@APP was initially prepared by coating silane-modified ammonium polyphosphate with collagen. Subsequently, C@Si@APP was combined with lignin and adenine and incorporated into a soy protein, collagen, and isocyanate (MDI)-based adhesive matrix to fabricate a flame-retardant adhesive for eucalyptus plywood. Cone calorimeter (CONE) analysis demonstrated that the flame-retardant plywood bonded with SPI/C/MDI/C@SiAPP18 achieved the most effective flame-retardant and smoke-suppression performance, and the peak heat release rate, total heat release, and total smoke production were reduced by 23.5%, 20.7%, and 43.9%, respectively, and the release rates of CO and CO
+
+■ Original English Abstract:
+To overcome the flammability and formaldehyde-emission problems associated with plywood, a novel soy protein-based intumescent flame-retardant adhesive with phosphorus-nitrogen-silicon (P-N-Si) synergism (C@Si@APP) was developed in this study. C@Si@APP was initially prepared by coating silane-modified ammonium polyphosphate with collagen. Subsequently, C@Si@APP was combined with lignin and adenine and incorporated into a soy protein, collagen, and isocyanate (MDI)-based adhesive matrix to fabricate a flame-retardant adhesive for eucalyptus plywood. Cone calorimeter (CONE) analysis demonstrated that the flame-retardant plywood bonded with SPI/C/MDI/C@SiAPP18 achieved the most effective flame-retardant and smoke-suppression performance, and the peak heat release rate, total heat release, and total smoke production were reduced by 23.5%, 20.7%, and 43.9%, respectively, and the release rates of CO and CO
+
+--------------------------------------------------
+
+■ 日本語タイトル: Integrated Optimization of
+■ Original Title: Integrated Optimization of
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42883664/
+
+■ 日本語要約:
+This study intended to simultaneously model and optimize aqueous extracts obtained from whole 
+
+■ Original English Abstract:
+This study intended to simultaneously model and optimize aqueous extracts obtained from whole 
 
 --------------------------------------------------
 
@@ -4986,7 +5067,7 @@ Unconventional fluorescent polymers exhibiting multicolor emission have garnered
 
 --------------------------------------------------
 
-■ 日本語タイトル: Platelets mediate fibrin-induced thromboinflammation and NETosis through a GPVI-polyphosphate-FXIIa procoagulant axis.
+■ 日本語タイトル: 血小板はGPVI-ポリリン酸-FXIIa凝固促進軸を介して、フィブリン誘発性の血栓炎症およびNETosisを媒介する
 ■ Original Title: Platelets mediate fibrin-induced thromboinflammation and NETosis through a GPVI-polyphosphate-FXIIa procoagulant axis.
 ■ 関連タグ: ホワイトニング
 ■ 著者: 
@@ -4994,7 +5075,7 @@ Unconventional fluorescent polymers exhibiting multicolor emission have garnered
 ■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42729624/
 
 ■ 日本語要約:
-Fibrin deposits drive thromboinflammation and neutrophil extracellular trap (NET) formation (NETosis) in various pathophysiological situations, but the underlying mechanisms remain unclear. Similarly, it is unknown how, irrespective of diabetes, hyperglycemia exacerbates thromboinflammation. Using a microfluidic model of thromboinflammation based on the perfusion of partially recalcified citrated human blood at a venous flow rate over immobilized fibrin, we investigated these mechanisms. Blood was stained to detect P-selectin, phosphatidylserine, polyphosphates, fibrin, neutrophils, and NETs. The roles of glycoprotein VI (GPVI), integrin α2bβ3, polyphosphates, factor XIIa (FXIIa), tissue factor, thrombin, fibrin polymerization, glucose, and glucose uptake were explored using specific inhibitors and by spiking blood with glucose. Perfusion of partially recalcified blood over a fibrin monolayer consistently triggered a platelet-dependent thromboinflammatory cascade. Pharmacological inhibition and analysis of activation at the individual platelet level revealed that this cascade was initiated by a subpopulation of procoagulant platelets, which activated second-responder platelets via GPVI-, FXIIa-, and polyphosphate-dependent thrombin generation, leading to fibrin polymerization, and neutrophil recruitment. This sequence was maintained but exacerbated in hyperglycemia, drastically increasing intrathrombus neutrophil recruitment and NETosis, the latter prevented by inhibition of glucose transporters. Our results highlight the importance of a GPVI-FXIIa-polyphosphate axis in mediating thromboinflammation and NETosis when flowing human blood encounters immobilized fibrin and the interest of targeting this axis and glucose transporters to prevent thromboinflammation and its exacerbation by hyperglycemia.
+フィブリン沈着は、さまざまな病態生理学的状況において血栓炎症と好中球細胞外トラップ（NET）形成（NETosis）を引き起こすが、その基盤となる機序は不明である。同様に、糖尿病の有無にかかわらず、高血糖がどのように血栓炎症を増悪させるのかも分かっていない。本研究では、部分的に再石灰化したクエン酸加ヒト血液を静脈流速で固相化フィブリン上に灌流する、血栓炎症のマイクロ流体モデルを用いてこれらの機序を検討した。血液を染色し、P-セレクチン、ホスファチジルセリン、ポリリン酸、フィブリン、好中球、NETを検出した。糖タンパク質VI（GPVI）、インテグリンα2bβ3、ポリリン酸、第XIIa因子（FXIIa）、組織因子、トロンビン、フィブリン重合、グルコース、およびグルコース取り込みの役割を、特異的阻害剤と血液へのグルコース添加により解析した。部分的に再石灰化した血液をフィブリン単層上に灌流すると、血小板依存性の血栓炎症カスケードが一貫して誘発された。薬理学的阻害および個々の血小板レベルでの活性化解析により、このカスケードは凝固促進性血小板の亜集団によって開始され、それがGPVI・FXIIa・ポリリン酸依存性のトロンビン生成を介して二次応答血小板を活性化し、フィブリン重合と好中球の動員に至ることが明らかになった。この一連の過程は高血糖下でも維持されるが増悪し、血栓内への好中球動員とNETosisが著しく増加した。後者はグルコーストランスポーターの阻害により抑制された。本結果は、流れるヒト血液が固相化フィブリンに接した際の血栓炎症とNETosisの媒介におけるGPVI-FXIIa-ポリリン酸軸の重要性を示し、この軸およびグルコーストランスポーターを標的とすることで、血栓炎症とその高血糖による増悪を予防できる可能性を示唆する。
 
 ■ Original English Abstract:
 Fibrin deposits drive thromboinflammation and neutrophil extracellular trap (NET) formation (NETosis) in various pathophysiological situations, but the underlying mechanisms remain unclear. Similarly, it is unknown how, irrespective of diabetes, hyperglycemia exacerbates thromboinflammation. Using a microfluidic model of thromboinflammation based on the perfusion of partially recalcified citrated human blood at a venous flow rate over immobilized fibrin, we investigated these mechanisms. Blood was stained to detect P-selectin, phosphatidylserine, polyphosphates, fibrin, neutrophils, and NETs. The roles of glycoprotein VI (GPVI), integrin α2bβ3, polyphosphates, factor XIIa (FXIIa), tissue factor, thrombin, fibrin polymerization, glucose, and glucose uptake were explored using specific inhibitors and by spiking blood with glucose. Perfusion of partially recalcified blood over a fibrin monolayer consistently triggered a platelet-dependent thromboinflammatory cascade. Pharmacological inhibition and analysis of activation at the individual platelet level revealed that this cascade was initiated by a subpopulation of procoagulant platelets, which activated second-responder platelets via GPVI-, FXIIa-, and polyphosphate-dependent thrombin generation, leading to fibrin polymerization, and neutrophil recruitment. This sequence was maintained but exacerbated in hyperglycemia, drastically increasing intrathrombus neutrophil recruitment and NETosis, the latter prevented by inhibition of glucose transporters. Our results highlight the importance of a GPVI-FXIIa-polyphosphate axis in mediating thromboinflammation and NETosis when flowing human blood encounters immobilized fibrin and the interest of targeting this axis and glucose transporters to prevent thromboinflammation and its exacerbation by hyperglycemia.
@@ -5142,18 +5223,18 @@ Inorganic polyphosphate (polyP) is a ubiquitous polymer increasingly recognized 
 
 --------------------------------------------------
 
-■ 日本語タイトル: Polyphosphate in Bone Tissue Engineering: From Molecular Mechanisms to Material Design.
+■ 日本語タイトル: 骨組織工学におけるポリリン酸：分子機序から材料設計まで
 ■ Original Title: Polyphosphate in Bone Tissue Engineering: From Molecular Mechanisms to Material Design.
-■ 関連タグ: 再生医療
+■ 関連タグ: 再生医療, 創傷治癒
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
 ■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42646225/
 
 ■ 日本語要約:
-Polyphosphate (PolyP) is an inorganic polymer composed of orthophosphate units linked by high-energy phosphate anhydride bonds, widely found in various organisms from bacteria to mammals. In recent years, PolyP has attracted widespread attention in the field of bone tissue engineering due to its unique biological characteristics, possessing both osteoinductive activity and metabolic energy supply functions. This article systematically reviews the molecular structure, physicochemical properties, and multiple mechanisms by which PolyP promotes osteogenic differentiation, as well as biomaterial design strategies based on PolyP. PolyP can synergistically promote osteogenic differentiation through multiple mechanisms, including by acting as a phosphate donor, providing metabolic energy, regulating signaling pathways such as Wnt/β-catenin, and modulating the osteoprotegerin/receptor activator of nuclear factor κB ligand (OPG/RANKL) balance. In terms of material design, PolyP can form nano/microparticles with metal ions such as Ca
+ポリリン酸（PolyP）は、高エネルギーのリン酸無水物結合で連結したオルトリン酸単位からなる無機ポリマーであり、細菌から哺乳類までさまざまな生物に広く存在する。近年、PolyPは骨誘導活性と代謝エネルギー供給機能を併せ持つ独自の生物学的特性から、骨組織工学の分野で広く注目されている。本稿では、PolyPの分子構造、物理化学的性質、骨形成分化を促進する複数の機序、ならびにPolyPを基盤とするバイオマテリアルの設計戦略を体系的に概説する。PolyPは、リン酸供与体としての作用、代謝エネルギーの供給、Wnt/β-カテニンなどのシグナル経路の調節、オステオプロテゲリン/核因子κB活性化受容体リガンド（OPG/RANKL）バランスの調整など、複数の機序を通じて相乗的に骨形成分化を促進する。材料設計の面では、PolyPはCa2+、Sr2+、Mg2+などの金属イオンとナノ/マイクロ粒子を形成でき、またポリマーと複合化することでハイドロゲル、骨セメント、三次元（3D）プリントスキャフォールドなど多様な形態を構築できる。前臨床研究では、PolyP含有材料が骨欠損修復において優れた骨形成能と生体適合性を示し、予備的な臨床研究でもその実現可能性が確認されている。本稿は、PolyP含有材料の現在の応用を包括的に概観し、臨床応用に向けた今後の方向性、課題、および必要な道筋を示すことを目的とする。
 
 ■ Original English Abstract:
-Polyphosphate (PolyP) is an inorganic polymer composed of orthophosphate units linked by high-energy phosphate anhydride bonds, widely found in various organisms from bacteria to mammals. In recent years, PolyP has attracted widespread attention in the field of bone tissue engineering due to its unique biological characteristics, possessing both osteoinductive activity and metabolic energy supply functions. This article systematically reviews the molecular structure, physicochemical properties, and multiple mechanisms by which PolyP promotes osteogenic differentiation, as well as biomaterial design strategies based on PolyP. PolyP can synergistically promote osteogenic differentiation through multiple mechanisms, including by acting as a phosphate donor, providing metabolic energy, regulating signaling pathways such as Wnt/β-catenin, and modulating the osteoprotegerin/receptor activator of nuclear factor κB ligand (OPG/RANKL) balance. In terms of material design, PolyP can form nano/microparticles with metal ions such as Ca
+Polyphosphate (PolyP) is an inorganic polymer composed of orthophosphate units linked by high-energy phosphate anhydride bonds, widely found in various organisms from bacteria to mammals. In recent years, PolyP has attracted widespread attention in the field of bone tissue engineering due to its unique biological characteristics, possessing both osteoinductive activity and metabolic energy supply functions. This article systematically reviews the molecular structure, physicochemical properties, and multiple mechanisms by which PolyP promotes osteogenic differentiation, as well as biomaterial design strategies based on PolyP. PolyP can synergistically promote osteogenic differentiation through multiple mechanisms, including by acting as a phosphate donor, providing metabolic energy, regulating signaling pathways such as Wnt/β-catenin, and modulating the osteoprotegerin/receptor activator of nuclear factor κB ligand (OPG/RANKL) balance. In terms of material design, PolyP can form nano/microparticles with metal ions such as Ca2+, Sr2+, and Mg2+ and can also be compounded with polymers to construct various forms such as hydrogels, bone cement, and three-dimensional (3D)-printed scaffolds. Preclinical studies have shown that PolyP-incorporated materials exhibit excellent osteogenic performance and biocompatibility in bone defect repair, and preliminary clinical studies have also confirmed its feasibility. This article aims to provide a comprehensive overview of the current applications of PolyP-incorporated materials and delineate future directions, challenges, and necessary pathways for their clinical translation.
 
 --------------------------------------------------
 
@@ -5271,18 +5352,18 @@ Atopic dermatitis is a serious, chronic inflammatory skin disease that can curre
 
 --------------------------------------------------
 
-■ 日本語タイトル: Polyphosphate-crosslinked hydrogels: structural design and bioactivity for tissue engineering scaffolds.
+■ 日本語タイトル: ポリリン酸架橋ハイドロゲル：組織工学用スキャフォールドのための構造設計と生物活性
 ■ Original Title: Polyphosphate-crosslinked hydrogels: structural design and bioactivity for tissue engineering scaffolds.
-■ 関連タグ: 再生医療
+■ 関連タグ: 再生医療, 創傷治癒
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
 ■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42602601/
 
 ■ 日本語要約:
-Infected chronic wounds present complex pathophysiology characterized by persistent bacterial colonization and impaired tissue regeneration, necessitating multifunctional biomaterials for integrated therapeutic intervention. This study developed a polyphosphate-crosslinked hydrogel system 
+感染を伴う慢性創傷は、持続的な細菌定着と組織再生の障害を特徴とする複雑な病態を呈し、統合的な治療介入のための多機能バイオマテリアルが求められている。本研究では、亜鉛イオンを介してポリリン酸ナトリウムとアルギン酸ナトリウムを架橋したポリリン酸架橋ハイドロゲルを開発し、アンピシリンとトランスフォーミング増殖因子β1（TGF-β1）を共担持させた。本ハイドロゲルの担持効率はアンピシリンで85.2 ± 2.5%、TGF-β1で78.6 ± 1.2%であり、軟組織工学に適した膨潤特性と機械的特性を備えていた。in vitro評価では、大腸菌に対して24時間以内に4 log10 CFU/mLを超える菌数減少という強力な殺菌活性を示し、ヒト皮膚線維芽細胞の増殖を96時間で222.5%まで促進し、SA-β-gal陽性細胞を24.2%まで減少させる有意な抗老化効果を示した。機序としては、アンピシリンが細菌を排除し、TGF-β1が線維芽細胞の増殖、コラーゲン合成、炎症の消退を促進するという相補的作用によると考えられた。この多機能スキャフォールドは、創傷被覆材、熱傷治療、組織再生など、高度な創傷管理への応用が期待される。
 
 ■ Original English Abstract:
-Infected chronic wounds present complex pathophysiology characterized by persistent bacterial colonization and impaired tissue regeneration, necessitating multifunctional biomaterials for integrated therapeutic intervention. This study developed a polyphosphate-crosslinked hydrogel system 
+Infected chronic wounds present complex pathophysiology characterized by persistent bacterial colonization and impaired tissue regeneration, necessitating multifunctional biomaterials for integrated therapeutic intervention. This study developed a polyphosphate-crosslinked hydrogel system via zinc ion-mediated crosslinking of sodium polyphosphate and sodium alginate, with co-loading of ampicillin and transforming growth factor-β1 (TGF-β1). The hydrogel achieved loading efficiencies of 85.2 ± 2.5% for ampicillin and 78.6 ± 1.2% for TGF-β1, with optimized swelling properties and mechanical characteristics suitable for soft tissue engineering. In vitro evaluations demonstrated potent bactericidal activity against Escherichia coli with bacterial load reduction exceeding 4 log10 CFU mL-1 within 24 hours, enhanced human dermal fibroblast proliferation to 222.5% at 96 hours, and significant anti-senescence efficacy with SA-β-gal-positive cells reduced to 24.2%. Mechanistically, the therapeutic effects were attributed to complementary actions where ampicillin eliminated bacterial threats while TGF-β1 promoted fibroblast proliferation, collagen synthesis, and inflammatory resolution. This multifunctional scaffold platform demonstrates promising potential for advanced wound management, including applications in wound dressings, burn treatment, and tissue regeneration.
 
 --------------------------------------------------
 
@@ -5354,6 +5435,21 @@ Cardiac amyloidosis is one of the aetiologies of treatable heart failure. Cardia
 
 ■ Original English Abstract:
 (No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: Multifunctional phosphorylated cellulose fabric with enhanced antibacterial and mechanical properties based on a Tris buffering strategy.
+■ Original Title: Multifunctional phosphorylated cellulose fabric with enhanced antibacterial and mechanical properties based on a Tris buffering strategy.
+■ 関連タグ: 環境・排水処理（ノイズ候補）
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42551679/
+
+■ 日本語要約:
+Cellulose fabric, as a popular textile material, demands multifunctional modification to broaden its application landscape. Although phosphorylation is an effective approach to endow flame retardancy, it often severely impairs the mechanical properties of cellulose fabric. To address this challenge, a buffering strategy was developed to alleviate this problem in this study while concurrently achieving antibacterial performance. A multifunctional flame-retardant and antibacterial cotton fabric was prepared via a one-pot process using triphosphate acid ATMP as cross-linker, and Tris as both a buffer and an N-halamine precursor. ATMP/Tris-modified fabric exhibited excellent flame retardancy with 31.7% of LOI value and self-extinguishing performance at a low weight gain. Simultaneously, the formation of N-halamine structures conferred superior antibacterial efficacy against E. coli and S. aureus, resulting in complete inactivation within a few minutes without any leaching. The multifunctional fabric exhibited notable washing durability, retaining 83% of its original LOI value after repeated laundering. Notably, in addition to maintaining good flexibility, the incorporation of Tris significantly improved the whiteness, air permeability, and breaking force of cellulose fabric compared to the ATMP-modified counterpart. Therefore, this work offers a simple strategy to enhance the comprehensive properties of flame-retardant multifunctional cellulose fabric.
+
+■ Original English Abstract:
+Cellulose fabric, as a popular textile material, demands multifunctional modification to broaden its application landscape. Although phosphorylation is an effective approach to endow flame retardancy, it often severely impairs the mechanical properties of cellulose fabric. To address this challenge, a buffering strategy was developed to alleviate this problem in this study while concurrently achieving antibacterial performance. A multifunctional flame-retardant and antibacterial cotton fabric was prepared via a one-pot process using triphosphate acid ATMP as cross-linker, and Tris as both a buffer and an N-halamine precursor. ATMP/Tris-modified fabric exhibited excellent flame retardancy with 31.7% of LOI value and self-extinguishing performance at a low weight gain. Simultaneously, the formation of N-halamine structures conferred superior antibacterial efficacy against E. coli and S. aureus, resulting in complete inactivation within a few minutes without any leaching. The multifunctional fabric exhibited notable washing durability, retaining 83% of its original LOI value after repeated laundering. Notably, in addition to maintaining good flexibility, the incorporation of Tris significantly improved the whiteness, air permeability, and breaking force of cellulose fabric compared to the ATMP-modified counterpart. Therefore, this work offers a simple strategy to enhance the comprehensive properties of flame-retardant multifunctional cellulose fabric.
 
 --------------------------------------------------
 
@@ -5542,7 +5638,7 @@ Achieving solid-state electrolytes (SSEs) that combine fast Na+ conduction, high
 
 --------------------------------------------------
 
-■ 日本語タイトル: マルチレベルの最適化と統合されたライフサイクル評価により、シュウ酸デカルボキシラーゼのバイオ製造が強化される
+■ 日本語タイトル: マルチレベルの最適化と統合されたライフサイクル評価により、シュウ酸デカルボキシラーゼのバイオ製造が強化されます
 ■ Original Title: Enhanced oxalate decarboxylase biomanufacturing via multi-level optimization and integrated life cycle assessment.
 ■ 関連タグ: ホワイトニング, ミトコンドリア・代謝
 ■ 著者: 
@@ -5602,7 +5698,7 @@ To evaluate the efficacy of diquafosol 3% in preventing and treating dry eye ass
 
 --------------------------------------------------
 
-■ 日本語タイトル: ポリリン酸は酸化ストレスを軽減し、温泉ラン藻の温度適応力をサポートする
+■ 日本語タイトル: ポリリン酸は酸化ストレスを軽減し、温泉ラン藻の温度適応力をサポートします
 ■ Original Title: Polyphosphate Attenuates Oxidative Stress to Support Temperature Adaptability in Hot Spring Cyanobacteria.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: 
@@ -5889,7 +5985,7 @@ Algae from the Viridiplantae lineage grow on glaciers and semi-permanent snow pa
 
 --------------------------------------------------
 
-■ 日本語タイトル: SHIP は、触媒活性とは独立して、マクロファージにおける (MDP + LPS) 誘発相乗作用をブロックする
+■ 日本語タイトル: SHIP は、触媒活性とは独立して、マクロファージにおける (MDP + LPS) 誘発相乗作用をブロックします
 ■ Original Title: SHIP blocks (MDP + LPS)-induced synergy in macrophages independent of catalytic activity.
 ■ 関連タグ: 再生医療
 ■ 著者: 
@@ -6007,7 +6103,7 @@ RelA/SpoT homologue family enzymes participate in controlling the cellular level
 
 --------------------------------------------------
 
-■ 日本語タイトル: 3 つのホスファターゼ ファミリーがコミュニティを形成している。ホスホヒドロラーゼはイノシトール ピロリン酸に作用する
+■ 日本語タイトル: 3 つのホスファターゼ ファミリーがコミュニティを形成している。ホスホヒドロラーゼはイノシトール ピロリン酸に作用します
 ■ Original Title: Three phosphatase families form a community: The phosphohydrolases that act upon inositol pyrophosphates.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -6021,7 +6117,7 @@ Inositol pyrophosphates (PP-InsP) are high energy signaling molecules that play 
 
 --------------------------------------------------
 
-■ 日本語タイトル: ポリリン酸ベースの止血ガーゼは、出血性ショックを伴うブタ四肢外傷モデルにおいて、QuikClot Combat Gauze と比較して遠位灌流を維持する
+■ 日本語タイトル: ポリリン酸ベースの止血ガーゼは、出血性ショックを伴うブタ四肢外傷モデルにおいて、QuikClot Combat Gauze と比較して遠位灌流を維持します
 ■ Original Title: Polyphosphate-based hemostatic gauze preserves distal perfusion compared with QuikClot Combat Gauze in a porcine extremity trauma model with hemorrhagic shock.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -6064,7 +6160,7 @@ Self-organizing waves are observed in numerous biological systems and may encode
 
 --------------------------------------------------
 
-■ 日本語タイトル: 細菌のエネルギー学を再プログラミングすると、相乗的ながん免疫療法のために乳酸媒介免疫抑制が逆転する
+■ 日本語タイトル: 細菌のエネルギー学を再プログラミングすると、相乗的ながん免疫療法のために乳酸媒介免疫抑制が逆転します
 ■ Original Title: Reprogramming bacterial energetics reverses lactate-mediated immunosuppression for synergistic cancer immunotherapy.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: 
@@ -6093,7 +6189,7 @@ The immunosuppressive tumor microenvironment (TME), driven by lactate accumulati
 
 --------------------------------------------------
 
-■ 日本語タイトル: 相乗的なポリリン酸-没食子酸システムは、免疫微小環境を再構築し、生体エネルギーを回復することにより、感染した皮膚欠陥を治癒する
+■ 日本語タイトル: 相乗的なポリリン酸-没食子酸システムは、免疫微小環境を再構築し、生体エネルギーを回復することにより、感染した皮膚欠陥を治癒します
 ■ Original Title: Synergistic polyphosphate-gallic acid system heals infected skin defects by remodeling the immune microenvironment and restoring bioenergetics.
 ■ 関連タグ: ミトコンドリア・代謝, 再生医療, 創傷治癒
 ■ 著者: 
@@ -6108,7 +6204,7 @@ Infected skin defects persist in a pathological state characterized by dysregula
 
 --------------------------------------------------
 
-■ 日本語タイトル: 増幅副産物を利用して、ナノザイム阻害による比色 ctDNA 検出を可能にする
+■ 日本語タイトル: 増幅副産物を利用して、ナノザイム阻害による比色 ctDNA 検出を可能にします
 ■ Original Title: Exploiting amplification byproducts to enable colorimetric ctDNA detection via nanozyme inhibition.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -6411,7 +6507,7 @@ Polyphosphates are evolutionarily conserved linear chains of phosphate residues 
 
 --------------------------------------------------
 
-■ 日本語タイトル: ピロリン酸マンガン鉱化 DNA ナノワクチンは、強力な体液性免疫と細胞性免疫を誘発する
+■ 日本語タイトル: ピロリン酸マンガン鉱化 DNA ナノワクチンは、強力な体液性免疫と細胞性免疫を誘発します
 ■ Original Title: Manganese Pyrophosphate Mineralized DNA Nanovaccine Elicits Potent Humoral and Cellular Immunity.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -7347,7 +7443,7 @@ Marine by-products are a valuable source of bioactive peptides with significant 
 
 --------------------------------------------------
 
-■ 日本語タイトル: シリマリンとケルセチンを配合した pH 感受性キトサントリポリリン酸 / Eudragit® S100 ナノ粒子は、Th1 細胞、炎症性サイトカイン、酸化ストレスを調節することにより、ラットの酢酸誘発性結腸炎症を改善する
+■ 日本語タイトル: シリマリンとケルセチンを配合した pH 感受性キトサントリポリリン酸 / Eudragit® S100 ナノ粒子は、Th1 細胞、炎症性サイトカイン、酸化ストレスを調節することにより、ラットの酢酸誘発性結腸炎症を改善します
 ■ Original Title: The silymarin and quercetin-loaded pH-sensitive chitosan-tripolyphosphate/Eudragit® S100 nanoparticles improve acetic acid-induced colonic inflammation in rats by modulating Th1 cells, inflammatory cytokines, and oxidative stress.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: 
@@ -8553,7 +8649,7 @@ Inorganic polyphosphate (polyP), a linear polymer of orthophosphoric acid residu
 
 --------------------------------------------------
 
-■ 日本語タイトル: 宇宙電離放射線は、かんらん石表面でのペプチドと有機リン酸塩の形成を引き起こする
+■ 日本語タイトル: 宇宙電離放射線は、かんらん石表面でのペプチドと有機リン酸塩の形成を引き起こします
 ■ Original Title: Space ionizing radiation triggers the formation of peptides and organophosphates on olivine surfaces.
 ■ 著者: 
 ■ 発行年: 2026 (Source: PubMed)
@@ -8695,7 +8791,7 @@ Pyrophosphates are central to biology, and synthetic pyrophosphate isosteres are
 
 --------------------------------------------------
 
-■ 日本語タイトル: デュアルアクションビスホスホネートヒドロゲルは、皮質骨の完全性を維持し、骨粗鬆症性骨折関連感染症の治癒カスケードを回復する
+■ 日本語タイトル: デュアルアクションビスホスホネートヒドロゲルは、皮質骨の完全性を維持し、骨粗鬆症性骨折関連感染症の治癒カスケードを回復します
 ■ Original Title: Dual-action bisphosphonate hydrogel preserves cortical bone integrity and restores healing cascade in osteoporotic fracture-related infection.
 ■ 関連タグ: 骨再生・硬組織
 ■ 著者: 
@@ -8795,7 +8891,7 @@ Transarterial radioembolization (TARE) is a highly effective treatment for unres
                     
                       ハロフェラックス火山
                     
-                 、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
+                   、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
                     
                       H. ボルカニイ
                     
@@ -8875,6 +8971,20 @@ In this paper, a new flame retardant synergist PSil-CS was successfully synthesi
 
 --------------------------------------------------
 
+■ 日本語タイトル: Bone Radiopharmaceuticals: Evolution from Palliative Therapy to Targeted Precision Oncology and Theranostics
+■ Original Title: Bone Radiopharmaceuticals: Evolution from Palliative Therapy to Targeted Precision Oncology and Theranostics
+■ 著者: 
+■ 発行年: 2026 (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13664209
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
 ■ 日本語タイトル: ケモインフォマティクスに基づいた、酸性条件下におけるフィコシアニンの食品グレードのアニオン安定剤の発見
 ■ Original Title: Chemoinformatics-guided discovery of food-grade anionic stabilizers for phycocyanin under acidic conditions
 ■ 著者: 
@@ -8925,7 +9035,7 @@ Interest in liquid phosphorus (P) and potassium (K) fertilizers is increasing, o
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.64898/2026.08.26.747204
 
 ■ 日本語要約:
-A central challenge in microbial ecology is understanding how competing guilds coexist and why community structures unexpectedly drift away from theoretical steady states. While polyphosphate accumulation provides energy and redox buffering in many heterotrophs, how competing lineages occupying the same ecological niche without polyphosphate synthesis manage equivalent intracellular redox imbalances remains unposed. Using an enhanced biological phosphorus removal macrocosm, we integrated quantitative stoichiometry with metaproteomics to resolve alternative metabolic strategies that underpin cellular homeostasis in heterotrophs. We show that glycogen-accumulating organisms (GAOs) achieve baseline metabolic parity with polyphosphate-accumulating organisms (PAOs) through a parallel redox-buffering mechanism: heterotrophic CO  2 /HCO  3 − re-assimilation via the ethylmalonyl-CoA pathway. This inorganic carbon fixation couples structural carbon conservation with tight redox control, mitigating intracellular electron overflow and eliminating the long-assumed GAO bioenergetic inferiority. The bioenergetic efficiency of GAOs is further fortified by fine-tuned metabolic wiring, featuring energy-efficient high affinity acetate activation, ferredoxin-centered biochemistry, and energy-neutral polyhydroxyalkanoates (PHA) mobilization. Strikingly, minor formate co-feeding disrupted this established PAO–GAO parity. Stoichiometric simulations revealed that this formate supplementation creates an asymmetric bioenergetic niche that grants per-cycle energy gains exclusively to GAOs. Decoupled from hydraulic throughput, solids retention time control retains cells carrying accumulated intracellular inventory, translating subtle per-cycle stoichiometric edges into a multi-generational ratchet and drives a rapid community shift from PAO–GAO co-dominance to GAO dominance. By exposing limitations of traditional single-substrate and single-cycle steady-state models, our findings reveal how inorganic resource management and generational metabolic compounding govern community assembly in biomass-retaining microbial ecosystems.
+(日本語要約なし)
 
 ■ Original English Abstract:
 A central challenge in microbial ecology is understanding how competing guilds coexist and why community structures unexpectedly drift away from theoretical steady states. While polyphosphate accumulation provides energy and redox buffering in many heterotrophs, how competing lineages occupying the same ecological niche without polyphosphate synthesis manage equivalent intracellular redox imbalances remains unposed. Using an enhanced biological phosphorus removal macrocosm, we integrated quantitative stoichiometry with metaproteomics to resolve alternative metabolic strategies that underpin cellular homeostasis in heterotrophs. We show that glycogen-accumulating organisms (GAOs) achieve baseline metabolic parity with polyphosphate-accumulating organisms (PAOs) through a parallel redox-buffering mechanism: heterotrophic CO  2 /HCO  3 − re-assimilation via the ethylmalonyl-CoA pathway. This inorganic carbon fixation couples structural carbon conservation with tight redox control, mitigating intracellular electron overflow and eliminating the long-assumed GAO bioenergetic inferiority. The bioenergetic efficiency of GAOs is further fortified by fine-tuned metabolic wiring, featuring energy-efficient high affinity acetate activation, ferredoxin-centered biochemistry, and energy-neutral polyhydroxyalkanoates (PHA) mobilization. Strikingly, minor formate co-feeding disrupted this established PAO–GAO parity. Stoichiometric simulations revealed that this formate supplementation creates an asymmetric bioenergetic niche that grants per-cycle energy gains exclusively to GAOs. Decoupled from hydraulic throughput, solids retention time control retains cells carrying accumulated intracellular inventory, translating subtle per-cycle stoichiometric edges into a multi-generational ratchet and drives a rapid community shift from PAO–GAO co-dominance to GAO dominance. By exposing limitations of traditional single-substrate and single-cycle steady-state models, our findings reveal how inorganic resource management and generational metabolic compounding govern community assembly in biomass-retaining microbial ecosystems.
@@ -8943,6 +9053,20 @@ A central challenge in microbial ecology is understanding how competing guilds c
 
 ■ Original English Abstract:
 (No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: Decoupling Steric-Dependent Adsorption Mechanisms in "Covalent-Ionic" Dual-Orthogonal Crosslinked GO/CS Hydrogels for Efficient Dye Sequestration
+■ Original Title: Decoupling Steric-Dependent Adsorption Mechanisms in "Covalent-Ionic" Dual-Orthogonal Crosslinked GO/CS Hydrogels for Efficient Dye Sequestration
+■ 著者: 
+■ 発行年: 2026 (Source: PPR)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.21203/rs.3.rs-10919089/v1
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+<title>Abstract</title>  <p>Bulk hydrogel adsorbents show great promise in water remediation, yet overcoming the intrinsic contradiction between mechanical skeleton stability and high-density active sites remains a core challenge. Herein, a novel "covalent-ionic" dual-orthogonal crosslinking strategy based on sodium tripolyphosphate (TPP) and genipin was proposed to construct hierarchical mesoporous graphene oxide/chitosan (GO/CS) composite hydrogels. Compared to traditional highly toxic single-crosslinked systems, this strategy achieves robust spatial confinement of GO sheets while preserving abundant polar adsorption sites. By integrating comprehensive characterizations (SEM, BET, XRD, FT-IR, Raman, and XPS), the microscopic physicochemical synergistic adsorption mechanisms of the hydrogel toward planar methylene blue (MB) and bulky malachite green (MG) were systematically elucidated. The results suggest a strong steric-dependent interfacial behavior: the capture of MB primarily relies on face-to-face π-π conjugated stacking with the GO basal plane and localized charge transfer, whereas the adsorption of sterically hindered MG is dominantly driven by Coulombic electrostatic attraction and hydrogen bonding provided by deprotonated carboxyl and polar nitrogen sites. Furthermore, the hydrogel maintained over 80% of its retention capacity after five consecutive adsorption-desorption cycles without macroscopic structural deterioration or GO leakage. This study offers an engineering solution to the solid-liquid separation difficulties of powdered adsorbents and establishes a theoretical paradigm for steric-dependent confined adsorption in complex polymer networks.</p>
 
 --------------------------------------------------
 
@@ -9075,6 +9199,20 @@ Abstract  Aiming at the characteristics of traditional polyurethane foam and eas
 
 ■ Original English Abstract:
 <title>Abstract</title>  <p>Aiming at the characteristics of traditional polyurethane foam and easy combustion. In this work, a simple “one pot method” was used to prepared flame-retardant polyurethane foam through hollow glass microspheres (HGM) and ammonium polyphosphate (APP). The experimental results indicate that HGM and APP has good compatibility with polyurethane foam. The prepared polyurethane foam has rich macroporous structure and elasticity. In addition, compared with pure foam, flame retardant foam is hydrophobic. Furthermore, compared with pure PU foam, PU-FR foam has excellent flame retardancy, compared with PU foam, the peak heat release rate (pHRR) of PU-FR foam is reduced by about 12.9%. PU-FR foam has the characteristics of simple preparation process and excellent flame retardant performance, providing theoretical support for the industrial preparation of high-performance flame retardant polyurethane sponge.</p>
+
+--------------------------------------------------
+
+■ 日本語タイトル: From dynamic transcripts to stable proteins: multi-omics revealed regulatory buffering of Candidatus Accumulibacter under cyclic conditions
+■ Original Title: From dynamic transcripts to stable proteins: multi-omics revealed regulatory buffering of Candidatus Accumulibacter under cyclic conditions
+■ 著者: 
+■ 発行年: 2026 (Source: PPR)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.64898/2026.10.10.758232
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Enhanced biological phosphorus removal (EBPR) relies on polyphosphate-accumulating organisms that experience dynamic fluctuations in redox conditions and substrate availability. How these organisms regulate metabolism across molecular layers under cyclic operation remains incompletely understood. Here, we investigated molecular regulation in a long-term, stable aerobic granular sludge system dominated by Candidatus Accumulibacter. We combined metagenomics, time-resolved metatranscriptomics, and matched metaproteomics across three consecutive operational cycles. Genome-resolved metagenomics revealed an Accumulibacter-dominated community encoding canonical EBPR functions. Time-resolved metatranscriptomics revealed extensive and reproducible transcriptional dynamics affecting hundreds of genes. These dynamics did not align with discrete EBPR phases or instantaneous environmental transitions, but instead unfolded gradually over the cycle. Despite pronounced transcript-level heterogeneity, aggregation at the functional level revealed strong consolidation, with only a limited number of KEGG orthologs exhibiting coherent temporal regulation. Quantitative metaproteomics revealed a stable proteome across EBPR cycles, with no individual proteins or functional categories showing significant differential abundance despite direct transcript-protein mapping and time-matched sampling. This indicated that transcriptional dynamics did not translate into measurable changes in protein pool size on the time scale of individual cycles, consistent with slow, growth-coupled proteome turnover relative to cycle duration. Together, these results support a hierarchical model of regulation in Candidatus Accumulibacter, in which dynamic transcriptional responses are buffered at both the functional and protein levels. This organization provides a plausible basis for stable EBPR performance under predictable cyclic operation and demonstrates how time-resolved multi-omics can be used to resolve regulatory dynamics across molecular layers in engineered microbial ecosystems.
 
 --------------------------------------------------
 
@@ -9247,6 +9385,20 @@ Coenocytic algae are organisms that undergo karyokinesis without cytokinesis, re
 
 --------------------------------------------------
 
+■ 日本語タイトル: In Silico Evaluation via Virtual Screening, ADMET Profiling and Molecular Dynamics Simulations: Synthesis and Biological Activity Analysis of a Novel Antitumor PI3K Inhibitor
+■ Original Title: In Silico Evaluation via Virtual Screening, ADMET Profiling and Molecular Dynamics Simulations: Synthesis and Biological Activity Analysis of a Novel Antitumor PI3K Inhibitor
+■ 著者: 
+■ 発行年: 2026 (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13663554
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
 ■ 日本語タイトル: IP6K1の阻害は壊死性腸炎における血小板短鎖ポリリン酸ポリマーを介したNPC形成を抑制する
 ■ Original Title: Inhibition of IP6K1 Suppresses NPC Formation via Platelet Short-Chain Polyphosphate Polymers in Necrotizing Enterocolitis
 ■ 関連タグ: ミトコンドリア・代謝
@@ -9297,10 +9449,24 @@ Adenosine-to-inosine (A-to-I) RNA editing by ADAR1 is a key post-transcriptional
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.21203/rs.3.rs-10745759/v1
 
 ■ 日本語要約:
-Abstract  This study presents an integrated, multi-matrix assessment of potentially toxic element (PTE) fluxes across Chronic Kidney Disease of unknown etiology-endemic paddy agroecosystems in Sri Lanka, systematically quantifying cadmium, lead, arsenic, chromium, copper, zinc, and manganese from inorganic fertilizer inputs through soil biogeochemical transformation to grain-level bioaccumulation. Triple Superphosphate was identified as the primary PTE vector, containing Cd (6.74 mg/kg), Pb (124.34 mg/kg), and Cr (186.36 mg/kg), all exceeding safe agronomic thresholds. Girandurukotte was the most contaminated site, recording peak soil Cd (0.177), Pb (10.526), As (3.887), and Cu (38.904) in mg/kg, with hierarchical clustering confirming its geochemical distinctiveness. Cadmium demonstrated the highest bioavailability, with soil-to-root BCF values reaching 0.740 and soil-to-grain transfer factors of 0.116–0.153 across endemic sites. A statistically significant positive association was confirmed between soil and grain Cd concentrations. Root-to-grain translocation factors for Cd (0.207–0.336) substantially exceeded those of Pb (~ 0.05), arsenic, and chromium. Ecological risk assessment yielded PERI values of 13.01–30.70 across sites — all within the low-risk classification — yet cadmium dominated cumulative risk profiles at every location (Er up to 17.68), reflecting its disproportionate toxicological weighting. Inverse Distance Weighting spatial interpolation delineated discrete Cd and Pb hotspots geographically coinciding with documented peak CKDu prevalence zones, providing spatially explicit empirical support for a fertilizer-derived and geochemical cadmium exposure pathway underlying chronic renal injury in Sri Lanka's endemic dry zone paddy farming communities with a foundation for evidence-based fertilizer quality regulation, agricultural monitoring frameworks, and targeted public health intervention across Sri Lanka's endemic dry zone.
+(日本語要約なし)
 
 ■ Original English Abstract:
 <title>Abstract</title>  <p>This study presents an integrated, multi-matrix assessment of potentially toxic element (PTE) fluxes across Chronic Kidney Disease of unknown etiology-endemic paddy agroecosystems in Sri Lanka, systematically quantifying cadmium, lead, arsenic, chromium, copper, zinc, and manganese from inorganic fertilizer inputs through soil biogeochemical transformation to grain-level bioaccumulation. Triple Superphosphate was identified as the primary PTE vector, containing Cd (6.74 mg/kg), Pb (124.34 mg/kg), and Cr (186.36 mg/kg), all exceeding safe agronomic thresholds. Girandurukotte was the most contaminated site, recording peak soil Cd (0.177), Pb (10.526), As (3.887), and Cu (38.904) in mg/kg, with hierarchical clustering confirming its geochemical distinctiveness. Cadmium demonstrated the highest bioavailability, with soil-to-root BCF values reaching 0.740 and soil-to-grain transfer factors of 0.116–0.153 across endemic sites. A statistically significant positive association was confirmed between soil and grain Cd concentrations. Root-to-grain translocation factors for Cd (0.207–0.336) substantially exceeded those of Pb (~ 0.05), arsenic, and chromium. Ecological risk assessment yielded PERI values of 13.01–30.70 across sites — all within the low-risk classification — yet cadmium dominated cumulative risk profiles at every location (Er up to 17.68), reflecting its disproportionate toxicological weighting. Inverse Distance Weighting spatial interpolation delineated discrete Cd and Pb hotspots geographically coinciding with documented peak CKDu prevalence zones, providing spatially explicit empirical support for a fertilizer-derived and geochemical cadmium exposure pathway underlying chronic renal injury in Sri Lanka's endemic dry zone paddy farming communities with a foundation for evidence-based fertilizer quality regulation, agricultural monitoring frameworks, and targeted public health intervention across Sri Lanka's endemic dry zone.</p>
+
+--------------------------------------------------
+
+■ 日本語タイトル: Integrated Optimization of Opuntia stricta Extracts Coupled with HPLC-Based Phenolic Profiling: Linking Phytochemical Composition to Molecular Docking Simulation
+■ Original Title: Integrated Optimization of Opuntia stricta Extracts Coupled with HPLC-Based Phenolic Profiling: Linking Phytochemical Composition to Molecular Docking Simulation
+■ 著者: 
+■ 発行年: 2026 (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13665341
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
 
 --------------------------------------------------
 
@@ -9400,7 +9566,7 @@ NUDT2 is an emerging candidate for therapeutic intervention in cancer, and its i
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.21203/rs.3.rs-10253544/v1
 
 ■ 日本語要約:
-Abstract    In response to the problems of high addition of ammonium polyphosphate (APP) flame retardant ethylene vinyl acetate copolymer (EVA), easy cracking of carbon layer, and deterioration of mechanical properties, this study innovatively constructed an APP/nano sepiolite (NS)/MXene ternary synergistic flame retardant system. The multi-scale synergistic mechanism of the three components was revealed through systematic characterization using limiting oxygen index (LOI), cone calorimetry (CONE), thermogravimetric analysis (TGA), and scanning electron microscopy (SEM).The results showed that the LOI of the EVA-ASM sample with 20 wt% flame retardant (APP: NS: MXene = 9.5:0.4:0.1) increased from 18% of EVA to 24.5%, the peak heat release rate (pHRR) decreased from 718 kW/m  2  of EVA to 308 kW/m  2  , and the total heat release (THR) decreased from 91.7 MJ/m  2  to 74.7 MJ/m  2  . NS fiber network and MXene layer respectively play the roles of "skeleton reinforcement" and "catalytic graphitization", synergistically forming a dense continuous carbon layer (residual carbon rate of 9.0%) with APP, effectively suppressing mass and heat transfer; The ternary system significantly improves the flame retardant performance while increasing the tensile strength from 4.0 MPa to 6.8 MPa, and maintaining a volume resistivity of over 10  10  Ω· cm. This study provides a new strategy for developing high-performance flame-retardant EVA, which has potential applications in the field of new energy cable protection.  
+(日本語要約なし)
 
 ■ Original English Abstract:
 <title>Abstract</title>  <p>  In response to the problems of high addition of ammonium polyphosphate (APP) flame retardant ethylene vinyl acetate copolymer (EVA), easy cracking of carbon layer, and deterioration of mechanical properties, this study innovatively constructed an APP/nano sepiolite (NS)/MXene ternary synergistic flame retardant system. The multi-scale synergistic mechanism of the three components was revealed through systematic characterization using limiting oxygen index (LOI), cone calorimetry (CONE), thermogravimetric analysis (TGA), and scanning electron microscopy (SEM).The results showed that the LOI of the EVA-ASM sample with 20 wt% flame retardant (APP: NS: MXene = 9.5:0.4:0.1) increased from 18% of EVA to 24.5%, the peak heat release rate (pHRR) decreased from 718 kW/m  <sup>2</sup>  of EVA to 308 kW/m  <sup>2</sup>  , and the total heat release (THR) decreased from 91.7 MJ/m  <sup>2</sup>  to 74.7 MJ/m  <sup>2</sup>  . NS fiber network and MXene layer respectively play the roles of "skeleton reinforcement" and "catalytic graphitization", synergistically forming a dense continuous carbon layer (residual carbon rate of 9.0%) with APP, effectively suppressing mass and heat transfer; The ternary system significantly improves the flame retardant performance while increasing the tensile strength from 4.0 MPa to 6.8 MPa, and maintaining a volume resistivity of over 10  <sup>10</sup>  Ω· cm. This study provides a new strategy for developing high-performance flame-retardant EVA, which has potential applications in the field of new energy cable protection.  </p>
@@ -9422,7 +9588,7 @@ Inorganic polyphosphate (polyP) is a ubiquitous phosphate biopolymer involved in
 
 --------------------------------------------------
 
-■ 日本語タイトル: 地中海作物の輪作では、有機リン肥料が鉱物肥料を上回る
+■ 日本語タイトル: 地中海作物の輪作では、有機リン肥料が鉱物肥料を上回ります
 ■ Original Title: Organic phosphorus fertilizers outperform mineral fertilization in a Mediterranean crop rotation
 ■ 著者: 
 ■ 発行年: 2026 (Source: AGR)
@@ -9505,6 +9671,21 @@ ABSTRACT  Eukaryotic cells store inorganic phosphate in the form of long chains 
 
 ■ Original English Abstract:
 <h4>ABSTRACT</h4>  Eukaryotic cells store inorganic phosphate in the form of long chains called polyphosphates (polyP) that can reach many hundreds of residues in length. In the budding yeast  Saccharomyces cerevisiae , polyP is synthesized by the VTC complex using ATP as a substrate and sequestered at high concentrations in the vacuole. Here, polyP chain length and turnover are regulated by the polyphosphatase enzymes Ppn1 and Ppn2. In the vacuole lumen, polyP plays a critical role in phosphate and ion homeostasis. Beyond the vacuole, minor populations of polyP are thought to impact various cellular functions, including in the nucleus, in part by binding to target proteins. We speculated that polyP metabolism must be tightly coupled to mechanisms of homeostatic control operating elsewhere in the cell. In this work, we report that cells lacking Sky1, a serine-arginine repeat protein kinase, have very low levels of polyP, an effect that is exacerbated by alkaline stress. Under these conditions  sky1 Δ mutants also display increased expression of a subset of genes from the PHO regulon. Genetic analysis suggests that both phenotypes are linked to an increase in potassium influx via the Trk1 potassium transporter. Loss of Npl3, a known target of Sky1, partially rescues the phosphate homeostasis defects in  sky1 Δ mutants, although this occurs independently of a well characterized Sky1 phosphorylation site on Npl3. Finally, the loss of polyP in  sky1 Δ mutants depends on the Ppn1 and Ppn2 polyphosphatases and the Pep4 protease located in the vacuole. Altogether, our work provides novel insights into how polyP homeostasis in the vacuole is coordinated with events occurring throughout the cell.
+
+--------------------------------------------------
+
+■ 日本語タイトル: Regulatory effects of phosphogypsum application on soil quality and plant physiology: A global meta-analysis
+■ Original Title: Regulatory effects of phosphogypsum application on soil quality and plant physiology: A global meta-analysis
+■ 関連タグ: ホワイトニング
+■ 著者: 
+■ 発行年: 2026 (Source: PPR)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.21203/rs.3.rs-10800698/v1
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+<title>Abstract</title>  <p>Phosphogypsum (PG), a bulk solid by-product produced from wet phosphoric acid manufacturing, can be used as a soil amendment after harmless and functional modification in agricultural production. This greatly reduces the environmental and land pressure stemming from PG stockpiles but also conforms to the development of resource recycling and green agriculture. However, how PG application methods (alone or combined) and dosage gradients affect soil physicochemical properties, plant physiology, and microbial community structure has not been systematically or quantitatively assessed, limiting its precise and standardized use across diverse ecological regions and farming systems. Based on a strict screening of 44 global empirical studies, we conducted a multi-dimensional meta-analysis to systematically quantify the effects of PG application on soil quality, crop growth, enzyme activity, and soil microbial diversity. The results showed that the application of PG alone significantly improved soil fertility by increasing soil organic matter (+27.5%), field water holding capacity (+38.0%), available phosphorus (+58.6%), alkali-hydrolysable nitrogen (+25.0%) and ammonium nitrogen (+26.0%), total potassium (+15.8%) and total nitrogen (+21.3%), while reducing soil pH by 12%. At the plant level, PG significantly promoted biomass accumulation (+22.9%), plant height growth (+18.9%), root length (+16.5%), and calcium enrichment in the aboveground (+126.1%). In terms of combined application, the use of PG in conjunction with biochar reversed the acidification, increasing soil pH by 14.9%. The combined application of PG and compound fertilizer showed significant synergistic effects: soil total potassium content increased by 86.5%, K⁺ and Ca²⁺ concentrations in plants increased by 112.3% and 147.9% respectively, Na⁺ content significantly decreased by 85.7%, and simultaneously achieved a significant increase in crop yield (+43.2%) and plant height (+35.3%). At the biological response level, PG significantly enhanced soil β-glucosidase (+6.6%) and urease (+20.4%) activities and increased chlorophyll content in plants (+20.3%). Meanwhile, it significantly activated the plant antioxidant system, with superoxide dismutase (SOD) and catalase (CAT) activities increasing by 15.6% and 42.6% respectively. However, a decrease of 18.2% in fungal community α-diversity (Chao1 index) was observed, suggesting the need to pay attention to the potential regulatory effects of long-term application on the structure of the soil microbial community. The sensitivity analysis of application dosage showed that the medium and low dosage range of 10%–50% (mass ratio) of PG application presented the best comprehensive benefits in most studies, which is conducive to expanding the soil nutrient pool and promoting the stable growth of crops. In conclusion, this study provides systematic scientific basis and practical parameter support for the agricultural resource utilization of phosphogypsum under the premise of ecological safety, and has important theoretical value and application significance for building a modern farmland ecosystem that is nutrient-efficient, environmentally friendly, and resiliently sustainable.</p>
 
 --------------------------------------------------
 
@@ -9685,7 +9866,7 @@ The Chinese Baijiu industry produces over one billion tons of distiller’s drie
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.64898/2026.09.01.747915
 
 ■ 日本語要約:
-ABSTRACT  Inorganic polyphosphate (polyP) is an ancient polymer conserved across all life, serving cell type- and location–specific functions in every major compartment. Yet its role at the plasma membrane, where it accumulates to peak levels in many primary cells, is largely unknown. Here we identify polyP as a stabilizing component of filopodia, actin-based membrane protrusions that govern cell adhesion, contact inhibition, and chemotaxis. Elevating cellular polyP increases filopodial stability and enhances cell adhesion, whereas reducing polyP accelerates filopodial disassembly and promotes cell migration. Mechanistically, we find that polyP acts as a structural filopodial scaffold, recruiting and organizing IRSp53, a membrane curvature–inducing protein. We show that metastatic fibroblasts and breast cancer organoids carry markedly reduced and intracellularly reorganized polyP levels relative to their non-transformed counterparts. Restoring endogenous polyP via lipid-nanoparticle delivery suppresses their invasive phenotypes and reverses pro-metastatic gene expression signatures, implicating polyP as a primordial tumor suppressor.
+(日本語要約なし)
 
 ■ Original English Abstract:
 <h4>ABSTRACT</h4>  Inorganic polyphosphate (polyP) is an ancient polymer conserved across all life, serving cell type- and location–specific functions in every major compartment. Yet its role at the plasma membrane, where it accumulates to peak levels in many primary cells, is largely unknown. Here we identify polyP as a stabilizing component of filopodia, actin-based membrane protrusions that govern cell adhesion, contact inhibition, and chemotaxis. Elevating cellular polyP increases filopodial stability and enhances cell adhesion, whereas reducing polyP accelerates filopodial disassembly and promotes cell migration. Mechanistically, we find that polyP acts as a structural filopodial scaffold, recruiting and organizing IRSp53, a membrane curvature–inducing protein. We show that metastatic fibroblasts and breast cancer organoids carry markedly reduced and intracellularly reorganized polyP levels relative to their non-transformed counterparts. Restoring endogenous polyP via lipid-nanoparticle delivery suppresses their invasive phenotypes and reverses pro-metastatic gene expression signatures, implicating polyP as a primordial tumor suppressor.
@@ -9699,7 +9880,7 @@ ABSTRACT  Inorganic polyphosphate (polyP) is an ancient polymer conserved across
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.64898/2026.08.04.742738
 
 ■ 日本語要約:
-Inorganic polyphosphate (polyP) is a universally conserved biopolymer central to bacterial stress survival, yet understanding of its roles derives almost entirely from Gram-negative models in which polyP accumulates intracellularly following nutrient downshift. We examined polyP metabolism in the Gram-positive spore-forming bacterium  Bacillus cereus using deletions of the polyP kinases PPK1 and PPK2 and the exopolyphosphatase PPX. Intracellular polyP synthesis required PPK1 and was opposed by PPX and PPK2:  ppx mutants accumulated polyP in sporulation medium by 24 hours,  ppx ppk2 double mutants accumulated more, and no  ppk1 mutant accumulated any. A  ppk1 ppx double mutant could not be generated, suggesting that unopposed PPK2 activity is lethal. Unlike  Escherichia coli and  Pseudomonas aeruginosa ,  B. cereus did not accumulate polyP after shift to minimal medium, increasing only modestly in stationary phase. Fluorescence and transmission electron microscopy localized intracellular polyP to electron-dense granules within ribosome-depleted cytoplasm. Cells bearing these granules remained membrane-intact yet failed to resume growth over 8 hours in rich medium, leading us to propose that polyP drives ribosome sequestration into condensates and a hibernation-like state. Unexpectedly,  B. cereus also released close to 100µM polyP extracellularly during late stationary phase, even in a  ppk1 ppk2 mutant lacking both known synthetases. Extracellular polyP resisted hydrolysis by purified PPX even after deproteinization, indicating an atypical structure.  Bacillus thuringiensis and  Bacillus anthracis released similar amounts of extracellular polyP. Together these results identify two distinct polyP pools in the  B. cereus group: a PPK1-dependent intracellular pool and an extracellular pool made by an uncharacterized pathway.  Importance  Bacillus cereus is a spore-forming bacterium that causes foodborne illness and persists in soil and food-processing environments, where survival depends on managing phosphate and energy reserves during starvation. Inorganic polyphosphate (polyP), an ancient polymer used by nearly all cells to withstand stress, has been studied almost entirely as a molecule stored inside bacteria. We show that  Bacillus cereus maintains two separate polyP pools. The internal pool is made by a known enzyme (PPK1) and is associated with dormant cells whose protein-making machinery appears to be packed away. The external pool is made without any known polyP-synthesizing enzyme, pointing to a novel polyP synthesis pathway that is shared with the close relatives  Bacillus thuringiensis and  Bacillus anthracis .
+(日本語要約なし)
 
 ■ Original English Abstract:
 Inorganic polyphosphate (polyP) is a universally conserved biopolymer central to bacterial stress survival, yet understanding of its roles derives almost entirely from Gram-negative models in which polyP accumulates intracellularly following nutrient downshift. We examined polyP metabolism in the Gram-positive spore-forming bacterium  Bacillus cereus using deletions of the polyP kinases PPK1 and PPK2 and the exopolyphosphatase PPX. Intracellular polyP synthesis required PPK1 and was opposed by PPX and PPK2:  ppx mutants accumulated polyP in sporulation medium by 24 hours,  ppx ppk2 double mutants accumulated more, and no  ppk1 mutant accumulated any. A  ppk1 ppx double mutant could not be generated, suggesting that unopposed PPK2 activity is lethal. Unlike  Escherichia coli and  Pseudomonas aeruginosa ,  B. cereus did not accumulate polyP after shift to minimal medium, increasing only modestly in stationary phase. Fluorescence and transmission electron microscopy localized intracellular polyP to electron-dense granules within ribosome-depleted cytoplasm. Cells bearing these granules remained membrane-intact yet failed to resume growth over 8 hours in rich medium, leading us to propose that polyP drives ribosome sequestration into condensates and a hibernation-like state. Unexpectedly,  B. cereus also released close to 100µM polyP extracellularly during late stationary phase, even in a  ppk1 ppk2 mutant lacking both known synthetases. Extracellular polyP resisted hydrolysis by purified PPX even after deproteinization, indicating an atypical structure.  Bacillus thuringiensis and  Bacillus anthracis released similar amounts of extracellular polyP. Together these results identify two distinct polyP pools in the  B. cereus group: a PPK1-dependent intracellular pool and an extracellular pool made by an uncharacterized pathway.  <h4>Importance</h4>  Bacillus cereus is a spore-forming bacterium that causes foodborne illness and persists in soil and food-processing environments, where survival depends on managing phosphate and energy reserves during starvation. Inorganic polyphosphate (polyP), an ancient polymer used by nearly all cells to withstand stress, has been studied almost entirely as a molecule stored inside bacteria. We show that  Bacillus cereus maintains two separate polyP pools. The internal pool is made by a known enzyme (PPK1) and is associated with dormant cells whose protein-making machinery appears to be packed away. The external pool is made without any known polyP-synthesizing enzyme, pointing to a novel polyP synthesis pathway that is shared with the close relatives  Bacillus thuringiensis and  Bacillus anthracis .
@@ -10367,7 +10548,7 @@ Over the past few decades, aquaculture has been steering the giant wheel of the 
 
 --------------------------------------------------
 
-■ 日本語タイトル: リンの割合と種類を組み合わせると、沿岸の塩分土壌と作物システムにおける塩イオンの恒常性が調節され、トウモロコシの収量が向上する
+■ 日本語タイトル: リンの割合と種類を組み合わせると、沿岸の塩分土壌と作物システムにおける塩イオンの恒常性が調節され、トウモロコシの収量が向上します
 ■ Original Title: Coupling phosphorus rate and type enhances maize yield by regulating salt ion homeostasis in coastal saline soil-crop systems
 ■ 関連タグ: ホワイトニング
 ■ 著者: 
@@ -74181,7 +74362,7 @@ According to recent hypothesis, the inflammation has a pivotal role in the onset
 
 --------------------------------------------------
 
-■ 日本語タイトル: Polyphosphate Storage and Function in Acidocalcisomes
+■ 日本語タイトル: ポリリン学術誌
 ■ Original Title: Polyphosphate Storage and Function in Acidocalcisomes
 ■ 著者: 
 ■ 発行年: 2016 (Source: Crossref)
@@ -81883,7 +82064,7 @@ The ability to acquire iron from various sources has been demonstrated to be a m
 
 --------------------------------------------------
 
-■ 日本語タイトル: 定量的プロテオミクスがミトコンドリアPARKIN転送とユビキチン鎖合成のフィードフォワードメカニズムに関する研究
+■ 日本語タイトル: 定量的プロテオミクスがミトコンドリアPARKIN転送とユビキチン鎖合成のフィードフォワードメカニズムを明らかにする
 ■ Original Title: Quantitative proteomics reveal a feedforward mechanism for mitochondrial PARKIN translocation and ubiquitin chain synthesis.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: Alban Ordureau, Shireen A Sarraf, David M Duda et al.
@@ -144204,20 +144385,6 @@ Laboratory studies were developed to permit the evaluation of chemical actions o
 ■ 著者: 
 ■ 発行年: 2002 (Source: Crossref)
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.1039/9781847550118-00244
-
-■ 日本語要約:
-(日本語要約なし)
-
-■ Original English Abstract:
-(No abstract available)
-
---------------------------------------------------
-
-■ 日本語タイトル: Hydrolytic degradation and diffusion studies on a polyphosphate ester
-■ Original Title: Hydrolytic degradation and diffusion studies on a polyphosphate ester
-■ 著者: 
-■ 発行年: 2002 (Source: Crossref)
-■ 原著論文リンク(PDF/記事): https://doi.org/10.1002/app.10008.abs
 
 ■ 日本語要約:
 (日本語要約なし)
@@ -266728,6 +266895,383 @@ The study investigated phosphate's effects on tenderness and lipid oxidation in 
 
 --------------------------------------------------
 
+■ 日本語タイトル: Neue Zahnpasta stoppt Parodontitis-Erreger
+■ Original Title: Neue Zahnpasta stoppt Parodontitis-Erreger
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7894766/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ 
+Contact 
+Monika Landgraf | Fraunhofer-Gesellschaft, Munich, Germany | Communications | Phone +49 89 1205-1333 | presse@zv.fraunhofer.de    
+Jens Augustin | Fraunhofer Institute for Cell Therapy and Immunology IZI | Head of Corporate Communication | Phone +49 341 35536-9320 | 
+Perlickstrasse 1 | 04103 Leipzig, Germany | www.izi.fraunhofer.de/en.html | jens.augustin@izi.fraunhofer.de 
+ 
+RESEARCH NEWS  
+January 5, 2026 || Page 1 | 4 
+ 
+Oral health 
+New Toothpaste Stops Periodontal Pathogens 
+Periodontitis is widespread and can have serious consequences for overall 
+health. Researchers at Fraunh
+
+--------------------------------------------------
+
+■ 日本語タイトル: コヤス歯科  MTGR805
+■ Original Title: R 5/11/13中目黒コヤス歯科 ミーティング
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7783707/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+R 8/ 5/ 25中目黒コヤス歯科
+ミーティング
+和 仁 笑
+Masahiro Koyasu DDS Ph.D. 
+a.K.a Dr.COYASS
+
+N A K A M E G U R O  K O Y A S U  D E N T A L  C L I N I C  
+院内ミーティング議事録
+ビジュアルスライド・デベロップメント
+実施日: 2026年4月27日 (月) | 開催時間: 1時間50分28秒 | 場所: 院内カンファレンスルーム 
+「和・仁・笑」をコンセプトに 、私たちはさらに進化します。 
+自動精算機導入、セキュリティ徹底、保険改定へのスピード対応、そして新規自費診療メニューの開始。患者
+さまの最高の笑顔と安心のために、チーム一丸となって取り組むロードマップ。 
+PRESENTER / PRODUCER
+コヤス先生
+中目黒コヤス歯科 院長・歯学博士
+© 2026 Nakameguro Koyasu Dental Clinic. All Rights Reserved. 01 / 11
+M E E T I N G  A G E N D A
+本日議論した8つの主要議題
+01 自動精算機の導入と運用体制変更
+4月30日より運用開始、待合室レイアウトの最適化
+02 セキュリティ強化と鍵の管理ルール
+確実な管理フローの再徹底と顔認証システムの検討
+03 院内業務ルールと情報
+
+--------------------------------------------------
+
+■ 日本語タイトル: dental_aed_guide_20260726052554
+■ Original Title: dental_aed_guide_20260726052554
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_2044873/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+
+ 令和 8 年 度 厚 生 労 働 省 指 針 準 拠
+口 管強 取 得 で 診 療 報 酬 アップ ！口 管強 取 得 で 診 療 報 酬 アップ ！
+令和 8 年 度 （ 2026 年 度 ） 改 定 対 応令和 8 年 度 （ 2026 年 度 ） 改 定 対 応 必 要 機 材 導 必 要 機 材 導
+入 完 全 ガイド入 完 全 ガイド
+【 2026 年 度 最新 版 ‧ 口 腔 機 能 実 地 指 導 料 （ 46 点 ）新 設対 応 】
+令和 8 年 度 診 療 報 酬 改 定 に 基 づく、 歯 科 医 院 における必 要 機 材 導 入 と口 腔 管 理体 制強 化 加 算 取
+得 のための 完 全 ガイド。
+機 材 レンタル 比 較 からコスト 分 析 、 導 入 戦 略 まで 徹 底 解 説 します。
+ 2026 年 7 月
+令和 8 年 度 （ 2026 年 度 ）  歯 科 施 設 基 準 における 必 要 機 材 設 置 要 件
+ 歯 科 外 来 診 療 医 療 安 全 対 策 加 算
+‧ AED の 設 置 が 引 き 続 き 必 須 要 件 として 明 記
+‧パルスオキシメーター、 酸 素 吸 入 器 、 血 圧 計 、 救 急 蘇 生 セット、 口 腔 外 バキュームも 必 須
+ 口 管強 （ 口 腔 管 理体 制強 化 加 算 ） の
+
+--------------------------------------------------
+
+■ 日本語タイトル: dental_aed_guide_20260726073401
+■ Original Title: dental_aed_guide_20260726073401
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_5274032/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+
+
+
+ 令和 8 年 度 （ 2026 年 度 ） 厚 生 労 働 省 指 針 準 拠
+口 管強 取 得 で 診 療 報 酬 アップ ！
+必 要 機 材 導 入 完 全 ガイド
+⭐ 【 新 設対 応 】 口 腔 機 能 実 地 指 導 料 （ 46 点 ）
+令和 8 年 度 診 療 報 酬 改 定 に 基 づく、 歯 科 医 院 における AED 等 の 必 要 機 材 導 入 と
+口 腔 管 理体 制強 化 加 算 （ 口 管強 ） 取 得 のための 実 践 的 判 断 ガイド。
+2026 年 7 月  最新 版
+令和 8 年 度 施 設 基 準 における 必 要 機 材 6 種 要 件
+「 口 管強 （ 口 腔 管 理体 制強 化 加 算 ）」 および 「 外 安 全 ‧ 外 感 染 」 共 通 の 必 須 設 置 機 材
+AED （ 自 動 体外 式 除 細 動 器 ）
+
+必 要 性 ： 設 置 必 須 （最 重 要 ）
+用 途 ：心 停 止 時 の 救 命 処 置
+レンタル  最安⽔準
+3,600円 / 月 〜
+パルスオキシメーター
+
+必 要 性 ： 設 置 必 須
+用 途 ：動 脈 血 酸 素 飽 和 度 の 測 定
+購⼊  最安⽔準
+4,000円 〜
+酸 素供 給 装 置 （ 吸 入 器 ）
+
+必 要 性 ： 設 置 必 須
+用 途 ：緊 急 時 の 人 
+
+--------------------------------------------------
+
+■ 日本語タイトル: dental_fee_revision_2026_complete_guide_20260927093438
+■ Original Title: dental_fee_revision_2026_complete_guide_20260927093438
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_6804370/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+明 日 の 医 療 を 考 える  歯 科 保 険 審 査 プロフェッショナル 向 け 資 料
+2026 年 6 月  歯 科 診 療 報 酬 改 定
+完 全 解 説
+基 本 診 療 料 から 歯 冠 修 復 、 医 療 DX まで 全 項 目 網羅
+実 務 に 直 結 する 算 定 ポイント‧ 要 件 ‧ 施 設 基 準 の 総 まとめ
+作 成 ‧ 解 説
+[ 発表者名 / 組 織 名 を 入 力 ]
+01
+改 定 の 背 景 と
+全 体 像
+2026 年 6 月 改 定 が
+どのような 背 景 と 目 的 で
+行 われたのかを 整 理 します。
+ 改 定 の 背 景 ‧ 社会 的 要 因
+物 価 高 騰 ‧ 光 熱 費 ‧ 材 料 費増 への 対 応 （ ベースアップ 評 価 料 等 の 新 設 ）
+医 療 従 事 者 の 賃 上 げ‧ 人 材 確 保 の 必 要 性 の 高 まり
+長 期 にわたる 低 歯 科 医 療 費 政策 による 医 院 経 営 への 影 響 に 対 する 懸 念
+ 改 定 の 全 体 的 な 方 向 性
+医 院 経 営 の 基 盤 維 持 ‧ 支 援 と、スタッフの 処 遇 改 善 への 直 接 的対 応
+口 腔 機 能 管 理 の 推 進 と 実 態 に 即 した 医 学 管 理 の 整 理 ‧ 統 合
+デジタル 技 術 （ CAD/CAM 、 
+
+--------------------------------------------------
+
+■ 日本語タイトル: r8_dental_fee_revision_lecture_120min_20260503082306
+■ Original Title: r8_dental_fee_revision_lecture_120min_20260503082306
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_9527010/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Professional abstract visual
+ 解 説 資 料
+令和 8 年 度
+歯 科 診 療 報 酬 改 定
+完 全 解 説 講 義
+120 分 集 中 講 義 コース
+令和 8 年 4 月 20 日 疑 義 解 釈 その 3 まで 反 映 ／ 疑 義 解 釈 その 4 （ 4 月 21 日 ） はベースア
+ップ 評 価 料 ‧ 歯 科技 工 所 ベースアップ 支 援 料 関 係 を 確認 済 み
+LECTURER
+小 安  正 洋  (Dr.COYASS)
+中目 黒 コヤス 歯 科  院 長  / 歯 学 博 士
+日 本 歯 科 審 美学 会 認 定 医 ‧ 分 割 ポリリン 酸 研 究 会 主 宰
+2026 年 4 月 26 日
+参考 資 料： 東 京 都 歯 科 医 師 会  令和 8 年 度 診 療 報 酬 改 定 資 料 （ 令和 8 年 3 月 ）
+出 典 ： 告 示 R8.3.5 ／ 疑 義 解 釈 その 1 〜 その 3 ／ 都 歯 資 料 ／ 日 歯 資 料 ／ 赤 本 2026
+※ 本 資 料 は 講 師 個 人 作 成 資 料 です
+本 日 の 講 義 の 流
+れ
+ 120 分 集 中 講 義 コース ／ 本 編 （ 約 75 分） ＋ 付録 （ 参考 資 料 ‧ 約 45 分）
+構 成
+※ 令和 8 年 4 月 20 日 疑 義 解 釈 
+
+--------------------------------------------------
+
+■ 日本語タイトル: r8_dental_fee_revision_lecture_120min_20260504042145
+■ Original Title: r8_dental_fee_revision_lecture_120min_20260504042145
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_4921407/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Professional abstract visual
+ 解 説 資 料
+令和 8 年 度
+歯 科 診 療 報 酬 改 定
+完 全 解 説 講 義
+120 分 集 中 講 義 コース
+令和 8 年 4 月 20 日 疑 義 解 釈 その 3 まで 反 映 ／ 疑 義 解 釈 その 4 （ 4 月 21 日 ） はベースア
+ップ 評 価 料 ‧ 歯 科技 工 所 ベースアップ 支 援 料 関 係 を 確認 済 み
+LECTURER
+小 安  正 洋  (Dr.COYASS)
+中目 黒 コヤス 歯 科  院 長  / 歯 学 博 士
+日 本 歯 科 審 美学 会 認 定 医 ‧ 分 割 ポリリン 酸 研 究 会 主 宰
+2026 年 4 月 26 日
+参考 資 料： 東 京 都 歯 科 医 師 会  令和 8 年 度 診 療 報 酬 改 定 資 料 （ 令和 8 年 3 月 ）
+出 典 ： 告 示 R8.3.5 ／ 疑 義 解 釈 その 1 〜 その 4 ／ 都 歯 資 料 ／ 日 歯 資 料 ／ 赤 本 2026
+※ 本 資 料 は 講 師 個 人 作 成 資 料 です
+本 日 の 講 義 の 流 れ  120 分 集 中 講 義 コース ／ 本 編 （ 約 75 分） ＋ 付録 構 成
+※ 令和 8 年 4 月 20 日 疑 義 解 釈 その 3 まで 反 映 ／ 疑 義 解
+
+--------------------------------------------------
+
+■ 日本語タイトル: r8_dental_fee_revision_lecture_120min_20260505163326
+■ Original Title: r8_dental_fee_revision_lecture_120min_20260505163326
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_4704112/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Professional abstract visual
+ KOYASU talk #33 / 90 分 実 践 編
+じゃあ、 実 際
+どう 算 定 するの ？
+令和 8 年 度 診 療 報 酬 改 定
+“ 現 場 落 とし 込 み ”セミナー
+「 理 解 」 ではなく 「 実 践 」 したい 方 へ。
+現 場 で 迷 わない 判 断 基 準 と、 明 日 から 動 くための 具 体 策 。
+受 付 ‧ 事 務 ‧ DH ‧ Dr それぞれの 動 き 方 を 90 分 で 徹 底 解 説 。
+講 師
+小 安  正 洋  ( 歯 科 医 師 )
+中目 黒 コヤス 歯 科  院 長  / 歯 学 博 士
+ 2026 年 5 月 28 日 （ 木 ） 20:00-21:30
+ ZOOM オンライン 開 催
+※ 21:30-22:00 は 直 接 質 問 できる 二 次 会 を 予 定
+本 日 のセミナーの
+流 れ
+ 90 分 実 践 編 ／ 現 場 落 とし 込 みセミナー （ 20:00 -
+21:30 ）
+ ※ 21:30-22:00 は 直 接 質 問 できる 二 次 会 あり
+※ 令和 8 年 4 月 21 日 疑 義 解 釈 その 4 まで 反 映済 み
+※ 全 156 枚 （本 編 + 付録 一 体 型 構 成 ）
+20:00 -
+5min
+ Opening
+オー
+
+--------------------------------------------------
+
+■ 日本語タイトル: r8_dental_fee_revision_lecture_120min_20260506002025
+■ Original Title: r8_dental_fee_revision_lecture_120min_20260506002025
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_2394772/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Professional abstract visual
+ KOYASU talk #33 / 90 分 実 践 編
+じゃあ、 実 際
+どう 算 定 するの ？
+令和 8 年 度 診 療 報 酬 改 定
+“ 現 場 落 とし 込 み ”セミナー
+「 理 解 」 ではなく 「 実 践 」 したい 方 へ。
+現 場 で 迷 わない 判 断 基 準 と、 明 日 から 動 くための 具 体 策 。
+受 付 ‧ 事 務 ‧ DH ‧ Dr それぞれの 動 き 方 を 90 分 で 徹 底 解 説 。
+講 師
+小 安  正 洋  ( 歯 科 医 師 )
+中目 黒 コヤス 歯 科  院 長  / 歯 学 博 士
+ 2026 年 5 月 28 日 （ 木 ） 20:00-21:30
+ ZOOM オンライン 開 催
+※ 21:30-22:00 は 直 接 質 問 できる 二 次 会 を 予 定
+本 日 のセミナーの
+流 れ
+ 90 分 実 践 編 ／ 現 場 落 とし 込 みセミナー （ 20:00 - 21:30 ）
+ ※ 21:30-22:00 は 直 接 質 問 できる 二 次 会 あり
+※ 令和 8 年 4 月 21 日 疑 義 解 釈 その 4 まで 反 映済 み
+※ 全 156 枚 ： 講 義 本 編 ＋ 詳細 付録 一 体 型 。 90 分 講 義 では 本 編 ‧ケースス
+
+--------------------------------------------------
+
+■ 日本語タイトル: r8_dental_fee_revision_lecture_120min_20260506131041
+■ Original Title: r8_dental_fee_revision_lecture_120min_20260506131041
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7047360/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+KOYASU DENTAL CLINIC
+ 90 分 実 践 編 ／ 現 場 落 とし 込 みセミナー  KOYASU talk #33
+歯 科 医 院 の 現 場 に、 本気 で 落 とし 込 む 。
+じゃあ、 実 際 どう 算 定 するの ？
+令和 8 年 度  診 療 報 酬 改 定  〝 現 場 落 とし 込 み 〟 セミナー
+⭐
+
+現 場 で 迷 わない
+算 定 判 断 フロー
+⭐
+実 例 で 覚 える
+ケーススタディ 10 本
+★ 核 心
+
+受 付 ‧ 事 務 ‧ DH ‧ Dr
+役 割 別 アクション
+
+明 日 から 動 ける
+6 月 1 日 までの TODO
+ 講 師 情報 中目 黒 コヤス 歯 科  院 長 ｜ 歯 科 医 師 ‧ 歯 学 博 士 ｜ 小 安 正 洋 「 和 ‧ 仁 ‧ 笑 」 をコンセプトに 最 先 端 の 歯 科 医 療 を 提 供
+ 2026 年 5 月 28 日 （ 木 ） 20:00-21:30 GMT+09:00 ¥ 受 講 料： 5,000 円  21:30-22:00 ： 直 接 質 問 できる 二 次 会 あり
+※ 令和 8 年 4 月 21 日 疑 義 解 釈 その 4 まで 反 映済 み ｜ 全 157 枚 （本 編 45 枚 ＋ 付録 110 枚 ＋ 最 終 確認 2 枚 ）
+本 日 のセミナーの 流 れ 
+
+--------------------------------------------------
+
+■ 日本語タイトル: PolyP-MTA_説明同意書_ドラフト
+■ Original Title: 臨床研究への参加についての説明文書・同意書（ドラフト）｜PolyP-MTA直接覆髄
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2026-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_1367685/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ドラフト 　 第 0.1 版 　 ｜ 　 倫 理 審 査 前 の 案
+臨 床 研 究 への 参 加 についての
+説 明 文 書 ・ 同 意書
+ポリリン 酸 を 配 合 した MTA セメント （ PolyP-MTA ） による
+直 接 覆 髄 （ 歯 の 神 経 を 残 す 治 療 ） の 安 全 性 と 有 効 性 を 調 べる 臨 床 研 究
+研 究 の 名 称 （ 仮 ） ポリリン 酸 配 合 MTA セメントを 用 いた 直 接 覆 髄 の 安 全 性 および 有 効 性
+に 関 する 探 索 的 臨 床 研 究
+実 施医 療 機 関 中目 黒 コヤス 歯 科
+研 究 責 任 医 師 【 氏 名 ‧ 職 名】
+審 査 委 員 会 【 認 定 臨 床 研 究 審 査 委 員 会 ／ 倫 理 審 査 委 員 会 の 名 称 】
+承 認 ‧ 登録 【 承 認 日 】　 ／ 　【 jRCT 番 号 など 】
+作 成 日 ‧ 版 2026 年 10 月 7 日 　 第 0.1 版 （ ドラフト ）
+この 文 書 について　 この 文 書 は、 研 究 への 参 加 をお 願 いする 患 者 さんに、 研 究 の 内 容 をご 理 解 いただくための
+説 明 文 書 です。わからないことや 心 配 なことがあれば、 何 でも 遠 慮 なく 歯 科 医 師 にお 尋 ねください。お 持 
+
+--------------------------------------------------
+
 ■ 日本語タイトル: ユビキチン-プロテアソーム系におけるイノシトール六リン酸の多彩な役割
 ■ Original Title: Versatile roles of inositol hexakisphosphate in the ubiquitin-proteasome system.
 ■ 著者: ドムニータ-ヴァレリア ルスナック、ニン ジェン、シャオウェン シエ
@@ -274401,6 +274945,97 @@ Investigation of Denitin Bridge formation induced by Medium-chain Polyphosphate 
 
 --------------------------------------------------
 
+■ 日本語タイトル: Physicochemical properties and apatite precipitation behavior of experimental calcium silicate-based cements doped with phosphate compounds
+■ Original Title: Physicochemical properties and apatite precipitation behavior of experimental calcium silicate-based cements doped with phosphate compounds
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2025-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/j.dental.2025.06.014
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Physicochemical properties and apatite precipitation behavior of 
+experimental calcium silicate-based cements doped with 
+phosphate compounds
+Kenta Tsuchiya a,b,*
+ , Salvatore Sauro b
+ , Hidehiko Sano a, Jukka P. Matinlinna c,d
+ ,  
+Monica Yamauti a,e, Shuhei Hoshika a, Yu Toida a
+ , Rafiqul Islam a, Atsushi Tomokiyo a
+a Department of Restorative Dentistry, Hokkaido University, Sapporo, Japan
+b Dental Biomaterials and Minimally Invasive Dentistry, Departamento de Odontología, Facultad de Ciencias de la Salud, Universidad CEU-Cardenal Herrera, Valencia, 
+Spain
+c Dental Materials Science, Applie
+
+--------------------------------------------------
+
+■ 日本語タイトル: PolyP-MTAシナジー_臨床手技プロトコルと施術ステップ_20261007103658
+■ Original Title: PolyP-MTAシナジー_臨床手技プロトコルと施術ステップ_20261007103658
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2025-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/j.dental.2025.06.014
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+コンポジット
+レジン 修 復
+GIC / RMGI
+保 護 裏 装
+PolyP-MTA
+1.5–2.0 mm
+歯 髄
+露 髄 部 を 被 覆
+臨 床 研 究 プロトコル （ 案 ）
+PolyP-MTA
+シナジー
+臨 床 手 技 プロトコルと 施 術 ステップ
+初 期 硬 化 を 約 1/5 に 短 縮 し、ポリリン 酸 の 象 牙 質 形 成 作 用 を 応 用 する 直 接
+覆 髄 ‧ 象 牙 質 修 復
+歯 科 臨 床 家 向 け 勉 強 会 資 料 　 ｜ 　 直 接 覆 髄 ‧ 象 牙 質 修 復
+Source: Tsuchiya K. et al., Dent Mater (2025) / JP 2005-263681A (JP4575687B2) / 笹 川 航 , 北 海道 大 学  学 位 論 文  (2005) 01 / 09
+Rationale
+なぜ混 ぜるのか
+従 来 MTA の 臨 床 的 課 題 に 対 し、ポリリン 酸 の 「 硬 化 促 進 」 と 「 象 牙 質 形 成 作 用」 を 組 み 合 わせる
+従 来 MTA の 臨 床 的 課 題
+待 ち 時間 と 扱 いにくさ
+硬 化 に 長 時間
+対 照 NMTA 初 期 硬 化  93 分 ／ 最 終 硬 化  約
+298 分 in vitro
+操 作 性 （ ハンドリング ）
+窩 洞 への 移 送
+
+--------------------------------------------------
+
+■ 日本語タイトル: Porphyromonas gulae and canine periodontal disease: Current understanding and future directions
+■ Original Title: Porphyromonas gulae and canine periodontal disease: Current understanding and future directions
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2025-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1080/21505594.2024.2449019
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Virulence
+ISSN: (Print) (Online) Journal homepage: www.tandfonline.com/journals/kvir20
+Porphyromonas gulae and canine periodontal disease:
+Current underﬆanding and future directions
+Kyu Hwan Kwack, Eun-Young Jang, Cheul Kim, Young-Suk Choi, Jae-Hyung
+Lee & Ji-Hoi Moon
+To cite this article: Kyu Hwan Kwack, Eun-Young Jang, Cheul Kim, Young-Suk Choi,
+Jae-Hyung Lee & Ji-Hoi Moon (2025) Porphyromonas gulae and canine periodontal
+disease: Current understanding and future directions, Virulence, 16:1, 2449019, DOI:
+10.1080/21505594.2024.2449019
+To link to this article:  https://doi.org/10.1080/2150559
+
+--------------------------------------------------
+
 ■ 日本語タイトル: セッション 1: PolyP と地球規模のリン循環
 ■ Original Title: Session 1: PolyP and the Global Phosphorus Cycle
 ■ 著者: 国際専門家チーム (ミシガン大学 他)
@@ -274426,6 +275061,101 @@ Topics include: Microorganisms and the global phosphorus cycle, accumulation and
 
 ■ Original English Abstract:
 Discussing the roles of inorganic polyphosphates in modulating hemostasis and their role in the pathogenesis of thrombotic disorders.
+
+--------------------------------------------------
+
+■ 日本語タイトル: e348d091-c5d7-4d44-ade7-eebfd21f73da_20260601161147
+■ Original Title: e348d091-c5d7-4d44-ade7-eebfd21f73da_20260601161147
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2025-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_9969837/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+F o r  D e n t a l  P r o f e s s i o n a l s  |  R e t a i l  ×  C l i n i c a l  S t r a t e g y
+分 割 ポリリン 酸  × 歯 科 物 販
+“ 診 る ” から  “ 続 く ” へ。
+患 者 LTV を 設 計 する  物 販 ポートフォリオ
+ホワイトニング‧ 歯 周 病 ‧メンテナンスの 延 長 線 上 で、
+粗 利 率  50 〜 70 ％ ／  継 続 購 入 で 積 み 上 がる LTV を、
+診 療 フローを 崩 さず 実 装 する。
+AT  A  GLANCE
+67%
+粗 利 率  (EX-W ジェル )
+¥28k/ ⼈
+年間 粗 利 (LTV 参考 )
+NAKAMEGURO  KOYASU  DENTAL  —  STRATEGIC  PROPOSAL 出 典 : リジェンティス 公 式  / T.S.FELSEN 発 注 書 (2025.12.12 版 )
+E X E C U T I V E  S U M M A R Y
+結 論
+ポリリン 酸 物 販 は、
+歯 科 医 院 に
+最 も 相 性 が 良 い
+物 販 である。
+出 典 : リジェンティス 公 式 サイト
+T.S.FELSEN 発 注 書 (2025.12.12)
+※価 格 はすべて 税 込
+なぜ、いま 
+
+--------------------------------------------------
+
+■ 日本語タイトル: リン酸基含有添加剤を添加したケイ酸カルシウム系セメントの物理化学的性質とアパタイト析出挙動_20261007103759
+■ Original Title: リン酸基含有添加剤を添加したケイ酸カルシウム系セメントの物理化学的性質とアパタイト析出挙動_20261007103759
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2025-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/j.dental.2025.06.014
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+歯 科 材 料 研 究 の 抄 読 会　 ／ 　 Dental Materials 2025 01 / 24
+リン 酸 化 合 物 添 加 による
+MTA の 改 変 とアパタイト 析 出
+リン 酸 化 合 物 を 添 加 した 実 験 的 ケイ 酸 カルシウム 系 セメントの
+物理 化 学的性 質 とアパタイト 析 出 挙 動
+Physicochemical properties and apatite precipitation behavior of experimental
+calcium silicate-based cements doped with phosphate compounds
+Kenta Tsuchiya, Salvatore Sauro, Hidehiko Sano, Jukka P. Matinlinna, Monica Yamauti,
+Shuhei Hoshika, Yu Toida, Rafiqul Islam, Atsushi Tomokiyo
+Dental Materials 2025 （ 校 正 済 み 論 文 ）
+DOI: 10.1016/j.dental.2025.06.014
+背 景 ① 　 MTA と Biodentine 02 / 24
+生 体 親 和 性 に 優 れる MTA にも、 材 料 上 の 課 題 がある
+MTA
+高
+
+--------------------------------------------------
+
+■ 日本語タイトル: リン酸基含有添加剤を添加したケイ酸カルシウム系セメントの物理化学的性質とアパタイト析出挙動_20261007112631
+■ Original Title: リン酸基含有添加剤を添加したケイ酸カルシウム系セメントの物理化学的性質とアパタイト析出挙動_20261007112631
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2025-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/j.dental.2025.06.014
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+歯 科 材 料 研 究 の 抄 読 会　 ／ 　 Dental Materials 2025 01 / 24
+リン 酸 化 合 物 添 加 による
+MTA の 改 変 とアパタイト 析 出
+リン 酸 化 合 物 を 添 加 した 実 験 的 ケイ 酸 カルシウム 系 セメントの
+物理 化 学的性 質 とアパタイト 析 出 挙 動
+Physicochemical properties and apatite precipitation behavior of experimental
+calcium silicate-based cements doped with phosphate compounds
+Kenta Tsuchiya, Salvatore Sauro, Hidehiko Sano, Jukka P. Matinlinna, Monica Yamauti,
+Shuhei Hoshika, Yu Toida, Rafiqul Islam, Atsushi Tomokiyo
+Dental Materials 2025 （ 校 正 済 み 論 文 ）
+DOI: 10.1016/j.dental.2025.06.014
+背 景 ① 　 MTA と Biodentine 02 / 24
+生 体 親 和 性 に 優 れる MTA にも、 材 料 上 の 課 題 がある
+MTA
+高
 
 --------------------------------------------------
 
@@ -277445,6 +278175,343 @@ Cadmium (Cd) is one of the most toxic elements in soil, affecting morphological,
 
 --------------------------------------------------
 
+■ 日本語タイトル: 12064注文書・注文請書05606中目黒コヤス歯科様- （自動精算機連携）
+■ Original Title: 12064注文書・注文請書05606中目黒コヤス歯科様- （自動精算機連携）
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_627875/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+注  文  書
+デンタルシステムズ株式会社 御中
+〒102-0083
+東京都千代田区麹町5-7-2 MFPR麹町ビル２Ｆ
+下記のとおり注文致します。
+納期(予定) 別途ご相談
+支払条件 銀行振込または口座引落
+合計金額 55,000 円  （税込）
+No：12064
+注文日：　　　　　　　　
+中目黒コヤス歯科
+〒153-0051
+東京都目黒区上目黒三丁目１番１４号
+モデリアブリュット中目黒1F
+TEL：03-3794-0888
+商品名 数量 単位 単価 金額
+100490【POWER5G】自動精算機・釣銭機連携費用（） 1 式 50,000 50,000
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 小計 50,000
+ 消費税 5,000
+ 合計 55,000
+税率別内訳 税抜金額 消費税 税込金額
+10%対象 50,000 5,000 55,000
+備考
+～～～月額利用料金内訳（税抜）～～～　　
+自動精算機釣銭機連携・・   1,000円×1
+注  文  請  書
+中目黒コヤス歯科 御中
+〒153-0051
+東京都目黒区上目黒三丁目１番１４号 モデリアブリュット中目黒1F
+TEL：03-3794-0888
+下記のとおり御注文をお請け致しました。
+納期(予定) 別途ご相談
+支払条件 銀行振込または口座引落
+合計金額 55,000 円  （税込）
+No：12064
+発行日：2026年04月
+
+--------------------------------------------------
+
+■ 日本語タイトル: 12064注文書・注文請書05606中目黒コヤス歯科様- （自動精算機連携） (1)
+■ Original Title: 12064注文書・注文請書05606中目黒コヤス歯科様- （自動精算機連携）
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_3195145/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+注  文  書
+デンタルシステムズ株式会社 御中
+〒102-0083
+東京都千代田区麹町5-7-2 MFPR麹町ビル２Ｆ
+下記のとおり注文致します。
+納期(予定) 別途ご相談
+支払条件 銀行振込または口座引落
+合計金額 55,000 円  （税込）
+No：12064
+注文日：　　　　　　　　
+中目黒コヤス歯科
+〒153-0051
+東京都目黒区上目黒三丁目１番１４号
+モデリアブリュット中目黒1F
+TEL：03-3794-0888
+商品名 数量 単位 単価 金額
+100490【POWER5G】自動精算機・釣銭機連携費用（） 1 式 50,000 50,000
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 小計 50,000
+ 消費税 5,000
+ 合計 55,000
+税率別内訳 税抜金額 消費税 税込金額
+10%対象 50,000 5,000 55,000
+備考
+～～～月額利用料金内訳（税抜）～～～　　
+自動精算機釣銭機連携・・   1,000円×1
+注  文  請  書
+中目黒コヤス歯科 御中
+〒153-0051
+東京都目黒区上目黒三丁目１番１４号 モデリアブリュット中目黒1F
+TEL：03-3794-0888
+下記のとおり御注文をお請け致しました。
+納期(予定) 別途ご相談
+支払条件 銀行振込または口座引落
+合計金額 55,000 円  （税込）
+No：12064
+発行日：2026年04月
+
+--------------------------------------------------
+
+■ 日本語タイトル: 12065注文書・注文請書電子処方箋設置連携
+■ Original Title: 12065注文書・注文請書電子処方箋設置連携
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_2504952/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+注  文  書
+デンタルシステムズ株式会社 御中
+〒102-0083
+東京都千代田区麹町5-7-2 MFPR麹町ビル２Ｆ
+下記のとおり注文致します。
+納期(予定) 別途ご相談
+支払条件 銀行振込または口座引落
+合計金額 385,000 円  （税込）
+No：12065
+注文日：　　　　　　　　
+中目黒コヤス歯科
+〒153-0051
+東京都目黒区上目黒三丁目１番１４号
+モデリアブリュット中目黒1F
+TEL：03-3794-0888
+商品名 数量 単位 単価 金額
+290610【電子処方箋】POWER5G_管理サービス連携機能 1 式 100,000 100,000
+290620【電子処方箋】POWER5G_導入作業費用 1 式 50,000 50,000
+290630【電子処方箋】POWER5G_操作指導費用 1 式 25,000 25,000
+290640【電子処方箋】POWER5G_HPKI電子証明書連携機能 1 式 50,000 50,000
+290650【電子処方箋】POWER5G_処方内容控えデータ格納用NAS(ハー
+ドウェア）
+1 式 125,000 125,000
+ 
+ 
+ 
+ 
+ 小計 350,000
+ 消費税 35,000
+ 合計 385,000
+税率別内訳 税抜金額 消費税 税込金額
+10%対象 350,000 35,000 385,000
+備考
+※納品の翌月より
+
+--------------------------------------------------
+
+■ 日本語タイトル: 12065注文書・注文請書電子処方箋設置連携 (1)
+■ Original Title: 12065注文書・注文請書電子処方箋設置連携
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_396903/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+注  文  書
+デンタルシステムズ株式会社 御中
+〒102-0083
+東京都千代田区麹町5-7-2 MFPR麹町ビル２Ｆ
+下記のとおり注文致します。
+納期(予定) 別途ご相談
+支払条件 銀行振込または口座引落
+合計金額 385,000 円  （税込）
+No：12065
+注文日：　　　　　　　　
+中目黒コヤス歯科
+〒153-0051
+東京都目黒区上目黒三丁目１番１４号
+モデリアブリュット中目黒1F
+TEL：03-3794-0888
+商品名 数量 単位 単価 金額
+290610【電子処方箋】POWER5G_管理サービス連携機能 1 式 100,000 100,000
+290620【電子処方箋】POWER5G_導入作業費用 1 式 50,000 50,000
+290630【電子処方箋】POWER5G_操作指導費用 1 式 25,000 25,000
+290640【電子処方箋】POWER5G_HPKI電子証明書連携機能 1 式 50,000 50,000
+290650【電子処方箋】POWER5G_処方内容控えデータ格納用NAS(ハー
+ドウェア）
+1 式 125,000 125,000
+ 
+ 
+ 
+ 
+ 小計 350,000
+ 消費税 35,000
+ 合計 385,000
+税率別内訳 税抜金額 消費税 税込金額
+10%対象 350,000 35,000 385,000
+備考
+※納品の翌月より
+
+--------------------------------------------------
+
+■ 日本語タイトル: 1475-2859-10-63
+■ Original Title: 1475-2859-10-63
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7530593/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+R E V I E W Open Access
+Polyphosphate - an ancient energy source and
+active metabolic regulator
+Lucia Achbergerová 1,2 and Jozef Nahálka 1,2*
+Abstract
+There are a several molecules on Earth that effectively store energy within their covalent bonds, and one of these
+energy-rich molecules is polyphosphate. In microbial cells, polyphosphate granules are synthesised for both energy
+and phosphate storage and are degraded to produce nucleotide triphosphate or phosphate. Energy released from
+these energetic carriers is used by the cell for production of all vital molecules such as amino acids, nucleo
+
+--------------------------------------------------
+
+■ 日本語タイトル: 23792183 研究成果報告書
+■ Original Title: 23792183 研究成果報告書
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_3269364/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+様式Ｆ-１９ 
+ 
+ 
+科学研究費助成事業（学術研究助成基金助成金）研究成果報告書 
+ 
+ 
+平成 25 年 5 月 13 日現在 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+研究成果の概要（和文）：オフィスブリーチは現在審美歯科において人気のある漂白法で
+ある。しかしながら、オフィスブリーチ法は熟練した術者においても術中に歯肉や口
+腔粘膜に漂白剤が付着してしまうことがある。その場合、歯肉に一過性の疼痛および
+白色化が起こるが、数時間後には症状は緩和し、白色化も消失してしまう。この漂白
+剤の歯肉に対する影響については文献などでは知られていないため本研究では、漂白
+剤の歯肉に対する為害性を in vitro で検討した。 
+ 
+研究成果の概要（英文） ： 
+Office bleach is a popular treatment in modern aestheric dentistry . However, bleaching agents 
+are sometimes accidentally adhered to gingiva and peripheral tissues even by well -trained 
+operators, which leads to transient pain and whitish change o f gingiva . Alt
+
+--------------------------------------------------
+
+■ 日本語タイトル: 40_167
+■ Original Title: 40_167
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7597891/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+緒　　　言
+　根管治療の目的は，根管内の無菌化とその永続化で
+あり，機械的・化学的な根管清掃や根管消毒を経て達
+成された無菌的状態を維持するためには緊密な根管充
+塡が必要である
+1）
+．根管充塡法は，単一ポイント根管
+充塡法，側方加圧充塡法および垂直加圧充塡法に大別
+され
+1）
+，垂直加圧充塡法では，加熱軟化させたガッタ
+パーチャ材を複雑な形態の根管に適合させることで充
+塞率が向上するとされる
+2）
+．また，根管シーラーは
+ガッタパーチャ材と根管壁の空隙を封鎖する目的で使
+167
+原　著
+Bioactive Glass 配合根管シーラーの特性に与える加熱処理の影響
+橋本健太郎
+1）
+　川 島 伸 之
+1）
+　野 田 園 子
+1）
+　山本弥生子
+1）
+　野 崎 浩 佑
+2）
+　
+興 地 隆 史
+1）
+ 
+1）
+ 東京医科歯科大学大学院医歯学総合研究科口腔機能再構築学講座歯髄生物学分野
+ 
+2）
+ 東京医科歯科大学大学院医歯学総合研究科口腔機能構築学講座摂食機能保存学分野
+Effect of heat application on the property of a bioactive glass‒based  
+endodontic sealer
+HASHIMOTO Kentaro
+1）
+, KAWASHIMA Nobuyuki
+1）
+, NODA Sonoko
+1）
+, YAMAM
+
+--------------------------------------------------
+
 ■ 日本語タイトル: 血液凝固系と凝固制御系
 ■ Original Title: Blood coagulation system and coagulation control system
 ■ 著者: 日本血栓止血学会 専門部会
@@ -277474,6 +278541,218 @@ A report on clinical outcomes of using polyphosphate in periodontal flap surgery
 
 --------------------------------------------------
 
+■ 日本語タイトル: Cryosectioning and immunofluorescence of C. elegans reveals endogenous polyphosphate in intestinal endo-lysosomal organelles
+■ Original Title: Cryosectioning and immunofluorescence of C. elegans reveals endogenous polyphosphate in intestinal endo-lysosomal organelles
+■ 関連タグ: ホワイトニング
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/j.crmeth.2024.100879
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Report
+Cryosectioning and immunoﬂuorescence of
+C. elegans reveals endogenous polyphosphate in
+intestinal endo-lysosomal organelles
+Graphical abstract
+Highlights
+d The cuticle of Caenorhabditis elegans has long hampered
+ﬂuorescent staining approaches
+d This cryosection method allows staining of hundreds of
+worms in a single experiment
+d Staining for polyphosphate reveals its presence in endo-
+lysosomal compartments
+d Polyphosphate levels are sensitive to food availability
+Authors
+Ellen Quarles, Lauren Petreanu,
+Anjali Narain, ..., Joyful Wang,
+Bryndon Oleson, Ursula Jakob
+Correspondence
+equarle
+
+--------------------------------------------------
+
+■ 日本語タイトル: ホワイトニングビタミンE歯肉
+■ Original Title: Cytotoxic Effects of Hydrogen Peroxide on Human Gingival Fibroblasts In Vitro
+■ 関連タグ: ホワイトニング, 創傷治癒, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.2341/14-059-l
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Cytotoxic Effects of Hydrogen
+Peroxide on Human Gingival
+Fibroblasts In Vitro
+M Furukawa /C15 Jr K-Kaneyama /C15 M Yamada
+A Senda /C15 A Manabe /C15 A Miyazaki
+Clinical Relevance
+This study aimed to elucidate the cytotoxic effects of an in-office bleaching agent on
+cultured human gingival fibroblasts.
+SUMMARY
+In-office bleaching is a popular treatment in
+modern esthetic dentistry. However, bleaching
+agents sometimes accidentally adhere to the
+gingiva and peripheral tissues, even when
+applied by well-trained dentists. This can lead
+to transient pain and whitish changes in the
+gingiva. Although 
+
+--------------------------------------------------
+
+■ 日本語タイトル: Dental_E-Prescription_Playbook
+■ Original Title: Dental_E-Prescription_Playbook
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7709453/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ローカルに保存されたポリリン酸専門研究資料・論文PDF
+
+--------------------------------------------------
+
+■ 日本語タイトル: ジンジパインs41598-017-12173-1
+■ Original Title: Infection of microglia with Porphyromonas gingivalis promotes cell migration and an inflammatory response through the gingipain-mediated activation of protease-activated receptor-2 in mice
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1038/s41598-017-12173-1
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+1
+ScientiFic  RepoRTs  | 7: 11759 | DOI:10.1038/s41598-017-12173-1
+www.nature.com/scientificreports
+Infection of microglia with 
+Porphyromonas gingivalis promotes 
+cell migration and an inflammatory 
+response through the gingipain-
+mediated activation of protease-
+activated receptor-2 in mice
+Yicong Liu1, Zhou Wu1,2, Yurika Nakanishi1, Junjun Ni  1, Yoshinori Hayashi  1, Fumiko 
+Takayama1, Yanmin Zhou3, Tomoko Kadowaki4 & Hiroshi Nakanishi1
+Despite a clear correlation between periodontitis and cognitive decline in Alzheimer’s disease, 
+the precise mechanism underlying the relationship remains 
+
+--------------------------------------------------
+
+■ 日本語タイトル: Inorganic Polyphosphates: Jack of All Trades
+■ Original Title: Inorganic Polyphosphates: Jack of All Trades
+■ 関連タグ: ミトコンドリア・代謝
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4172/2168-9652.1000e107
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Volume 1 • Issue 2 • 1000e107Biochem Physiol ISSN: 2168-9652 BCP, an open access journal 
+Editorial Open Access
+Introduction
+Inorganic polyphosphates (PolyP) are linear polymers containing 
+a few to several hundred orthophosphate residues linked by energy-
+rich phosphoanhydride bonds (Figure 1). Until quite recently, they 
+have been ignored in biochemistry textbooks. They were considered 
+molecular fossils, ATP precursors in the evolution of living cells. The 
+main function of polyphosphates was considered phosphorus storage 
+in the cells of microorganisms. However, now it has been established
+
+--------------------------------------------------
+
+■ 日本語タイトル: JPA_2005263681　象牙質形成復隋財
+■ Original Title: JPA_2005263681　象牙質形成復隋財
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_5587671/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ïüþð 【要約】
+【課題】　齲蝕治療の歯髄処置に際し、露出した歯髄面を保護すると共に象牙質の形成を
+促進することのできる薬剤を提供すること。
+【解決手段】　ポリリン酸、特に一般式 ďĵòù ïė ĵ Ėúĵòø ð（式中、ｎは３～８００の整数を
+表す）で表される直鎖状リン酸の ø種又は ù種以上の混合物を有効成分として含有する象牙
+質形成覆髄剤。
+【選択図】　なし
+đėçù÷÷üôùýúýÿøçĈçù÷÷üõĀõùĀ
+【特許請求の範囲】
+【請求項１】
+　ポリリン酸を有効成分として含有する象牙質形成覆髄剤。
+【請求項２】
+　ポリリン酸が、下記一般式 ïĐð ：
+ççď ĵòù ïė ĵ Ė úĵòø ð 　　 ïĐð
+（式中、ｎは３～８００の整数を表す）で表される直鎖状リン酸の ø 種又は ù 種以上の混合
+物である、請求項１に記載の象牙質形成覆髄剤。
+【請求項３】
+　式中のｎが４０～１５０の整数である、請求項２に記載の象牙質形成覆髄剤。
+【請求項４】
+　ポリリン酸がポリリン酸塩である、請求項１から３のいずれか１項に記載の象牙質形成
+覆髄剤。
+【発明の詳細な説明】
+【技術分野】
+【０００１】
+　本発明は、露出した歯髄面を保護し、かつ象牙質形成を促進する作用を有する象牙質形
+成覆髄剤に関する。
+【背景技術】
+【０００２】
+　歯髄は、歯の内部にある歯髄腔という空洞を満たしている血管性の
+
+--------------------------------------------------
+
+■ 日本語タイトル: MTA_and_Polyphosphate_Synergy
+■ Original Title: MTA_and_Polyphosphate_Synergy
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_8589462/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ローカルに保存されたポリリン酸専門研究資料・論文PDF
+
+--------------------------------------------------
+
+■ 日本語タイトル: Microsoft Word - ResearchTJH-2024-0292.R2---.docx
+■ Original Title: Microsoft Word - ResearchTJH-2024-0292.R2---.docx
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4274/tjh.galenos.2024.2025.0292
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+RESEARCH ARTICLE 
+DOI: 10.4274/tjh.galenos.2024.2025.0292 
+ 
+The IRF2-INPP4B pathway is activated in CD4+ T cells and aggravates acute myeloid leukemia 
+development by inhibiting apoptosis 
+ 
+Xiangqin Xing1, †, Mei Zhang1, †, Shengfen Tan1, Junfeng Zhu2, Jiajia Li2, Pingping Zhang2, YuanYuan2, 
+Meng Wang1, Feng Zhang2 
+1Bengbu Medical University, Department of Hematology, Bengbu, China 
+2The First Affiliated Hospital of Bengbu Medical University, Department of Hematology, Bengbu, 
+China 
+† These authors have contributed equally to this work and share first authorship. 
+ 
+Feng Zhang, M.D., The 
+
+--------------------------------------------------
+
 ■ 日本語タイトル: ポリリン酸による歯周組織再生への分子的アプローチ
 ■ Original Title: Molecular approach to periodontal tissue regeneration by polyphosphate
 ■ 関連タグ: 歯周病・口腔
@@ -277486,6 +278765,750 @@ A report on clinical outcomes of using polyphosphate in periodontal flap surgery
 
 ■ Original English Abstract:
 Discussion on the signaling pathways triggered by polyphosphate in periodontal ligament cells.
+
+--------------------------------------------------
+
+■ 日本語タイトル: Nakameguro_Koyasu_Dental_HR_Philosophy
+■ Original Title: Nakameguro_Koyasu_Dental_HR_Philosophy
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_3486886/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ローカルに保存されたポリリン酸専門研究資料・論文PDF
+
+--------------------------------------------------
+
+■ 日本語タイトル: OCR_OCR
+■ Original Title: OCR_OCR
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_2464083/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+NEWSLETTER
+MEGURO DENTAL ASSOCIATION
+M
+Vol.98ྩ࿨ 8 ೥ 6߸݄
+౦ژ౎໨∍ࣃ۠Պҩࢣձ
+ר಄ݴ
+෭ձ௕Ԟݑډଠ࿠
+೔ࠒΑΓ໨ࣃ۠ࠇՊҩࢣձձ຿ʹ͝ཧղͱ͝ڠྗΛࣀΓŊ ް͘ޚྱਃ্͠
+͛·͢Ň
+ࡢ೥ 6݄ͷఆ࣌૯ձʹͯŊ ୈ 2෭ձ௕Λഈ໋͍ͨ͠·ͯ͠໿ 1೥ܦͪ·͠
+ͨŇ ୲౰͍͍͍ͤͯͨͩͯ͞Δֶज़Ŋ ޿ใŊ ͍ͦͯ͋͠ΞΠؗͷ܎ؔऀͷํʑ
+ʹ͸Ŋ ೔ʑ͝ਚྗ͍͖ͨͩ৺ΑΓײँਃ্͛͠·͢Ň ञҪߦࣥ෦͕ൃ଍ͯ͠
+͔Β͜Ε·Ͱͷ 1೥ؒŊ ڮຊઐ຿Ŋ མ߹૯຿Λத৺ʹŊ ྫ೥௨Γͷձ຿ӡӦ
+͕Ͱ͖͍ͯΔͱࢥΘΕ·͢Ň ϗςϧխঀԂͷվ૷ʹ൐͍Ŋ ྫ೥ΑΓ 2͔݄ૣ
+ʻ։࠵ͨ͠ϑΝϛϦʔύʔςΟʔ΍΢ΣεςΟϯϗςϧͰߦͬͨլ׻ަࢺձ΋Ŋ ձһͷօ༷ͷ͝ڠ
+ྗʹΑΓ੝ձʹऴ͑Δ͜ͱ͕Ͱ͖·ͨ͠Ň ·ͨŊ 3݄ͷྟ࣌૯ձʹ͓͍ͯ΋ଟ͘ͷձһͷօ༷ʹ͝ࢀ
+Ճ௖͖Ŋ ੵۃతͳ͝ҙݟ΍͝ཁ๬ΛࣀΓŊ ߦࣥ෦ͱͯ͠ޙࠓ΋ΑΓਚྗͯ͠·͍ΔॴଘͰ͍͟͝·͢Ň
+৽ܕίϩφ΢Πϧεײછ঱ͷӨڹͰŊ ͠͹Β͘தࢭ͍ͯͨ͠ळͷϨΫϦΤʔγϣϯͰ͕͢Ŋ ຊ೥
+౓ظ࣌ΛՆʹҠͯ͠Ŋ ି͠੾Γͷେܕ԰ܗધʹΑΔ౦ژ࿷ͷΫϧʔδϯάΛ 2026೥ 8݄1೔ʹ༧ఆ
+͓ͯ͠Γ·͢Ň ͜ͷધʹ͸Ŋ ۀքͰ͸༗໊ͳܳऀऺ΋ಉ৐༧ఆͰ͢Ň ձһ޲͚ͷϨΫϦΤʔγϣϯ
+ͷ
+
+--------------------------------------------------
+
+■ 日本語タイトル: POLY-P血栓
+■ Original Title: POLY-P血栓
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1161/a
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+1298
+I
+norganic polyphosphate is a linear polymer of orthophos-
+phate units linked by high-energy phosphoanhydride bonds 
+(Figure
+ 1
+). Polyphosphate is widespread throughout biology, 
+with polymer lengths that can vary from just a few phosphates to 
+many hundreds or even thousands of phosphates long, depend-
+ing on organism and cell type.1–3 It is intensely anionic because 
+each phosphate unit carries a negative charge at physiological 
+pH. In many organisms, polyphosphate is stored in intracellular 
+organelles in a highly condensed state together with metal ions. 
+Although these acidic, poly
+
+--------------------------------------------------
+
+■ 日本語タイトル: モンモリロナイト
+■ Original Title: Poly(acrylic acid) grafted montmorillonite as novel fillers for dental adhesives: Synthesis, characterization and properties of the adhesive
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/j.dental.2011.11.010
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+d e n t a l m a t e r i a l s 2 8 ( 2 0 1 2 ) 369–377
+Available online at www.sciencedirect.com
+jo u rn al hom  epa  ge : www.intl.elsevierhealth.com/journals/dema
+Poly(acrylic acid) grafted montmorillonite as novel ﬁllers for
+dental adhesives: Synthesis, characterization and properties
+of the adhesive
+Laleh Solhi a, Mohammad Atai a,∗, Azizollah Nodehi a, Mohammad Imani a,
+Azadeh Ghaemi b, Kazem Khosravic
+a Iran Polymer and Petrochemical Institute (IPPI), P. O. Box 14965/115, Tehran, Iran
+b Dental School, Jondishapour University of Medical Sciences, Ahwaz, Iran
+c Dental School, Isfahan Univers
+
+--------------------------------------------------
+
+■ 日本語タイトル: Polyphosphate Kinase from Burkholderia cenocepacia, One Enzyme Catalyzing a Two-Step Cascade Reaction to Synthesize ATP from AMP
+■ Original Title: Polyphosphate Kinase from Burkholderia cenocepacia, One Enzyme Catalyzing a Two-Step Cascade Reaction to Synthesize ATP from AMP
+■ 関連タグ: ミトコンドリア・代謝
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.3390/ijms252312995
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Citation: Monterrey, D.T.; Azcona, L.;
+Revuelta, J.; Sánchez-Moreno, I.;
+García-Junceda, E. Polyphosphate
+Kinase from Burkholderia cenocepacia,
+One Enzyme Catalyzing a Two-Step
+Cascade Reaction to Synthesize ATP
+from AMP. Int. J. Mol. Sci. 2024, 25,
+12995. https://doi.org/10.3390/
+ijms252312995
+Academic Editor: Clemente Capasso
+Received: 5 November 2024
+Revised: 27 November 2024
+Accepted: 28 November 2024
+Published: 3 December 2024
+Copyright: © 2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creati
+
+--------------------------------------------------
+
+■ 日本語タイトル: 18-023-c.ホワイトニングは骨細胞pdf
+■ Original Title: Six-month Follow-up of the Effect of Nonvital Bleaching on IL-1β and RANK-L: A Randomized Clinical Trial
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.2341/18-023-c
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Six-month Follow-up of the
+Effect of Nonvital Bleaching on
+IL-1b and RANK-L:
+A Randomized Clinical Trial
+C Bersezio /C15 J Estay /C15 MS a´ez /C15 FS a´nchez /C15 R Vernal /C15 E Ferna´ndez
+Clinical Relevance
+The ‘‘walking bleach’’ technique induces an increase in IL-1 b and RANKL production in
+periodontal tissues, which persists for six months after treatment.
+SUMMARY
+Objectives: It has been reported that bleaching
+generates an increase in the activity of osteo-
+clasts in vitro . We quantified the RANK-L and
+IL-1b biomarkers in a double-blind, random-
+ized clinical trial evaluating the in viv
+
+--------------------------------------------------
+
+■ 日本語タイトル: ポリリン敗血症2016
+■ Original Title: Suppressive effects of methylthiouracil on polyphosphate‐mediated vascular inflammatory responses
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1111/jcmm.12925
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Suppressive effects of methylthiouracil on polyphosphate-
+mediated vascular inﬂammatory responses
+Gahee Min a, # , Sae-Kwang Ku b, # , Seongdo Jeong a, Moon-Chang Baek c, *, Jong-Sup Bae a, *
+a College of Pharmacy, CMRI, Research Institute of Pharmaceutical Sciences, BK21 Plus KNU Multi-Omics based Creative Drug
+Research Team, Kyungpook National University, Daegu, Korea
+b Department of Anatomy and Histology, College of Korean Medicine, Daegu Haany University, Gyeongsan, Korea
+c Department of Molecular Medicine, CMRI, School of Medicine, Kyungpook National University, Daegu, Korea
+Received: Apr
+
+--------------------------------------------------
+
+■ 日本語タイトル: dmj_33-2_13_2013-093.indd
+■ Original Title: dmj_33-2_13_2013-093.indd
+■ 関連タグ: ホワイトニング, 歯周病・口腔, 骨再生・硬組織
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4012/dmj.2013-093
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+INTRODUCTION
+Inorganic polyphosphates (poly(P)) are polymers that 
+are widely found in living organisms and natural foods. 
+They have been used as a food additive all over the 
+world, and have been subjected to many safety tests 1). 
+Recently, poly(P) was shown to have many biological 
+functions such as in bone regeneration 2), collagen 
+production3), regulation of gene expression 4), regulation 
+of translation fidelity5) and anti-bacterial and anti-fungal 
+properties6). In the dental field, poly(P) removes stain 
+and prevents stain deposition on teeth surfaces by its 
+chelating properties7). 
+
+--------------------------------------------------
+
+■ 日本語タイトル: 自分の論文
+■ Original Title: dmj_33-2_21_2013-093.indd
+■ 関連タグ: ホワイトニング, 歯周病・口腔, 骨再生・硬組織
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4012/dmj.2013-093
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+INTRODUCTION
+Inorganic polyphosphates (poly(P)) are polymers that 
+are widely found in living organisms and natural foods. 
+They have been used as a food additive all over the 
+world, and have been subjected to many safety tests 1). 
+Recently, poly(P) was shown to have many biological 
+functions such as in bone regeneration 2), collagen 
+production3), regulation of gene expression 4), regulation 
+of translation ﬁ delity5) and anti-bacterial and anti-fungal 
+properties6). In the dental ﬁ eld, poly(P) removes stain 
+and prevents stain deposition on teeth surfaces by its 
+chelating properties7). 
+
+--------------------------------------------------
+
+■ 日本語タイトル: document(9)
+■ Original Title: document(9)
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_1533483/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+146
+while　TMEM16A　was　sorted　into　plasma　membrane　with　good
+protein　stability．　By　analyzing　the　chimeric　proteins，　we　found
+that　head　part　of　TMEM16E　is　important　for　protein　stability
+because　EAA，　EEA　have　low　stability　similar　with　TMEM16E，
+contrary　to　AEE，　AEA，　AAE　and　TMEM16A　which　have
+the　same　good　stability．　TMEM16A　altered　its　localization
+from　the　plasma　membrane　to　the　intracellular　membranous
+compartment　by　the　AAE　chimera．　（Discussion］　TMEM16E
+might　have　non－redundant　function　to　CaCC　to　cause　GDD．
+Our　results　suggest　the　protein　stabilization　system　for
+TMEM16E　could　be　supplied　s
+
+--------------------------------------------------
+
+■ 日本語タイトル: ミドリムシ POLY-P
+■ Original Title: es5b00837 1..7
+■ 関連タグ: ホワイトニング
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1021/acs.est.5b00837
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Proﬁling Planktonic Biomass Using Element-Speci ﬁc,
+Multicomponent Nuclear Magnetic Resonance Spectroscopy
+Takanori Komatsu, †,‡ Toshiya Kobayashi, ‡ Minoru Hatanaka, § and Jun Kikuchi *,†,‡,∥
+†RIKEN Center for Sustainable Resource Science, 1-7-22 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan
+‡Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama 230-0045, Japan
+§Bruker Biospin K. K., 3-9, Moriya-cho, Kanagawa-ku, Yokohama, 221-0022, Japan
+∥Graduate School of Bioagricultural Sciences and School of Agricultural Sciences, Nagoya Universit
+
+--------------------------------------------------
+
+■ 日本語タイトル: 15_フィチン酸の歯科応用_ポリリン酸蓄積能力とコラーゲン架橋_Frontiers_2021
+■ Original Title: fmats-2021-638909 1..17
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.3389/fmats.2021.638909
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Phytic Acid: Properties and Potential
+Applications in Dentistry
+Mohannad Nassar 1*†, Rania Nassar 2,3†, Husain Maki 4, Abdullah Al-Yagoob 5,
+Mahmood Hachim 2, Abiola Senok 2, David Williams 3 and Noriko Hiraishi 6
+1Department of Preventive and Restorative Dentistry, College of Dental Medicine, University of Sharjah, Sharjah, United Arab
+Emirates, 2College of Medicine, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai, United Arab Emirates,
+3Oral and Biomedical Sciences, School of Dentistry, College of Biomedical and Life Sciences, Cardiff University, Cardiff,
+United Kingdom
+
+--------------------------------------------------
+
+■ 日本語タイトル: nmicrobiol.2016.267 1..5
+■ Original Title: nmicrobiol.2016.267 1..5
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1038/nmicrobiol.2016.267
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+The anti-inﬂammatory drug mesalamine targets
+bacterial polyphosphate accumulation
+Jan-Ulrik Dahl1, Michael J. Gray 1†, Daphne Bazopoulou1, Francois Beaufay1, Justine Lempart1,
+Mark J. Koenigsknecht2, Ying Wang2,J a s o nR .B a k e r3,W i l l i a mL .H a s l e r3, Vincent B. Young 4,
+Duxin Sun2 and Ursula Jakob1*
+Mesalamine serves as the gold standard in treating ulcerative
+colitis. However, its precise mechanism(s) of action remains
+unclear. Here, we show that mesalamine treatment rapidly
+decreases polyphosphate levels in diverse bacteria, including
+members of the human gut microbiome. This de
+
+--------------------------------------------------
+
+■ 日本語タイトル: NATUREポリリン酸１
+■ Original Title: nmicrobiol.2016.267 1..5
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1038/nmicrobiol.2016.267
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+The anti-inﬂammatory drug mesalamine targets
+bacterial polyphosphate accumulation
+Jan-Ulrik Dahl1, Michael J. Gray 1†, Daphne Bazopoulou1, Francois Beaufay1, Justine Lempart1,
+Mark J. Koenigsknecht2, Ying Wang2,J a s o nR .B a k e r3,W i l l i a mL .H a s l e r3, Vincent B. Young 4,
+Duxin Sun2 and Ursula Jakob1*
+Mesalamine serves as the gold standard in treating ulcerative
+colitis. However, its precise mechanism(s) of action remains
+unclear. Here, we show that mesalamine treatment rapidly
+decreases polyphosphate levels in diverse bacteria, including
+members of the human gut microbiome. This de
+
+--------------------------------------------------
+
+■ 日本語タイトル: r8_dental_fee_revision_lecture_120min_20260523071852
+■ Original Title: r8_dental_fee_revision_lecture_120min_20260523071852
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_4012707/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+NAKAMEGURO COYASS DENTAL 📚  90 分 実 践 編 ／ 現 場 落 とし 込 みセミナー 🎤  Dr.COYASS Talk #33
+令 和 8 年 度  歯 科 診 療 報 酬 改 定  ／  9 0 分 実 践 セ ミ ナ ー
+じゃあ、 実 際 どう 算 定 するの ？
+制 度 解 説 では 終 わらせない、 現 場 落 とし 込 みの 90 分 。
+告 示 ‧ 通知 ‧ 疑 義 解 釈 をベースに、 初 再 診 から 補 綴 ‧ 新 設 項 目 まで 現 場 で 迷 わない 判 断 基 準 を 整 理 。
+受 付 ‧ DH ‧ Dr の 役 割 別 アクションと、 6 月 1 日 までの TODO まで、 院 内 実 装 に 直 結 する 構 成 です。
+01
+算 定 判 断 フロー
+現 場 で 迷 わない 7 ステップ
+02
+ケーススタディ
+代 表 的 な 10 ケースで 実 装 力 を 養 う
+03
+役 割 別 アクション
+受 付 ‧ DH ‧ Dr の 動 き 方 を 可 視 化
+04
+6 月 1 日 までの TODO
+院 内 展 開 のチェックリスト
+講 師
+小 安  正 洋  ／  中目 黒 コヤス 歯 科  院 長 ‧ 歯 科 医 師 ‧ 歯 学
+博 士
+開 催
+令和 8 年 5 月 28 日 （ 木 ） 20:00–21:30
+受 講 
+
+--------------------------------------------------
+
+■ 日本語タイトル: r8_dental_fee_revision_lecture_OCR
+■ Original Title: r8_dental_fee_revision_lecture_OCR
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_5932754/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+professionalabstractvisual
+i ղ㘸ࢿྉ
+ྩ࿨8೥౓
+ࣃՊ਍ྍใुվఆ
+׬શղઆߨٛ
+120෼ूதߨٛίʔε
+ྩ࿨8೥4݄20೔ٙٛղऍͦͷ3 ·Ͱ൓өʗٙٛղऍ ͦͷ4 娔4݄21 ೔娘͸ ϕʔεΞ
+ο ϓධՁྉ ɾࣃՊٕ޻ॴϕ ʔεΞοϓࢧԉྉؔ܎ Λ֬ೝࡁΈ
+LECTURER
+খ҆ ਖ਼ ༸娔Dr.COYASS娘
+த໨ࠇίϠεࣃՊӃ௕ʗࣃֶത࢜
+೔ຊࣃՊ৹ඒֶձೝఆҩɾ෼ׂϙϦϦϯࢎݚڀձओ࠻
+2 026೥4݄26೔
+ࢀ ߟࢿྉ ɿ౦ژ౎ࣃՊҩࢣձྩ࿨8೥౓਍ྍใुվఆࢿྉ 娔ྩ࿨8೥3݄娘
+ग़యɿ ࠂࣔR8.3.5ʗٙٛղऍͦͷ1ʙͦͷ3ʗ౎ࣃࢿྉʗ೔ࣃࢿྉʗ੺ຊ2026
+※ ຊࢿྉ͸ߨࢣݸ ਓ࡞ ੒ࢿྉ Ͱ͢
+ຊ ೔ͷߨٛͷྲྀ
+Ε
+˕
+1
+20෼ूதߨٛίʔεʗຊฤ 娔໿75෼娘 ʴ෇࿥ 娔ࢀߟࢿྉɾ໿45෼娘
+ߏ੒
+※ ྩ࿨8೥4݄20೔ٙٛղऍͦͷ3·Ͱ൓өʗٙٛղऍͦ
+ͷ4 娔4݄21 ೔娘͸
+ϕʔεΞοϓධՁྉ ɾࣃՊٕ޻ॴϕʔεΞοϓࢧԉྉؔ
+܎ Λ֬ೝ ࡁ Έ
+ࠓޙͷ௨஌ ɾٙٛղऍʹ ΑΓมߋՄೳੑ͋Γ
+0 - 5෼
+5min
+5 - 2 0෼
+15minK
+20 - 30෼
+10min
+30 - 100%
+70min
+1 00 - 1 1 0෼
+10min
+110 - 1205
+10min
+᠓ ಋೖ ɾશମ૾
+ຊ ೔ͷΰʔϧઃఆͱվ
+
+--------------------------------------------------
+
+■ 日本語タイトル: research 1..10
+■ Original Title: research 1..10
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1021/cb5000696
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+1 In Situ Investigation of Mammalian Inorganic Polyphosphate
+2 Localization Using Novel Selective Fluorescent Probes JC-D7 and JC-
+3 D8
+4 Plamena R. Angelova, ⊥,§ Bikram Keshari Agrawalla, ⊥,‡ Pia A. Elustondo, † Jacob Gordon, †
+5 Toshikazu Shiba, ∥ Andrey Y. Abramov, § Young-Tae Chang, *,‡ and Evgeny V. Pavlov *,†
+6 †Dalhousie University, Halifax, Nova Scotia B3H 4R2, Canada Canada
+7 ‡National University of Singapore, Singapore 119077, Singapore
+8 §Institute of Neurology, University College London, London WC1E 6BT, United Kingdom
+9 ∥Regenetiss, Okaya, Nagano 394-0002, Japan
+10 *S Supporting I
+
+--------------------------------------------------
+
+■ 日本語タイトル: s12933-024-02502-w
+■ Original Title: s12933-024-02502-w
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1186/s12933-024-02502-w
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+RESEARCH Open Access
+© The Author(s) 2024. Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you 
+give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the 
+licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or 
+other third 
+
+--------------------------------------------------
+
+■ 日本語タイトル: untitled
+■ Original Title: untitled
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_3526931/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ローカルに保存されたポリリン酸専門研究資料・論文PDF
+
+--------------------------------------------------
+
+■ 日本語タイトル: 【再案内】ベースアップ評価料の実績報告についての講習会_2026.8.4(火)午後7時30分～
+■ Original Title: 【再案内】ベースアップ評価料の実績報告についての講習会_2026.8.4(火)午後7時30分～
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_5711712/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ 
+1 
+ 
+目歯発第 63 号 
+令和 8 年 7 月 16 日 
+会 員 各 位 
+会 長  酒井 秀士  
+ベースアップ評価料の実績報告についての 
+講習会の開催について 
+（目黒区歯科医師会主催） 
+ 
+平素より本会会務に御理解ご協力を賜り厚く御礼申し上げます。 
+令和８年６月から新ベースアップ評価料がスタートしました。制度が始まったばかり 
+ですが、早くも『令和８年８月末』には「中間報告」の提出が必要となります。 
+特に令和７年度から継続している医療機関においては、 
+①令和７年度分の実績報告 
+②令和８年度の中間報告 
+という２種類の報告書が必要となります。 
+今回は、その報告書に関する具体的な記載方法や注意点について、以前にベースアップ 
+評価料の講習会でご協力いただいた「コモンズ」の鷲巣様にわかりやすく解説して頂く予 
+定です。期限が迫っておりますので、直前のお知らせとなり誠に申し訳ございませんが、 
+是非ご参加ください。 
+記 
+ 
+日 時： 令和８年８月４日（火） 午後７：３０～ 
+場 所： 目黒区歯科医師会館 ２階会議室（ＷＥＢ配信はございません） 
+演 題： ベースアップ評価料の実績報告について 
+講 師： 株式会社バイテック・グローバル・ジャパン代表取締役 
+（コモンズ事業部）         鷲 巣  祐 介  講師 
+ 
+下記ＱＲコード又はメール、FA
+
+--------------------------------------------------
+
+■ 日本語タイトル: コヤス歯科経由売上表（2026年3月）
+■ Original Title: コヤス歯科経由売上表（2026年3月）
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_8301072/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+3月16日
+K.FUKUD
+A DENTAL
+CLINIC
+1 0 ¥0 ¥0
+2 0 ¥0 ¥0
+3 0 ¥0 ¥0
+4 0 ¥0 ¥0
+5 0 ¥0 ¥0
+6 0 ¥0 ¥0
+7 0 ¥0 ¥0
+8 0 ¥0 ¥0
+9 0 ¥0 ¥0
+10 0 ¥0 ¥0
+11 0 ¥0 ¥0
+12 0 ¥0 ¥0
+13 0 ¥0 ¥0
+14 0 ¥0 ¥0
+15 0 ¥0 ¥0
+16 0 ¥0 ¥0
+17 0 ¥0 ¥0
+18 薬用ポリリンデンタルリンス500ml　(旧リンス）25本セット 0 薬用ポリリンデンタルリンス500ml　(旧リンス）25本セット ¥0 ¥0
+19 0 ¥0 ¥0
+20 0 ¥0 ¥0
+21 薬用ポリリンデンタルリンスEX-W500ml25本セット 0 薬用ポリリンデンタルリンスEX-W500ml25本セット ¥0 ¥0
+22 0 ¥0 ¥0
+23 0 ¥0 ¥0
+24 0 ¥0 ¥0
+25 0 ¥0 ¥0
+26 Qホワイトニングキット業務用20回セット 0 Qホワイトニングキット業務用20回セット ¥0 ¥0
+27 2 2 ¥31,000 ¥3,100
+合計金額 ¥31,000 ¥3,100
+薬用ポリリンジェルEXperio 12g ¥473 薬用ポリリンジェルEXperio12g
+newポリリンホワイトpt ¥15,500 newポリリンホワイトpt
+¥9,54
+
+--------------------------------------------------
+
+■ 日本語タイトル: コヤス歯科経由売上表（2026年6月）
+■ Original Title: コヤス歯科経由売上表（2026年6月）
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7669873/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+6月18日 6月25日
+フォレスト
+デンタル新
+宿院
+K.FUKUD
+A DENTAL
+1 0 ¥0
+2 0 ¥0
+3 0 ¥0
+4 0 ¥0
+5 0 ¥0
+6 0 ¥0
+7 0 ¥0
+8 0 ¥0
+9 0 ¥0
+10 0 ¥0
+11 薬用ポリリンデンタルリンス500ml　(旧リンス）25本セット 0 薬用ポリリンデンタルリンス500ml　(旧リンス）25本セット ¥0
+12 0 ¥0
+13 0 ¥0
+14 薬用ポリリンデンタルリンスEX-W500ml25本セット 0 薬用ポリリンデンタルリンスEX-W500ml25本セット ¥0
+15 0 ¥0
+16 5 5 ¥6,680
+17 0 ¥0
+18 0 ¥0
+19 ¥1,336 3 3 ¥4,008
+20 Qホワイトニングキット業務用20回セット 0 Qホワイトニングキット業務用20回セット ¥0
+21 1 1 ¥15,500
+合計金額 ¥26,188
+スポンジ30個セット ¥500 スポンジ30個セット
+薬用ポリリンジェルEX perio 14g ¥473 薬用ポリリンジェルEX perio 14g
+newポリリンホワイトpt ¥15,500 newポリリンホワイトpt
+¥9,545
+薬用ポリリンジェルEX-10プラス 60g 薬用ポリリンジェルEX-10プラス 60g
+ポリリンホワイトEX (単品） ¥891 ポリリンホワイトEX
+
+--------------------------------------------------
+
+■ 日本語タイトル: モンモリロナイト歯髄
+■ Original Title: モンモリロナイト歯髄
+■ 関連タグ: 再生医療, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1021/acsami.6b14283
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Subscriber access provided by SHOWA UNIV
+ACS Applied Materials & Interfaces is published by the American Chemical Society.
+1155 Sixteenth Street N.W., Washington, DC 20036
+Published by American Chemical Society. Copyright © American Chemical Society.
+However, no copyright claim is made to original U.S. Government works, or works
+produced by employees of any Commonwealth realm Crown government in the course
+of their duties.
+Article
+Chitosan-intercalated Montmorillonite/Poly(Vinyl alcohol) Nanofibers as a
+Platform to Guide Neuron-like Differentiation of Human Dental Pulp Stem Cells
+Hatef Ghasemi
+
+--------------------------------------------------
+
+■ 日本語タイトル: 明海大学歯学雑誌　４７－１☆／８．Ｉｉｚｕｋａ
+■ Original Title: 明海大学歯学雑誌　４７－１☆／８．Ｉｉｚｕｋａ
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_1587300/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Effect of pH on tooth whitening
+Nana IIZUKA 1§, Takuya IIKURA 1, Masumi OZAWA 1,
+Jun KUSAMA 1, Chihiro OTAKE 1 and Satoru MATSUDA 1, 2
+1PDI Tokyo Dental Clinic, Meikai University School of Dentistry
+2Division of oral Rehabilita tion, Department of Restorative & Biomaterials Sciences , Meikai University School of Dentistry
+Abstract : We investigated the effect of pH on bleaching by tooth wh iteners, using brown eggshell as the test object and 35%
+hydrogen peroxide solution as the base whitening agent, with and w ithout sodium bicarbonate or sodi um perborate as pH adjuster.
+The three whitening 
+
+--------------------------------------------------
+
+■ 日本語タイトル: 歯科通信0805 (1)
+■ Original Title: 歯科通信0805 (1)
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2024-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_6302078/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(1 )
+Pai'1ypental'N'ew'S
+【無断転載を禁ず】
+きょうは3シです
+2025年(令和7年)
+構成員(0はコアメンバー、敬称略)
+合場千佳子(全国歯科衛生士教育協議会理事
+長)
+家保英隆(全国衛生部長会長/高知県理事(保
+健医療担当))
+石塚洋一(東京歯科大学衛生学講座准教授)
+0市川哲雄(徳島大学名誉教授)
+小栗智江子(愛知県保健医療局健康医務部歯
+科衛生士)
+阪口英夫(医療法人永寿会陵北病院副院長)
+渋谷昌史(長崎県歯科医師会会長)
+0寺島多実子(公益社団法人日本歯科医師会)
+内藤真理子(広島大学大学院医系科学研究科口
+腔保健疫学教授)
+沼部幸博(日本歯科医学会)
+則武加奈子(東京科学大学大学院医歯学総合研
+究科教授)
+0福田英輝(国立保健医療科学院統括研究官)
+藤井一維(歯科大学学長・歯学部長会議)
+古田美智子(九州大学大学院歯学研究院准教
+授)
+0三浦宏子(北海道医療大学歯学部教授)
+0武藤智美(公益社団法人日本歯科衛生士会)
+1
+1
+8月5日(火曜日)
+゛
+、1
+く発行P月日本歯科新聞社厚生労働省記者クラプ所属
+本社:〒 101-0061 東京都千代田区神田三崎町2-15-2
+TEL 03(3234)2475 (代)/ FAX 03(3234)8302 / mail:jdn@dentalnews.cojp
+'ーー
+ノ
+■■■
+-フ
+^
+第7066号
+ノ、
 
 --------------------------------------------------
 
@@ -277543,6 +279566,30 @@ Inorganic polyphosphate (polyP) is synthesized by bacteria under stressful envir
 
 ■ Original English Abstract:
 Initial studies on the inositol phosphates metabolism were enabled by the social amoeba Dictyostelium discoideum. The abundant amount of inositol hexakisphosphate (IP
+
+--------------------------------------------------
+
+■ 日本語タイトル: br-16-03-01504
+■ Original Title: br-16-03-01504
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2022-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.3892/br.2022.1504
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+BIOMEDICAL REPORTS  16:  21,  2022
+Abstract. Platelets function as immune cells in conjunction 
+with white blood cells, targeting invading pathogens and 
+inducing immune reactions. Intercellular communications 
+among these immune cells are partly mediated by platelet 
+polyphosphate (polyP), which was originally recognized as 
+a thrombotic and hemostatic biomolecule. To determine the 
+involvement of polyP in SARS‑CoV‑2‑mRNA vaccine‑induced 
+immune responses, specifically in inflammatory responses, the 
+effects of mRNA vaccines on platelet polyP levels were exam‑
+ined. Before and after vaccinati
 
 --------------------------------------------------
 
@@ -277703,6 +279750,84 @@ Currently, inorganic polyphosphate is chemically synthesized from phosphate rock
 
 --------------------------------------------------
 
+■ 日本語タイトル: ホワイトニング、初期齲蝕症例報告
+■ Original Title: Arrested caries lesion: Minimal Invasive Approach of Treatment- A case report
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2019-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.9790/0853-1801081822
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+IOSR Journal of Dental and Medical Sciences (IOSR-JDMS) 
+e-ISSN: 2279-0853, p-ISSN: 2279-0861.Volume 18, Issue 1 Ser. 8 (January. 2019), PP 18-22 
+www.iosrjournals.org 
+ 
+DOI: 10.9790/0853-1801081822                                    ww.iosrjournals.org                                            18 | Page 
+Arrested Caries Lesion: Minimal Invasive Treatment Approach- 
+A case report 
+ 
+Dr. Dayanand Chole 1, Dr. Satishkumar Dound 2, Dr. Srinivas Bakle 3.  
+Dr. Shashank Kundoor 4, Dr. Neha Gandhi 5, Dr. Nikhil Hatte 6. 
+1Professor and Head: Department of Conservative dentistry and Endodontics,  P
+
+--------------------------------------------------
+
+■ 日本語タイトル: Polyphosphate, Zn2+ and high molecular weight kininogen modulate individual reactions of the contact pathway of blood clotting
+■ Original Title: Polyphosphate, Zn2+ and high molecular weight kininogen modulate individual reactions of the contact pathway of blood clotting
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2019-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1111/jth.14612
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+J Thromb Haemost. 2019;17:2131–2140.	 wileyonlinelibrary.com/journal/jth	 	 | 	2131
+© 2019 International Society on Thrombosis and 
+Haemostasis
+ 
+Received:	23	May	2019  | Accepted:	9	August	2019
+DOI: 10.1111/jth.14612  
+ORIGINAL ARTICLE
+Polyphosphate, Zn2+ and high molecular weight kininogen 
+modulate individual reactions of the contact pathway of blood 
+clotting
+Yuqi Wang1 |   Ivan Ivanov2 |   Stephanie A. Smith1  |   David Gailani2,3 |    
+James H. Morrissey1,4
+Manuscript	handled	by:	Alan	Mast	
+Final	decision:	Alan	Mast	
+1Department	of	Biological	
+Chemistry,	University	of	Michigan	Medical	
+S
+
+--------------------------------------------------
+
+■ 日本語タイトル: untitled
+■ Original Title: untitled
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2019-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1042/bst20190328
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Review Article
+Inorganic polyphosphate in mammals: where ’s
+Wally?
+Yann Desfougères, Adolfo Saiardi and Cristina Azevedo
+Medical Research Council Laboratory for Molecular Cell Biology, University College London, London, U.K.
+Correspondence: Adolfo Saiardi (dmcbado@ucl.ac.uk)
+Inorganic polyphosphate ( polyP) is a ubiquitous polymer of tens to hundreds of ortho-
+phosphate residues linked by high-energy phosphoanhydride bonds. In prokaryotes and
+lower eukaryotes, both the presence of polyP and of the biosynthetic pathway that leads
+to its synthesis are well-documented. However, in mammals, polyP 
+
+--------------------------------------------------
+
 ■ 日本語タイトル: アストロサイトにおけるシグナル伝達: 無機ポリリン酸の局在化と放出
 ■ Original Title: Signal transduction in astrocytes: Localization and release of inorganic polyphosphate.
 ■ 関連タグ: ミトコンドリア・代謝
@@ -277746,6 +279871,87 @@ Inorganic polyphosphate is a ubiquitous, linear biopolymer built of up to thousa
 
 --------------------------------------------------
 
+■ 日本語タイトル: ホワイトニング、再石灰化シミュレーション
+■ Original Title: Bleaching of simulated stained-remineralized caries lesions in vitro
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2018-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1007/s00784-018-2590-z
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/327426177
+Bleaching of simulated stained-remineralized caries lesions in vitro
+Article  in  Clinical Oral Investigations · September 2018
+DOI: 10.1007/s00784-018-2590-z
+CITATIONS
+0
+READS
+79
+7 authors, including:
+Some of the authors of this publication are also working on these related projects:
+Dental Materials View project
+Operative Dentistry View project
+Sarah S Al-Angari
+King Saud University
+6 PUBLICATIONS   26 CITATIONS   
+SEE PROFILE
+Frank Lippert
+Indiana University-Purdue Univers
+
+--------------------------------------------------
+
+■ 日本語タイトル: NigerJClinPract20101226-4790339_131823
+■ Original Title: NigerJClinPract20101226-4790339_131823
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2017-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4103/njcp.njcp_385_16
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+1226 © 2017 Nigerian Journal of Clinical Practice | Published by Wolters Kluwer ‑ Medknow
+Background and Purpose: Discoloration of resin-based composites is a commonly 
+encountered problem, and bleaching agents may be used for the therapy of the 
+existing discoloration. The purpose of this study was to investigate  in vitro color 
+recovery effect of different bleaching systems on the heavily discolored composite 
+resin. Materials and Methods:  Fifty disk-shaped dental composite specimens 
+were	prepared	using	A2	shade	nanohybrid	universal	composite	resin	(3M	ESPE	
+Filtek Z550, St. Paul, MN, USA
+
+--------------------------------------------------
+
+■ 日本語タイトル: ポリリン酸 ATP
+■ Original Title: Sponge spicules as blue prints for the biofabrication of inorganic-organic biomaterials and hybrid nano-rods
+■ 関連タグ: ミトコンドリア・代謝
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2017-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_7238749/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+© 2017. Published by The Company of Biologists Ltd. 
+Polyphosphate as donor of high-energy phosphate for the synthesis of ADP and 
+ATP 
+ 
+Werner E.G. Müller 1,§, Shunfeng Wang 1, Meik Neufurth 1, Maria Kokkinopoulou 2, 
+Qingling Feng3, Heinz C. Schröder1 and Xiaohong Wang1,§  
+ 
+1 ERC Advanced Investigator Grant Research Group at the Institute for 
+Physiological Chemistry, University Medical Center of the Johannes Gutenberg 
+University, Duesbergweg 6, D-55128 Mainz, GERMANY;   
+2 Max Planck Institute for Polymer Research, Ackermannweg 10, D-55128 Mainz, 
+GERMANY; and 
+3 Key Laboratory of Advan
+
+--------------------------------------------------
+
 ■ 日本語タイトル: 血小板溶解物および遊離物中のポリリン酸レベルの非酵素的定量化
 ■ Original Title: Non-enzymatic quantification of polyphosphate levels in platelet lysates and releasates.
 ■ 著者: アクセル シュラゲナウフ、シーナ ポール、ハラルト ハイドル他
@@ -277771,6 +279977,36 @@ Inorganic polyphosphate has been shown to be shed upon platelet activation induc
 
 ■ Original English Abstract:
 Phosphorus is a macronutrient taken up by cells as inorganic phosphate (P(i)). How cells sense cellular P(i) levels is poorly characterized. Here, we report that SPX domains--which are found in eukaryotic phosphate transporters, signaling proteins, and inorganic polyphosphate polymerases--provide a basic binding surface for inositol polyphosphate signaling molecules (InsPs), the concentrations of which change in response to P(i) availability. Substitutions of critical binding surface residues impair InsP binding in vitro, inorganic polyphosphate synthesis in yeast, and P(i) transport in Arabidopsis In plants, InsPs trigger the association of SPX proteins with transcription factors to regulate P(i) starvation responses. We propose that InsPs communicate cytosolic P(i) levels to SPX domains and enable them to interact with a multitude of proteins to regulate P(i) uptake, transport, and storage in fungi, plants, and animals.
+
+--------------------------------------------------
+
+■ 日本語タイトル: Inorganic Polyphosphates in Eukaryotic Cells
+■ Original Title: Inorganic Polyphosphates in Eukaryotic Cells
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2016-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_4048271/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+1st ed. 2016, VIII, 243 p. 60 illus., 19 illus. in
+color.
+Printed book
+Hardcover
+▶ 169,99 € | £126.50 | $209.00
+▶ *181,89 € (D) | 186,99 € (A) | CHF 187.00
+eBook
+Available from your library or
+▶ springer.com/shop
+MyCopy
+Printed eBook for just
+▶ € | $ 24.99
+▶ springer.com/mycopy
+Order online at springer.com ▶ or for the Americas call (toll free) 1-800-SPRINGER ▶ or email us at:
+customerservice@springer.com. ▶ For outside the Americas call +49 (0) 6221-345-4301 ▶ or email us at:
+customerservice@springer.com.
+The first € price and the £ and $ price are net prices, subject to local VAT. Prices ind
 
 --------------------------------------------------
 
@@ -277831,6 +280067,60 @@ Self-assemblies formed by the new synthesized tricationic porphyrin derivative (
 
 --------------------------------------------------
 
+■ 日本語タイトル: 2161-1122-4-246
+■ Original Title: 2161-1122-4-246
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2014-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4172/2161-1122.1000246
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/271101057
+The Effect Of Home Bleaching Agents On The Surface Roughness And Fracture
+Toughness Of Composite Resin Materials
+Article · January 2014
+DOI: 10.4172/2161-1122.1000246
+CITATIONS
+3
+READS
+65
+6 authors, including:
+Some of the authors of this publication are also working on these related projects:
+Comparative evaluation of periapical healing following conventional endodontic therapy and laser assisted disinfection: An Experimental Study at a Tertiary Dental
+Care Hospital View proj
+
+--------------------------------------------------
+
+■ 日本語タイトル: 2161-1122-4-246
+■ Original Title: 2161-1122-4-246
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2014-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.4172/2161-1122.1000246
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/271101057
+The Effect Of Home Bleaching Agents On The Surface Roughness And Fracture
+Toughness Of Composite Resin Materials
+Article · January 2014
+DOI: 10.4172/2161-1122.1000246
+CITATIONS
+3
+READS
+65
+6 authors, including:
+Some of the authors of this publication are also working on these related projects:
+Comparative evaluation of periapical healing following conventional endodontic therapy and laser assisted disinfection: An Experimental Study at a Tertiary Dental
+Care Hospital View proj
+
+--------------------------------------------------
+
 ■ 日本語タイトル: ATP特異的NADキナーゼに無機ポリリン酸を利用する能力を付与する
 ■ Original Title: Conferring the ability to utilize inorganic polyphosphate on ATP-specific NAD kinase.
 ■ 関連タグ: ミトコンドリア・代謝
@@ -277871,6 +280161,93 @@ The Mycobacterium tuberculosis gene Rv3232c/MT3329 (ppk2) encodes a class II pol
 
 ■ Original English Abstract:
 Synechococcus OS-B', a thermophilic unicellular cyanobacterium, recently isolated from the microbial mats in Octopus Spring (Yellowstone National Park), induces a suite of genes, including phosphatases and transporters, in response to phosphorus (P) starvation. Here we describe two different approaches to examine the ability of Synechococcus OS-B' to synthesize and break down polyphosphate (poly P), a key storage compound in many prokaryotes. First, we developed a transformation protocol to create mutants in the polyphosphate kinase (ppk), the major enzyme responsible for the synthesis of poly P. The ppk mutant exhibited a pleiotropic phenotype with defects in poly P accumulation, aberrant levels of Pho regulon transcripts, growth defects, and changes in cell size and exopolysaccharide levels, among others. Second, we measured transcripts of ppk and ppx (encoding the polyphosphatase) directly from mat samples and found that the levels varied dramatically over a diel cycle. We also used Western blot analysis to quantify levels of PPK and PPX and found that these enzymes differentially accumulated during the diel cycle. Levels of polyphosphate kinase peaked at night, while polyphosphatase levels were highest during the early morning hours. We hypothesize that the opposing activities of these two enzymes allow cells to store and utilize poly P to optimize growth over a diel cycle.
+
+--------------------------------------------------
+
+■ 日本語タイトル: モンモリロナイト２
+■ Original Title: A novel dentin bonding system containing poly(methacrylic acid) grafted nanoclay: Synthesis, characterization and properties
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2012-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/j.dental.2012.06.004
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+d e n t a l m a t e r i a l s 2 8 ( 2 0 1 2 ) 1041–1050
+Available online at www.sciencedirect.com
+jo u rn al hom  epa  ge : www.intl.elsevierhealth.com/journals/dema
+A novel dentin bonding system containing poly(methacrylic
+acid) grafted nanoclay: Synthesis, characterization and
+properties
+Laleh Solhi, Mohammad Atai ∗, Azizollah Nodehi, Mohammad Imani
+Iran Polymer and Petrochemical Institute (IPPI), P. O. Box 14965/115, Tehran, Iran
+a r t i c l e i n f o
+Article history:
+Received 7 April 2012
+Received in revised form 4 June 2012
+Accepted 18 June 2012
+Keywords:
+Dentin bonding system
+Nanoclay
+Gr
+
+--------------------------------------------------
+
+■ 日本語タイトル: POLY-P炎症
+■ Original Title: POLY-P炎症
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2012-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1007/s12185-012-1054-5
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+PROGRESS IN HEMATOLOGY Current understanding of thrombosis and
+hemostasis—from bench to bedside
+Polyphosphate: a link between platelets, coagulation
+and inﬂammation
+James H. Morrissey
+Received: 19 February 2012 / Revised: 8 March 2012 / Accepted: 8 March 2012 / Published online: 5 April 2012
+/C211 The Japanese Society of Hematology 2012
+Abstract Inorganic polyphosphate (polyP) is abundant in
+biological organisms. PolyP is a major component of dense
+granules of human platelets and is secreted upon platelet
+activation. Studies from our lab and others have shown that
+polyP is a potent modulator o
+
+--------------------------------------------------
+
+■ 日本語タイトル: Review of polyphosphates as additives and testing methods for them in scallops and prawns
+■ Original Title: Review of polyphosphates as additives and testing methods for them in scallops and prawns
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2012-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_2192272/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+ 
+ 
+SR654 
+Review of polyphosphates as additives and 
+testing methods for them in scallops and 
+prawns 
+ 
+Campden BRI 
+April 2012 
+ISBN no 978-1-906634-60-5 
+ 
+Review of polyphosphates as additives and testing methods for them in scallops and prawns 
+Campden BRI Report: BC-REP-125846-01 
+Executive summary 
+ 
+Phosphates, including polyphosphates, occur naturally in all forms of life and are therefore 
+present in almost all food.  Naturally occurring phosphates range from single phosphate 
+groups (orthophosphates) to differing lengths of chains of phosphates; 2 phosphate groups 
+(pyrophosphates)
 
 --------------------------------------------------
 
@@ -277947,6 +280324,104 @@ Inorganic polyphosphate (poly(P)) can promote binding between fibroblast growth 
 
 --------------------------------------------------
 
+■ 日本語タイトル: 31_205
+■ Original Title: 31_205
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2010-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_8195682/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+緒言
+レジン系根管充塡用シーラーが多数開発されてい
+る．初期に開発されたレジン系根管充塡用シーラーの
+多くは，根管壁の前処理が必要な製品が多かった．し
+かしながら，根管は細く長いため，根尖周囲の根管壁
+象牙質まで確実に根管壁処理剤を作用させることは難
+しく，結果として根尖付近の接着性低下が懸念されて
+きた．この点を改善するため，根管壁処理剤不要のレ
+ジン系根管充塡用シーラーが開発された．
+AHプラス®（Dentsply, Germany）は古くから販売
+されていた AH26®（Dentsply, Germany）を改良した
+商品である． AH26®はエポキシレジン系根管充塡用
+シーラーであり，高い造影性と生体安定性を示すが，
+その反面，ホルムアルデヒドの溶出や再根管治療時の
+205
+受付：平成 22年 6月 23日／受理：平成 22年 7月 21日
+(日歯内療誌 31(3)：205〜209，2010)
+Key words
+Abstract：The purpose ofthis study was to compare the sealing ability ofroot canal f illing materials with or
+without using root canal dentin primer.
+Thirty-four single-rooted human ma
+
+--------------------------------------------------
+
+■ 日本語タイトル: 36_109
+■ Original Title: 36_109
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2009-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_5977176/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+109-120_JEA0304責B.mcd  Page 1 15/10/07 13:21  v6.10
+根管充塡の位置づけ
+根尖部に X 線透過像が認められても ，根管を清掃
+拡大し根管の無菌化を図り経過を観察すると，根管充
+塡前に X 線透過像が消失して根尖病変が治癒するこ
+とがある ． AAE の『Colleagues for Excellence Fall
+2009』には，「Remember, what is removed from the
+root canal during cleaning, shaping and disinfection is
+more important than is placed during obuturation」と
+の記述がある．根管の処置で重要なことは，根管内か
+ら細菌が除去されているか否かであり，根管充塡の成
+否が予後を直接左右するものではない．実際に，根管
+充塡した群としなかった群とで根尖歯周組織の治癒に
+差がみられなかったという報告があるが
+1)
+，根管の処
+置次第で根管充塡とは無関係に治療が成功か失敗かが
+決まるといっても過言ではない．もちろん，根管充塡
+の質も，根管充塡する前に獲得した無菌性を維持させ，
+長期的に良好な予後を得るために重要である．
+�．根管充塡の目的
+根管充塡には，大きくわけて二つの目的がある．一
+つ目は「Cl
+
+--------------------------------------------------
+
+■ 日本語タイトル: 糖質制限歯周病.2009
+■ Original Title: jop080376 759..768
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2009-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1902/jop.2009.080376
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/24392893
+The Impact of the Stone Age Diet on Gingival Conditions in the Absence of
+Oral Hygiene
+Article  in  Journal of Periodontology · May 2009
+DOI: 10.1902/jop.2009.080376 · Source: PubMed
+CITATIONS
+71
+READS
+1,883
+6 authors, including:
+Some of the authors of this publication are also working on these related projects:
+Periodontal pathogen burden, salivary and serum LPS in periodontitis and CAD patients. View project
+Study of the effect of mercury in dental amalgam View project
+Stefa
+
+--------------------------------------------------
+
 ■ 日本語タイトル: 3 つのポリリン酸定量法間で異なる鎖長特異性
 ■ Original Title: Different chain length specificity among three polyphosphate quantification methods.
 ■ 関連タグ: ミトコンドリア・代謝
@@ -277974,6 +280449,35 @@ Polyphosphate is ubiquitous among living organisms and has a variety of biochemi
 
 ■ Original English Abstract:
 Polyphosphate (poly-P) is an important metabolite and signaling molecule in prokaryotes and eukaryotes. DAPI (4',6-diamidino-2-phenylindole), a widely used fluorescent label for DNA, also interacts with polyphosphate. Binding of poly-P to DAPI, shifts its peak emission wavelength from 475 to 525 nm (excitation at 360 nm), allowing use of DAPI for detection of poly-P in vitro, and in live poly-P accumulating organisms. This approach, which relies on detection of a shift in fluorescence emission, allows use of DAPI only for qualitative detection of relatively high concentrations of poly-P, in the microg/ml range. Here, we report that long-wavelength excitation (> or = 400 nm) of the DAPI-poly-P complex provides a dramatic increase in the sensitivity of poly-P detection. Using excitation at 415 nm, fluorescence of the DAPI-poly-P complex can be detected at a higher wavelength (550 nm) for as little as 25 ng/ml of poly-P. Fluorescence emission from free DAPI and DAPI-DNA are minimal at this wavelength, making the DAPI-poly-P signal highly specific and essentially independent of the presence of DNA. In addition, we demonstrate the use of this protocol to measure the activity of poly-P hydrolyzing enzyme, polyphosphatase and demonstrate a similar signal from the mitochondrial region of cultured neurons.
+
+--------------------------------------------------
+
+■ 日本語タイトル: 歯槽骨再生EMDGAIN比較 POLY-P
+■ Original Title: 歯槽骨再生EMDGAIN比較 POLY-P
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2008-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1177/0022034510363096
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+504
+DOI: 10.1177/0022034510363096
+Received October 31, 2008; Last revision November 19, 
+2009; Accepted November 24, 2009
+A supplemental appendix to this article is published elec-
+tronically only at http://jdr.sagepub.com/supplemental.
+Y. Usui1, T. Uematsu2,3*, T. Uchihashi3, 
+M. Takahashi3, M. Takahashi3,
+M. Ishizuka3, R. Doto3, H. Tanaka3,
+Y. Komazaki1, M. Osawa1,
+K. Yamada1,2, M. Yamaoka2,3,
+and K. Furusawa2,3
+Department of 1Orthodontics, 2Institute for Oral Science, and 
+3Oral and Maxillofacial Surgery, Matsumoto Dental University 
+School of Dentistry, 1780 Gobara Hirooka, Shiojiri, Nagan
 
 --------------------------------------------------
 
@@ -278031,6 +280535,35 @@ Corynebacterium glutamicum forms inorganic polyphosphate (poly P) that may occur
 
 ■ Original English Abstract:
 In an E. coli cell-free protein synthesis system, the addition of an inorganic polyphosphate [poly(P)] with polyphosphate:AMP phosphotransferase (PAP), which regenerates AMP to ADP, increased the amount of protein synthesis. The maximum yield of the translation product (green fluorescent protein) in the E. coli cell-free system provided by Roche Diagnostics (RTS-100) was 1.16 mg/ml under the optimum reaction condition, which corresponded to a 5.7-fold of that obtained under the standard reaction condition described in the manufacturer's protocol. Interestingly, poly(P) alone enhanced protein synthesis to some extent. When we added poly(P) to the reaction mixture, ATP was consumed at a faster rate, leading to a rapid accumulation of AMP. By adding both poly(P) and PAP to the reaction mixture, an efficient ATP regeneration reaction derived from AMP occurred and the ATP level was recovered. Since the protein synthesis enhancement by poly(P) was also observed when mRNA was added as the template in the reaction, poly(P) accelerated the translation reaction by directly affecting the translation machinery. This also occurred when we used the Pure-system Classic Mini kit (Post Genome Institute) that contained the minimum requirements (pure enzymes and chemicals) for translation and transcription. We also observed that poly(P) extended the half-life of the mRNA template.
+
+--------------------------------------------------
+
+■ 日本語タイトル: extended_bleachingテトラサイクリン
+■ Original Title: Operative Dentistry 31-2
+■ 関連タグ: ホワイトニング, 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2006-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.2341/06-6
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/6645314
+Extended Bleaching of Tetracycline-Stained Teeth: A 5-Year Study
+Article  in  Operative Dentistry · November 2006
+DOI: 10.2341/06-6 · Source: PubMed
+CITATIONS
+40
+READS
+501
+5 authors, including:
+Some of the authors of this publication are also working on these related projects:
+Surface Functionalization of Titanium View project
+Effects of Hydrogen Peroxide on Dental enamel and Dentin View project
+Bruce Matis
+Indiana University-Purdue University Indianapolis
+80 PUBLICATIONS   2,1
 
 --------------------------------------------------
 
@@ -278093,6 +280626,36 @@ Relatively large amounts of inorganic polyphosphate [poly(P)] (400 microM) have 
 
 --------------------------------------------------
 
+■ 日本語タイトル: 微生物ポリリン２
+■ Original Title: 微生物ポリリン２
+■ 関連タグ: ミトコンドリア・代謝
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2004-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_2466605/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+738黒 田 章 夫 〔Nippon Nogeikagaku Kaishi
+受 賞 総 説 〔Nippon Nogeikagaku Kaishi VoL.78,No.8,PP.738～743,2004〕
+微 生 物 の ポ リ リン酸 研 究 の 新 展 開
+(2004年 度農芸 化学奨 励賞受 賞)
+黒 田 章 夫
+(広 島大 学大 学 院 先端 物 質 科学 研 究 科,科 学 技 術 振興 機 構 さ きが け)
+Key words: inorganic polyphosphate; ATP; environ
+mental biotechnology; evolution; biolu
+minescence
+は じ め に
+ポ リ リ ン酸 はATPと 同 様 の 高 エ ネ ル ギ ー リ ン酸 結 合 に
+よ っ て 結 合 し た 無 機 ポ リ マ ー で あ る(図1)1),2).ポ リ リ ン
+酸 は 多 く の 生 物 か ら検 出 さ れ る も の の,長 い 間 分 子 生 物 学
+的 な 解 析 は 行 わ れ て こ な か っ た.し か し1990年 代 に 入 っ
+て,ポ リ リ ン酸 合 成 酵 素 の 遣 伝 子(ppk)が ス タ ン フ ォ ー ド
+大 学 のArthur Kornberg研 究 室 で ク ロ ー ニ ン グ さ れ,分
+
+--------------------------------------------------
+
 ■ 日本語タイトル: 無機ポリリン酸による線維芽細胞成長因子の分裂促進活性の調節
 ■ Original Title: Modulation of mitogenic activity of fibroblast growth factors by inorganic polyphosphate.
 ■ 関連タグ: 創傷治癒
@@ -278108,6 +280671,60 @@ The proliferation of normal human fibroblast cells was enhanced by the addition 
 
 --------------------------------------------------
 
+■ 日本語タイトル: Infection and Immunity-2002-Chen-4708.fullポリリン酸＋バイオフィルム
+■ Original Title: Infection and Immunity-2002-Chen-4708.fullポリリン酸＋バイオフィルム
+■ 関連タグ: 歯周病・口腔
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2002-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1128/iai.70.8.4708–4715.2002
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+INFECTION AND IMMUNITY, Aug. 2002, p. 4708–4715 Vol. 70, No. 8
+0019-9567/02/$04.00/H110010 DOI: 10.1128/IAI.70.8.4708–4715.2002
+Copyright © 2002, American Society for Microbiology. All Rights Reserved.
+Role of Polyphosphate Kinase in Bioﬁlm Formation by
+Porphyromonas gingivalis
+Wen Chen,1 Robert J. Palmer, 2 and Howard K. Kuramitsu 1*
+Department of Oral Biology, State University of New York, Buffalo, New York 14214, 1 and Oral Infection and Immunity Branch,
+National Institute of Dental and Craniofacial Research, National Institutes of Health, Bethesda, Maryland 20892 2
+Received 4 March 2002/Re
+
+--------------------------------------------------
+
+■ 日本語タイトル: 微生物ポリリン
+■ Original Title: 微生物ポリリン
+■ 関連タグ: ミトコンドリア・代謝
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2002-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_6519677/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+Vol.76,No・8,2002〕 微 生 物 資 源 の 新 展 開727
+微生 物 が作 る長 鎖 リ ン酸 ポ リマ ー の特 性 と利 用
+Characterization and application of a long-chain polyphosphate in bacteria
+広 島 大 学 大 学 院 先 端 物 質 科 学 研 究 科
+黒 田 章 夫Akio KURODA
+加 藤 純 一Junichi KATO
+池 田 宰Tsukasa IKEDA
+滝口 昇Noboru TAKIGUCHI
+大 竹 久 夫Hisao 0HTAKE
+Key words: inorganic polyphosphate; ATP; evolution;
+ gl ucokinase; Lon protease
+は じ め に
+ポ リ リ ン酸 は,リ ン酸 が 高 エ ネ ル ギ ーリ ン酸 結 合 に よ っ
+て 縮 合 し た リ ン酸 ポ リ マ ー で あ る 。 こ の 物 質 は,リ ン酸 を
+加 熱 す る と 生 じ る こ と か ら,最 も原 始 的 な 生 命 エ ネ ル ギ ー
+の 形 で は な い か と も 言 わ れ て い る.最 近,ポ リ リ ン酸 の 微
+量 検 出 技 術 が 開 発 さ れ,そ の 機 能 が 少 しず つ 明 らか に 
+
+--------------------------------------------------
+
 ■ 日本語タイトル: SOS 遺伝子の発現における無機ポリリン酸の関与
 ■ Original Title: Involvement of inorganic polyphosphate in expression of SOS genes.
 ■ 著者: K 筒美, M ムネカタ, T シバ
@@ -278119,6 +280736,31 @@ The proliferation of normal human fibroblast cells was enhanced by the addition 
 
 ■ Original English Abstract:
 Inorganic polyphosphate (poly(P)) is a linear polymer that has been found in every organism so far examined. To elucidate the functions of poly(P) in the regulation of gene expression, the level of cellular poly(P) in Escherichia coli was reduced to a barely detectable concentration by overproduction of exopolyphosphatase (exopoly(P)ase) with a plasmid encoding yeast exopoly(P)ase (Shiba et al., Proc. Natl. Acad. Sci. USA 94 (1997) 11210-11215). It was found that exopoly(P)ase-overproducing cells were more sensitive to UV or mitomycin C (MMC) than were control cells. Poly(P) accumulation was observed after treatment with MMC, whereas the poly(P) level was below the detectable level in cells that overproduced exopoly(P)ase. When exopoly(P)ase-overproducing cells were transformed again by a multiple copy number plasmid that carries the polyphosphate kinase gene (ppk), the cells accumulated a great amount of poly(P) and restored the UV and MMC sensitivities to the level of control cells. In exopoly(P)ase-overproducing cells, the expression of recA and umuDC were not induced by MMC. In addition, a strain containing multiple copies of ppk accumulated not only a large amount of poly(P) but also recA mRNA. Since recA expression was induced in a recA-deletion strain harboring a plasmid with the ppk gene, poly(P) could be necessary for regulating the expression of SOS genes without depending on the RecA-LexA regulatory network.
+
+--------------------------------------------------
+
+■ 日本語タイトル: ラット、ポリリン酸58_253
+■ Original Title: ラット、ポリリン酸58_253
+■ 著者: Dr. Koyass Collection
+■ 発行年: 2000-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_3730280/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+栄 養 学 雑 誌Vol.58 No.6 253～259 (2000)
+報 文
+雌 ラ ッ トにお け る腎臓 中 ミネ ラル濃 度,腎 機 能 及 び ミネ ラル 出納 に
+及 ぼす 食餌 性 リ ン濃 度 と リ ン酸塩 の影 響
+松﨑 広 志,中 村 カ ホ ル
+東京 農業大学 短期大 学部栄養学科
+Effects of the Dietary Phosphorus Level and Form of Phosphate Salts on the Kidney 
+Mineral Concentration, Kidney Function and Mineral Balance in Female Rats 
+Hiroshi Matsuzaki and Kahoru Nakamura 
+Department of Nutrition, Junior College of Tokyo University of Agriculture
+The effects of the dietary phosphorus level and form of phosphate salts on the kidney mineral concentration,
+kidney function and mineral balance were examined in rats. Four-w
 
 --------------------------------------------------
 
@@ -278162,6 +280804,32 @@ Polyphosphate glucokinase from Mycobacterium tuberculosis catalyzes the phosphor
 
 ■ Original English Abstract:
 A method has been developed for determining endopolyphosphatase (polyphosphate depolymerase, EC 3.6.1.10) activity. The enzyme catalyzes the hydrolysis of inorganic polyphosphates [poly(Ps)] by cleaving internal phosphoanhydride bonds without removal of terminal phosphate residues. During the reaction, shorter poly(P) chains are formed and the molar concentration of poly(P) increases. This enzymatic activity is difficult to quantitate, because the substrates and products of the reaction are chemically identical. The commonly used viscometric method lacks sensitivity and cannot be used with shorter poly(P) substrates. The method described here overcomes these problems, and in addition is rapid, simple, and can be used for distinguishing between the endopolyphosphatase and exopolyphosphatase (EC 3.6.1.11) activities. It is based on monitoring the increase in the number of poly(P) chains generated by endopolyphosphatase. For this purpose, the method takes advantage of the specific property of poly(P) glucokinase (EC 2.7.1.63) which utilizes poly(Ps) of different sizes present in the endopolyphosphatase reaction mixture and reduces them to fairly uniform very short-chain product, poly(P)m. The concentration of poly(P)m is expressed in terms of acid-labile phosphorus and is proportional to the duration of the endopolyphosphatase reaction (i.e., the number of original poly(P) chains) and to protein concentration. The increase in the poly(P)m concentration is a relative measure of the endopolyphosphatase activity. Under certain conditions, m equals 3.5 and the activity can be expressed in standard units, since the exact number of poly(P) chains formed by endopolyphosphatase can be calculated from the increase in molar concentration of poly(P)3.5. Accuracy and advantages of the assay are discussed.
+
+--------------------------------------------------
+
+■ 日本語タイトル: ポリリン酸食品添加物
+■ Original Title: ポリリン酸食品添加物
+■ 著者: Dr. Koyass Collection
+■ 発行年: 1991-01-01 (Source: Local PolyP Archive)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/local_6469620/
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+栄 養 学 雑 誌 Vol.49 No.5 249～256 (1991)
+報 文
+成 長 期 の ラ ッ トにお け る ミネ ラル利 用 に及 ぼす
+トリポ リ リ ン酸 塩 の 影響
+三 田 村 敏 男*1,桑 野 和 民*1,酒 巻 千 波*1,吉 田 勉*2
+*1東京 家 政 学 院 短 期 大 学 ,*2東京 都 立 立 川 短 期 大 学
+                 Effect of Tripolyphosphate on Utilization of 
+                         Minerals in Growing Rats 
+           Toshio Mitamura*1, Kazutami Kuwano*1, Chinami Sakamaki*1 and Tsutomu Yoshida*2 
+                 *'Tokyo Kasei Gakuin Junior College ,*2Tachikawa College of Tokyo 
+     Many reports on the effect of condensed inorganic phosphates fed to growing rats at the P/Ca ratio of 
+above 1.5. 
+     The exper
 
 --------------------------------------------------
 
@@ -278767,6 +281435,20 @@ Abstract
 ■ 著者: 
 ■ 発行年: Unknown (Source: Crossref)
 ■ 原著論文リンク(PDF/記事): https://doi.org/10.31274/rtd-180814-4777
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: Beyond phosphate uptake: PT4/PT11 as key functional components linking phosphate acquisition, nutrient exchange, and arbuscule maintenance in arbuscular mycorrhizal symbiosis
+■ Original Title: Beyond phosphate uptake: PT4/PT11 as key functional components linking phosphate acquisition, nutrient exchange, and arbuscule maintenance in arbuscular mycorrhizal symbiosis
+■ 著者: 
+■ 発行年: Unknown (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13655796
 
 ■ 日本語要約:
 (日本語要約なし)

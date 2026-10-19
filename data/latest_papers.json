@@ -395800,6 +395800,50 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
+    },
+    {
+      "id": "PMC13674284",
+      "title": "Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates",
+      "abstract": "",
+      "tags": [],
+      "date": "Unknown",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13674284",
+      "summary_jp": "",
+      "jp_title": "Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11380219/v1",
+      "title": "Experimental Characterization of Moroccan Phosphate By-Products in Cementitious Mixtures for Potential 3D Concrete Printing Applications",
+      "abstract": "<title>Abstract</title>  <p>This study investigates the valorization of Moroccan phosphate-industry by-products from OCP in cementitious mixtures for potential 3D concrete printing applications. The research focuses on incorporating phosphate waste materials, including waste rock, phosphogypsum (PG), and sludge, into cement-based formulations containing crushed sand and red clay. The experimental program evaluates the mechanical and rheological properties of mixtures prepared using different proportions of phosphate by-products and three cement types, designated C25, C45, and C65 in the original experimental program. The influence of mixture composition, water content, and constituent materials on compressive strength and rheological behavior was examined, with results compared against cast reference specimens. The maximum reported compressive strengths were 21.877 MPa, 32.123 MPa, and 46,528 MPa for mixtures prepared with C25, C45, and C65 cement, respectively. The results indicate that the mechanical performance of the developed mixtures depends on the cement type and the proportions of the constituent materials. Although the observed mechanical and rheological properties suggest potential for further development, the suitability of these formulations for extrusion-based 3D concrete printing remains to be experimentally validated. This study provides an experimental basis for investigating the incorporation of Moroccan phosphate-industry by-products into cementitious materials and supports further research into their potential use in sustainable construction. Future work should address direct printing trials, interlayer bonding, buildability, environmental performance, and the environmental safety of the resulting materials.</p>",
+      "tags": [],
+      "date": "2026",
+      "source": "PPR",
+      "url": "https://doi.org/10.21203/rs.3.rs-11380219/v1",
+      "summary_jp": "<title>Abstract</title>  <p>This study investigates the valorization of Moroccan phosphate-industry by-products from OCP in cementitious mixtures for potential 3D concrete printing applications. The research focuses on incorporating phosphate waste materials, including waste rock, phosphogypsum (PG), and sludge, into cement-based formulations containing crushed sand and red clay. The experimental program evaluates the mechanical and rheological properties of mixtures prepared using different proportions of phosphate by-products and three cement types, designated C25, C45, and C65 in the original experimental program. The influence of mixture composition, water content, and constituent materials on compressive strength and rheological behavior was examined, with results compared against cast reference specimens. The maximum reported compressive strengths were 21.877 MPa, 32.123 MPa, and 46,528 MPa for mixtures prepared with C25, C45, and C65 cement, respectively. The results indicate that the mechanical performance of the developed mixtures depends on the cement type and the proportions of the constituent materials. Although the observed mechanical and rheological properties suggest potential for further development, the suitability of these formulations for extrusion-based 3D concrete printing remains to be experimentally validated. This study provides an experimental basis for investigating the incorporation of Moroccan phosphate-industry by-products into cementitious materials and supports further research into their potential use in sustainable construction. Future work should address direct printing trials, interlayer bonding, buildability, environmental performance, and the environmental safety of the resulting materials.</p>",
+      "jp_title": "Experimental Characterization of Moroccan Phosphate By-Products in Cementitious Mixtures for Potential 3D Concrete Printing Applications"
+    },
+    {
+      "id": "10.20944/preprints202610.1567.v1",
+      "title": "The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model",
+      "abstract": "<h4>Background: </h4> Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. <h4>Methods:</h4> CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. <h4>Results:</h4> CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. <h4>Conclusion:</h4> This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.",
+      "tags": [],
+      "date": "2026",
+      "source": "PPR",
+      "url": "https://doi.org/10.20944/preprints202610.1567.v1",
+      "summary_jp": "<h4>Background: </h4> Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. <h4>Methods:</h4> CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. <h4>Results:</h4> CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. <h4>Conclusion:</h4> This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.",
+      "jp_title": "The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model"
+    },
+    {
+      "id": "PMC13673088",
+      "title": "Recent advances in coarse-grained simulations of nucleic acid condensation",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13673088",
+      "summary_jp": "",
+      "jp_title": "Recent advances in coarse-grained simulations of nucleic acid condensation"
     }
   ],
   "last_accuracy_boost": "2026-10-19 05:11:39",

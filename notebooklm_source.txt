@@ -8891,7 +8891,7 @@ Transarterial radioembolization (TARE) is a highly effective treatment for unres
                     
                       ハロフェラックス火山
                     
-                  、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
+                 、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
                     
                       H. ボルカニイ
                     
@@ -82064,7 +82064,7 @@ The ability to acquire iron from various sources has been demonstrated to be a m
 
 --------------------------------------------------
 
-■ 日本語タイトル: 定量的プロテオミクスがミトコンドリアPARKIN転送とユビキチン鎖合成のフィードフォワードメカニズムの解明
+■ 日本語タイトル: 定量的プロテオミクスがミトコンドリアPARKIN転送とユビキチン鎖合成のフィードフォワードメカニズムに関する研究
 ■ Original Title: Quantitative proteomics reveal a feedforward mechanism for mitochondrial PARKIN translocation and ubiquitin chain synthesis.
 ■ 関連タグ: ミトコンドリア・代謝
 ■ 著者: Alban Ordureau, Shireen A Sarraf, David M Duda et al.

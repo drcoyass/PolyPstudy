@@ -8891,7 +8891,7 @@ Transarterial radioembolization (TARE) is a highly effective treatment for unres
                     
                       ハロフェラックス火山
                     
-                 、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
+                、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
                     
                       H. ボルカニイ
                     
@@ -9659,6 +9659,20 @@ Increased concern for both Great Lakes water quality and potato (Solanum tuberos
 
 --------------------------------------------------
 
+■ 日本語タイトル: Recent advances in coarse-grained simulations of nucleic acid condensation
+■ Original Title: Recent advances in coarse-grained simulations of nucleic acid condensation
+■ 著者: 
+■ 発行年: 2026 (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13673088
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
 ■ 日本語タイトル: Regulation of polyphosphate homeostasis in  <i>S. cerevisiae</i>  by the Sky1 protein kinase
 ■ Original Title: Regulation of polyphosphate homeostasis in  <i>S. cerevisiae</i>  by the Sky1 protein kinase
 ■ 関連タグ: ミトコンドリア・代謝
@@ -9855,6 +9869,20 @@ To survive stressful conditions, bacteria enter the stringent response mediated 
 
 ■ Original English Abstract:
 The Chinese Baijiu industry produces over one billion tons of distiller’s dried grains with solubles (DDGS) annually, posing a significant environmental challenge. Traditional methods of utilization are hindered by numerous limitations, including insufficient treatment, low-value processing, and high energy consumption. In this study, ammonium polyphosphate (APP), an inorganic adhesive, was employed to bond DDGS for its materialization. APP self-condensed to intensify its van der Waals force attraction to DDGS—eschewing any chemical reaction with DDGS, resulting in the formation of DB-APP4, which exhibits optimal mechanical properties unaffected by variations in DDGS reactivity. With a modulus of rupture of 12.48 MPa, a modulus of elasticity of 2221.65 MPa, an internal bond strength of 0.56 MPa, and a thickness swelling rate of 5.53 %, DB-APP4 satisfies the fundamental performance criteria for particleboard as outlined in ISO 16978:2003. Furthermore, owing to APP’s ability to catalyze the formation of a protective carbon layer on the material surface while preserving the high porosity characteristic of biomass, the flame retardancy of DB-APP4 has reached Class B₁. This study not only addresses the challenge of effectively repurposing DDGS but also provides a pioneering and practical approach for the industrial application of DDGS-based particleboards.
+
+--------------------------------------------------
+
+■ 日本語タイトル: The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model
+■ Original Title: The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model
+■ 著者: 
+■ 発行年: 2026 (Source: PPR)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.20944/preprints202610.1567.v1
+
+■ 日本語要約:
+Background:  Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. Methods: CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. Results: CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. Conclusion: This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.
+
+■ Original English Abstract:
+<h4>Background: </h4> Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. <h4>Methods:</h4> CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. <h4>Results:</h4> CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. <h4>Conclusion:</h4> This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.
 
 --------------------------------------------------
 
@@ -282459,6 +282487,20 @@ Modification de l’environnement de l’ion Eu3+ dans des verres métaphophates
 
 ■ Original English Abstract:
 Polyphosphate and inorganic phosphate are extracted by hot Tris buffer. After centrifugation, 500 uL of extract is used for inorganic phosphate measurement, 200 uL of extract is used for polyP extraction sufficiency test.  Testing the number of treatment rounds necessary to extract all polyP is crucial. However, even when collecting samples from the same field location or cultivation condition, there can be high variability in treatment rounds among replicates, leading to significant background fluorescence and rendering the polyP from the sample undetectable. This challenge is especially prominent when measuring polyP from field samples. Limited sample availability and insufficient polyP extraction, combined with high background fluorescence, make the laborious measurement unpredictable and hinder accurate polyP measurement. This obstacle is a significant hurdle in polyP measurement. In our assay, we overcome the challenge by validating the sufficiency of extraction for each sample and then measuring the polyP values.   The utilization of DAPI-based fluorometric estimation for polyphosphate (polyP) analysis from microalgae involves evaluating the fluorescence of DAPI-stained samples in quartz cuvettes using a spectrofluorometer. To reduce the consumption of reagent, time, and labor while minimizing DAPI photobleaching, we have adapted this method to a 96-well black microtiter plate with a black film-covered lid. Additionally, the calculation method has been modified to account for matrix effects in microplates.  To conduct the polyP assay, roughly 400 uL RNase, 400 uL DNase, and 700 uL proteinase are required for four samples.  Inorganic P is measured by molybdate/ascorbic acid/sulphuric acid reagent following Chen et al. (1956).          
+
+--------------------------------------------------
+
+■ 日本語タイトル: Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates
+■ Original Title: Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates
+■ 著者: 
+■ 発行年: Unknown (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13674284
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
 
 --------------------------------------------------
 

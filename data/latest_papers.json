@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19",
+  "generated_at": "2026-10-20",
   "pptx_path": "output/Monthly_Report.pptx",
   "total_pubmed_count": 19085,
   "official_stats": {
@@ -11349,7 +11349,7 @@
       "date": "2026",
       "source": "Crossref",
       "url": "https://doi.org/10.1111/1462-2920.70340",
-      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n                 、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
+      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n                、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
       "jp_title": "新規ポリリン酸分解酵素が古細菌の外因性ポリリン酸の増殖をもたらす\n                    <i>ハロフェラクス火山</i>",
       "relevance_score": 20,
       "is_dental": false,
@@ -11629,6 +11629,24 @@
       "relevance_score": 0,
       "is_dental": false,
       "is_hidden": false,
+      "year": "2026"
+    },
+    {
+      "id": "10.21203/rs.3.rs-11380219/v1",
+      "title": "Experimental Characterization of Moroccan Phosphate By-Products in Cementitious Mixtures for Potential 3D Concrete Printing Applications",
+      "abstract": "<title>Abstract</title>  <p>This study investigates the valorization of Moroccan phosphate-industry by-products from OCP in cementitious mixtures for potential 3D concrete printing applications. The research focuses on incorporating phosphate waste materials, including waste rock, phosphogypsum (PG), and sludge, into cement-based formulations containing crushed sand and red clay. The experimental program evaluates the mechanical and rheological properties of mixtures prepared using different proportions of phosphate by-products and three cement types, designated C25, C45, and C65 in the original experimental program. The influence of mixture composition, water content, and constituent materials on compressive strength and rheological behavior was examined, with results compared against cast reference specimens. The maximum reported compressive strengths were 21.877 MPa, 32.123 MPa, and 46,528 MPa for mixtures prepared with C25, C45, and C65 cement, respectively. The results indicate that the mechanical performance of the developed mixtures depends on the cement type and the proportions of the constituent materials. Although the observed mechanical and rheological properties suggest potential for further development, the suitability of these formulations for extrusion-based 3D concrete printing remains to be experimentally validated. This study provides an experimental basis for investigating the incorporation of Moroccan phosphate-industry by-products into cementitious materials and supports further research into their potential use in sustainable construction. Future work should address direct printing trials, interlayer bonding, buildability, environmental performance, and the environmental safety of the resulting materials.</p>",
+      "tags": [
+        "ホワイトニング",
+        "環境・排水処理（ノイズ候補）"
+      ],
+      "date": "2026",
+      "source": "PPR",
+      "url": "https://doi.org/10.21203/rs.3.rs-11380219/v1",
+      "summary_jp": "<title>Abstract</title>  <p>This study investigates the valorization of Moroccan phosphate-industry by-products from OCP in cementitious mixtures for potential 3D concrete printing applications. The research focuses on incorporating phosphate waste materials, including waste rock, phosphogypsum (PG), and sludge, into cement-based formulations containing crushed sand and red clay. The experimental program evaluates the mechanical and rheological properties of mixtures prepared using different proportions of phosphate by-products and three cement types, designated C25, C45, and C65 in the original experimental program. The influence of mixture composition, water content, and constituent materials on compressive strength and rheological behavior was examined, with results compared against cast reference specimens. The maximum reported compressive strengths were 21.877 MPa, 32.123 MPa, and 46,528 MPa for mixtures prepared with C25, C45, and C65 cement, respectively. The results indicate that the mechanical performance of the developed mixtures depends on the cement type and the proportions of the constituent materials. Although the observed mechanical and rheological properties suggest potential for further development, the suitability of these formulations for extrusion-based 3D concrete printing remains to be experimentally validated. This study provides an experimental basis for investigating the incorporation of Moroccan phosphate-industry by-products into cementitious materials and supports further research into their potential use in sustainable construction. Future work should address direct printing trials, interlayer bonding, buildability, environmental performance, and the environmental safety of the resulting materials.</p>",
+      "jp_title": "Experimental Characterization of Moroccan Phosphate By-Products in Cementitious Mixtures for Potential 3D Concrete Printing Applications",
+      "relevance_score": -60,
+      "is_dental": true,
+      "is_hidden": true,
       "year": "2026"
     },
     {
@@ -12256,6 +12274,21 @@
       "is_hidden": false
     },
     {
+      "id": "PMC13673088",
+      "title": "Recent advances in coarse-grained simulations of nucleic acid condensation",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13673088",
+      "summary_jp": "",
+      "jp_title": "Recent advances in coarse-grained simulations of nucleic acid condensation",
+      "relevance_score": 0,
+      "is_dental": false,
+      "is_hidden": false,
+      "year": "2026"
+    },
+    {
       "id": "10.64898/2026.09.24.753767",
       "title": "Regulation of polyphosphate homeostasis in  <i>S. cerevisiae</i>  by the Sky1 protein kinase",
       "abstract": "<h4>ABSTRACT</h4>  Eukaryotic cells store inorganic phosphate in the form of long chains called polyphosphates (polyP) that can reach many hundreds of residues in length. In the budding yeast  Saccharomyces cerevisiae , polyP is synthesized by the VTC complex using ATP as a substrate and sequestered at high concentrations in the vacuole. Here, polyP chain length and turnover are regulated by the polyphosphatase enzymes Ppn1 and Ppn2. In the vacuole lumen, polyP plays a critical role in phosphate and ion homeostasis. Beyond the vacuole, minor populations of polyP are thought to impact various cellular functions, including in the nucleus, in part by binding to target proteins. We speculated that polyP metabolism must be tightly coupled to mechanisms of homeostatic control operating elsewhere in the cell. In this work, we report that cells lacking Sky1, a serine-arginine repeat protein kinase, have very low levels of polyP, an effect that is exacerbated by alkaline stress. Under these conditions  sky1 Δ mutants also display increased expression of a subset of genes from the PHO regulon. Genetic analysis suggests that both phenotypes are linked to an increase in potassium influx via the Trk1 potassium transporter. Loss of Npl3, a known target of Sky1, partially rescues the phosphate homeostasis defects in  sky1 Δ mutants, although this occurs independently of a well characterized Sky1 phosphorylation site on Npl3. Finally, the loss of polyP in  sky1 Δ mutants depends on the Ppn1 and Ppn2 polyphosphatases and the Pep4 protease located in the vacuole. Altogether, our work provides novel insights into how polyP homeostasis in the vacuole is coordinated with events occurring throughout the cell.",
@@ -12455,6 +12488,21 @@
       "jp_title": "蒸留乾燥穀物と可溶分の持続可能な利用: 強度と難燃性を強化したポリリン酸アンモニウム結合パーティクルボード",
       "relevance_score": 20,
       "is_dental": true,
+      "is_hidden": false,
+      "year": "2026"
+    },
+    {
+      "id": "10.20944/preprints202610.1567.v1",
+      "title": "The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model",
+      "abstract": "<h4>Background: </h4> Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. <h4>Methods:</h4> CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. <h4>Results:</h4> CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. <h4>Conclusion:</h4> This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.",
+      "tags": [],
+      "date": "2026",
+      "source": "PPR",
+      "url": "https://doi.org/10.20944/preprints202610.1567.v1",
+      "summary_jp": "<h4>Background: </h4> Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. <h4>Methods:</h4> CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. <h4>Results:</h4> CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. <h4>Conclusion:</h4> This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.",
+      "jp_title": "The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model",
+      "relevance_score": 50,
+      "is_dental": false,
       "is_hidden": false,
       "year": "2026"
     },
@@ -394138,6 +394186,20 @@
       "is_hidden": false
     },
     {
+      "id": "PMC13674284",
+      "title": "Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates",
+      "abstract": "",
+      "tags": [],
+      "date": "Unknown",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13674284",
+      "summary_jp": "",
+      "jp_title": "Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates",
+      "relevance_score": 20,
+      "is_dental": false,
+      "is_hidden": false
+    },
+    {
       "id": "10.15376/biores.9.3.4934-4945",
       "title": "Fire Performance of Plywood Treated with Ammonium Polyphosphate and 4A Zeolite",
       "abstract": "",
@@ -395800,53 +395862,9 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
-    },
-    {
-      "id": "PMC13674284",
-      "title": "Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates",
-      "abstract": "",
-      "tags": [],
-      "date": "Unknown",
-      "source": "PMC",
-      "url": "https://europepmc.org/article/PMC/PMC13674284",
-      "summary_jp": "",
-      "jp_title": "Far-Red Turn-On Fluorogenic Probe for Versatile Detection of Inorganic Polyphosphates"
-    },
-    {
-      "id": "10.21203/rs.3.rs-11380219/v1",
-      "title": "Experimental Characterization of Moroccan Phosphate By-Products in Cementitious Mixtures for Potential 3D Concrete Printing Applications",
-      "abstract": "<title>Abstract</title>  <p>This study investigates the valorization of Moroccan phosphate-industry by-products from OCP in cementitious mixtures for potential 3D concrete printing applications. The research focuses on incorporating phosphate waste materials, including waste rock, phosphogypsum (PG), and sludge, into cement-based formulations containing crushed sand and red clay. The experimental program evaluates the mechanical and rheological properties of mixtures prepared using different proportions of phosphate by-products and three cement types, designated C25, C45, and C65 in the original experimental program. The influence of mixture composition, water content, and constituent materials on compressive strength and rheological behavior was examined, with results compared against cast reference specimens. The maximum reported compressive strengths were 21.877 MPa, 32.123 MPa, and 46,528 MPa for mixtures prepared with C25, C45, and C65 cement, respectively. The results indicate that the mechanical performance of the developed mixtures depends on the cement type and the proportions of the constituent materials. Although the observed mechanical and rheological properties suggest potential for further development, the suitability of these formulations for extrusion-based 3D concrete printing remains to be experimentally validated. This study provides an experimental basis for investigating the incorporation of Moroccan phosphate-industry by-products into cementitious materials and supports further research into their potential use in sustainable construction. Future work should address direct printing trials, interlayer bonding, buildability, environmental performance, and the environmental safety of the resulting materials.</p>",
-      "tags": [],
-      "date": "2026",
-      "source": "PPR",
-      "url": "https://doi.org/10.21203/rs.3.rs-11380219/v1",
-      "summary_jp": "<title>Abstract</title>  <p>This study investigates the valorization of Moroccan phosphate-industry by-products from OCP in cementitious mixtures for potential 3D concrete printing applications. The research focuses on incorporating phosphate waste materials, including waste rock, phosphogypsum (PG), and sludge, into cement-based formulations containing crushed sand and red clay. The experimental program evaluates the mechanical and rheological properties of mixtures prepared using different proportions of phosphate by-products and three cement types, designated C25, C45, and C65 in the original experimental program. The influence of mixture composition, water content, and constituent materials on compressive strength and rheological behavior was examined, with results compared against cast reference specimens. The maximum reported compressive strengths were 21.877 MPa, 32.123 MPa, and 46,528 MPa for mixtures prepared with C25, C45, and C65 cement, respectively. The results indicate that the mechanical performance of the developed mixtures depends on the cement type and the proportions of the constituent materials. Although the observed mechanical and rheological properties suggest potential for further development, the suitability of these formulations for extrusion-based 3D concrete printing remains to be experimentally validated. This study provides an experimental basis for investigating the incorporation of Moroccan phosphate-industry by-products into cementitious materials and supports further research into their potential use in sustainable construction. Future work should address direct printing trials, interlayer bonding, buildability, environmental performance, and the environmental safety of the resulting materials.</p>",
-      "jp_title": "Experimental Characterization of Moroccan Phosphate By-Products in Cementitious Mixtures for Potential 3D Concrete Printing Applications"
-    },
-    {
-      "id": "10.20944/preprints202610.1567.v1",
-      "title": "The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model",
-      "abstract": "<h4>Background: </h4> Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. <h4>Methods:</h4> CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. <h4>Results:</h4> CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. <h4>Conclusion:</h4> This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.",
-      "tags": [],
-      "date": "2026",
-      "source": "PPR",
-      "url": "https://doi.org/10.20944/preprints202610.1567.v1",
-      "summary_jp": "<h4>Background: </h4> Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug delivery for treating HIV/AIDS. However, how the interaction of CS-NPs with the blood-brain barrier (BBB) in the context of HIV infection remains unclear. In this study, we investigated the effects of CS-NPs and HIV proteins in endothelial cells of a BBB model. <h4>Methods:</h4> CS-NPs were synthesized through ionic gelation at various Chitosan: tripolyphosphate (CS:TPP) mass ratios. bEnd5 cells were treated with CS-NPs alone, HL2/3-derived HIV-conditioned media (HIV-CM; 20%, 40%, or 75%), or their combination for 24–96 h. Live- and dead-cell counts, cell-division suppression, cytotoxicity, and monolayer permeability were assessed to determine the direct effects of CS-NPs on BBB integrity under HIV protein exposure. <h4>Results:</h4> CS-NP size increased with the CS:TPP ratio (188–497 nm), while DMEM dispersion and lyophilization reduced zeta potential from +12–22 mV to −5 to +3 mV. After 96 h, HIV-CM reduced live bEnd5 cell counts from 3.1 × 10⁶ cells/mL in controls to 1.9 × 10⁶, 1.5 × 10⁶, and 1.2 × 10⁶ cells/mL at 20%, 40%, and 75% (v/v) HIV-CM, respectively, and suppressed cell division by 37.98% ± 11.53, 51.12% ± 10.95, and 55.04% ± 15.36. CS-NPs also suppressed cell division across all CS:TPP ratios, and the CS:TPP 3:1 formulation produced the greatest cytotoxicity (approximately 7–8%). HIV-CM increased bEnd5 monolayer permeability in the presence of all CS-NPs, and CS-NP co-treatment at all ratios further increased monolayer permeability. <h4>Conclusion:</h4> This study evaluated the effects of CS-NPs on HIV-exposed BBB endothelium to advance treatment strategies for HIV-associated CNS complications. The findings highlight the significance of CS:TPP ratio, dose, exposure duration, and HIV protein exposure when evaluating CS-NPs in HIV-related neuropathology. The study provides preclinical evidence of the effects of CS-NPs on BBB integrity and brain endothelial cell health, providing insights into their future development as antiretroviral nano-carriers.",
-      "jp_title": "The Effects of HIV Viral Proteins and Chitosan Nanoparticles on the Physiological Integrity of the In Vitro Blood-Brain Barrier Model"
-    },
-    {
-      "id": "PMC13673088",
-      "title": "Recent advances in coarse-grained simulations of nucleic acid condensation",
-      "abstract": "",
-      "tags": [],
-      "date": "2026",
-      "source": "PMC",
-      "url": "https://europepmc.org/article/PMC/PMC13673088",
-      "summary_jp": "",
-      "jp_title": "Recent advances in coarse-grained simulations of nucleic acid condensation"
     }
   ],
-  "last_accuracy_boost": "2026-10-19 05:11:39",
+  "last_accuracy_boost": "2026-10-20 05:24:29",
   "guardian_status": "INTELLIGENCE_LEVEL_PHD",
-  "last_cleansed": "2026-10-19T05:11:40.688786"
+  "last_cleansed": "2026-10-20T05:24:30.451517"
 }

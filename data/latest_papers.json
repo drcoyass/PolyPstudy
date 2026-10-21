@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20",
+  "generated_at": "2026-10-21",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19085,
+  "total_pubmed_count": 19086,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -71,6 +71,24 @@
       "year": "2027",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42566973/",
       "category": "MEDICAL, ELITE"
+    },
+    {
+      "id": "42900591",
+      "title": "Effects of C/N ratio and carbon-source composition on nutrient removal in a dual-sludge membrane bioreactor system (A",
+      "abstract": "Microbial competition that is driven by substrates plays an essential role in the stable denitrifying phosphorus removal (DPR) of low carbon wastewater treatment. This paper used a dual-sludge membrane bioreactor (A",
+      "tags": [
+        "環境・排水処理（ノイズ候補）"
+      ],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42900591/",
+      "summary_jp": "Microbial competition that is driven by substrates plays an essential role in the stable denitrifying phosphorus removal (DPR) of low carbon wastewater treatment. This paper used a dual-sludge membrane bioreactor (A",
+      "jp_title": "Effects of C/N ratio and carbon-source composition on nutrient removal in a dual-sludge membrane bioreactor system (A",
+      "relevance_score": -60,
+      "is_dental": false,
+      "is_hidden": true,
+      "year": "2026",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42900591/"
     },
     {
       "id": "42884943",
@@ -11349,7 +11367,7 @@
       "date": "2026",
       "source": "Crossref",
       "url": "https://doi.org/10.1111/1462-2920.70340",
-      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n                、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
+      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n               、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
       "jp_title": "新規ポリリン酸分解酵素が古細菌の外因性ポリリン酸の増殖をもたらす\n                    <i>ハロフェラクス火山</i>",
       "relevance_score": 20,
       "is_dental": false,
@@ -392982,6 +393000,20 @@
       "is_hidden": false
     },
     {
+      "id": "10.1021/acs.biochem.6c00467.s001",
+      "title": "A Cytosolic Arabidopsis Homologue of Bacterial GppA/PPX Retains Polyphosphate and pppGpp Phosphatase Activities and Regulates Photosynthetic Acclimation",
+      "abstract": "",
+      "tags": [],
+      "date": "Unknown",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1021/acs.biochem.6c00467.s001",
+      "summary_jp": "",
+      "jp_title": "A Cytosolic Arabidopsis Homologue of Bacterial GppA/PPX Retains Polyphosphate and pppGpp Phosphatase Activities and Regulates Photosynthetic Acclimation",
+      "relevance_score": 20,
+      "is_dental": false,
+      "is_hidden": false
+    },
+    {
       "id": "10.1021/acs.cgd.8b01409.s001",
       "title": "A Fluorescent Chemodosimeter for Organelle-Specific Imaging of Nucleoside Polyphosphate Dynamics in Living Cells",
       "abstract": "",
@@ -395862,20 +395894,9 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
-    },
-    {
-      "id": "10.1021/acs.biochem.6c00467.s001",
-      "title": "A Cytosolic Arabidopsis Homologue of Bacterial GppA/PPX Retains Polyphosphate and pppGpp Phosphatase Activities and Regulates Photosynthetic Acclimation",
-      "abstract": "",
-      "tags": [],
-      "date": "Unknown",
-      "source": "Crossref",
-      "url": "https://doi.org/10.1021/acs.biochem.6c00467.s001",
-      "summary_jp": "",
-      "jp_title": "A Cytosolic Arabidopsis Homologue of Bacterial GppA/PPX Retains Polyphosphate and pppGpp Phosphatase Activities and Regulates Photosynthetic Acclimation"
     }
   ],
-  "last_accuracy_boost": "2026-10-20 05:24:29",
+  "last_accuracy_boost": "2026-10-21 05:12:45",
   "guardian_status": "INTELLIGENCE_LEVEL_PHD",
-  "last_cleansed": "2026-10-20T05:24:30.451517"
+  "last_cleansed": "2026-10-21T05:12:47.218487"
 }

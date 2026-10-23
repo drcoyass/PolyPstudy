@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-23",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19088,
+  "total_pubmed_count": 19089,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -395932,6 +395932,41 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
+    },
+    {
+      "id": "42909457",
+      "title": "Setting-Induced Dual Pore Formation in Polyphosphate Coacervate Enables Injectable Implants With In Situ Hierarchical Porosity and Tunable Compositions for Bone Regeneration.",
+      "abstract": "Injectable and self-setting biomaterials are significantly advantageous in minimally invasive bone repair. However, the in situ (post-injection) fabrication of abundant porous structures permissive for cellular ingrowth-a fundamental requirement for achieving efficient bone regeneration-poses a considerable challenge. Here, this study finds that calcium polyphosphate (Ca-polyP) coacervate, a liquid precursor of osteogenic Ca-polyP solid, enables in situ dual pore-forming individually or simultaneously: setting-induced liquid-solid phase separation (SIPS) and setting-induced gas foaming (SIGF), which can be triggered by different inorganic base substances as setting initiators. Notably, SIPS pioneers the observation of such a process in inorganic self-setting systems. Following this, we develop an array of injectable and self-setting Ca-polyP coacervate-based composites, where the two mechanisms produce distinct pore size ranges in situ, i.e., tens-micrometers via SIPS and hundreds-micrometers via SIGF. Variable setting initiators allow tuning of composition and properties. We further apply a typical composite (IS-polyP) with in situ formed hierarchical pores built upon simultaneous SIPS and SIGF for bone repair. Investigations reveal that IS-polyP can significantly enhance energy metabolism, cell proliferation, and osteogenic differentiation of BMSCs, ultimately promoting bone regeneration and growth of new bone in the macropores. This work establishes a universal design strategy for in situ porous implants in orthopedics.",
+      "tags": [
+        "インプラント"
+      ],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42909457/",
+      "summary_jp": "Injectable and self-setting biomaterials are significantly advantageous in minimally invasive bone repair. However, the in situ (post-injection) fabrication of abundant porous structures permissive for cellular ingrowth-a fundamental requirement for achieving efficient bone regeneration-poses a considerable challenge. Here, this study finds that calcium polyphosphate (Ca-polyP) coacervate, a liquid precursor of osteogenic Ca-polyP solid, enables in situ dual pore-forming individually or simultaneously: setting-induced liquid-solid phase separation (SIPS) and setting-induced gas foaming (SIGF), which can be triggered by different inorganic base substances as setting initiators. Notably, SIPS pioneers the observation of such a process in inorganic self-setting systems. Following this, we develop an array of injectable and self-setting Ca-polyP coacervate-based composites, where the two mechanisms produce distinct pore size ranges in situ, i.e., tens-micrometers via SIPS and hundreds-micrometers via SIGF. Variable setting initiators allow tuning of composition and properties. We further apply a typical composite (IS-polyP) with in situ formed hierarchical pores built upon simultaneous SIPS and SIGF for bone repair. Investigations reveal that IS-polyP can significantly enhance energy metabolism, cell proliferation, and osteogenic differentiation of BMSCs, ultimately promoting bone regeneration and growth of new bone in the macropores. This work establishes a universal design strategy for in situ porous implants in orthopedics.",
+      "jp_title": "Setting-Induced Dual Pore Formation in Polyphosphate Coacervate Enables Injectable Implants With In Situ Hierarchical Porosity and Tunable Compositions for Bone Regeneration."
+    },
+    {
+      "id": "10.70022/yjavs.v5i2.2242",
+      "title": "Effect of Ginger Extract and Polyphosphate on Microbiological Properties of Chicken Meat",
+      "abstract": "The present study was aimed to evaluate the effect of Trisodium phosphate (TSP), fresh ginger rhizome extract (GE) and their mix on some microbiological properties of chicken meat. The chicken carcasses samples were collected after evisceration processes and before coming into the immersion chiller, from the production line of private automatic poultry slaughterhouse in Dhamar city, Yemen. The chicken `s carcasses were divided into four treatment groups and control: The G-I was acts as control (3 carcasses), G-II (6 carcasses), G-III (6 carcasses) and G-IV (3 carcasses) were dipped in 3 and 5% ginger extracts, 6 and 8% TSP solutions and mix of TSP (6%) and ginger extract (3%) respectively. Measurements were taken before and post treatment at 0, 48 and 72 hrs. at 4±1˚C. The results showed a significant reducing(P&lt;0.05) in populations of total bacteria counts and Staphylococcus by 0.85 and 0.79 log cfu/ml in treated group with 8% TSP; while, in treated groups with 6%, 8% TSP and with the mix of (3% GE + 6 % TSP) caused a significant reduction in Salmonella counts by 0.82, 1.05 and 0.89 log cfu/ml respectively. Changes in microbial loads during cold storage indicated that chicken meat group treated with 8% TSP resulted in a significant reduction in total bacterial counts by 3.45 log cfu/ml compared to control group 4.36 log cfu/ml after 48 hrs. of storage at 4±1˚C; while, Salmonella count was significantly reduced by 2.46 log cfu/ml as compared to control 3.78 log cfu/ml after 72 hrs. of storage at 4±1˚C. In conclusion, Trisodium phosphate, ginger, and Trisodium phosphate and ginger in combination at different concentration exhibited antibacterial activities in reduction of bacterial counts and load on chicken meat. Trisodium phosphate compound showed more efficacy compared to ginger extracts. The treatments of chicken meat with TSP, GE and their mix increased the shelf life of the meat. Further studies are needed to study the effect of other plant extract on microbiological properties of chicken meat.",
+      "tags": [],
+      "date": "Unknown",
+      "source": "Crossref",
+      "url": "https://doi.org/10.70022/yjavs.v5i2.2242",
+      "summary_jp": "The present study was aimed to evaluate the effect of Trisodium phosphate (TSP), fresh ginger rhizome extract (GE) and their mix on some microbiological properties of chicken meat. The chicken carcasses samples were collected after evisceration processes and before coming into the immersion chiller, from the production line of private automatic poultry slaughterhouse in Dhamar city, Yemen. The chicken `s carcasses were divided into four treatment groups and control: The G-I was acts as control (3 carcasses), G-II (6 carcasses), G-III (6 carcasses) and G-IV (3 carcasses) were dipped in 3 and 5% ginger extracts, 6 and 8% TSP solutions and mix of TSP (6%) and ginger extract (3%) respectively. Measurements were taken before and post treatment at 0, 48 and 72 hrs. at 4±1˚C. The results showed a significant reducing(P&lt;0.05) in populations of total bacteria counts and Staphylococcus by 0.85 and 0.79 log cfu/ml in treated group with 8% TSP; while, in treated groups with 6%, 8% TSP and with the mix of (3% GE + 6 % TSP) caused a significant reduction in Salmonella counts by 0.82, 1.05 and 0.89 log cfu/ml respectively. Changes in microbial loads during cold storage indicated that chicken meat group treated with 8% TSP resulted in a significant reduction in total bacterial counts by 3.45 log cfu/ml compared to control group 4.36 log cfu/ml after 48 hrs. of storage at 4±1˚C; while, Salmonella count was significantly reduced by 2.46 log cfu/ml as compared to control 3.78 log cfu/ml after 72 hrs. of storage at 4±1˚C. In conclusion, Trisodium phosphate, ginger, and Trisodium phosphate and ginger in combination at different concentration exhibited antibacterial activities in reduction of bacterial counts and load on chicken meat. Trisodium phosphate compound showed more efficacy compared to ginger extracts. The treatments of chicken meat with TSP, GE and their mix increased the shelf life of the meat. Further studies are needed to study the effect of other plant extract on microbiological properties of chicken meat.",
+      "jp_title": "Effect of Ginger Extract and Polyphosphate on Microbiological Properties of Chicken Meat"
+    },
+    {
+      "id": "10.1016/0005-2744(73)90088-0",
+      "title": "Polyphosphate phosphohydrolase from Endomyces magnush",
+      "abstract": "",
+      "tags": [],
+      "date": "1973",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0005-2744(73)90088-0",
+      "summary_jp": "",
+      "jp_title": "Polyphosphate phosphohydrolase from Endomyces magnush"
     }
   ],
   "last_accuracy_boost": "2026-10-23 05:17:42",

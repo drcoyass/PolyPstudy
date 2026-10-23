@@ -4512,6 +4512,36 @@ The study successfully synthesized a novel dual-mode probe, Zn(NBD-BPHA)I
 
 --------------------------------------------------
 
+■ 日本語タイトル: Equipping chitosan cryogels with a silicon armor for integrated elasticity, hydrophobicity, and flame retardancy.
+■ Original Title: Equipping chitosan cryogels with a silicon armor for integrated elasticity, hydrophobicity, and flame retardancy.
+■ 関連タグ: ホワイトニング, 環境・排水処理（ノイズ候補）
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42906998/
+
+■ 日本語要約:
+Chitosan cryogels, characterized by highly porous and lightweight architectures, offer the advantages of renewability and excellent biocompatibility, but their inherent brittleness, poor moisture resistance, and limited thermal stability severely restrict practical applications. Herein, a "silicon armor" strategy was developed by employing hyperbranched epoxy silicone resin (HESR) as a chemical bridge to construct a covalently bonded silicon-containing hybrid shell on the chitosan framework through epoxy-amine ring-opening reactions. Benefiting from the abundant reactive epoxy groups, the hybrid shell further enabled the multiscale integration of functional components. An inner-outer dual‑phosphorus flame-retardant architecture was established by incorporating melamine polyphosphate (MPP) and diethyl phosphoramidate (DEPA), while the Si-O-Si network simultaneously contributed to structural reinforcement and thermal stability. In addition, polyetheramine flexible segments introduced entropy elasticity into the hybrid network, effectively alleviating the intrinsic brittleness of the rigid silicon framework and improving its deformation recovery capability. Subsequent hydrophobic modification further reduced the surface energy and significantly enhanced the moisture resistance and environmental stability of the cryogel. As a result, the obtained CS-Si cryogel integrates efficient flame retardancy, excellent elasticity, mechanical robustness, thermal insulation, and hydrophobic protection into a single biomass-derived system, providing a simple, efficient, and versatile strategy for the design of multifunctional sustainable cryogel materials.
+
+■ Original English Abstract:
+Chitosan cryogels, characterized by highly porous and lightweight architectures, offer the advantages of renewability and excellent biocompatibility, but their inherent brittleness, poor moisture resistance, and limited thermal stability severely restrict practical applications. Herein, a "silicon armor" strategy was developed by employing hyperbranched epoxy silicone resin (HESR) as a chemical bridge to construct a covalently bonded silicon-containing hybrid shell on the chitosan framework through epoxy-amine ring-opening reactions. Benefiting from the abundant reactive epoxy groups, the hybrid shell further enabled the multiscale integration of functional components. An inner-outer dual‑phosphorus flame-retardant architecture was established by incorporating melamine polyphosphate (MPP) and diethyl phosphoramidate (DEPA), while the Si-O-Si network simultaneously contributed to structural reinforcement and thermal stability. In addition, polyetheramine flexible segments introduced entropy elasticity into the hybrid network, effectively alleviating the intrinsic brittleness of the rigid silicon framework and improving its deformation recovery capability. Subsequent hydrophobic modification further reduced the surface energy and significantly enhanced the moisture resistance and environmental stability of the cryogel. As a result, the obtained CS-Si cryogel integrates efficient flame retardancy, excellent elasticity, mechanical robustness, thermal insulation, and hydrophobic protection into a single biomass-derived system, providing a simple, efficient, and versatile strategy for the design of multifunctional sustainable cryogel materials.
+
+--------------------------------------------------
+
+■ 日本語タイトル: Complete genome and phenotypic characterization of Zobellella denitrificans MW1 reveal carbon source preferences and a phosphate-associated shift in polyhydroxybutyrate accumulation.
+■ Original Title: Complete genome and phenotypic characterization of Zobellella denitrificans MW1 reveal carbon source preferences and a phosphate-associated shift in polyhydroxybutyrate accumulation.
+■ 関連タグ: ホワイトニング, 環境・排水処理（ノイズ候補）
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42906418/
+
+■ 日本語要約:
+Zobellella denitrificans MW1 is a halotolerant, facultatively anaerobic bacterium with high poly(3-hydroxybutyrate) (PHB) productivity that lacked a complete genome sequence. Here we report its first complete circular genome (4.10 Mb, 63.6% GC), obtained by hybrid Illumina-Nanopore assembly, with multi-scale cultivation data. The genome encodes a conserved phaCAB operon, multiple sucrose uptake and catabolic systems, and a canonical Pho regulon with polyphosphate metabolism genes (ppk, ppx). Ten CRISPR arrays, an intact prophage and no acquired multidrug resistance determinants were identified. Carbohydrate utilization was broad yet selective: sucrose, glucose and fructose supported the highest biomass, sucrose yielding up to 76% PHB of cell dry weight (CDW) in flasks; sucrose-rich beet molasses sustained PHB accumulation in flasks and 5 L bioreactors. In single, non-replicated fed-batch runs, a high-phosphate process reached 23 g L⁻¹ CDW with minimal PHB, whereas a low-phosphate process reached 53 g L⁻¹ CDW with 78% PHB. Because each regime was run once, these data are observations rather than a statistically supported comparison. They suggest that phosphate availability may be an important variable governing the growth-versus-storage balance, and that sucrose-rich industrial side-streams can be converted into PHB. The genomic co-occurrence of the Pho regulon, polyphosphate metabolism and phaCAB offers a hypothesis that remains to be tested by expression, enzyme-activity and targeted genetic experiments. Overall, MW1 is established as a genomically resolved platform for PHB production from low-cost, sucrose-rich feedstocks under saline conditions.
+
+■ Original English Abstract:
+Zobellella denitrificans MW1 is a halotolerant, facultatively anaerobic bacterium with high poly(3-hydroxybutyrate) (PHB) productivity that lacked a complete genome sequence. Here we report its first complete circular genome (4.10 Mb, 63.6% GC), obtained by hybrid Illumina-Nanopore assembly, with multi-scale cultivation data. The genome encodes a conserved phaCAB operon, multiple sucrose uptake and catabolic systems, and a canonical Pho regulon with polyphosphate metabolism genes (ppk, ppx). Ten CRISPR arrays, an intact prophage and no acquired multidrug resistance determinants were identified. Carbohydrate utilization was broad yet selective: sucrose, glucose and fructose supported the highest biomass, sucrose yielding up to 76% PHB of cell dry weight (CDW) in flasks; sucrose-rich beet molasses sustained PHB accumulation in flasks and 5 L bioreactors. In single, non-replicated fed-batch runs, a high-phosphate process reached 23 g L⁻¹ CDW with minimal PHB, whereas a low-phosphate process reached 53 g L⁻¹ CDW with 78% PHB. Because each regime was run once, these data are observations rather than a statistically supported comparison. They suggest that phosphate availability may be an important variable governing the growth-versus-storage balance, and that sucrose-rich industrial side-streams can be converted into PHB. The genomic co-occurrence of the Pho regulon, polyphosphate metabolism and phaCAB offers a hypothesis that remains to be tested by expression, enzyme-activity and targeted genetic experiments. Overall, MW1 is established as a genomically resolved platform for PHB production from low-cost, sucrose-rich feedstocks under saline conditions.
+
+--------------------------------------------------
+
 ■ 日本語タイトル: A Formaldehyde-Free, Soy Protein-Based Adhesive with P-N-Si Synergistic Flame Retardancy for Plywood Application.
 ■ Original Title: A Formaldehyde-Free, Soy Protein-Based Adhesive with P-N-Si Synergistic Flame Retardancy for Plywood Application.
 ■ 関連タグ: 環境・排水処理（ノイズ候補）
@@ -8891,7 +8921,7 @@ Transarterial radioembolization (TARE) is a highly effective treatment for unres
                     
                       ハロフェラックス火山
                     
-              、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
+             、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
                     
                       H. ボルカニイ
                     

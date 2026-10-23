@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-23",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19086,
+  "total_pubmed_count": 19088,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -71,6 +71,44 @@
       "year": "2027",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42566973/",
       "category": "MEDICAL, ELITE"
+    },
+    {
+      "id": "42906998",
+      "title": "Equipping chitosan cryogels with a silicon armor for integrated elasticity, hydrophobicity, and flame retardancy.",
+      "abstract": "Chitosan cryogels, characterized by highly porous and lightweight architectures, offer the advantages of renewability and excellent biocompatibility, but their inherent brittleness, poor moisture resistance, and limited thermal stability severely restrict practical applications. Herein, a \"silicon armor\" strategy was developed by employing hyperbranched epoxy silicone resin (HESR) as a chemical bridge to construct a covalently bonded silicon-containing hybrid shell on the chitosan framework through epoxy-amine ring-opening reactions. Benefiting from the abundant reactive epoxy groups, the hybrid shell further enabled the multiscale integration of functional components. An inner-outer dual‑phosphorus flame-retardant architecture was established by incorporating melamine polyphosphate (MPP) and diethyl phosphoramidate (DEPA), while the Si-O-Si network simultaneously contributed to structural reinforcement and thermal stability. In addition, polyetheramine flexible segments introduced entropy elasticity into the hybrid network, effectively alleviating the intrinsic brittleness of the rigid silicon framework and improving its deformation recovery capability. Subsequent hydrophobic modification further reduced the surface energy and significantly enhanced the moisture resistance and environmental stability of the cryogel. As a result, the obtained CS-Si cryogel integrates efficient flame retardancy, excellent elasticity, mechanical robustness, thermal insulation, and hydrophobic protection into a single biomass-derived system, providing a simple, efficient, and versatile strategy for the design of multifunctional sustainable cryogel materials.",
+      "tags": [
+        "ホワイトニング",
+        "環境・排水処理（ノイズ候補）"
+      ],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42906998/",
+      "summary_jp": "Chitosan cryogels, characterized by highly porous and lightweight architectures, offer the advantages of renewability and excellent biocompatibility, but their inherent brittleness, poor moisture resistance, and limited thermal stability severely restrict practical applications. Herein, a \"silicon armor\" strategy was developed by employing hyperbranched epoxy silicone resin (HESR) as a chemical bridge to construct a covalently bonded silicon-containing hybrid shell on the chitosan framework through epoxy-amine ring-opening reactions. Benefiting from the abundant reactive epoxy groups, the hybrid shell further enabled the multiscale integration of functional components. An inner-outer dual‑phosphorus flame-retardant architecture was established by incorporating melamine polyphosphate (MPP) and diethyl phosphoramidate (DEPA), while the Si-O-Si network simultaneously contributed to structural reinforcement and thermal stability. In addition, polyetheramine flexible segments introduced entropy elasticity into the hybrid network, effectively alleviating the intrinsic brittleness of the rigid silicon framework and improving its deformation recovery capability. Subsequent hydrophobic modification further reduced the surface energy and significantly enhanced the moisture resistance and environmental stability of the cryogel. As a result, the obtained CS-Si cryogel integrates efficient flame retardancy, excellent elasticity, mechanical robustness, thermal insulation, and hydrophobic protection into a single biomass-derived system, providing a simple, efficient, and versatile strategy for the design of multifunctional sustainable cryogel materials.",
+      "jp_title": "Equipping chitosan cryogels with a silicon armor for integrated elasticity, hydrophobicity, and flame retardancy.",
+      "relevance_score": 20,
+      "is_dental": true,
+      "is_hidden": false,
+      "year": "2026",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42906998/"
+    },
+    {
+      "id": "42906418",
+      "title": "Complete genome and phenotypic characterization of Zobellella denitrificans MW1 reveal carbon source preferences and a phosphate-associated shift in polyhydroxybutyrate accumulation.",
+      "abstract": "Zobellella denitrificans MW1 is a halotolerant, facultatively anaerobic bacterium with high poly(3-hydroxybutyrate) (PHB) productivity that lacked a complete genome sequence. Here we report its first complete circular genome (4.10 Mb, 63.6% GC), obtained by hybrid Illumina-Nanopore assembly, with multi-scale cultivation data. The genome encodes a conserved phaCAB operon, multiple sucrose uptake and catabolic systems, and a canonical Pho regulon with polyphosphate metabolism genes (ppk, ppx). Ten CRISPR arrays, an intact prophage and no acquired multidrug resistance determinants were identified. Carbohydrate utilization was broad yet selective: sucrose, glucose and fructose supported the highest biomass, sucrose yielding up to 76% PHB of cell dry weight (CDW) in flasks; sucrose-rich beet molasses sustained PHB accumulation in flasks and 5 L bioreactors. In single, non-replicated fed-batch runs, a high-phosphate process reached 23 g L⁻¹ CDW with minimal PHB, whereas a low-phosphate process reached 53 g L⁻¹ CDW with 78% PHB. Because each regime was run once, these data are observations rather than a statistically supported comparison. They suggest that phosphate availability may be an important variable governing the growth-versus-storage balance, and that sucrose-rich industrial side-streams can be converted into PHB. The genomic co-occurrence of the Pho regulon, polyphosphate metabolism and phaCAB offers a hypothesis that remains to be tested by expression, enzyme-activity and targeted genetic experiments. Overall, MW1 is established as a genomically resolved platform for PHB production from low-cost, sucrose-rich feedstocks under saline conditions.",
+      "tags": [
+        "ホワイトニング",
+        "環境・排水処理（ノイズ候補）"
+      ],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42906418/",
+      "summary_jp": "Zobellella denitrificans MW1 is a halotolerant, facultatively anaerobic bacterium with high poly(3-hydroxybutyrate) (PHB) productivity that lacked a complete genome sequence. Here we report its first complete circular genome (4.10 Mb, 63.6% GC), obtained by hybrid Illumina-Nanopore assembly, with multi-scale cultivation data. The genome encodes a conserved phaCAB operon, multiple sucrose uptake and catabolic systems, and a canonical Pho regulon with polyphosphate metabolism genes (ppk, ppx). Ten CRISPR arrays, an intact prophage and no acquired multidrug resistance determinants were identified. Carbohydrate utilization was broad yet selective: sucrose, glucose and fructose supported the highest biomass, sucrose yielding up to 76% PHB of cell dry weight (CDW) in flasks; sucrose-rich beet molasses sustained PHB accumulation in flasks and 5 L bioreactors. In single, non-replicated fed-batch runs, a high-phosphate process reached 23 g L⁻¹ CDW with minimal PHB, whereas a low-phosphate process reached 53 g L⁻¹ CDW with 78% PHB. Because each regime was run once, these data are observations rather than a statistically supported comparison. They suggest that phosphate availability may be an important variable governing the growth-versus-storage balance, and that sucrose-rich industrial side-streams can be converted into PHB. The genomic co-occurrence of the Pho regulon, polyphosphate metabolism and phaCAB offers a hypothesis that remains to be tested by expression, enzyme-activity and targeted genetic experiments. Overall, MW1 is established as a genomically resolved platform for PHB production from low-cost, sucrose-rich feedstocks under saline conditions.",
+      "jp_title": "Complete genome and phenotypic characterization of Zobellella denitrificans MW1 reveal carbon source preferences and a phosphate-associated shift in polyhydroxybutyrate accumulation.",
+      "relevance_score": 20,
+      "is_dental": true,
+      "is_hidden": false,
+      "year": "2026",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42906418/"
     },
     {
       "id": "42900591",
@@ -11367,7 +11405,7 @@
       "date": "2026",
       "source": "Crossref",
       "url": "https://doi.org/10.1111/1462-2920.70340",
-      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n              、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
+      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n             、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
       "jp_title": "新規ポリリン酸分解酵素が古細菌の外因性ポリリン酸の増殖をもたらす\n                    <i>ハロフェラクス火山</i>",
       "relevance_score": 20,
       "is_dental": false,
@@ -395896,7 +395934,7 @@
       "is_dental": false
     }
   ],
-  "last_accuracy_boost": "2026-10-22 05:13:42",
+  "last_accuracy_boost": "2026-10-23 05:17:42",
   "guardian_status": "INTELLIGENCE_LEVEL_PHD",
-  "last_cleansed": "2026-10-22T05:13:43.626201"
+  "last_cleansed": "2026-10-23T05:17:43.282060"
 }

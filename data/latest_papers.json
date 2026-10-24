@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-24",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19091,
+  "total_pubmed_count": 19092,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396023,6 +396023,17 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
+    },
+    {
+      "id": "42920307",
+      "title": "Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts.",
+      "abstract": "Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, ",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920307/",
+      "summary_jp": "Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, ",
+      "jp_title": "Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts."
     }
   ],
   "last_accuracy_boost": "2026-10-24 05:09:04",

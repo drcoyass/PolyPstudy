@@ -4,6 +4,36 @@
 
 ==================================================
 
+■ 日本語タイトル: A quercetin loaded root canal sealer based on polyphosphate coacervate composite with anti-inflammatory and mineralization promoting properties.
+■ Original Title: A quercetin loaded root canal sealer based on polyphosphate coacervate composite with anti-inflammatory and mineralization promoting properties.
+■ 関連タグ: インプラント, ホワイトニング, 再生医療, 歯周病・口腔
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42918713/
+
+■ 日本語要約:
+This study aimed to develop a root canal sealer based on quercetin-loaded polyphosphate coacervate composite (CMQ) and systematically evaluate its physicochemical properties, sealing performance, and biological activity. The sealer was synthesized via loading the quercetin in the injectable and self-setting polyphosphate coacervate composite. The structural characteristics, quercetin release behavior, biological activities, and sealing performance of CMQ were evaluated. The selected physicochemical properties, including film thickness, flowability and solubility, were assessed with reference to ISO 6876:2025. In vitro antioxidant activity was assessed using a free radical scavenging assay. Biocompatibility was evaluated using cytological assays and a rat subcutaneous implantation model. The antioxidant and anti-inflammatory activities, as well as the effects on human periodontal ligament cells (hPDLCs) migration and osteogenic differentiation, were further investigated. The sealer showed appropriate setting characteristics without an observable heating effect or structural collapse and favorable dimensional stability after setting, with only limited dimensional changes observed, followed by sustained quercetin release over a 21-day observation period. The post-setting sealer exhibited a uniform microstructure, with the tested parameters of film thickness, flow and solubility met the specified requirements. Furthermore, it demonstrated favorable biocompatibility, promoted hPDLC adhesion and migration, reduced intracellular reactive oxygen species (ROS), modulated inflammatory factor expression, and enhanced osteogenic activity. In vivo implantation elicited only mild inflammation, with no evidence of abnormal tissue lesions. The polyphosphate coacervate-based CMQ sealer demonstrated suitable physicochemical properties, reliable sealing performance, and favorable biocompatibility, together with antioxidant, anti-inflammatory, and osteogenic activity, suggesting its potential as a bioactive material for endodontic applications.
+
+■ Original English Abstract:
+This study aimed to develop a root canal sealer based on quercetin-loaded polyphosphate coacervate composite (CMQ) and systematically evaluate its physicochemical properties, sealing performance, and biological activity. The sealer was synthesized via loading the quercetin in the injectable and self-setting polyphosphate coacervate composite. The structural characteristics, quercetin release behavior, biological activities, and sealing performance of CMQ were evaluated. The selected physicochemical properties, including film thickness, flowability and solubility, were assessed with reference to ISO 6876:2025. In vitro antioxidant activity was assessed using a free radical scavenging assay. Biocompatibility was evaluated using cytological assays and a rat subcutaneous implantation model. The antioxidant and anti-inflammatory activities, as well as the effects on human periodontal ligament cells (hPDLCs) migration and osteogenic differentiation, were further investigated. The sealer showed appropriate setting characteristics without an observable heating effect or structural collapse and favorable dimensional stability after setting, with only limited dimensional changes observed, followed by sustained quercetin release over a 21-day observation period. The post-setting sealer exhibited a uniform microstructure, with the tested parameters of film thickness, flow and solubility met the specified requirements. Furthermore, it demonstrated favorable biocompatibility, promoted hPDLC adhesion and migration, reduced intracellular reactive oxygen species (ROS), modulated inflammatory factor expression, and enhanced osteogenic activity. In vivo implantation elicited only mild inflammation, with no evidence of abnormal tissue lesions. The polyphosphate coacervate-based CMQ sealer demonstrated suitable physicochemical properties, reliable sealing performance, and favorable biocompatibility, together with antioxidant, anti-inflammatory, and osteogenic activity, suggesting its potential as a bioactive material for endodontic applications.
+
+--------------------------------------------------
+
+■ 日本語タイトル: Setting-Induced Dual Pore Formation in Polyphosphate Coacervate Enables Injectable Implants With In Situ Hierarchical Porosity and Tunable Compositions for Bone Regeneration.
+■ Original Title: Setting-Induced Dual Pore Formation in Polyphosphate Coacervate Enables Injectable Implants With In Situ Hierarchical Porosity and Tunable Compositions for Bone Regeneration.
+■ 関連タグ: インプラント, ミトコンドリア・代謝, 再生医療, 創傷治癒, 骨再生・硬組織
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42909457/
+
+■ 日本語要約:
+Injectable and self-setting biomaterials are significantly advantageous in minimally invasive bone repair. However, the in situ (post-injection) fabrication of abundant porous structures permissive for cellular ingrowth-a fundamental requirement for achieving efficient bone regeneration-poses a considerable challenge. Here, this study finds that calcium polyphosphate (Ca-polyP) coacervate, a liquid precursor of osteogenic Ca-polyP solid, enables in situ dual pore-forming individually or simultaneously: setting-induced liquid-solid phase separation (SIPS) and setting-induced gas foaming (SIGF), which can be triggered by different inorganic base substances as setting initiators. Notably, SIPS pioneers the observation of such a process in inorganic self-setting systems. Following this, we develop an array of injectable and self-setting Ca-polyP coacervate-based composites, where the two mechanisms produce distinct pore size ranges in situ, i.e., tens-micrometers via SIPS and hundreds-micrometers via SIGF. Variable setting initiators allow tuning of composition and properties. We further apply a typical composite (IS-polyP) with in situ formed hierarchical pores built upon simultaneous SIPS and SIGF for bone repair. Investigations reveal that IS-polyP can significantly enhance energy metabolism, cell proliferation, and osteogenic differentiation of BMSCs, ultimately promoting bone regeneration and growth of new bone in the macropores. This work establishes a universal design strategy for in situ porous implants in orthopedics.
+
+■ Original English Abstract:
+Injectable and self-setting biomaterials are significantly advantageous in minimally invasive bone repair. However, the in situ (post-injection) fabrication of abundant porous structures permissive for cellular ingrowth-a fundamental requirement for achieving efficient bone regeneration-poses a considerable challenge. Here, this study finds that calcium polyphosphate (Ca-polyP) coacervate, a liquid precursor of osteogenic Ca-polyP solid, enables in situ dual pore-forming individually or simultaneously: setting-induced liquid-solid phase separation (SIPS) and setting-induced gas foaming (SIGF), which can be triggered by different inorganic base substances as setting initiators. Notably, SIPS pioneers the observation of such a process in inorganic self-setting systems. Following this, we develop an array of injectable and self-setting Ca-polyP coacervate-based composites, where the two mechanisms produce distinct pore size ranges in situ, i.e., tens-micrometers via SIPS and hundreds-micrometers via SIGF. Variable setting initiators allow tuning of composition and properties. We further apply a typical composite (IS-polyP) with in situ formed hierarchical pores built upon simultaneous SIPS and SIGF for bone repair. Investigations reveal that IS-polyP can significantly enhance energy metabolism, cell proliferation, and osteogenic differentiation of BMSCs, ultimately promoting bone regeneration and growth of new bone in the macropores. This work establishes a universal design strategy for in situ porous implants in orthopedics.
+
+--------------------------------------------------
+
 ■ 日本語タイトル: Calcium Pyrophosphate Deposition Disease of the Temporomandibular Joint Extending into the External Auditory Canal and the Middle Ear, Coexisting with Otosclerosis: A Case Report.
 ■ Original Title: Calcium Pyrophosphate Deposition Disease of the Temporomandibular Joint Extending into the External Auditory Canal and the Middle Ear, Coexisting with Otosclerosis: A Case Report.
 ■ 関連タグ: インプラント
@@ -4512,6 +4542,21 @@ The study successfully synthesized a novel dual-mode probe, Zn(NBD-BPHA)I
 
 --------------------------------------------------
 
+■ 日本語タイトル: Microbial Paradox under Nitrogen Fertilization: Enhanced Soil Phosphorus Mineralization Coupled with Accelerated Stabilization.
+■ Original Title: Microbial Paradox under Nitrogen Fertilization: Enhanced Soil Phosphorus Mineralization Coupled with Accelerated Stabilization.
+■ 関連タグ: ホワイトニング
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42915441/
+
+■ 日本語要約:
+pH-neutral soils, where mineral phosphorus (P) fixation is relatively limited and microbial activity is high, provide an ideal system for investigating microbial regulation of P cycling under long-term fertilization. Here, we combined 33P isotope tracing with shotgun metagenomics and microbial network analysis to quantify soil P transformation in a 180-year fertilization experiment. Compared with the unfertilized control, P-only fertilization increased total P, PO43-, and microbial biomass P by 73%, 201%, and 227%, respectively. In contrast, N-only fertilization enhanced phosphatase activity and enriched genes involved in phosphate transport and polyphosphate synthesis, indicating greater microbial P acquisition and storage. These changes promoted organic P mineralization and microbial P immobilization simultaneously, resulting in no net accumulation of labile P. Microbial network analysis further revealed a shift in keystone taxa under N fertilization toward taxa associated with P immobilization and stabilization. Together, our results demonstrate that long-term N fertilization drives a conservative, microbially regulated P cycling strategy in which enhanced mineralization is tightly coupled with rapid immobilization, whereas P fertilization primarily increases soil P stocks. These findings highlight distinct microbial mechanisms regulating P cycling under contrasting nutrient inputs and underscore the importance of balanced fertilization for sustaining P availability while minimizing environmental losses.
+
+■ Original English Abstract:
+pH-neutral soils, where mineral phosphorus (P) fixation is relatively limited and microbial activity is high, provide an ideal system for investigating microbial regulation of P cycling under long-term fertilization. Here, we combined 33P isotope tracing with shotgun metagenomics and microbial network analysis to quantify soil P transformation in a 180-year fertilization experiment. Compared with the unfertilized control, P-only fertilization increased total P, PO43-, and microbial biomass P by 73%, 201%, and 227%, respectively. In contrast, N-only fertilization enhanced phosphatase activity and enriched genes involved in phosphate transport and polyphosphate synthesis, indicating greater microbial P acquisition and storage. These changes promoted organic P mineralization and microbial P immobilization simultaneously, resulting in no net accumulation of labile P. Microbial network analysis further revealed a shift in keystone taxa under N fertilization toward taxa associated with P immobilization and stabilization. Together, our results demonstrate that long-term N fertilization drives a conservative, microbially regulated P cycling strategy in which enhanced mineralization is tightly coupled with rapid immobilization, whereas P fertilization primarily increases soil P stocks. These findings highlight distinct microbial mechanisms regulating P cycling under contrasting nutrient inputs and underscore the importance of balanced fertilization for sustaining P availability while minimizing environmental losses.
+
+--------------------------------------------------
+
 ■ 日本語タイトル: Equipping chitosan cryogels with a silicon armor for integrated elasticity, hydrophobicity, and flame retardancy.
 ■ Original Title: Equipping chitosan cryogels with a silicon armor for integrated elasticity, hydrophobicity, and flame retardancy.
 ■ 関連タグ: ホワイトニング, 環境・排水処理（ノイズ候補）
@@ -8921,7 +8966,7 @@ Transarterial radioembolization (TARE) is a highly effective treatment for unres
                     
                       ハロフェラックス火山
                     
-             、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
+            、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
                     
                       H. ボルカニイ
                     
@@ -236061,6 +236106,20 @@ Abstract is available at the source.
 
 --------------------------------------------------
 
+■ 日本語タイトル: Polyphosphate phosphohydrolase from Endomyces magnush
+■ Original Title: Polyphosphate phosphohydrolase from Endomyces magnush
+■ 著者: 
+■ 発行年: 1973 (Source: Crossref)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.1016/0005-2744(73)90088-0
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
 ■ 日本語タイトル: Preparation of Guanylurea Polyphosphate and lts Application as Flame Retardant
 ■ Original Title: Preparation of Guanylurea Polyphosphate and lts Application as Flame Retardant
 ■ 著者: 
@@ -282273,6 +282332,20 @@ Starch retrogradation is a process occurred in many food products made from star
 
 ■ Original English Abstract:
 Ammonium polyphosphate (APP) was prepared by process of diammonium hydrogen phosphate at different ammonia atmosphere. XRD techniques were used to characterize the crystalline form of this product. Results showed that ammonium had significant effect on the crystalline form of prepared ammonium polyphosphate. The results were informative for controllable preparation ammonium polyphosphate in industrial production.
+
+--------------------------------------------------
+
+■ 日本語タイトル: Effect of Ginger Extract and Polyphosphate on Microbiological Properties of Chicken Meat
+■ Original Title: Effect of Ginger Extract and Polyphosphate on Microbiological Properties of Chicken Meat
+■ 著者: 
+■ 発行年: Unknown (Source: Crossref)
+■ 原著論文リンク(PDF/記事): https://doi.org/10.70022/yjavs.v5i2.2242
+
+■ 日本語要約:
+The present study was aimed to evaluate the effect of Trisodium phosphate (TSP), fresh ginger rhizome extract (GE) and their mix on some microbiological properties of chicken meat. The chicken carcasses samples were collected after evisceration processes and before coming into the immersion chiller, from the production line of private automatic poultry slaughterhouse in Dhamar city, Yemen. The chicken `s carcasses were divided into four treatment groups and control: The G-I was acts as control (3 carcasses), G-II (6 carcasses), G-III (6 carcasses) and G-IV (3 carcasses) were dipped in 3 and 5% ginger extracts, 6 and 8% TSP solutions and mix of TSP (6%) and ginger extract (3%) respectively. Measurements were taken before and post treatment at 0, 48 and 72 hrs. at 4±1˚C. The results showed a significant reducing(P&lt;0.05) in populations of total bacteria counts and Staphylococcus by 0.85 and 0.79 log cfu/ml in treated group with 8% TSP; while, in treated groups with 6%, 8% TSP and with the mix of (3% GE + 6 % TSP) caused a significant reduction in Salmonella counts by 0.82, 1.05 and 0.89 log cfu/ml respectively. Changes in microbial loads during cold storage indicated that chicken meat group treated with 8% TSP resulted in a significant reduction in total bacterial counts by 3.45 log cfu/ml compared to control group 4.36 log cfu/ml after 48 hrs. of storage at 4±1˚C; while, Salmonella count was significantly reduced by 2.46 log cfu/ml as compared to control 3.78 log cfu/ml after 72 hrs. of storage at 4±1˚C. In conclusion, Trisodium phosphate, ginger, and Trisodium phosphate and ginger in combination at different concentration exhibited antibacterial activities in reduction of bacterial counts and load on chicken meat. Trisodium phosphate compound showed more efficacy compared to ginger extracts. The treatments of chicken meat with TSP, GE and their mix increased the shelf life of the meat. Further studies are needed to study the effect of other plant extract on microbiological properties of chicken meat.
+
+■ Original English Abstract:
+The present study was aimed to evaluate the effect of Trisodium phosphate (TSP), fresh ginger rhizome extract (GE) and their mix on some microbiological properties of chicken meat. The chicken carcasses samples were collected after evisceration processes and before coming into the immersion chiller, from the production line of private automatic poultry slaughterhouse in Dhamar city, Yemen. The chicken `s carcasses were divided into four treatment groups and control: The G-I was acts as control (3 carcasses), G-II (6 carcasses), G-III (6 carcasses) and G-IV (3 carcasses) were dipped in 3 and 5% ginger extracts, 6 and 8% TSP solutions and mix of TSP (6%) and ginger extract (3%) respectively. Measurements were taken before and post treatment at 0, 48 and 72 hrs. at 4±1˚C. The results showed a significant reducing(P&lt;0.05) in populations of total bacteria counts and Staphylococcus by 0.85 and 0.79 log cfu/ml in treated group with 8% TSP; while, in treated groups with 6%, 8% TSP and with the mix of (3% GE + 6 % TSP) caused a significant reduction in Salmonella counts by 0.82, 1.05 and 0.89 log cfu/ml respectively. Changes in microbial loads during cold storage indicated that chicken meat group treated with 8% TSP resulted in a significant reduction in total bacterial counts by 3.45 log cfu/ml compared to control group 4.36 log cfu/ml after 48 hrs. of storage at 4±1˚C; while, Salmonella count was significantly reduced by 2.46 log cfu/ml as compared to control 3.78 log cfu/ml after 72 hrs. of storage at 4±1˚C. In conclusion, Trisodium phosphate, ginger, and Trisodium phosphate and ginger in combination at different concentration exhibited antibacterial activities in reduction of bacterial counts and load on chicken meat. Trisodium phosphate compound showed more efficacy compared to ginger extracts. The treatments of chicken meat with TSP, GE and their mix increased the shelf life of the meat. Further studies are needed to study the effect of other plant extract on microbiological properties of chicken meat.
 
 --------------------------------------------------
 

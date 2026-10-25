@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-25",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19092,
+  "total_pubmed_count": 19094,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396092,6 +396092,30 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
+    },
+    {
+      "id": "42922661",
+      "title": "The filopodial scaffold polyphosphate dictates cell adhesion- ",
+      "abstract": "Inorganic polyphosphate (polyP) is an ancient polymer conserved across all life, serving cell type- and location-specific functions in every major compartment. Yet its role at the plasma membrane, where it accumulates to peak levels in many primary cells, is largely unknown. Here we identify polyP as a stabilizing component of filopodia, actin-based membrane protrusions that govern cell adhesion, contact inhibition, and chemotaxis. Elevating cellular polyP increases filopodial stability and enhances cell adhesion, whereas reducing polyP accelerates filopodial disassembly and promotes cell migration. Mechanistically, we find that polyP acts as a structural filopodial scaffold, recruiting and organizing IRSp53, a membrane curvature-inducing protein. We show that metastatic fibroblasts and breast cancer organoids carry markedly reduced and intracellularly reorganized polyP levels relative to their non-transformed counterparts. Restoring endogenous polyP via lipid-nanoparticle delivery suppresses their invasive phenotypes and reverses pro-metastatic gene expression signatures, implicating polyP as a primordial tumor suppressor.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42922661/",
+      "summary_jp": "Inorganic polyphosphate (polyP) is an ancient polymer conserved across all life, serving cell type- and location-specific functions in every major compartment. Yet its role at the plasma membrane, where it accumulates to peak levels in many primary cells, is largely unknown. Here we identify polyP as a stabilizing component of filopodia, actin-based membrane protrusions that govern cell adhesion, contact inhibition, and chemotaxis. Elevating cellular polyP increases filopodial stability and enhances cell adhesion, whereas reducing polyP accelerates filopodial disassembly and promotes cell migration. Mechanistically, we find that polyP acts as a structural filopodial scaffold, recruiting and organizing IRSp53, a membrane curvature-inducing protein. We show that metastatic fibroblasts and breast cancer organoids carry markedly reduced and intracellularly reorganized polyP levels relative to their non-transformed counterparts. Restoring endogenous polyP via lipid-nanoparticle delivery suppresses their invasive phenotypes and reverses pro-metastatic gene expression signatures, implicating polyP as a primordial tumor suppressor.",
+      "jp_title": "The filopodial scaffold polyphosphate dictates cell adhesion- "
+    },
+    {
+      "id": "42922350",
+      "title": "Incorporation of Calcium Polyphosphate Sub-Microparticles in Commercial Toothpastes and Their Effects on Dental Enamel.",
+      "abstract": "Dental bleaching with 35% hydrogen peroxide (HP) can cause deleterious effects on the mineral content of enamel. In this regard, remineralizing submicroparticles of calcium polyphosphate (CaPP) have been investigated for their ability to deposit calcium ions into enamel's hydroxyapatite. Thus, this study aimed to evaluate the effects of commercial toothpastes with or without the addition of CaPP submicroparticles after in-office bleaching treatment with 35% HP regarding color (ΔE, ΔE Eighty bovine incisors were randomly divided into eight groups (n = 10): NC (negative control); HP (Whiteness HP 35%-FGM); HP + CT12 (HP + Colgate Total 12); HP + CMP (HP + Colgate Máxima Proteção Anticáries); HP + CPA (HP + Colgate Sensitive Pró-Alívio); HP + SRP (HP + Sensodyne Repair and Protect); HP + CT12 + CaPP (HP + Colgate Total 12 with 1% CaPP); HP + CMP + 1% CaPP (HP + Colgate Máxima Proteção Anticáries with 1% CaPP). All samples were subjected to the mechanical brushing protocol with 825 cycles and kept in artificial saliva with daily exchanges. ΔE, ΔE Color variation (ΔE and ΔE The whitening effectiveness of 35% HP was maintained across the evaluated toothpaste formulations. Colgate Total 12 supplemented with 1% CaPP resulted in higher enamel microhardness than the corresponding formulation without CaPP, whereas no significant differences among the experimental groups were observed for surface roughness.",
+      "tags": [
+        "歯科"
+      ],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42922350/",
+      "summary_jp": "Dental bleaching with 35% hydrogen peroxide (HP) can cause deleterious effects on the mineral content of enamel. In this regard, remineralizing submicroparticles of calcium polyphosphate (CaPP) have been investigated for their ability to deposit calcium ions into enamel's hydroxyapatite. Thus, this study aimed to evaluate the effects of commercial toothpastes with or without the addition of CaPP submicroparticles after in-office bleaching treatment with 35% HP regarding color (ΔE, ΔE Eighty bovine incisors were randomly divided into eight groups (n = 10): NC (negative control); HP (Whiteness HP 35%-FGM); HP + CT12 (HP + Colgate Total 12); HP + CMP (HP + Colgate Máxima Proteção Anticáries); HP + CPA (HP + Colgate Sensitive Pró-Alívio); HP + SRP (HP + Sensodyne Repair and Protect); HP + CT12 + CaPP (HP + Colgate Total 12 with 1% CaPP); HP + CMP + 1% CaPP (HP + Colgate Máxima Proteção Anticáries with 1% CaPP). All samples were subjected to the mechanical brushing protocol with 825 cycles and kept in artificial saliva with daily exchanges. ΔE, ΔE Color variation (ΔE and ΔE The whitening effectiveness of 35% HP was maintained across the evaluated toothpaste formulations. Colgate Total 12 supplemented with 1% CaPP resulted in higher enamel microhardness than the corresponding formulation without CaPP, whereas no significant differences among the experimental groups were observed for surface roughness.",
+      "jp_title": "Incorporation of Calcium Polyphosphate Sub-Microparticles in Commercial Toothpastes and Their Effects on Dental Enamel."
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

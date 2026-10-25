@@ -4542,6 +4542,21 @@ The study successfully synthesized a novel dual-mode probe, Zn(NBD-BPHA)I
 
 --------------------------------------------------
 
+■ 日本語タイトル: Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts.
+■ Original Title: Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts.
+■ 関連タグ: 創傷治癒
+■ 著者: 
+■ 発行年: 2026 (Source: PubMed)
+■ 原著論文リンク(PDF/記事): https://pubmed.ncbi.nlm.nih.gov/42920307/
+
+■ 日本語要約:
+Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, 
+
+■ Original English Abstract:
+Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, 
+
+--------------------------------------------------
+
 ■ 日本語タイトル: Microbial Paradox under Nitrogen Fertilization: Enhanced Soil Phosphorus Mineralization Coupled with Accelerated Stabilization.
 ■ Original Title: Microbial Paradox under Nitrogen Fertilization: Enhanced Soil Phosphorus Mineralization Coupled with Accelerated Stabilization.
 ■ 関連タグ: ホワイトニング
@@ -8966,7 +8981,7 @@ Transarterial radioembolization (TARE) is a highly effective treatment for unres
                     
                       ハロフェラックス火山
                     
-            、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
+           、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。
                     
                       H. ボルカニイ
                     
@@ -9691,6 +9706,35 @@ Phosphorus (P) scarcity is forcing a shift from mineral-based fertilization to a
 
 --------------------------------------------------
 
+■ 日本語タイトル: Platelet-released polyphosphate controls thrombin generation
+■ Original Title: Platelet-released polyphosphate controls thrombin generation
+■ 著者: 
+■ 発行年: 2026 (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13693319
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
+■ 日本語タイトル: Polyphosphate Copper Nanospheres Drive Mitochondrial Metabolic Reprogramming via Calcium Phase Separation for Self‐Sensitizing Cuproptosis
+■ Original Title: Polyphosphate Copper Nanospheres Drive Mitochondrial Metabolic Reprogramming via Calcium Phase Separation for Self‐Sensitizing Cuproptosis
+■ 関連タグ: ミトコンドリア・代謝
+■ 著者: 
+■ 発行年: 2026 (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13690975
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
+
+--------------------------------------------------
+
 ■ 日本語タイトル: ポリリン酸とピオベルジンの合成はゼブラフィッシュ モデルにおける<i>緑膿菌</i> PAO1 の毒性を調節する
 ■ Original Title: Polyphosphate and pyoverdine synthesis modulates  <i>Pseudomonas aeruginosa</i>  PAO1 virulence in a zebrafish model
 ■ 著者: 
@@ -9973,6 +10017,21 @@ Background:  Chitosan-nanoparticles (CS-NPs) offer an effective approach to drug
 
 ■ Original English Abstract:
 <h4>ABSTRACT</h4>  Inorganic polyphosphate (polyP) is an ancient polymer conserved across all life, serving cell type- and location–specific functions in every major compartment. Yet its role at the plasma membrane, where it accumulates to peak levels in many primary cells, is largely unknown. Here we identify polyP as a stabilizing component of filopodia, actin-based membrane protrusions that govern cell adhesion, contact inhibition, and chemotaxis. Elevating cellular polyP increases filopodial stability and enhances cell adhesion, whereas reducing polyP accelerates filopodial disassembly and promotes cell migration. Mechanistically, we find that polyP acts as a structural filopodial scaffold, recruiting and organizing IRSp53, a membrane curvature–inducing protein. We show that metastatic fibroblasts and breast cancer organoids carry markedly reduced and intracellularly reorganized polyP levels relative to their non-transformed counterparts. Restoring endogenous polyP via lipid-nanoparticle delivery suppresses their invasive phenotypes and reverses pro-metastatic gene expression signatures, implicating polyP as a primordial tumor suppressor.
+
+--------------------------------------------------
+
+■ 日本語タイトル: The filopodial scaffold polyphosphate dictates cell adhesion- versus -invasion decisions
+■ Original Title: The filopodial scaffold polyphosphate dictates cell adhesion- versus -invasion decisions
+■ 関連タグ: 再生医療
+■ 著者: 
+■ 発行年: 2026 (Source: PMC)
+■ 原著論文リンク(PDF/記事): https://europepmc.org/article/PMC/PMC13684594
+
+■ 日本語要約:
+(日本語要約なし)
+
+■ Original English Abstract:
+(No abstract available)
 
 --------------------------------------------------
 

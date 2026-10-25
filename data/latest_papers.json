@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24",
+  "generated_at": "2026-10-25",
   "pptx_path": "output/Monthly_Report.pptx",
   "total_pubmed_count": 19092,
   "official_stats": {
@@ -71,6 +71,24 @@
       "year": "2027",
       "link": "https://pubmed.ncbi.nlm.nih.gov/42566973/",
       "category": "MEDICAL, ELITE"
+    },
+    {
+      "id": "42920307",
+      "title": "Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts.",
+      "abstract": "Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, ",
+      "tags": [
+        "創傷治癒"
+      ],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42920307/",
+      "summary_jp": "Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, ",
+      "jp_title": "Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts.",
+      "relevance_score": 50,
+      "is_dental": false,
+      "is_hidden": false,
+      "year": "2026",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42920307/"
     },
     {
       "id": "42918713",
@@ -11467,7 +11485,7 @@
       "date": "2026",
       "source": "Crossref",
       "url": "https://doi.org/10.1111/1462-2920.70340",
-      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n            、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
+      "summary_jp": "要約\n                  \n                    ポリリン酸 (polyP) は、オルトリン酸 (Pi) の無機生体高分子であり、リンの細胞貯蔵庫としての役割を含む、微生物の多くの中心的な生化学プロセスで役割を果たします。微生物によるポリＰの代謝は、キナーゼおよびエキソポリホスファターゼによる細胞内循環に限定されていると考えられている。しかし、古細菌におけるポリPの代謝についてはほとんど知られていません。注目すべきことに、以下を含む多くのハロアーキア\n                    \n                      ハロフェラックス火山\n                    \n           、細菌のポリP合成遺伝子の相同体をコードするが、その異化作用に対応する遺伝子を欠いている。本研究では、それを示します。\n                    \n                      H. ボルカニイ\n                    \n                    は、現在知られている酵素とは異なる特徴を持つ新規ポリP分解酵素を持っている。このアクティビティも有効になりました\n                    \n                      H. ボルカニイ\n                    \n                    リンの唯一の供給源として外因性ポリP上で増殖します。ネイティブ PAGE ザイモグラフィーと、polyP 上で増殖させた細胞からの無細胞抽出物の酵素アッセイにより、活性は個別のタンパク質バンドに局在化した。酵素は好塩性であり、Mn を必要とすることが明らかにした。\n                    2+\n                    またはCo\n                    2+\n                    そしてPolyPからPiを解放した。ポリＰ上で増殖させた細胞の細胞外培地では活性が観察されず、この酵素が膜結合性または細胞内に存在することが示唆された。したがって、これらの発見は、リンの生物地球化学的循環におけるポリPの潜在的な生態学的役割についての我々の理解を広げ、古細菌ポリP代謝に関与する酵素と経路についての我々の理解を広げるものである。",
       "jp_title": "新規ポリリン酸分解酵素が古細菌の外因性ポリリン酸の増殖をもたらす\n                    <i>ハロフェラクス火山</i>",
       "relevance_score": 20,
       "is_dental": false,
@@ -12309,6 +12327,39 @@
       "category": "MEDICAL, ELITE"
     },
     {
+      "id": "PMC13693319",
+      "title": "Platelet-released polyphosphate controls thrombin generation",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13693319",
+      "summary_jp": "",
+      "jp_title": "Platelet-released polyphosphate controls thrombin generation",
+      "relevance_score": 20,
+      "is_dental": false,
+      "is_hidden": false,
+      "year": "2026"
+    },
+    {
+      "id": "PMC13690975",
+      "title": "Polyphosphate Copper Nanospheres Drive Mitochondrial Metabolic Reprogramming via Calcium Phase Separation for Self‐Sensitizing Cuproptosis",
+      "abstract": "",
+      "tags": [
+        "ミトコンドリア・代謝"
+      ],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13690975",
+      "summary_jp": "",
+      "jp_title": "Polyphosphate Copper Nanospheres Drive Mitochondrial Metabolic Reprogramming via Calcium Phase Separation for Self‐Sensitizing Cuproptosis",
+      "relevance_score": 20,
+      "is_dental": false,
+      "is_hidden": false,
+      "year": "2026",
+      "category": "MEDICAL"
+    },
+    {
       "id": "10.64898/2026.03.19.712776",
       "title": "Polyphosphate and pyoverdine synthesis modulates  <i>Pseudomonas aeruginosa</i>  PAO1 virulence in a zebrafish model",
       "abstract": "Understanding how bacterial metabolism shapes virulence requires infection models that are both biologically informative and experimentally accessible. Here, we used zebrafish (  Danio rerio ) larvae infection by static immersion as a simple and robust vertebrate model to study  Pseudomonas aeruginosa host-pathogen interactions and virulence regulation. Using this approach, we show that disruption of polyphosphate (polyP) synthesis by loss of  ppk1 gene (τ1  ppk1 ) leads to marked attenuation of virulence, whereas interrupting  ppk2 gene (τ1  ppk2 ) results in a hypervirulent phenotype. Phenotypic assays and quantitative proteomics revealed that loss of polyP selectively impairs pyoverdine production, with minimal effects on other canonical virulence factors. Consistently, a pyoverdine-deficient mutant (τ1  pvd F) exhibited reduced virulence in zebrafish, validating the capacity of the zebrafish model to functionally resolve key virulence factors. Together, our results highlight polyphosphate metabolism as a central regulator of  P. aeruginosa virulence and position zebrafish immersion assays as an efficient and ethically aligned alternative to mammalian models for studying bacterial pathogenesis.",
@@ -12635,6 +12686,24 @@
       "date": "2026",
       "source": "PPR",
       "url": "https://doi.org/10.64898/2026.09.01.747915",
+      "relevance_score": 20,
+      "is_dental": false,
+      "is_hidden": false,
+      "year": "2026",
+      "category": "MEDICAL, ELITE"
+    },
+    {
+      "id": "PMC13684594",
+      "title": "The filopodial scaffold polyphosphate dictates cell adhesion- versus -invasion decisions",
+      "abstract": "",
+      "tags": [
+        "再生医療"
+      ],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13684594",
+      "summary_jp": "",
+      "jp_title": "The filopodial scaffold polyphosphate dictates cell adhesion- versus -invasion decisions",
       "relevance_score": 20,
       "is_dental": false,
       "is_hidden": false,
@@ -396023,20 +396092,9 @@
       "is_hidden": false,
       "relevance_score": 0,
       "is_dental": false
-    },
-    {
-      "id": "42920307",
-      "title": "Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts.",
-      "abstract": "Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, ",
-      "tags": [],
-      "date": "2026",
-      "source": "PubMed",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42920307/",
-      "summary_jp": "Public mucosal transcriptomic datasets provide an opportunity to examine whether experimental epithelial barrier biology is reflected in human inflammatory bowel disease (IBD) endpoints. We constructed a prespecified barrier-injury transcriptomic score from an inositol polyphosphate multikinase-histone deacetylase 3-matrix metalloproteinase (MMP) barrier-biology gene set and epithelial junctional genes, then evaluated it across 10 public IBD mucosal transcriptomic cohorts (2172 scored biopsies) and an independent prospective adult cohort (GSE193677; 1162 participants). Adult cohorts were analyzed for mucosal healing, clinical remission, or treatment response; pediatric and early onset cohorts were analyzed separately. In UNIFI (GSE206285), a higher baseline score was inversely associated with week 8 mucosal healing (odds ratio [OR]: 0.56, 95% confidence interval [CI]: 0.45-0.71, ",
-      "jp_title": "Epithelial Barrier-Injury Transcriptomic Stratification Across Human IBD Mucosal Cohorts."
     }
   ],
-  "last_accuracy_boost": "2026-10-24 05:09:04",
+  "last_accuracy_boost": "2026-10-25 05:10:33",
   "guardian_status": "INTELLIGENCE_LEVEL_PHD",
-  "last_cleansed": "2026-10-24T05:09:05.517157"
+  "last_cleansed": "2026-10-25T05:10:35.017283"
 }

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-25",
+  "generated_at": "2026-10-26",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19094,
+  "total_pubmed_count": 19097,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396116,6 +396116,39 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42922350/",
       "summary_jp": "Dental bleaching with 35% hydrogen peroxide (HP) can cause deleterious effects on the mineral content of enamel. In this regard, remineralizing submicroparticles of calcium polyphosphate (CaPP) have been investigated for their ability to deposit calcium ions into enamel's hydroxyapatite. Thus, this study aimed to evaluate the effects of commercial toothpastes with or without the addition of CaPP submicroparticles after in-office bleaching treatment with 35% HP regarding color (ΔE, ΔE Eighty bovine incisors were randomly divided into eight groups (n = 10): NC (negative control); HP (Whiteness HP 35%-FGM); HP + CT12 (HP + Colgate Total 12); HP + CMP (HP + Colgate Máxima Proteção Anticáries); HP + CPA (HP + Colgate Sensitive Pró-Alívio); HP + SRP (HP + Sensodyne Repair and Protect); HP + CT12 + CaPP (HP + Colgate Total 12 with 1% CaPP); HP + CMP + 1% CaPP (HP + Colgate Máxima Proteção Anticáries with 1% CaPP). All samples were subjected to the mechanical brushing protocol with 825 cycles and kept in artificial saliva with daily exchanges. ΔE, ΔE Color variation (ΔE and ΔE The whitening effectiveness of 35% HP was maintained across the evaluated toothpaste formulations. Colgate Total 12 supplemented with 1% CaPP resulted in higher enamel microhardness than the corresponding formulation without CaPP, whereas no significant differences among the experimental groups were observed for surface roughness.",
       "jp_title": "Incorporation of Calcium Polyphosphate Sub-Microparticles in Commercial Toothpastes and Their Effects on Dental Enamel."
+    },
+    {
+      "id": "42929908",
+      "title": "Ambient-Dried Cellulose Nanofibril/H",
+      "abstract": "Efficient seawater lithium harvesting requires adsorbents combining high selectivity with scalable, low-energy fabrication. Although H",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42929908/",
+      "summary_jp": "Efficient seawater lithium harvesting requires adsorbents combining high selectivity with scalable, low-energy fabrication. Although H",
+      "jp_title": "Ambient-Dried Cellulose Nanofibril/H"
+    },
+    {
+      "id": "42929629",
+      "title": "Lighting Up upon Phosphate Binding: Supramolecular Assembly of Ir(III) Complexes for Luminescent Sensing and Molecular Logic Gate.",
+      "abstract": "Inorganic phosphates and polyphosphates are vital to biological function, and their dysregulation is linked to metabolic and renal disorders, driving the need for selective, sensitive, and reversible luminescent probes for their detection. Here, we report three bis-heteroleptic Ir(III) complexes (IC1-IC3) bearing imidazole-functionalized ancillary ligands that show selective \"switch-on\" emission toward phosphate (H2PO4-) and pyrophosphate (HP2O73-) over competing anions, driven by C-H···O hydrogen bonding between imidazole donors and phosphate oxygens. Variable-temperature studies (80-300 K) reveal long-lived phosphorescence (τ = 1.4 μs at 80 K) governed by restricted intramolecular motion and a large singlet-triplet gap. Emission analysis shows mixed 3MLCT character for IC1/IC2, while nitro-substituted IC3 displays combined 3MLCT/3LLCT character. The interaction of IC1 with H2PO4- gives a 1:2 binding stoichiometry (K = 8.0 × 105 M-1) and detection limits of 35.4 nM and 16.3 nM for H2PO4- and HP2O73-, respectively. NMR and DLS studies indicate that phosphate binding triggers hydrogen-bond-mediated supramolecular aggregation, rigidifying the excited state and enhancing emission, while Zn2+ reversibly quenches this response, enabling switch-on/switch-off behavior applicable to molecular logic gate. Phosphate binding extends IC1's excited-state lifetime from 91.68 to 357.66 ns. These Ir(III) complexes thus emerge as a tunable platform for selective, reversible phosphate sensing.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42929629/",
+      "summary_jp": "Inorganic phosphates and polyphosphates are vital to biological function, and their dysregulation is linked to metabolic and renal disorders, driving the need for selective, sensitive, and reversible luminescent probes for their detection. Here, we report three bis-heteroleptic Ir(III) complexes (IC1-IC3) bearing imidazole-functionalized ancillary ligands that show selective \"switch-on\" emission toward phosphate (H2PO4-) and pyrophosphate (HP2O73-) over competing anions, driven by C-H···O hydrogen bonding between imidazole donors and phosphate oxygens. Variable-temperature studies (80-300 K) reveal long-lived phosphorescence (τ = 1.4 μs at 80 K) governed by restricted intramolecular motion and a large singlet-triplet gap. Emission analysis shows mixed 3MLCT character for IC1/IC2, while nitro-substituted IC3 displays combined 3MLCT/3LLCT character. The interaction of IC1 with H2PO4- gives a 1:2 binding stoichiometry (K = 8.0 × 105 M-1) and detection limits of 35.4 nM and 16.3 nM for H2PO4- and HP2O73-, respectively. NMR and DLS studies indicate that phosphate binding triggers hydrogen-bond-mediated supramolecular aggregation, rigidifying the excited state and enhancing emission, while Zn2+ reversibly quenches this response, enabling switch-on/switch-off behavior applicable to molecular logic gate. Phosphate binding extends IC1's excited-state lifetime from 91.68 to 357.66 ns. These Ir(III) complexes thus emerge as a tunable platform for selective, reversible phosphate sensing.",
+      "jp_title": "Lighting Up upon Phosphate Binding: Supramolecular Assembly of Ir(III) Complexes for Luminescent Sensing and Molecular Logic Gate."
+    },
+    {
+      "id": "42927507",
+      "title": "Reduced-dose alternate-day oral iron supplementation in women with iron deficiency: a randomized controlled trial.",
+      "abstract": "Oral iron supplementation is frequently limited by gastrointestinal side effects and reduced absorption associated with hepcidin-mediated regulation. This randomized, parallel-group, active-controlled study evaluated whether a reduced-dose alternate-day oral iron supplementation strategy could improve iron status in women with iron deficiency. Sixty-six iron-deficient women of reproductive age (18-50 years; serum ferritin < 30 ng/mL) were randomized to receive, for 42 days, either micronized, dispersible ferric pyrophosphate providing 21 mg of elemental iron every 48 h combined with a daily gut microbiota modulator, or sucrosomial ferric pyrophosphate providing 30 mg of elemental iron per day. The primary endpoint was serum ferritin, while secondary endpoints included serum iron, transferrin, transferrin saturation (TSAT), total iron-binding capacity (TIBC), hemoglobin, and red blood cell count. Serum ferritin increased significantly over time in both groups (p < 0.001), with no significant differences between treatments. Comparable improvements were observed for serum iron, transferrin, TSAT, and TIBC, while hemoglobin remained stable throughout the study. Both interventions were generally well tolerated, with only mild transient gastrointestinal adverse events and no clinically relevant changes in inflammatory markers. A reduced-dose alternate-day oral iron supplementation strategy achieved improvements in iron status comparable to standard daily supplementation despite lower cumulative iron exposure. These findings support the potential clinical relevance of physiologically informed low-dose iron supplementation strategies in women with iron deficiency.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42927507/",
+      "summary_jp": "Oral iron supplementation is frequently limited by gastrointestinal side effects and reduced absorption associated with hepcidin-mediated regulation. This randomized, parallel-group, active-controlled study evaluated whether a reduced-dose alternate-day oral iron supplementation strategy could improve iron status in women with iron deficiency. Sixty-six iron-deficient women of reproductive age (18-50 years; serum ferritin < 30 ng/mL) were randomized to receive, for 42 days, either micronized, dispersible ferric pyrophosphate providing 21 mg of elemental iron every 48 h combined with a daily gut microbiota modulator, or sucrosomial ferric pyrophosphate providing 30 mg of elemental iron per day. The primary endpoint was serum ferritin, while secondary endpoints included serum iron, transferrin, transferrin saturation (TSAT), total iron-binding capacity (TIBC), hemoglobin, and red blood cell count. Serum ferritin increased significantly over time in both groups (p < 0.001), with no significant differences between treatments. Comparable improvements were observed for serum iron, transferrin, TSAT, and TIBC, while hemoglobin remained stable throughout the study. Both interventions were generally well tolerated, with only mild transient gastrointestinal adverse events and no clinically relevant changes in inflammatory markers. A reduced-dose alternate-day oral iron supplementation strategy achieved improvements in iron status comparable to standard daily supplementation despite lower cumulative iron exposure. These findings support the potential clinical relevance of physiologically informed low-dose iron supplementation strategies in women with iron deficiency.",
+      "jp_title": "Reduced-dose alternate-day oral iron supplementation in women with iron deficiency: a randomized controlled trial."
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

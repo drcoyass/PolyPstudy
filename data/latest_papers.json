@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-26",
+  "generated_at": "2026-10-27",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19097,
+  "total_pubmed_count": 19103,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396149,6 +396149,138 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42927507/",
       "summary_jp": "Oral iron supplementation is frequently limited by gastrointestinal side effects and reduced absorption associated with hepcidin-mediated regulation. This randomized, parallel-group, active-controlled study evaluated whether a reduced-dose alternate-day oral iron supplementation strategy could improve iron status in women with iron deficiency. Sixty-six iron-deficient women of reproductive age (18-50 years; serum ferritin < 30 ng/mL) were randomized to receive, for 42 days, either micronized, dispersible ferric pyrophosphate providing 21 mg of elemental iron every 48 h combined with a daily gut microbiota modulator, or sucrosomial ferric pyrophosphate providing 30 mg of elemental iron per day. The primary endpoint was serum ferritin, while secondary endpoints included serum iron, transferrin, transferrin saturation (TSAT), total iron-binding capacity (TIBC), hemoglobin, and red blood cell count. Serum ferritin increased significantly over time in both groups (p < 0.001), with no significant differences between treatments. Comparable improvements were observed for serum iron, transferrin, TSAT, and TIBC, while hemoglobin remained stable throughout the study. Both interventions were generally well tolerated, with only mild transient gastrointestinal adverse events and no clinically relevant changes in inflammatory markers. A reduced-dose alternate-day oral iron supplementation strategy achieved improvements in iron status comparable to standard daily supplementation despite lower cumulative iron exposure. These findings support the potential clinical relevance of physiologically informed low-dose iron supplementation strategies in women with iron deficiency.",
       "jp_title": "Reduced-dose alternate-day oral iron supplementation in women with iron deficiency: a randomized controlled trial."
+    },
+    {
+      "id": "42943734",
+      "title": "Polyphosphate-Functionalized PGMA-Grafted Mesoporous Silica Nanoparticles for Selective U(VI) Removal from Aqueous Solutions.",
+      "abstract": "Uranium(VI) contamination in aquatic environments poses significant environmental and public health concerns, creating a need for efficient and selective adsorbents. In this study, polyphosphate-functionalized poly(glycidyl methacrylate)-grafted mesoporous silica nanoparticles (PP-PGMA/MSNs) were successfully synthesized and evaluated for U(VI) removal from aqueous solutions. A key novelty of this work lies in the incorporation of phosphate-rich functionalities onto PGMA-grafted MSNs prepared via ATRP, together with the systematic investigation of their effects on U(VI) adsorption equilibrium and selectivity in multi-metal systems. Fourier-transform infrared spectroscopy (FTIR), Brunauer-Emmett-Teller (BET), scanning electron microscopy (SEM) and thermogravimetric analysis (TGA) confirmed the successful incorporation of phosphate-containing functional groups onto the MSN surface. The adsorbent exhibited rapid adsorption, reaching equilibrium within 120 min, with optimum performance observed at pH 4-6. A maximum U(VI) removal efficiency of 73.81% was achieved at an initial concentration of 10 mg L",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42943734/",
+      "summary_jp": "Uranium(VI) contamination in aquatic environments poses significant environmental and public health concerns, creating a need for efficient and selective adsorbents. In this study, polyphosphate-functionalized poly(glycidyl methacrylate)-grafted mesoporous silica nanoparticles (PP-PGMA/MSNs) were successfully synthesized and evaluated for U(VI) removal from aqueous solutions. A key novelty of this work lies in the incorporation of phosphate-rich functionalities onto PGMA-grafted MSNs prepared via ATRP, together with the systematic investigation of their effects on U(VI) adsorption equilibrium and selectivity in multi-metal systems. Fourier-transform infrared spectroscopy (FTIR), Brunauer-Emmett-Teller (BET), scanning electron microscopy (SEM) and thermogravimetric analysis (TGA) confirmed the successful incorporation of phosphate-containing functional groups onto the MSN surface. The adsorbent exhibited rapid adsorption, reaching equilibrium within 120 min, with optimum performance observed at pH 4-6. A maximum U(VI) removal efficiency of 73.81% was achieved at an initial concentration of 10 mg L",
+      "jp_title": "Polyphosphate-Functionalized PGMA-Grafted Mesoporous Silica Nanoparticles for Selective U(VI) Removal from Aqueous Solutions."
+    },
+    {
+      "id": "42943051",
+      "title": "Chemical and Biological Mobilization of Soil Phosphorus by ",
+      "abstract": "Phosphorus (P) availability in alkaline soils is constrained by the immobilization of legacy P, particularly through calcium phosphate precipitation. We used a confined soil-plant microcosm to examine how expression of the polyphosphate kinase gene (",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42943051/",
+      "summary_jp": "Phosphorus (P) availability in alkaline soils is constrained by the immobilization of legacy P, particularly through calcium phosphate precipitation. We used a confined soil-plant microcosm to examine how expression of the polyphosphate kinase gene (",
+      "jp_title": "Chemical and Biological Mobilization of Soil Phosphorus by "
+    },
+    {
+      "id": "42942687",
+      "title": "Sustainable Hybrid Flame-Retardant Architectures for LDPE: Effects of Waste-Derived Cellulose, SiO",
+      "abstract": "This study evaluates the flame retardant efficiency of hybrid systems based on natural cellulose extracted from agricultural wastes (pecan nutshell and guayule), combined with azodicarbonamide (ADA), porous silicon dioxide (SiO",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42942687/",
+      "summary_jp": "This study evaluates the flame retardant efficiency of hybrid systems based on natural cellulose extracted from agricultural wastes (pecan nutshell and guayule), combined with azodicarbonamide (ADA), porous silicon dioxide (SiO",
+      "jp_title": "Sustainable Hybrid Flame-Retardant Architectures for LDPE: Effects of Waste-Derived Cellulose, SiO"
+    },
+    {
+      "id": "42936124",
+      "title": "A modular in vitro multienzyme cascade for the sustainable synthesis of high-value vidarabine 5'-monophosphate from adenosine.",
+      "abstract": "Nucleoside analogues such as vidarabine (Ara-A) are vital therapeutics but are often limited by poor pharmacokinetics. Its phosphorylated form, vidarabine 5'-monophosphate (Ara-AMP), offers improved solubility and is used as a clinical alternative, although it can be dephosphorylated to Ara-A in vivo. Here, we report a modular multienzyme cascade for the sustainable synthesis of Ara-AMP directly from adenosine. The cascade integrates three functional modules: a core module (PNP, PPM, and RpiA) for the conversion of adenosine to Ara-A, a driver module (dNKδ20) for the selective phosphorylation of Ara-A to Ara-AMP, and a support module (PPK) for ATP regeneration from low-cost ADP and polyphosphate. The use of dNKδ20, a mutant deoxyribonucleoside kinase with high selectivity for Ara-A over adenosine, is critical for minimizing the formation of AMP byproduct, which would otherwise complicate downstream processing. Under optimized conditions, the cascade achieved an 80.2% conversion of 1 mM adenosine to Ara-AMP in 4 h using 0.05 mM ADP. The modular design was also applicable to guanosine and inosine, affording the corresponding arabinosyl nucleotides, albeit with lower yields. This work establishes a sustainable biocatalytic platform for nucleoside analogues, exemplifying how enzyme promiscuity, thermodynamic driving, and cofactor recycling enable green pharmaceutical manufacturing.",
+      "tags": [],
+      "date": "2027",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42936124/",
+      "summary_jp": "Nucleoside analogues such as vidarabine (Ara-A) are vital therapeutics but are often limited by poor pharmacokinetics. Its phosphorylated form, vidarabine 5'-monophosphate (Ara-AMP), offers improved solubility and is used as a clinical alternative, although it can be dephosphorylated to Ara-A in vivo. Here, we report a modular multienzyme cascade for the sustainable synthesis of Ara-AMP directly from adenosine. The cascade integrates three functional modules: a core module (PNP, PPM, and RpiA) for the conversion of adenosine to Ara-A, a driver module (dNKδ20) for the selective phosphorylation of Ara-A to Ara-AMP, and a support module (PPK) for ATP regeneration from low-cost ADP and polyphosphate. The use of dNKδ20, a mutant deoxyribonucleoside kinase with high selectivity for Ara-A over adenosine, is critical for minimizing the formation of AMP byproduct, which would otherwise complicate downstream processing. Under optimized conditions, the cascade achieved an 80.2% conversion of 1 mM adenosine to Ara-AMP in 4 h using 0.05 mM ADP. The modular design was also applicable to guanosine and inosine, affording the corresponding arabinosyl nucleotides, albeit with lower yields. This work establishes a sustainable biocatalytic platform for nucleoside analogues, exemplifying how enzyme promiscuity, thermodynamic driving, and cofactor recycling enable green pharmaceutical manufacturing.",
+      "jp_title": "A modular in vitro multienzyme cascade for the sustainable synthesis of high-value vidarabine 5'-monophosphate from adenosine."
+    },
+    {
+      "id": "42935083",
+      "title": "Fragment-Linked Purine Derivatives as Inhibitors of (p)ppGpp Synthetases: Design, Synthesis, and Structure-Activity Relationships.",
+      "abstract": "The bacterial stringent response, mediated by the alarmone nucleotides (p)ppGpp, plays a central role in persistence of infections, stress adaptation, and antimicrobial tolerance, making (p)ppGpp synthetases attractive targets for novel antibacterial strategies/therapies. In this study, we report the design, synthesis, and biological evaluation of fragment-linked nucleobase derivatives targeting the RelA/SpoT homolog (RSH) enzymes. Guided by structural insights into adenine and guanine binding within small alarmone synthetase (SAS2/RelP), a series of purine-based compounds was developed to simultaneously occupy conserved nucleotide-binding regions. Initial linker-bridged analogues showed limited activity, primarily due to poor solubility, prompting the introduction of ribose-containing derivatives to improve physicochemical properties. Biochemical evaluation using HPLC-based assays revealed selective inhibition of Staphylococcus aureus SAS1, with the most potent compound displaying micromolar activity (IC",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42935083/",
+      "summary_jp": "The bacterial stringent response, mediated by the alarmone nucleotides (p)ppGpp, plays a central role in persistence of infections, stress adaptation, and antimicrobial tolerance, making (p)ppGpp synthetases attractive targets for novel antibacterial strategies/therapies. In this study, we report the design, synthesis, and biological evaluation of fragment-linked nucleobase derivatives targeting the RelA/SpoT homolog (RSH) enzymes. Guided by structural insights into adenine and guanine binding within small alarmone synthetase (SAS2/RelP), a series of purine-based compounds was developed to simultaneously occupy conserved nucleotide-binding regions. Initial linker-bridged analogues showed limited activity, primarily due to poor solubility, prompting the introduction of ribose-containing derivatives to improve physicochemical properties. Biochemical evaluation using HPLC-based assays revealed selective inhibition of Staphylococcus aureus SAS1, with the most potent compound displaying micromolar activity (IC",
+      "jp_title": "Fragment-Linked Purine Derivatives as Inhibitors of (p)ppGpp Synthetases: Design, Synthesis, and Structure-Activity Relationships."
+    },
+    {
+      "id": "42933572",
+      "title": "Inositol hexakisphosphate kinase 1 regulates polyphosphate synthesis by maintaining V-ATPase-dependent secretory granule acidification.",
+      "abstract": "Polyphosphate (polyP), a linear polymer of orthophosphate residues, is enriched in secretory granules in specialised mammalian cell types including platelets and mast cells. Although polyP released during activation and degranulation of these cells has been shown to promote blood clotting and inflammation, little is known about the mechanisms governing polyP synthesis in these granules. In mice, the loss of IP6K1, an enzyme that catalyses the production of 5-InsP",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42933572/",
+      "summary_jp": "Polyphosphate (polyP), a linear polymer of orthophosphate residues, is enriched in secretory granules in specialised mammalian cell types including platelets and mast cells. Although polyP released during activation and degranulation of these cells has been shown to promote blood clotting and inflammation, little is known about the mechanisms governing polyP synthesis in these granules. In mice, the loss of IP6K1, an enzyme that catalyses the production of 5-InsP",
+      "jp_title": "Inositol hexakisphosphate kinase 1 regulates polyphosphate synthesis by maintaining V-ATPase-dependent secretory granule acidification."
+    },
+    {
+      "id": "PMC13708837",
+      "title": "Sustainable Hybrid Flame-Retardant Architectures for LDPE: Effects of Waste-Derived Cellulose, SiO2, and APP/ADA",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13708837",
+      "summary_jp": "",
+      "jp_title": "Sustainable Hybrid Flame-Retardant Architectures for LDPE: Effects of Waste-Derived Cellulose, SiO2, and APP/ADA"
+    },
+    {
+      "id": "PMC13706055",
+      "title": "Effects of Arbuscular Mycorrhizal Fungi and Clay Minerals on Soil Nitrogen and Phosphorus Availability and Microbial Community Responses",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13706055",
+      "summary_jp": "",
+      "jp_title": "Effects of Arbuscular Mycorrhizal Fungi and Clay Minerals on Soil Nitrogen and Phosphorus Availability and Microbial Community Responses"
+    },
+    {
+      "id": "PMC13697939",
+      "title": "Chemo-Enzymatic Synthesis of Purine 3′-O-Amino-Deoxyribonucleoside Triphosphates",
+      "abstract": "",
+      "tags": [],
+      "date": "Unknown",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13697939",
+      "summary_jp": "",
+      "jp_title": "Chemo-Enzymatic Synthesis of Purine 3′-O-Amino-Deoxyribonucleoside Triphosphates"
+    },
+    {
+      "id": "PMC13709123",
+      "title": "Chemical and Biological Mobilization of Soil Phosphorus by ppk-Expressing Transgenic Rice (Oryza sativa L.)",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13709123",
+      "summary_jp": "",
+      "jp_title": "Chemical and Biological Mobilization of Soil Phosphorus by ppk-Expressing Transgenic Rice (Oryza sativa L.)"
+    },
+    {
+      "id": "PMC13708865",
+      "title": "Soybean Growth Promotion by the Euryhaline Marine Bacterium Cobetia amphilecti KMM 296 Is Associated with Hormonal and Transcriptional Responses",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13708865",
+      "summary_jp": "",
+      "jp_title": "Soybean Growth Promotion by the Euryhaline Marine Bacterium Cobetia amphilecti KMM 296 Is Associated with Hormonal and Transcriptional Responses"
+    },
+    {
+      "id": "10.64898/2026.10.25.761654",
+      "title": "A structural screen for candidate polyphosphate binding surfaces in human membrane associated proteins",
+      "abstract": "Inorganic polyphosphate (polyP) can alter protein function through noncovalent binding, yet its partners among human membrane associated proteins remain poorly characterized. PolyP is recognized through two modes: a structure-based mode driven by charge complementarity with sites assembled by protein folding, and a more recently defined sequence-based mode at histidine and lysine rich tracts. The sequence determinant is well defined and directly searchable; the structure-based mode has few characterized examples and no systematic search method, because its residues leave no contiguous sequence signature. Broad experimental binding screens are especially demanding for integral membrane proteins, which require specialized conditions. We therefore developed a computational workflow that searches predicted structures for surfaces able to accommodate a phosphate chain. We designed custom scores that integrate surface electrostatics, docking results and structural confidence to prioritize candidates. From 19,481 completed docking searches on 5,648 AlphaFold models representing 2,925 UniProt protein entries, we nominated 82 entries as candidates for noncovalent polyP binding. Predicted polyP contacts in 18 candidate entries overlapped experimentally characterized functional residues, linking the predicted interfaces to established sites of ligand recognition, regulation and membrane attachment. The workflow ranks computational results rather than measuring binding, providing specific targets for experimental investigation.",
+      "tags": [],
+      "date": "Unknown",
+      "source": "Crossref",
+      "url": "https://doi.org/10.64898/2026.10.25.761654",
+      "summary_jp": "Inorganic polyphosphate (polyP) can alter protein function through noncovalent binding, yet its partners among human membrane associated proteins remain poorly characterized. PolyP is recognized through two modes: a structure-based mode driven by charge complementarity with sites assembled by protein folding, and a more recently defined sequence-based mode at histidine and lysine rich tracts. The sequence determinant is well defined and directly searchable; the structure-based mode has few characterized examples and no systematic search method, because its residues leave no contiguous sequence signature. Broad experimental binding screens are especially demanding for integral membrane proteins, which require specialized conditions. We therefore developed a computational workflow that searches predicted structures for surfaces able to accommodate a phosphate chain. We designed custom scores that integrate surface electrostatics, docking results and structural confidence to prioritize candidates. From 19,481 completed docking searches on 5,648 AlphaFold models representing 2,925 UniProt protein entries, we nominated 82 entries as candidates for noncovalent polyP binding. Predicted polyP contacts in 18 candidate entries overlapped experimentally characterized functional residues, linking the predicted interfaces to established sites of ligand recognition, regulation and membrane attachment. The workflow ranks computational results rather than measuring binding, providing specific targets for experimental investigation.",
+      "jp_title": "A structural screen for candidate polyphosphate binding surfaces in human membrane associated proteins"
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

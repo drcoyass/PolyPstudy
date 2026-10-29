@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-28",
+  "generated_at": "2026-10-29",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19106,
+  "total_pubmed_count": 19107,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396325,6 +396325,17 @@
       "url": "https://doi.org/10.1002/app.10008.abs",
       "summary_jp": "",
       "jp_title": "Hydrolytic degradation and diffusion studies on a polyphosphate ester"
+    },
+    {
+      "id": "42951153",
+      "title": "Biochar-immobilised phosphate-solubilising bacteria enhance soil available phosphorus by affecting phosphorus fraction transformation and phosphorus-acquiring microbiota.",
+      "abstract": "Phosphate-solubilising bacteria (PSB) play an important role in phosphorus (P) transformation and plant P uptake. However, their effectiveness is often limited by environmental instability and soil poor survival. Biochar has been proposed as a suitable carrier for microbial immobilisation; however, the effects of biochar-immobilised PSB on soil P fractions and the microbial mechanisms underlying P transformation remain unclear. In this study, we developed a biochar-immobilised PSB using Klebsiella sp. N107 and assessed its effects on soil P availability, P fraction transformation, and microbial processes regulating P cycling. A pot experiment was conducted: no fertilisation, conventional fertilisation (NPK), NPK + pristine biochar (NPKB), NPK + PSB (NPKP), and NPK + biochar-immobilised PSB (NPKBP). Soil properties, P fractions, organic acids, enzyme activities, and metagenomic characteristics were analysed. Compared with NPKB and NPKP, NPKBP enhanced plant P uptake and soil available P. It also increased labile P fractions, organic acid concentrations, and the activities of P acquiring enzymes. Genes associated with P transport (pit, ugpB, ugpQ, and ugpE), polyphosphate degradation (ppk1 and ppk2), organic P mineralisation (phoA and phoD), and inorganic P solubilisation (gcd, ppa, and ppx) were upregulated. P acquiring taxa, including Sphingomonas, Gaiella, and Bradyrhizobium, were enriched and contributed functionally to P cycling. Overall, biochar-immobilised PSB improved soil P availability by promoting P fraction transformation and restructuring microbial communities involved in P cycling. Soil pH, organic acids, and available nitrogen were identified as key drivers of these processes, highlighting the potential of biochar-immobilised PSB to improve soil P utilisation and management.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42951153/",
+      "summary_jp": "Phosphate-solubilising bacteria (PSB) play an important role in phosphorus (P) transformation and plant P uptake. However, their effectiveness is often limited by environmental instability and soil poor survival. Biochar has been proposed as a suitable carrier for microbial immobilisation; however, the effects of biochar-immobilised PSB on soil P fractions and the microbial mechanisms underlying P transformation remain unclear. In this study, we developed a biochar-immobilised PSB using Klebsiella sp. N107 and assessed its effects on soil P availability, P fraction transformation, and microbial processes regulating P cycling. A pot experiment was conducted: no fertilisation, conventional fertilisation (NPK), NPK + pristine biochar (NPKB), NPK + PSB (NPKP), and NPK + biochar-immobilised PSB (NPKBP). Soil properties, P fractions, organic acids, enzyme activities, and metagenomic characteristics were analysed. Compared with NPKB and NPKP, NPKBP enhanced plant P uptake and soil available P. It also increased labile P fractions, organic acid concentrations, and the activities of P acquiring enzymes. Genes associated with P transport (pit, ugpB, ugpQ, and ugpE), polyphosphate degradation (ppk1 and ppk2), organic P mineralisation (phoA and phoD), and inorganic P solubilisation (gcd, ppa, and ppx) were upregulated. P acquiring taxa, including Sphingomonas, Gaiella, and Bradyrhizobium, were enriched and contributed functionally to P cycling. Overall, biochar-immobilised PSB improved soil P availability by promoting P fraction transformation and restructuring microbial communities involved in P cycling. Soil pH, organic acids, and available nitrogen were identified as key drivers of these processes, highlighting the potential of biochar-immobilised PSB to improve soil P utilisation and management.",
+      "jp_title": "Biochar-immobilised phosphate-solubilising bacteria enhance soil available phosphorus by affecting phosphorus fraction transformation and phosphorus-acquiring microbiota."
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

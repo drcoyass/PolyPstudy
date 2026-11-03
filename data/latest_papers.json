@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-01",
+  "generated_at": "2026-11-03",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19110,
+  "total_pubmed_count": 19111,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396380,6 +396380,39 @@
       "url": "https://europepmc.org/article/PMC/PMC13717879",
       "summary_jp": "",
       "jp_title": "Sugar 1.0 to 4.0: From conventional sugar production to precision biomanufacturing of healthy sugars"
+    },
+    {
+      "id": "42967961",
+      "title": "Key factors for growth and phosphate uptake by Acinetobacter tjernbergiae.",
+      "abstract": "Phosphorus-containing fertilisers are essential for global food production but depend on finite phosphate rock reserves. Recovery of phosphorus from waste streams, such as those in wastewater treatment plants, will be required to follow future regulations. Certain Acinetobacter spp. can accumulate 24-30% (w w",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967961/",
+      "summary_jp": "Phosphorus-containing fertilisers are essential for global food production but depend on finite phosphate rock reserves. Recovery of phosphorus from waste streams, such as those in wastewater treatment plants, will be required to follow future regulations. Certain Acinetobacter spp. can accumulate 24-30% (w w",
+      "jp_title": "Key factors for growth and phosphate uptake by Acinetobacter tjernbergiae."
+    },
+    {
+      "id": "10.46427/gold2026.36224",
+      "title": "Can Polyphosphate Metabolism be Responsible for the Co-appearance of Cyanobacteria and Heterotrophic Bacteria?",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "Crossref",
+      "url": "https://doi.org/10.46427/gold2026.36224",
+      "summary_jp": "",
+      "jp_title": "Can Polyphosphate Metabolism be Responsible for the Co-appearance of Cyanobacteria and Heterotrophic Bacteria?"
+    },
+    {
+      "id": "10.46427/gold2026.36062",
+      "title": "Polyphosphate dynamics across trophic modes in\n                    <i>Chlamydomonas reinhardtii</i>",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "Crossref",
+      "url": "https://doi.org/10.46427/gold2026.36062",
+      "summary_jp": "",
+      "jp_title": "Polyphosphate dynamics across trophic modes in\n                    <i>Chlamydomonas reinhardtii</i>"
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

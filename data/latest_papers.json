@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-05",
+  "generated_at": "2026-11-06",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19116,
+  "total_pubmed_count": 19117,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396492,6 +396492,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42983278/",
       "summary_jp": "Excessive fructose consumption has become increasingly prevalent in modern diets and is strongly associated with metabolic disorders and elevated cardiovascular risk. Vascular calcification, a major contributor to arterial stiffness, is regulated by the balance between pro-calcifying factors and endogenous calcification inhibitors such as extracellular inorganic pyrophosphate. However, the effects of chronic fructose intake on pyrophosphate homeostasis, as well as their contribution to vascular calcification, remain incompletely understood. Male Sprague-Dawley rats were exposed to a 10% fructose-enriched drinking solution for three months. Metabolic, biochemical, and vascular parameters were assessed, including plasma glucose, insulin, inflammatory cytokines, uric acid, mineral metabolism markers, ATP and pyrophosphate levels, hepatic mitochondrial function, and aortic calcification. Extracellular pyrophosphate metabolism in the aortic wall was evaluated, and the effects of genetic or pharmacological dual inhibition of TNAP and eNTPD1 on vascular calcification were examined ex vivo. Fructose-fed rats developed hyperglycemia, hyperinsulinemia, elevated inflammatory cytokines, and increased uric acid levels despite unchanged body weight. They also exhibited increased plasma calcium and reduced 25-OH vitamin D levels without changes in phosphate or magnesium concentrations. Plasma ATP and pyrophosphate levels were significantly reduced, indicating impaired systemic anti-calcifying capacity. High fructose intake induced marked hepatic mitochondrial dysfunction, characterized by reduced ATP synthesis, increased H₂O₂ production, decreased mitochondrial membrane potential, impaired respiratory chain activity, and reduced oxygen consumption. In the aorta, fructose feeding increased calcification, decreased extracellular pyrophosphate synthesis, and enhanced pyrophosphate degradation. Dual inhibition of TNAP and eNTPD1 significantly reduced aortic calcification ex vivo, supporting the role of pyrophosphate-regulating enzymes in fructose-induced vascular mineralization. These findings show that chronic fructose intake disrupts both systemic and local pyrophosphate homeostasis promoting a pro-calcifying environment. Targeting pyrophosphate-regulating pathways may represent a therapeutic strategy to prevent fructose-associated aortic calcification.",
       "jp_title": "Chronic fructose intake disrupts extracellular ATP-pyrophosphate homeostasis and increases susceptibility to aortic calcification."
+    },
+    {
+      "id": "42992547",
+      "title": "Harnessing the power of ",
+      "abstract": "Skeletal system diseases (SSDs) encompass a variety of conditions affecting bones, cartilage and joints, including osteoporosis, osteoarthritis, rheumatoid arthritis and osteosarcoma. These diseases significantly impair physical function, rank among the leading causes of disability worldwide, and can even lead to mortality, affecting the lives of hundreds of millions of individuals. ",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42992547/",
+      "summary_jp": "Skeletal system diseases (SSDs) encompass a variety of conditions affecting bones, cartilage and joints, including osteoporosis, osteoarthritis, rheumatoid arthritis and osteosarcoma. These diseases significantly impair physical function, rank among the leading causes of disability worldwide, and can even lead to mortality, affecting the lives of hundreds of millions of individuals. ",
+      "jp_title": "Harnessing the power of "
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

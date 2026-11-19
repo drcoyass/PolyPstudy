@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18",
+  "generated_at": "2026-11-19",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19139,
+  "total_pubmed_count": 19140,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396848,6 +396848,17 @@
       "url": "https://doi.org/10.3389/fmats.2021.712809",
       "summary_jp": "Ammonium polyphosphate (APP) with different polymerization degrees were modified by a novel phosphorus-containing organosilicon compound (PCOC), and the products obtained were coded as MAPP-30 and MAPP-1000. Then they were applied to prepare flame-retardant rigid polyurethane foam (RPUF) separately. The impact of modified APP (MAPP) on the flame-retardant properties of RPUF was investigated by the limited oxygen index (LOI) test, horizontal burning test, and cone calorimeter test. The morphologies of the char residues were observed by SEM. Furthermore, the mechanical properties of RPUF composites were measured by the compressive strength test. The results showed that whether the degree of polymerization of MAPP is 30 or 1000, they both had greater charring ability and better flame-retardant properties than unmodified APP. The residual char yield of RPUF/MAPP-30 (37.3%) and RPUF/MAPP-1000 (36.5%) were both significantly higher than RPUF/APP-30 (22.8%) and RPUF/APP-1000 (24.9%). The peak heat release rate value of RPUF/MAPP-30 was 29.9% lower than that of RPUF/APP-30, and the drop of RPUF/MAPP-1000 was 50.9% compared to RPUF/APP-1000. Moreover, the total heat release of RPUF/MAPP-1000 (9.7 MJ/m2) was much lower than that of RPUF/MAPP-30 (11.3 MJ/m2). In summary, MAPP-1000 has the best flame-retardant properties among all RPUF composites. In addition, the results also showed that flame-retardant performance and the mechanical properties dramatically decreased with the increase in the addition of MAPP-1000, and the RPUF composite had the best comprehensive performance with 20% content of MAPP-1000.",
       "jp_title": "Rigid Polyurethane Foams Containing Modified Ammonium Polyphosphate Having Outstanding Charring Ability and Increased Flame Retardancy"
+    },
+    {
+      "id": "42815229",
+      "title": "Beyond classical electrostatic screening: Non-specific binding of adenosine triphosphate drives long-range protein repulsion.",
+      "abstract": "Overcharging of proteins by multivalent phosphate anions, such as adenosine triphosphate (ATP) and tripolyphosphate (TPP), can strongly modulate protein-protein interactions and colloidal stability, yet its physical origin and consequences remain incompletely understood. Here we examine how ATP and sodium tripolyphosphate (STPP) regulate native-state interactions of recombinant human serum albumin (rHSA) by combining electrophoretic ζ-potential measurements, static light scattering (SLS), small-angle X-ray scattering (SAXS), and coarse-grained molecular simulations. Analysis of ζ-potential data using Poisson-Boltzmann theory indicates weak, non-specific association of multivalent phosphates at the protein interface, leading to an increase in effective surface charge with ionic strength. Consistent with this picture, SLS measurements show that the osmotic second virial coefficient (B",
+      "tags": [],
+      "date": "2027",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42815229/",
+      "summary_jp": "Overcharging of proteins by multivalent phosphate anions, such as adenosine triphosphate (ATP) and tripolyphosphate (TPP), can strongly modulate protein-protein interactions and colloidal stability, yet its physical origin and consequences remain incompletely understood. Here we examine how ATP and sodium tripolyphosphate (STPP) regulate native-state interactions of recombinant human serum albumin (rHSA) by combining electrophoretic ζ-potential measurements, static light scattering (SLS), small-angle X-ray scattering (SAXS), and coarse-grained molecular simulations. Analysis of ζ-potential data using Poisson-Boltzmann theory indicates weak, non-specific association of multivalent phosphates at the protein interface, leading to an increase in effective surface charge with ionic strength. Consistent with this picture, SLS measurements show that the osmotic second virial coefficient (B",
+      "jp_title": "Beyond classical electrostatic screening: Non-specific binding of adenosine triphosphate drives long-range protein repulsion."
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

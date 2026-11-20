@@ -396859,6 +396859,17 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42815229/",
       "summary_jp": "Overcharging of proteins by multivalent phosphate anions, such as adenosine triphosphate (ATP) and tripolyphosphate (TPP), can strongly modulate protein-protein interactions and colloidal stability, yet its physical origin and consequences remain incompletely understood. Here we examine how ATP and sodium tripolyphosphate (STPP) regulate native-state interactions of recombinant human serum albumin (rHSA) by combining electrophoretic ζ-potential measurements, static light scattering (SLS), small-angle X-ray scattering (SAXS), and coarse-grained molecular simulations. Analysis of ζ-potential data using Poisson-Boltzmann theory indicates weak, non-specific association of multivalent phosphates at the protein interface, leading to an increase in effective surface charge with ionic strength. Consistent with this picture, SLS measurements show that the osmotic second virial coefficient (B",
       "jp_title": "Beyond classical electrostatic screening: Non-specific binding of adenosine triphosphate drives long-range protein repulsion."
+    },
+    {
+      "id": "10.17912/micropub.biology.001390",
+      "title": "Human plasma inositol hexakisphosphate (InsP6) phosphatase identified as the Multiple Inositol Polyphosphate Phosphatase 1 (MINPP1)",
+      "abstract": "",
+      "tags": [],
+      "date": "Unknown",
+      "source": "Crossref",
+      "url": "https://doi.org/10.17912/micropub.biology.001390",
+      "summary_jp": "",
+      "jp_title": "Human plasma inositol hexakisphosphate (InsP6) phosphatase identified as the Multiple Inositol Polyphosphate Phosphatase 1 (MINPP1)"
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

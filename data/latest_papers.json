@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20",
+  "generated_at": "2026-11-21",
   "pptx_path": "output/Monthly_Report.pptx",
   "total_pubmed_count": 19140,
   "official_stats": {
@@ -396870,6 +396870,17 @@
       "url": "https://doi.org/10.17912/micropub.biology.001390",
       "summary_jp": "",
       "jp_title": "Human plasma inositol hexakisphosphate (InsP6) phosphatase identified as the Multiple Inositol Polyphosphate Phosphatase 1 (MINPP1)"
+    },
+    {
+      "id": "10.64898/2026.11.18.767689",
+      "title": "CsrA-dependent RNA accessibility landscapes prioritize new mRNA and sRNA targets and link CsrA to polyphosphate homeostasis",
+      "abstract": "The global RNA-binding protein CsrA (Carbon Storage Regulatory Protein A) regulates diverse physiological processes in Gammaproteobacteria, but the full set of RNAs through which it actuates and how they intersect with small RNA (sRNA) regulation and stress physiology remain incompletely defined. We asked how CsrA shapes RNA accessibility across 431 untranslated mRNA regions and 87 sRNAs in Escherichia coli. Using a previously published RNA accessibility profiling method (INTERFACE), we compared wild type and CsrA mutant (csrA::kan) strains. Permissive screening for accessibility peaks at GGA/AGA motifs nominated 87 5'UTRs, 32 3'UTRs and 28 sRNAs as candidate responsive RNAs but did not pass a permutation null (p=0.43), however it can be used to guide selection of candidates for validation. Eleven 5'UTRs had no prior experimental evidence, and all 3'UTRs and most sRNAs were nominated manually because of limited probe numbers in these targets. In reporter assays, six of nine RNAs tested showed CsrA-dependent expression (mdtE, ribB, patA, metC, ppk and proS) including three candidate activated-targets, although only two of five reporters from the primary candidate list responded. CsrA bound the sRNAs SsrA and RalA in vitro, and reporter assays suggested CsrA-dependent modulation of previously identified ArrS-ribB and GcvB-crp interactions. Mutating sequence elements in the ppk 5' UTR altered CsrA-dependent expression, and loss of CsrA-activity was associated with reduced polyphosphate and fewer Hfq-containing HP-bodies during nitrogen starvation. Together, these findings expand the CsrA regulon and its overlap with sRNA networks, and support accessibility profiling to prioritize RNA-binding protein targets for follow-up characterization.",
+      "tags": [],
+      "date": "2026",
+      "source": "PPR",
+      "url": "https://doi.org/10.64898/2026.11.18.767689",
+      "summary_jp": "The global RNA-binding protein CsrA (Carbon Storage Regulatory Protein A) regulates diverse physiological processes in Gammaproteobacteria, but the full set of RNAs through which it actuates and how they intersect with small RNA (sRNA) regulation and stress physiology remain incompletely defined. We asked how CsrA shapes RNA accessibility across 431 untranslated mRNA regions and 87 sRNAs in Escherichia coli. Using a previously published RNA accessibility profiling method (INTERFACE), we compared wild type and CsrA mutant (csrA::kan) strains. Permissive screening for accessibility peaks at GGA/AGA motifs nominated 87 5'UTRs, 32 3'UTRs and 28 sRNAs as candidate responsive RNAs but did not pass a permutation null (p=0.43), however it can be used to guide selection of candidates for validation. Eleven 5'UTRs had no prior experimental evidence, and all 3'UTRs and most sRNAs were nominated manually because of limited probe numbers in these targets. In reporter assays, six of nine RNAs tested showed CsrA-dependent expression (mdtE, ribB, patA, metC, ppk and proS) including three candidate activated-targets, although only two of five reporters from the primary candidate list responded. CsrA bound the sRNAs SsrA and RalA in vitro, and reporter assays suggested CsrA-dependent modulation of previously identified ArrS-ribB and GcvB-crp interactions. Mutating sequence elements in the ppk 5' UTR altered CsrA-dependent expression, and loss of CsrA-activity was associated with reduced polyphosphate and fewer Hfq-containing HP-bodies during nitrogen starvation. Together, these findings expand the CsrA regulon and its overlap with sRNA networks, and support accessibility profiling to prioritize RNA-binding protein targets for follow-up characterization.",
+      "jp_title": "CsrA-dependent RNA accessibility landscapes prioritize new mRNA and sRNA targets and link CsrA to polyphosphate homeostasis"
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

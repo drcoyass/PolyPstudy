@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25",
+  "generated_at": "2026-11-26",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19143,
+  "total_pubmed_count": 19146,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396916,6 +396916,39 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42994042/",
       "summary_jp": "Biofilm are spatially structured microbial communities where environmental gradients impose stress that drive bacterial adaptation. In this study, we show that the RelA-mediated stringent response orchestrates pleomorphism and stress resilience in Bacillus subtilis biofilm at acidic pH. Acidic conditions increased membrane fluidity and induced depolarization, which led to the upregulation of relA and the repression of cytoskeletal genes, thereby reducing cell size. Supplementation with Mg",
       "jp_title": "RelA-mediated stringent response orchestrates pleomorphism and stress resilience in Bacillus subtilis biofilm."
+    },
+    {
+      "id": "43079774",
+      "title": "Extracellular Polyphosphate at the Host-Pathogen Interface: Emerging Roles in Virulence and Therapeutic Opportunity.",
+      "abstract": "Polyphosphate (polyP) is a conserved linear polymer of orthophosphate residues linked by phosphoanhydride bonds. Although polyP has long been studied for its intracellular roles in phosphate storage, energy metabolism, and stress adaptation, growing evidence indicates that extracellular polyP also influences host-pathogen interactions. In a subset of well-characterized bacterial systems, including mycobacteria and Neisseria species, extracellular or surface-associated polyP has been directly linked to impaired phagosome maturation, altered macrophage activation, reduced complement-mediated killing, and reduced neutrophil antimicrobial activity, whereas in other pathogens, polyP supports virulence primarily via intracellular mechanisms. PolyP chain length governs biological activity: long-chain bacterial polyP is largely immunosuppressive, whereas short-chain host polyP promotes procoagulant and inflammatory signaling, although context dictates specific outcomes. Here, we examine models of polyP externalization, detail how extracellular polyP impairs phagosome maturation, reprograms macrophages, and inhibits complement, evaluate interbacterial and probiotic barrier functions, and consider therapeutic opportunities targeting polyP metabolism.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43079774/",
+      "summary_jp": "Polyphosphate (polyP) is a conserved linear polymer of orthophosphate residues linked by phosphoanhydride bonds. Although polyP has long been studied for its intracellular roles in phosphate storage, energy metabolism, and stress adaptation, growing evidence indicates that extracellular polyP also influences host-pathogen interactions. In a subset of well-characterized bacterial systems, including mycobacteria and Neisseria species, extracellular or surface-associated polyP has been directly linked to impaired phagosome maturation, altered macrophage activation, reduced complement-mediated killing, and reduced neutrophil antimicrobial activity, whereas in other pathogens, polyP supports virulence primarily via intracellular mechanisms. PolyP chain length governs biological activity: long-chain bacterial polyP is largely immunosuppressive, whereas short-chain host polyP promotes procoagulant and inflammatory signaling, although context dictates specific outcomes. Here, we examine models of polyP externalization, detail how extracellular polyP impairs phagosome maturation, reprograms macrophages, and inhibits complement, evaluate interbacterial and probiotic barrier functions, and consider therapeutic opportunities targeting polyP metabolism.",
+      "jp_title": "Extracellular Polyphosphate at the Host-Pathogen Interface: Emerging Roles in Virulence and Therapeutic Opportunity."
+    },
+    {
+      "id": "43079498",
+      "title": "INPP5E interactome reveals novel connections to growth factor signaling.",
+      "abstract": "Primary cilia are sensory cell membrane protrusions whose malfunction causes diseases known as ciliopathies. Joubert syndrome (JBTS) is a rare recessive ciliopathy causing brain malformations and kidney cysts, among other manifestations. A key player in JBTS is INPP5E, a ciliary phosphoinositide lipid phosphatase. Although INPP5E regulates ciliary growth factor signaling, the molecular mechanisms remain poorly understood. Herein, we show that a constitutively active growth factor receptor (PDGFRα-D842V) stimulates INPP5E tyrosine phosphorylation, as does the SRC tyrosine kinase. INPP5E tyrosine phosphorylation did not affect its enzyme activity but was associated with stronger binding to SH3GL1, an endocytic regulator, and SNX9, a phosphoinositide-binding protein involved, like INPP5E, in growth factor-induced ciliary ectovesicle release. Our INPP5E interactomic studies identified other growth factor signaling regulators, including among others: SIN1 (the phosphoinositide-binding subunit of the mTORC2 complex), STRAP (a TGFβ and PI3K/AKT signaling regulator), GRB2 (a growth factor receptor adaptor) and the JBTS-associated proteins AHI1 and NPHP1. Moreover, INPP5E strongly interacted with the phosphopeptide-binding 14-3-3 proteins, and did so only in presence of serine-85, a phosphorylated INPP5E residue. Lastly, we found that INPP5E differentially regulates two cilium-dependent growth factor signaling pathways in fibroblasts. Thus, while INPP5E downregulated PDGFRα levels and PDGF-induced AKT and ERK phosphorylations, it upregulated TGFBR1 levels and TGFβ-induced SMAD2 and ERK phosphorylations. Altogether, our work provides important clues on the cilia-dependent actions of growth factors, with implications for ciliopathies like JBTS.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43079498/",
+      "summary_jp": "Primary cilia are sensory cell membrane protrusions whose malfunction causes diseases known as ciliopathies. Joubert syndrome (JBTS) is a rare recessive ciliopathy causing brain malformations and kidney cysts, among other manifestations. A key player in JBTS is INPP5E, a ciliary phosphoinositide lipid phosphatase. Although INPP5E regulates ciliary growth factor signaling, the molecular mechanisms remain poorly understood. Herein, we show that a constitutively active growth factor receptor (PDGFRα-D842V) stimulates INPP5E tyrosine phosphorylation, as does the SRC tyrosine kinase. INPP5E tyrosine phosphorylation did not affect its enzyme activity but was associated with stronger binding to SH3GL1, an endocytic regulator, and SNX9, a phosphoinositide-binding protein involved, like INPP5E, in growth factor-induced ciliary ectovesicle release. Our INPP5E interactomic studies identified other growth factor signaling regulators, including among others: SIN1 (the phosphoinositide-binding subunit of the mTORC2 complex), STRAP (a TGFβ and PI3K/AKT signaling regulator), GRB2 (a growth factor receptor adaptor) and the JBTS-associated proteins AHI1 and NPHP1. Moreover, INPP5E strongly interacted with the phosphopeptide-binding 14-3-3 proteins, and did so only in presence of serine-85, a phosphorylated INPP5E residue. Lastly, we found that INPP5E differentially regulates two cilium-dependent growth factor signaling pathways in fibroblasts. Thus, while INPP5E downregulated PDGFRα levels and PDGF-induced AKT and ERK phosphorylations, it upregulated TGFBR1 levels and TGFβ-induced SMAD2 and ERK phosphorylations. Altogether, our work provides important clues on the cilia-dependent actions of growth factors, with implications for ciliopathies like JBTS.",
+      "jp_title": "INPP5E interactome reveals novel connections to growth factor signaling."
+    },
+    {
+      "id": "42933625",
+      "title": "Aqueous ionic-gelation synthesis of magnetic chitosan sodium Tripolyphosphate-Zr nanocomposites for selective fluoride removal: Performance and mechanistic insight.",
+      "abstract": "Fluoride removal from complex aqueous systems remains challenging because of the presence of competitive ions and limited mechanistic understanding of adsorption processes. Herein, a sustainably designed, magnetically recoverable Zr-doped chitosan-STPP nanocomposite (Zr-MCTS-STPP) was developed via ultrasonic-assisted ionic gelation. By incorporating pre-synthesized Fe",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42933625/",
+      "summary_jp": "Fluoride removal from complex aqueous systems remains challenging because of the presence of competitive ions and limited mechanistic understanding of adsorption processes. Herein, a sustainably designed, magnetically recoverable Zr-doped chitosan-STPP nanocomposite (Zr-MCTS-STPP) was developed via ultrasonic-assisted ionic gelation. By incorporating pre-synthesized Fe",
+      "jp_title": "Aqueous ionic-gelation synthesis of magnetic chitosan sodium Tripolyphosphate-Zr nanocomposites for selective fluoride removal: Performance and mechanistic insight."
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",

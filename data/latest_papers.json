@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-26",
+  "generated_at": "2026-11-27",
   "pptx_path": "output/Monthly_Report.pptx",
-  "total_pubmed_count": 19146,
+  "total_pubmed_count": 19150,
   "official_stats": {
     "2011": 542,
     "2012": 517,
@@ -396949,6 +396949,105 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42933625/",
       "summary_jp": "Fluoride removal from complex aqueous systems remains challenging because of the presence of competitive ions and limited mechanistic understanding of adsorption processes. Herein, a sustainably designed, magnetically recoverable Zr-doped chitosan-STPP nanocomposite (Zr-MCTS-STPP) was developed via ultrasonic-assisted ionic gelation. By incorporating pre-synthesized Fe",
       "jp_title": "Aqueous ionic-gelation synthesis of magnetic chitosan sodium Tripolyphosphate-Zr nanocomposites for selective fluoride removal: Performance and mechanistic insight."
+    },
+    {
+      "id": "43095968",
+      "title": "Discovery of Ebselen Analogs as Novel Inhibitors of Polyphosphate Metabolism to Attenuate Virulence and Show Combination Benefit with Meropenem in Pseudomonas aeruginosa.",
+      "abstract": "Pseudomonas aeruginosa is a major opportunistic pathogen responsible for severe hospital-acquired infections. The challenge in treating these infections is exacerbated by increasing antibiotic resistance. Polyphosphate kinases (PPKs), specifically PPK1 and PPK2, play a critical role in the virulence, stress response, and antibiotic tolerance of P. aeruginosa, making it a compelling target for therapeutic intervention. In this study, we describe the discovery and development of ebselen analogs as novel inhibitors against PPK1Pa and PPK2Pa. Biochemical and cellular assays revealed that ebselens interfere with the polyphosphate homeostasis within the bacterium. EB-1 and EB-18 treatment significantly reduced intracellular polyP levels, mirroring the phenotypic effects observed in Δppk strains, including impaired biofilm formation, reduced motility, and attenuated production of pyoverdine and pyocyanin. Notably, EB-1 and EB-18 showed combination benefit with meropenem against P. aeruginosa in the Galleria model, supporting their potential as an adjunctive agent to improve the antibacterial efficacy of meropenem. Most representative compounds, including EB-1 and EB-18, showed no detectable cytotoxicity in the tested mammalian cells. These findings underscore ebselen analogs as promising dual-specific PPK inhibitors, establishing a valuable strategy for the development of adjunct therapies via the PPK-mediated anti-virulence pathways.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43095968/",
+      "summary_jp": "Pseudomonas aeruginosa is a major opportunistic pathogen responsible for severe hospital-acquired infections. The challenge in treating these infections is exacerbated by increasing antibiotic resistance. Polyphosphate kinases (PPKs), specifically PPK1 and PPK2, play a critical role in the virulence, stress response, and antibiotic tolerance of P. aeruginosa, making it a compelling target for therapeutic intervention. In this study, we describe the discovery and development of ebselen analogs as novel inhibitors against PPK1Pa and PPK2Pa. Biochemical and cellular assays revealed that ebselens interfere with the polyphosphate homeostasis within the bacterium. EB-1 and EB-18 treatment significantly reduced intracellular polyP levels, mirroring the phenotypic effects observed in Δppk strains, including impaired biofilm formation, reduced motility, and attenuated production of pyoverdine and pyocyanin. Notably, EB-1 and EB-18 showed combination benefit with meropenem against P. aeruginosa in the Galleria model, supporting their potential as an adjunctive agent to improve the antibacterial efficacy of meropenem. Most representative compounds, including EB-1 and EB-18, showed no detectable cytotoxicity in the tested mammalian cells. These findings underscore ebselen analogs as promising dual-specific PPK inhibitors, establishing a valuable strategy for the development of adjunct therapies via the PPK-mediated anti-virulence pathways.",
+      "jp_title": "Discovery of Ebselen Analogs as Novel Inhibitors of Polyphosphate Metabolism to Attenuate Virulence and Show Combination Benefit with Meropenem in Pseudomonas aeruginosa."
+    },
+    {
+      "id": "43092308",
+      "title": "Long-Term Nitrogen and Phosphorus Control and Microbial Responses by Tea-Bag-Encapsulated MgO-Modified Biochar at the Sediment-Water Interface.",
+      "abstract": "Internal phosphorus release from sediments is an important limiting factor in the remediation of eutrophic water bodies. Tea-bag-encapsulated MgO-modified biochar has advantages in phosphorus adsorption, microbial attachment, and convenient recovery, but its long-term phosphorus control effect and associated microbial responses at the sediment-water interface remain unclear. In this study, a 124-day sediment-water simulation experiment combined with metagenomic sequencing was conducted to evaluate its effects on nitrogen and phosphorus removal, water environmental changes, and microbial phosphorus-cycling functions. The results showed that the removal efficiencies of phosphate, total phosphorus, ammonia nitrogen, and total nitrogen in the treatment group reached 88%, 67%, 90%, and 40%, respectively. After application, the BET specific surface area of the material decreased from 47.85 to 20.18 m",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43092308/",
+      "summary_jp": "Internal phosphorus release from sediments is an important limiting factor in the remediation of eutrophic water bodies. Tea-bag-encapsulated MgO-modified biochar has advantages in phosphorus adsorption, microbial attachment, and convenient recovery, but its long-term phosphorus control effect and associated microbial responses at the sediment-water interface remain unclear. In this study, a 124-day sediment-water simulation experiment combined with metagenomic sequencing was conducted to evaluate its effects on nitrogen and phosphorus removal, water environmental changes, and microbial phosphorus-cycling functions. The results showed that the removal efficiencies of phosphate, total phosphorus, ammonia nitrogen, and total nitrogen in the treatment group reached 88%, 67%, 90%, and 40%, respectively. After application, the BET specific surface area of the material decreased from 47.85 to 20.18 m",
+      "jp_title": "Long-Term Nitrogen and Phosphorus Control and Microbial Responses by Tea-Bag-Encapsulated MgO-Modified Biochar at the Sediment-Water Interface."
+    },
+    {
+      "id": "43085676",
+      "title": "Phosphorus concentration from low-phosphorus wastewater using embedded phosphorus removal biofillers coupled with anaerobic cyclic phosphorus release: performance evaluation and microbiological analysis.",
+      "abstract": "To achieve high-concentration phosphorus (P) enrichment at low influent PO",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085676/",
+      "summary_jp": "To achieve high-concentration phosphorus (P) enrichment at low influent PO",
+      "jp_title": "Phosphorus concentration from low-phosphorus wastewater using embedded phosphorus removal biofillers coupled with anaerobic cyclic phosphorus release: performance evaluation and microbiological analysis."
+    },
+    {
+      "id": "43085652",
+      "title": "Enhanced Protection by Fluoride Varnish with Nano-Sized Sodium Trimetaphosphate Against Enamel Erosive Wear: An In Situ Study.",
+      "abstract": "To assess the effects of fluoride varnishes containing micrometric or nano-sized sodium trimetaphosphate (TMPmicro or TMPnano, respectively) on erosive tooth wear (ETW) in situ. In this randomized, double-blind, crossover study, 14 participants wore palatal devices containing bovine enamel blocks (n=4/device), which received each of the four varnish treatments in separate experimental periods: Placebo (Pla - without F/TMP); 5% NaF (5NaF); 5NaF + 5% TMPmicro (5-TMPmicro); and 5NaF + 5% TMPnano (5-TMPnano). After 6 h of intraoral exposure and varnish removal, the blocks underwent four daily erosive challenges ex vivo for five days (ERO, 0.05 M citric acid, pH 3.2, 90 s), while two blocks were additionally subjected to abrasion by brushing (ERO+ABR). Profilometry, surface hardness (SH), cross-sectional hardness (ΔKHN) and computed X-ray micro tomography (gHAp × cm⁻³ × µm) were performed. Data were analyzed using two-way repeated-measures ANOVA and Holm-Sidak's test (p<0.05). ETW, integrated mineral loss and depth of mineral loss of the remaining eroded enamel showed a consistent treatment ranking under both conditions, with the greatest protection observed for 5-TMPnano, followed by 5-TMPmicro, 5NaF, and Pla. Compared with 5NaF, ETW was reduced by 20-22% with 5-TMPmicro and 40-50% with 5-TMPnano under ERO and ERO+ABR. A similar pattern was observed for hardness in depth (ΔKHN at 5-30 µm from the enamel surface), except between 5-TMPmicro and 5-TMPnano. Compared with 5NaF, SH loss was significantly lower for both TMP-containing varnishes under ERO, but only for 5-TMPnano under ERO+ABR. F varnish supplemented with TMP significantly reduced ETW in situ, and nano-sized TMP provided additional protection. The addition of TMP to 5% NaF varnishes, especially as nanoparticles, may enhance their protective effect against enamel erosive wear.",
+      "tags": [],
+      "date": "2026",
+      "source": "PubMed",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43085652/",
+      "summary_jp": "To assess the effects of fluoride varnishes containing micrometric or nano-sized sodium trimetaphosphate (TMPmicro or TMPnano, respectively) on erosive tooth wear (ETW) in situ. In this randomized, double-blind, crossover study, 14 participants wore palatal devices containing bovine enamel blocks (n=4/device), which received each of the four varnish treatments in separate experimental periods: Placebo (Pla - without F/TMP); 5% NaF (5NaF); 5NaF + 5% TMPmicro (5-TMPmicro); and 5NaF + 5% TMPnano (5-TMPnano). After 6 h of intraoral exposure and varnish removal, the blocks underwent four daily erosive challenges ex vivo for five days (ERO, 0.05 M citric acid, pH 3.2, 90 s), while two blocks were additionally subjected to abrasion by brushing (ERO+ABR). Profilometry, surface hardness (SH), cross-sectional hardness (ΔKHN) and computed X-ray micro tomography (gHAp × cm⁻³ × µm) were performed. Data were analyzed using two-way repeated-measures ANOVA and Holm-Sidak's test (p<0.05). ETW, integrated mineral loss and depth of mineral loss of the remaining eroded enamel showed a consistent treatment ranking under both conditions, with the greatest protection observed for 5-TMPnano, followed by 5-TMPmicro, 5NaF, and Pla. Compared with 5NaF, ETW was reduced by 20-22% with 5-TMPmicro and 40-50% with 5-TMPnano under ERO and ERO+ABR. A similar pattern was observed for hardness in depth (ΔKHN at 5-30 µm from the enamel surface), except between 5-TMPmicro and 5-TMPnano. Compared with 5NaF, SH loss was significantly lower for both TMP-containing varnishes under ERO, but only for 5-TMPnano under ERO+ABR. F varnish supplemented with TMP significantly reduced ETW in situ, and nano-sized TMP provided additional protection. The addition of TMP to 5% NaF varnishes, especially as nanoparticles, may enhance their protective effect against enamel erosive wear.",
+      "jp_title": "Enhanced Protection by Fluoride Varnish with Nano-Sized Sodium Trimetaphosphate Against Enamel Erosive Wear: An In Situ Study."
+    },
+    {
+      "id": "PMC13807946",
+      "title": "Therapeutic Potential of Silver Nanoparticles (AgNPs), 2nd Edition",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13807946",
+      "summary_jp": "",
+      "jp_title": "Therapeutic Potential of Silver Nanoparticles (AgNPs), 2nd Edition"
+    },
+    {
+      "id": "PMC13806516",
+      "title": "Data-Driven Design of Fire-Safe Vinyl Ester Composites with Mineral and Inorganic Additives: A Systematic Review",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13806516",
+      "summary_jp": "",
+      "jp_title": "Data-Driven Design of Fire-Safe Vinyl Ester Composites with Mineral and Inorganic Additives: A Systematic Review"
+    },
+    {
+      "id": "PMC13801042",
+      "title": "Zinc-Dependent Regulation of High-Molecular-Weight Kininogen and the Contact System: Implications for Inflammation, Thrombosis and Vascular Dysfunction",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13801042",
+      "summary_jp": "",
+      "jp_title": "Zinc-Dependent Regulation of High-Molecular-Weight Kininogen and the Contact System: Implications for Inflammation, Thrombosis and Vascular Dysfunction"
+    },
+    {
+      "id": "PMC13799863",
+      "title": "Advanced Bioactive and Regenerative Scaffolds for Early Osteonecrosis of the Femoral Head: From Bone Regeneration to Functional Recovery",
+      "abstract": "",
+      "tags": [],
+      "date": "2026",
+      "source": "PMC",
+      "url": "https://europepmc.org/article/PMC/PMC13799863",
+      "summary_jp": "",
+      "jp_title": "Advanced Bioactive and Regenerative Scaffolds for Early Osteonecrosis of the Femoral Head: From Bone Regeneration to Functional Recovery"
+    },
+    {
+      "id": "10.14264/2025539",
+      "title": "Novel polyphosphate-accumulating organisms in the short-SRT enhanced biological phosphorus removal (EBPR) system",
+      "abstract": "",
+      "tags": [],
+      "date": "Unknown",
+      "source": "Crossref",
+      "url": "https://doi.org/10.14264/2025539",
+      "summary_jp": "",
+      "jp_title": "Novel polyphosphate-accumulating organisms in the short-SRT enhanced biological phosphorus removal (EBPR) system"
     }
   ],
   "last_accuracy_boost": "2026-10-25 05:10:33",
